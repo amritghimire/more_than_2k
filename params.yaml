@@ -180,7 +180,7 @@ settings:
     min_split: 80
     batch_size: 32
     max_features: 2250
-    features: 3370
+    features: 3593
     passes: 6
     split: 0.36811
     ngrams: 2

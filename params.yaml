@@ -9,7 +9,7 @@ model:
     layers: 6
     min_split: 48
     split: 0.2
-    max_depth: 16
+    max_depth: 19
   short:
     min_split: 16
     trees: 45
@@ -221,4 +221,4 @@ validation:
   preset:
     learning_rate: 0.12
     ngrams: 8
-    weight_factor: 0.3
+    weight_factor: 0.31717

@@ -29,7 +29,7 @@ model:
     tags: 7
   long:
     min_features: 2950
-    learning_rate: 0.13
+    learning_rate: 0.10401
     split: 0.2
   dev:
     folds: 9
@@ -68,7 +68,7 @@ tagging:
 train:
   dev:
     sample: 0.5
-    batch_size: 416
+    batch_size: 317
     learning_rate: 0.13
   rf:
     passes: 14
@@ -132,7 +132,7 @@ preprocessing:
     weight_factor: 0.1
     max_depth: 32
   rf:
-    threads: 6
+    threads: 7
     weight_factor: 0.1
   dev:
     weight_factor: 0.3
@@ -141,7 +141,7 @@ preprocessing:
     layers: 4
     weight_factor: 0.2
     learning_rate: 0.01
-    ngrams: 4
+    ngrams: 3
   short:
     max_features: 2600
     epochs: 45

@@ -26,7 +26,7 @@ model:
     sample: 0.23537
     min_features: 200
     dense: 500
-    tags: 7
+    tags: 6
   long:
     min_features: 2950
     learning_rate: 0.10401
@@ -47,7 +47,7 @@ tagging:
     dense: 300
     min_split: 80
   binary:
-    weight_factor: 0.1
+    weight_factor: 0.09189
     ngrams: 6
     min_split: 48
   preset:
@@ -55,7 +55,7 @@ tagging:
     batch_size: 96
     estimators: 82
   long:
-    features: 2790
+    features: 3463
     layers: 2
     min_features: 3600
   short:
@@ -135,7 +135,7 @@ preprocessing:
     threads: 7
     weight_factor: 0.1
   dev:
-    weight_factor: 0.3
+    weight_factor: 0.23385
     learning_rate: 0.04
   long:
     layers: 4
@@ -167,7 +167,7 @@ settings:
     sample: 0.5
     min_split: 48
   rf:
-    learning_rate: 0.05
+    learning_rate: 0.06232
     num_est: 100
     min_features: 1450
     seed: 855941000

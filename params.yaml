@@ -16,7 +16,7 @@ model:
     epochs: 45
     learning_rate: 0.07
   preset:
-    ngrams: 6
+    ngrams: 4
     split: 0.49705
     folds: 9
     epochs: 20
@@ -44,11 +44,11 @@ tagging:
     features: 530
     sample: 0.75
     columns: 18
-    dense: 300
+    dense: 311
     min_split: 80
   binary:
     weight_factor: 0.09189
-    ngrams: 6
+    ngrams: 4
     min_split: 48
   preset:
     seed: 156117000
@@ -84,7 +84,7 @@ train:
     features: 420
     drop: 0.36148
   short:
-    min_split: 64
+    min_split: 66
 featurize:
   binary:
     features: 2880

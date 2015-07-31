@@ -173,7 +173,7 @@ settings:
     seed: 855941000
   batch:
     learning_rate: 0.08
-    columns: 6
+    columns: 5
     trees: 78
     batch_size: 864
   binary:

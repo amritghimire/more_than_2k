@@ -77,12 +77,12 @@ train:
     learning_rate: 0.13
     max_features: 150
   batch:
-    drop: 0.2
+    drop: 0.23801
     tags: 84
   preset:
     num_est: 308
     features: 420
-    drop: 0.36148
+    drop: 0.323
   short:
     min_split: 66
 featurize:
@@ -174,11 +174,11 @@ settings:
   batch:
     learning_rate: 0.08
     columns: 5
-    trees: 78
+    trees: 85
     batch_size: 864
   binary:
     min_split: 80
-    batch_size: 32
+    batch_size: 31
     max_features: 2250
     features: 3593
     passes: 6

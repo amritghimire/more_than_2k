@@ -25,7 +25,7 @@ model:
     epochs: 15
     sample: 0.23537
     min_features: 200
-    dense: 530
+    dense: 448
     tags: 6
   long:
     min_features: 2950
@@ -190,7 +190,7 @@ validation:
     random_state: 972000000
     passes: 26
     batch_size: 224
-    weight_factor: 0.3
+    weight_factor: 0.32189
   batch:
     sample: 0.75
     layers: 4

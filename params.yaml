@@ -59,7 +59,7 @@ tagging:
     layers: 2
     min_features: 3711
   short:
-    dense: 200
+    dense: 235
     threads: 3
   batch:
     sample: 0.75
@@ -80,7 +80,7 @@ train:
     drop: 0.2
     tags: 84
   preset:
-    num_est: 250
+    num_est: 308
     features: 420
     drop: 0.36148
   short:

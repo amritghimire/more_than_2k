@@ -52,7 +52,7 @@ tagging:
     min_split: 48
   preset:
     seed: 156117000
-    batch_size: 96
+    batch_size: 98
     estimators: 82
   long:
     features: 3463
@@ -157,7 +157,7 @@ settings:
     drop: 0.1
     ngrams: 2
   long:
-    min_features: 750
+    min_features: 906
     features: 1140
     min_split: 80
   short:
@@ -168,7 +168,7 @@ settings:
     min_split: 48
   rf:
     learning_rate: 0.06232
-    num_est: 100
+    num_est: 89
     min_features: 1450
     seed: 855941000
   batch:

@@ -84,7 +84,7 @@ train:
     features: 420
     drop: 0.323
   short:
-    min_split: 66
+    min_split: 69
 featurize:
   binary:
     features: 2880
@@ -152,7 +152,7 @@ preprocessing:
 settings:
   preset:
     epochs: 60
-    tags: 21
+    tags: 23
     columns: 78
     drop: 0.1
     ngrams: 2

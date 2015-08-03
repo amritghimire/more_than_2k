@@ -99,7 +99,7 @@ featurize:
     folds: 12
     seed: 324388000
     sample: 0.5
-    epochs: 70
+    epochs: 73
     max_features: 2800
   preset:
     estimators: 235

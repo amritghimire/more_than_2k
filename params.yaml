@@ -6,7 +6,7 @@ model:
     batch_size: 1061
     trees: 39
   batch:
-    layers: 6
+    layers: 7
     min_split: 48
     split: 0.2
     max_depth: 19
@@ -128,7 +128,7 @@ preprocessing:
   binary:
     dense: 300
     ngrams: 6
-    split: 0.4988
+    split: 0.54841
     weight_factor: 0.1
     max_depth: 26
   rf:
@@ -209,7 +209,7 @@ validation:
     threads: 7
     passes: 114
     max_features: 2650
-    max_depth: 28
+    max_depth: 33
   dev:
     trees: 3
     dense: 300

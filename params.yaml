@@ -29,7 +29,7 @@ model:
     tags: 6
   long:
     min_features: 2950
-    learning_rate: 0.10401
+    learning_rate: 0.10053
     split: 0.2
   dev:
     folds: 9
@@ -72,7 +72,7 @@ train:
     learning_rate: 0.13
   rf:
     passes: 14
-    num_est: 150
+    num_est: 181
   binary:
     learning_rate: 0.11121
     max_features: 164
@@ -129,7 +129,7 @@ preprocessing:
     dense: 300
     ngrams: 6
     split: 0.54841
-    weight_factor: 0.1
+    weight_factor: 0.07695
     max_depth: 26
   rf:
     threads: 7
@@ -139,7 +139,7 @@ preprocessing:
     learning_rate: 0.04
   long:
     layers: 4
-    weight_factor: 0.2
+    weight_factor: 0.23524
     learning_rate: 0.01
     ngrams: 3
   short:

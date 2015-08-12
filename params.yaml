@@ -21,7 +21,7 @@ model:
     folds: 9
     epochs: 20
   binary:
-    ngrams: 6
+    ngrams: 7
     epochs: 15
     sample: 0.23537
     min_features: 200

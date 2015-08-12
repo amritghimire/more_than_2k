@@ -48,7 +48,7 @@ tagging:
     min_split: 80
   binary:
     weight_factor: 0.09189
-    ngrams: 4
+    ngrams: 5
     min_split: 48
   preset:
     seed: 156117000
@@ -121,14 +121,14 @@ featurize:
     ngrams: 8
 preprocessing:
   preset:
-    split: 0.5
+    split: 0.54396
     dense: 100
     tags: 112
-    epochs: 75
+    epochs: 77
   binary:
     dense: 300
     ngrams: 6
-    split: 0.54841
+    split: 0.39373
     weight_factor: 0.07695
     max_depth: 26
   rf:
@@ -196,7 +196,7 @@ validation:
     layers: 4
   binary:
     max_depth: 8
-    num_est: 244
+    num_est: 272
     learning_rate: 0.1
     split: 0.2
     weight_factor: 0.3

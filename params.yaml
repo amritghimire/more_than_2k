@@ -162,7 +162,7 @@ settings:
     min_split: 80
   short:
     estimators: 53
-    max_depth: 20
+    max_depth: 17
   dev:
     sample: 0.5
     min_split: 48

@@ -74,7 +74,7 @@ train:
     passes: 14
     num_est: 150
   binary:
-    learning_rate: 0.13
+    learning_rate: 0.11121
     max_features: 164
   batch:
     drop: 0.23801

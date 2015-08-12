@@ -42,7 +42,7 @@ tagging:
   dev:
     threads: 31
     features: 530
-    sample: 0.75
+    sample: 0.77583
     columns: 18
     dense: 311
     min_split: 80
@@ -75,7 +75,7 @@ train:
     num_est: 150
   binary:
     learning_rate: 0.13
-    max_features: 150
+    max_features: 164
   batch:
     drop: 0.23801
     tags: 102

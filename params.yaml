@@ -174,7 +174,7 @@ settings:
   batch:
     learning_rate: 0.07997
     columns: 5
-    trees: 85
+    trees: 76
     batch_size: 864
   binary:
     min_split: 80

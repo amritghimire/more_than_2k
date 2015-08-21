@@ -124,7 +124,7 @@ preprocessing:
     split: 0.54396
     dense: 100
     tags: 112
-    epochs: 77
+    epochs: 86
   binary:
     dense: 300
     ngrams: 6

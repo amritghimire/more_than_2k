@@ -88,7 +88,7 @@ train:
 featurize:
   binary:
     features: 2880
-    passes: 9
+    passes: 6
     drop: 0.2
     estimators: 225
     ngrams: 5
@@ -97,7 +97,7 @@ featurize:
     ngrams: 8
     tags: 98
     folds: 12
-    seed: 324388000
+    seed: 390164179
     sample: 0.5
     epochs: 73
     max_features: 2800
@@ -116,7 +116,7 @@ featurize:
     folds: 9
   short:
     trees: 69
-    threads: 14
+    threads: 16
   batch:
     ngrams: 8
 preprocessing:

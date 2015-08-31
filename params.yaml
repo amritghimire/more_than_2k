@@ -9,7 +9,7 @@ model:
     layers: 7
     min_split: 48
     split: 0.2
-    max_depth: 19
+    max_depth: 13
   short:
     min_split: 16
     trees: 54
@@ -169,7 +169,7 @@ settings:
   rf:
     learning_rate: 0.06232
     num_est: 89
-    min_features: 1450
+    min_features: 1225
     seed: 855941000
   batch:
     learning_rate: 0.07997

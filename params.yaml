@@ -72,7 +72,7 @@ train:
     learning_rate: 0.13
   rf:
     passes: 14
-    num_est: 181
+    num_est: 142
   binary:
     learning_rate: 0.11121
     max_features: 164

@@ -74,7 +74,7 @@ train:
     passes: 14
     num_est: 142
   binary:
-    learning_rate: 0.11121
+    learning_rate: 0.12467
     max_features: 164
   batch:
     drop: 0.23801
@@ -121,7 +121,7 @@ featurize:
     ngrams: 8
 preprocessing:
   preset:
-    split: 0.54396
+    split: 0.55897
     dense: 100
     tags: 112
     epochs: 86
@@ -144,7 +144,7 @@ preprocessing:
     ngrams: 3
   short:
     max_features: 2600
-    epochs: 45
+    epochs: 54
   batch:
     estimators: 106
     ngrams: 2

@@ -126,7 +126,7 @@ preprocessing:
     tags: 112
     epochs: 86
   binary:
-    dense: 300
+    dense: 341
     ngrams: 5
     split: 0.39373
     weight_factor: 0.07695

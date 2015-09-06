@@ -127,7 +127,7 @@ preprocessing:
     epochs: 86
   binary:
     dense: 300
-    ngrams: 6
+    ngrams: 5
     split: 0.39373
     weight_factor: 0.07695
     max_depth: 26
@@ -143,7 +143,7 @@ preprocessing:
     learning_rate: 0.01
     ngrams: 3
   short:
-    max_features: 2600
+    max_features: 2963
     epochs: 54
   batch:
     estimators: 106
@@ -165,7 +165,7 @@ settings:
     max_depth: 17
   dev:
     sample: 0.5
-    min_split: 48
+    min_split: 54
   rf:
     learning_rate: 0.06232
     num_est: 89

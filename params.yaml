@@ -87,11 +87,11 @@ train:
     min_split: 54
 featurize:
   binary:
-    features: 2880
+    features: 3268
     passes: 6
     drop: 0.2
     estimators: 225
-    ngrams: 5
+    ngrams: 6
     tags: 70
   long:
     ngrams: 8
@@ -109,7 +109,7 @@ featurize:
     min_split: 80
     trees: 42
     sample: 0.25
-    seed: 666054000
+    seed: 827723314
     min_features: 3550
     batch_size: 36
   rf:

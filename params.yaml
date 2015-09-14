@@ -97,7 +97,7 @@ featurize:
     ngrams: 8
     tags: 97
     folds: 12
-    seed: 390164179
+    seed: 299263707
     sample: 0.57814
     epochs: 58
     max_features: 2800

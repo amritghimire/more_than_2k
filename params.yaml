@@ -170,7 +170,7 @@ settings:
     learning_rate: 0.06232
     num_est: 89
     min_features: 1225
-    seed: 855941000
+    seed: 688056171
   batch:
     learning_rate: 0.07997
     columns: 5

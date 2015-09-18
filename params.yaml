@@ -56,10 +56,10 @@ tagging:
     estimators: 82
   long:
     features: 3463
-    layers: 1
+    layers: 2
     min_features: 2964
   short:
-    dense: 235
+    dense: 203
     threads: 3
   batch:
     sample: 0.75
@@ -154,7 +154,7 @@ settings:
     epochs: 60
     tags: 23
     columns: 78
-    drop: 0.1
+    drop: 0.11917
     ngrams: 2
   long:
     min_features: 906

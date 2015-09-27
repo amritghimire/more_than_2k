@@ -98,9 +98,9 @@ featurize:
     tags: 97
     folds: 12
     seed: 299263707
-    sample: 0.57814
+    sample: 0.43817
     epochs: 58
-    max_features: 2800
+    max_features: 2727
   preset:
     estimators: 235
     max_features: 2690
@@ -110,7 +110,7 @@ featurize:
     trees: 42
     sample: 0.25
     seed: 827723314
-    min_features: 3550
+    min_features: 2933
     batch_size: 36
   rf:
     folds: 8

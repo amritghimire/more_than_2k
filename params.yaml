@@ -87,7 +87,7 @@ train:
     min_split: 54
 featurize:
   binary:
-    features: 3268
+    features: 2997
     passes: 6
     drop: 0.2
     estimators: 225

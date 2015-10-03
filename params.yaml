@@ -89,13 +89,13 @@ featurize:
   binary:
     features: 2997
     passes: 6
-    drop: 0.2
+    drop: 0.15429
     estimators: 225
     ngrams: 6
     tags: 74
   long:
     ngrams: 8
-    tags: 97
+    tags: 102
     folds: 12
     seed: 299263707
     sample: 0.43817
@@ -106,7 +106,7 @@ featurize:
     max_features: 2690
     passes: 62
   dev:
-    min_split: 80
+    min_split: 73
     trees: 42
     sample: 0.25
     seed: 827723314
@@ -116,7 +116,7 @@ featurize:
     folds: 8
   short:
     trees: 69
-    threads: 12
+    threads: 10
   batch:
     ngrams: 8
 preprocessing:

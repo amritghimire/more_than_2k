@@ -29,7 +29,7 @@ model:
     tags: 6
   long:
     min_features: 2950
-    learning_rate: 0.10053
+    learning_rate: 0.13491
     split: 0.2
   dev:
     folds: 9

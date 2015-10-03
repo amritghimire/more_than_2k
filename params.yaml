@@ -95,7 +95,7 @@ featurize:
     tags: 74
   long:
     ngrams: 8
-    tags: 102
+    tags: 108
     folds: 12
     seed: 299263707
     sample: 0.43817
@@ -104,7 +104,7 @@ featurize:
   preset:
     estimators: 235
     max_features: 2690
-    passes: 62
+    passes: 85
   dev:
     min_split: 73
     trees: 42

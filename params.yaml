@@ -14,10 +14,10 @@ model:
     min_split: 16
     trees: 54
     epochs: 45
-    learning_rate: 0.07
+    learning_rate: 0.07553
   preset:
     ngrams: 4
-    split: 0.49705
+    split: 0.45522
     folds: 6
     epochs: 20
   binary:
@@ -43,7 +43,7 @@ tagging:
     threads: 31
     features: 530
     sample: 0.75694
-    columns: 18
+    columns: 14
     dense: 285
     min_split: 80
   binary:
@@ -51,7 +51,7 @@ tagging:
     ngrams: 6
     min_split: 48
   preset:
-    seed: 156117000
+    seed: 129803821
     batch_size: 98
     estimators: 82
   long:
@@ -148,7 +148,7 @@ preprocessing:
   batch:
     estimators: 87
     ngrams: 2
-    min_split: 32
+    min_split: 29
 settings:
   preset:
     epochs: 60

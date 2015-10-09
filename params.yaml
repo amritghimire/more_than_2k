@@ -87,7 +87,7 @@ train:
     min_split: 54
 featurize:
   binary:
-    features: 2997
+    features: 2927
     passes: 8
     drop: 0.15429
     estimators: 225
@@ -100,18 +100,18 @@ featurize:
     seed: 299263707
     sample: 0.43817
     epochs: 58
-    max_features: 2727
+    max_features: 3330
   preset:
     estimators: 204
     max_features: 2690
     passes: 85
   dev:
-    min_split: 67
+    min_split: 91
     trees: 41
     sample: 0.25
     seed: 827723314
     min_features: 2933
-    batch_size: 36
+    batch_size: 38
   rf:
     folds: 8
   short:

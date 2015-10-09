@@ -42,13 +42,13 @@ tagging:
   dev:
     threads: 31
     features: 530
-    sample: 0.77583
+    sample: 0.75694
     columns: 18
-    dense: 311
+    dense: 285
     min_split: 80
   binary:
     weight_factor: 0.09189
-    ngrams: 5
+    ngrams: 6
     min_split: 48
   preset:
     seed: 156117000
@@ -164,10 +164,10 @@ settings:
     estimators: 53
     max_depth: 17
   dev:
-    sample: 0.5
+    sample: 0.50453
     min_split: 55
   rf:
-    learning_rate: 0.06232
+    learning_rate: 0.04827
     num_est: 89
     min_features: 1225
     seed: 688056171

@@ -38,7 +38,7 @@ tagging:
     max_depth: 8
     epochs: 10
     threads: 14
-    random_state: 420000000
+    random_state: 426265819
   dev:
     threads: 31
     features: 530
@@ -128,7 +128,7 @@ preprocessing:
   binary:
     dense: 341
     ngrams: 5
-    split: 0.39373
+    split: 0.50256
     weight_factor: 0.07695
     max_depth: 26
   rf:
@@ -188,7 +188,7 @@ validation:
   long:
     ngrams: 8
     random_state: 972000000
-    passes: 26
+    passes: 31
     batch_size: 224
     weight_factor: 0.33398
   batch:

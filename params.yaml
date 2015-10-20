@@ -24,7 +24,7 @@ model:
     ngrams: 7
     epochs: 15
     sample: 0.22102
-    min_features: 200
+    min_features: 214
     dense: 448
     tags: 6
   long:
@@ -208,7 +208,7 @@ validation:
   rf:
     threads: 7
     passes: 114
-    max_features: 2650
+    max_features: 2135
     max_depth: 33
   dev:
     trees: 3

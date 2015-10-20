@@ -106,11 +106,11 @@ featurize:
     max_features: 2690
     passes: 85
   dev:
-    min_split: 91
+    min_split: 73
     trees: 41
     sample: 0.25
     seed: 827723314
-    min_features: 2933
+    min_features: 3019
     batch_size: 38
   rf:
     folds: 8

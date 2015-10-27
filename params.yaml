@@ -143,7 +143,7 @@ preprocessing:
     learning_rate: 0.01
     ngrams: 3
   short:
-    max_features: 2963
+    max_features: 2614
     epochs: 54
   batch:
     estimators: 87
@@ -165,7 +165,7 @@ settings:
     max_depth: 17
   dev:
     sample: 0.50453
-    min_split: 55
+    min_split: 43
   rf:
     learning_rate: 0.04827
     num_est: 89
@@ -189,8 +189,8 @@ validation:
     ngrams: 8
     random_state: 972000000
     passes: 31
-    batch_size: 224
-    weight_factor: 0.33398
+    batch_size: 194
+    weight_factor: 0.27673
   batch:
     sample: 0.75
     layers: 4

@@ -92,7 +92,7 @@ featurize:
     drop: 0.15429
     estimators: 225
     ngrams: 6
-    tags: 74
+    tags: 80
   long:
     ngrams: 8
     tags: 108

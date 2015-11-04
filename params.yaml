@@ -198,7 +198,7 @@ validation:
     max_depth: 8
     num_est: 272
     learning_rate: 0.1
-    split: 0.2
+    split: 0.24378
     weight_factor: 0.3
   short:
     layers: 2

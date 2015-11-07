@@ -213,7 +213,7 @@ validation:
   dev:
     trees: 3
     dense: 300
-    features: 4890
+    features: 5573
     threads: 11
     min_features: 1900
     num_est: 198

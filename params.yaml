@@ -104,7 +104,7 @@ featurize:
   preset:
     estimators: 221
     max_features: 2690
-    passes: 85
+    passes: 80
   dev:
     min_split: 73
     trees: 40

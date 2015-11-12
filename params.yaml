@@ -172,7 +172,7 @@ settings:
     min_features: 1225
     seed: 688056171
   batch:
-    learning_rate: 0.07997
+    learning_rate: 0.08786
     columns: 5
     trees: 63
     batch_size: 864

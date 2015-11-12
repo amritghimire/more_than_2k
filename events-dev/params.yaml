@@ -104,12 +104,12 @@ prepare:
     sample: 0.25
     trees: 12
     num_est: 200
-    tags: 112
+    tags: 126
   diff:
     tags: 42
     trees: 60
     layers: 2
-    passes: 59
+    passes: 54
     dense: 100
     max_features: 100
   long:
@@ -125,7 +125,7 @@ prepare:
     dense: 500
     random_state: 300000000
     learning_rate: 0.07
-    layers: 6
+    layers: 5
 concurrent:
   long:
     seed: 323673000

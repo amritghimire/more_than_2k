@@ -109,7 +109,7 @@ prepare:
     tags: 42
     trees: 60
     layers: 2
-    passes: 50
+    passes: 59
     dense: 100
     max_features: 100
   long:
@@ -121,7 +121,7 @@ prepare:
     passes: 24
   other:
     tags: 126
-    split: 0.2
+    split: 0.23789
     dense: 500
     random_state: 300000000
     learning_rate: 0.07

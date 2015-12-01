@@ -92,15 +92,15 @@ prepare:
     layers: 2
     trees: 72
   preset:
-    trees: 66
+    trees: 65
     split: 0.2
     columns: 36
     passes: 52
     batch_size: 96
     tags: 70
   combine:
-    passes: 44
-    min_features: 1850
+    passes: 48
+    min_features: 1831
     sample: 0.29642
     trees: 12
     num_est: 200
@@ -114,7 +114,7 @@ prepare:
     max_features: 75
   long:
     columns: 15
-    trees: 51
+    trees: 46
   auto:
     num_est: 225
     min_split: 45

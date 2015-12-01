@@ -117,14 +117,14 @@ prepare:
     trees: 51
   auto:
     num_est: 225
-    min_split: 48
+    min_split: 45
     passes: 24
   other:
     tags: 126
     split: 0.23789
     dense: 500
     random_state: 300000000
-    learning_rate: 0.07
+    learning_rate: 0.07029
     layers: 5
 concurrent:
   long:

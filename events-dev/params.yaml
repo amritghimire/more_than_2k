@@ -96,7 +96,7 @@ prepare:
     split: 0.2
     columns: 36
     passes: 52
-    batch_size: 96
+    batch_size: 99
     tags: 70
   combine:
     passes: 48

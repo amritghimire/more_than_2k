@@ -97,20 +97,20 @@ featurize:
     ngrams: 8
     tags: 108
     folds: 12
-    seed: 299263707
-    sample: 0.43817
+    seed: 309961536
+    sample: 0.61153
     epochs: 58
     max_features: 3330
   preset:
     estimators: 221
     max_features: 2690
-    passes: 80
+    passes: 66
   dev:
     min_split: 73
     trees: 40
     sample: 0.25
     seed: 827723314
-    min_features: 3019
+    min_features: 3871
     batch_size: 38
   rf:
     folds: 8

@@ -133,23 +133,23 @@ concurrent:
   auto:
     batch_size: 224
     random_state: 528000000
-    features: 5020
+    features: 5989
     tags: 14
   other:
-    min_features: 1950
+    min_features: 2041
     max_features: 4500
     min_split: 48
     batch_size: 720
     seed: 807958000
     learning_rate: 0.05
-    layers: 4
+    layers: 3
     tags: 63
     threads: 3
     passes: 70
   preset:
     max_depth: 12
     num_est: 225
-    estimators: 61
+    estimators: 68
     columns: 75
     ngrams: 6
     folds: 12
@@ -241,7 +241,7 @@ train:
   preset:
     learning_rate: 0.14
     features: 2740
-    drop: 0.1
+    drop: 0.11893
   short:
     columns: 78
     num_est: 250

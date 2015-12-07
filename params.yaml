@@ -94,7 +94,7 @@ featurize:
     ngrams: 6
     tags: 80
   long:
-    ngrams: 8
+    ngrams: 9
     tags: 108
     folds: 12
     seed: 309961536
@@ -113,9 +113,9 @@ featurize:
     min_features: 3871
     batch_size: 38
   rf:
-    folds: 8
+    folds: 9
   short:
-    trees: 84
+    trees: 85
     threads: 10
   batch:
     ngrams: 8

@@ -179,7 +179,7 @@ featurize:
     max_features: 4750
     tags: 84
   short:
-    min_features: 900
+    min_features: 1051
     layers: 6
     max_depth: 16
     num_est: 100
@@ -205,7 +205,7 @@ featurize:
     batch_size: 464
     sample: 0.5
     max_depth: 12
-    max_features: 500
+    max_features: 454
 train:
   auto:
     epochs: 20

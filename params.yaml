@@ -179,7 +179,7 @@ settings:
   binary:
     min_split: 80
     batch_size: 31
-    max_features: 2250
+    max_features: 2372
     features: 3593
     passes: 7
     split: 0.36811
@@ -215,7 +215,7 @@ validation:
     dense: 300
     features: 5573
     threads: 11
-    min_features: 1900
+    min_features: 2113
     num_est: 198
     learning_rate: 0.13686
   preset:

@@ -185,7 +185,7 @@ featurize:
     num_est: 100
     estimators: 123
     dense: 200
-    epochs: 35
+    epochs: 42
     columns: 33
   diff:
     estimators: 45
@@ -204,7 +204,7 @@ featurize:
   combine:
     batch_size: 464
     sample: 0.5
-    max_depth: 12
+    max_depth: 11
     max_features: 454
 train:
   auto:

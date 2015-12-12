@@ -126,7 +126,7 @@ preprocessing:
     tags: 112
     epochs: 86
   binary:
-    dense: 341
+    dense: 262
     ngrams: 5
     split: 0.50256
     weight_factor: 0.07695
@@ -175,7 +175,7 @@ settings:
     learning_rate: 0.08786
     columns: 5
     trees: 63
-    batch_size: 864
+    batch_size: 996
   binary:
     min_split: 80
     batch_size: 31
@@ -207,7 +207,7 @@ validation:
     folds: 3
   rf:
     threads: 7
-    passes: 114
+    passes: 97
     max_features: 2135
     max_depth: 21
   dev:

@@ -25,7 +25,7 @@ model:
     epochs: 15
     sample: 0.22102
     min_features: 214
-    dense: 448
+    dense: 548
     tags: 6
   long:
     min_features: 2950
@@ -173,7 +173,7 @@ settings:
     seed: 688056171
   batch:
     learning_rate: 0.08786
-    columns: 5
+    columns: 6
     trees: 63
     batch_size: 996
   binary:

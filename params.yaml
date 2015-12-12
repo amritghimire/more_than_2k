@@ -63,7 +63,7 @@ tagging:
     threads: 3
   batch:
     sample: 0.75
-    dense: 200
+    dense: 187
     num_est: 200
 train:
   dev:

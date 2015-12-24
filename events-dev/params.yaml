@@ -190,7 +190,7 @@ featurize:
   diff:
     estimators: 34
     layers: 4
-    max_depth: 14
+    max_depth: 12
     max_features: 3250
   long:
     tags: 63

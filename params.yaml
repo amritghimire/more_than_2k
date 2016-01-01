@@ -91,11 +91,11 @@ featurize:
     passes: 6
     drop: 0.15429
     estimators: 225
-    ngrams: 6
+    ngrams: 5
     tags: 83
   long:
     ngrams: 9
-    tags: 108
+    tags: 71
     folds: 12
     seed: 309961536
     sample: 0.61153
@@ -110,7 +110,7 @@ featurize:
     trees: 40
     sample: 0.25
     seed: 827723314
-    min_features: 4191
+    min_features: 3719
     batch_size: 38
   rf:
     folds: 9

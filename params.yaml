@@ -113,12 +113,12 @@ featurize:
     min_features: 3719
     batch_size: 38
   rf:
-    folds: 9
+    folds: 10
   short:
     trees: 85
     threads: 10
   batch:
-    ngrams: 6
+    ngrams: 8
 preprocessing:
   preset:
     split: 0.55897

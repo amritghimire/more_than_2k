@@ -243,7 +243,7 @@ train:
     features: 2740
     drop: 0.11893
   short:
-    columns: 78
+    columns: 64
     num_est: 250
     folds: 3
   long:

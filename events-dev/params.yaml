@@ -11,7 +11,7 @@ model:
     tags: 42
     min_features: 4350
     threads: 13
-    estimators: 65
+    estimators: 61
     drop: 0.4
     columns: 39
   long:
@@ -52,7 +52,7 @@ settings:
     folds: 3
   short:
     max_depth: 8
-    ngrams: 4
+    ngrams: 3
     random_state: 590000000
     passes: 66
     columns: 45
@@ -67,8 +67,8 @@ settings:
     epochs: 10
   other:
     max_depth: 32
-    max_features: 2850
-    tags: 98
+    max_features: 2531
+    tags: 108
     random_state: 90000000
     trees: 57
     estimators: 31
@@ -258,7 +258,7 @@ variables:
     layers: 4
   short:
     min_features: 4200
-    weight_factor: 0.1
+    weight_factor: 0.11661
     tags: 7
     trees: 57
     num_est: 175

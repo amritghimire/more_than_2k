@@ -210,7 +210,7 @@ train:
   auto:
     epochs: 20
     columns: 63
-    sample: 0.75
+    sample: 0.74752
   other:
     columns: 75
     trees: 54

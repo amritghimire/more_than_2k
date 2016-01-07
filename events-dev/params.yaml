@@ -140,7 +140,7 @@ concurrent:
     max_features: 4500
     min_split: 48
     batch_size: 720
-    seed: 807958000
+    seed: 611752287
     learning_rate: 0.05
     layers: 3
     tags: 63
@@ -257,7 +257,7 @@ variables:
     seed: 835280000
     layers: 4
   short:
-    min_features: 4200
+    min_features: 4956
     weight_factor: 0.11661
     tags: 7
     trees: 57
@@ -267,7 +267,7 @@ variables:
     seed: 126530000
   combine:
     num_est: 100
-    tags: 70
+    tags: 81
     random_state: 4000000
     learning_rate: 0.09
     epochs: 5

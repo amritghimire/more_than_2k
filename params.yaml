@@ -103,8 +103,8 @@ featurize:
     max_features: 2631
   preset:
     estimators: 289
-    max_features: 2690
-    passes: 66
+    max_features: 2967
+    passes: 86
   dev:
     min_split: 64
     trees: 40
@@ -115,7 +115,7 @@ featurize:
   rf:
     folds: 10
   short:
-    trees: 85
+    trees: 56
     threads: 10
   batch:
     ngrams: 8

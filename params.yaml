@@ -107,7 +107,7 @@ featurize:
     passes: 86
   dev:
     min_split: 64
-    trees: 40
+    trees: 33
     sample: 0.25
     seed: 827723314
     min_features: 3719

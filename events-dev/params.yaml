@@ -197,7 +197,7 @@ featurize:
     min_features: 2350
     learning_rate: 0.07304
     folds: 7
-    random_state: 95000000
+    random_state: 77777188
   auto:
     max_features: 4174
     ngrams: 2

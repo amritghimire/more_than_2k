@@ -185,7 +185,7 @@ featurize:
     num_est: 100
     estimators: 108
     dense: 200
-    epochs: 42
+    epochs: 30
     columns: 37
   diff:
     estimators: 34

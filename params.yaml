@@ -7,7 +7,7 @@ model:
     trees: 39
   batch:
     layers: 7
-    min_split: 48
+    min_split: 42
     split: 0.2
     max_depth: 13
   short:
@@ -26,7 +26,7 @@ model:
     sample: 0.22102
     min_features: 214
     dense: 548
-    tags: 6
+    tags: 8
   long:
     min_features: 2950
     learning_rate: 0.13491
@@ -124,7 +124,7 @@ preprocessing:
     split: 0.55897
     dense: 95
     tags: 112
-    epochs: 86
+    epochs: 83
   binary:
     dense: 262
     ngrams: 5
@@ -198,7 +198,7 @@ validation:
     max_depth: 8
     num_est: 272
     learning_rate: 0.1
-    split: 0.24378
+    split: 0.19402
     weight_factor: 0.3
   short:
     layers: 2

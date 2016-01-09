@@ -95,16 +95,16 @@ featurize:
     tags: 83
   long:
     ngrams: 9
-    tags: 71
+    tags: 81
     folds: 12
     seed: 309961536
     sample: 0.61153
-    epochs: 67
+    epochs: 87
     max_features: 2631
   preset:
-    estimators: 289
+    estimators: 180
     max_features: 2967
-    passes: 86
+    passes: 73
   dev:
     min_split: 64
     trees: 33

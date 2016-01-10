@@ -122,9 +122,9 @@ prepare:
   other:
     tags: 126
     split: 0.23789
-    dense: 500
+    dense: 538
     random_state: 300000000
-    learning_rate: 0.07029
+    learning_rate: 0.05756
     layers: 5
 concurrent:
   long:

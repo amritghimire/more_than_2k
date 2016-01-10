@@ -110,14 +110,14 @@ prepare:
     trees: 60
     layers: 2
     passes: 54
-    dense: 100
+    dense: 105
     max_features: 75
   long:
     columns: 15
     trees: 46
   auto:
     num_est: 215
-    min_split: 40
+    min_split: 57
     passes: 24
   other:
     tags: 108

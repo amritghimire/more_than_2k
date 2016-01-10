@@ -150,7 +150,7 @@ concurrent:
     max_depth: 12
     num_est: 225
     estimators: 68
-    columns: 75
+    columns: 82
     ngrams: 6
     folds: 12
   combine:
@@ -217,7 +217,7 @@ train:
     epochs: 70
     sample: 0.25
     drop: 0.2
-    tags: 119
+    tags: 103
     estimators: 209
   diff:
     dense: 200
@@ -273,7 +273,7 @@ variables:
     epochs: 5
   long:
     estimators: 197
-    weight_factor: 0.3
+    weight_factor: 0.27018
     tags: 21
     min_features: 3300
   auto:

@@ -39,7 +39,7 @@ model:
     random_state: 112483395
     split: 0.2
   auto:
-    epochs: 10
+    epochs: 11
     layers: 2
     max_features: 2400
 settings:

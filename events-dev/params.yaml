@@ -104,7 +104,7 @@ prepare:
     sample: 0.29642
     trees: 12
     num_est: 178
-    tags: 126
+    tags: 88
   diff:
     tags: 45
     trees: 60
@@ -116,11 +116,11 @@ prepare:
     columns: 15
     trees: 46
   auto:
-    num_est: 225
-    min_split: 45
+    num_est: 215
+    min_split: 40
     passes: 24
   other:
-    tags: 126
+    tags: 108
     split: 0.23789
     dense: 538
     random_state: 300000000

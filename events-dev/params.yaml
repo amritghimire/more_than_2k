@@ -36,7 +36,7 @@ model:
     dense: 500
     batch_size: 768
     tags: 112
-    random_state: 149000000
+    random_state: 112483395
     split: 0.2
   auto:
     epochs: 10
@@ -258,7 +258,7 @@ variables:
     layers: 4
   short:
     min_features: 4956
-    weight_factor: 0.11661
+    weight_factor: 0.08205
     tags: 7
     trees: 57
     num_est: 175

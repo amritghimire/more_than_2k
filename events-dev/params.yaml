@@ -103,7 +103,7 @@ prepare:
     min_features: 1831
     sample: 0.29642
     trees: 12
-    num_est: 200
+    num_est: 178
     tags: 126
   diff:
     tags: 45

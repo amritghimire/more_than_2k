@@ -179,8 +179,8 @@ featurize:
     max_features: 5286
     tags: 84
   short:
-    min_features: 1051
-    layers: 4
+    min_features: 954
+    layers: 6
     max_depth: 16
     num_est: 100
     estimators: 108
@@ -202,7 +202,7 @@ featurize:
     max_features: 4174
     ngrams: 2
   combine:
-    batch_size: 464
+    batch_size: 444
     sample: 0.5
     max_depth: 12
     max_features: 454

@@ -97,14 +97,14 @@ prepare:
     columns: 36
     passes: 52
     batch_size: 99
-    tags: 70
+    tags: 68
   combine:
     passes: 48
     min_features: 1831
-    sample: 0.29642
+    sample: 0.21203
     trees: 9
     num_est: 178
-    tags: 88
+    tags: 131
   diff:
     tags: 45
     trees: 60
@@ -113,7 +113,7 @@ prepare:
     dense: 105
     max_features: 75
   long:
-    columns: 15
+    columns: 13
     trees: 46
   auto:
     num_est: 215

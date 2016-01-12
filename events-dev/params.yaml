@@ -182,7 +182,7 @@ featurize:
     min_features: 954
     layers: 6
     max_depth: 16
-    num_est: 100
+    num_est: 111
     estimators: 108
     dense: 200
     epochs: 30
@@ -203,7 +203,7 @@ featurize:
     ngrams: 2
   combine:
     batch_size: 444
-    sample: 0.5
+    sample: 0.52719
     max_depth: 12
     max_features: 454
 train:

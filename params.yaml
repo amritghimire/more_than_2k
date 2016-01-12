@@ -89,7 +89,7 @@ featurize:
   binary:
     features: 2927
     passes: 6
-    drop: 0.15429
+    drop: 0.24254
     estimators: 225
     ngrams: 5
     tags: 83

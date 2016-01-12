@@ -76,7 +76,7 @@ settings:
   diff:
     folds: 6
     sample: 0.25
-    columns: 30
+    columns: 22
     epochs: 10
     min_split: 32
   auto:

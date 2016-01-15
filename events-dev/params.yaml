@@ -85,7 +85,7 @@ settings:
 prepare:
   short:
     num_est: 200
-    weight_factor: 0.17094
+    weight_factor: 0.15354
     sample: 0.25
     learning_rate: 0.08
     split: 0.4
@@ -94,7 +94,7 @@ prepare:
   preset:
     trees: 65
     split: 0.2
-    columns: 36
+    columns: 29
     passes: 52
     batch_size: 99
     tags: 68
@@ -114,10 +114,10 @@ prepare:
     max_features: 75
   long:
     columns: 13
-    trees: 46
+    trees: 40
   auto:
     num_est: 215
-    min_split: 57
+    min_split: 42
     passes: 24
   other:
     tags: 108

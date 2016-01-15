@@ -85,10 +85,10 @@ settings:
 prepare:
   short:
     num_est: 200
-    weight_factor: 0.15354
+    weight_factor: 0.18042
     sample: 0.2049
     learning_rate: 0.08
-    split: 0.4
+    split: 0.33122
     layers: 2
     trees: 72
   preset:
@@ -116,7 +116,7 @@ prepare:
     columns: 13
     trees: 40
   auto:
-    num_est: 215
+    num_est: 181
     min_split: 42
     passes: 24
   other:
@@ -124,7 +124,7 @@ prepare:
     split: 0.23789
     dense: 538
     random_state: 300000000
-    learning_rate: 0.05756
+    learning_rate: 0.06183
     layers: 5
 concurrent:
   long:

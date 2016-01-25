@@ -94,7 +94,7 @@ prepare:
   preset:
     trees: 65
     split: 0.2
-    columns: 29
+    columns: 33
     passes: 52
     batch_size: 99
     tags: 68

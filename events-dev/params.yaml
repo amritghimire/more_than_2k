@@ -180,7 +180,7 @@ featurize:
     tags: 84
   short:
     min_features: 1076
-    layers: 6
+    layers: 7
     max_depth: 14
     num_est: 111
     estimators: 108

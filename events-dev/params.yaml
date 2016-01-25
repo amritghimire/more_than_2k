@@ -191,7 +191,7 @@ featurize:
     estimators: 44
     layers: 4
     max_depth: 12
-    max_features: 3523
+    max_features: 2555
   long:
     tags: 63
     min_features: 2350

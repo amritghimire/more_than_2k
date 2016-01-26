@@ -124,7 +124,7 @@ prepare:
     split: 0.23789
     dense: 452
     random_state: 300000000
-    learning_rate: 0.06103
+    learning_rate: 0.06554
     layers: 5
 concurrent:
   long:

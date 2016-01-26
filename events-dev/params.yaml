@@ -134,7 +134,7 @@ concurrent:
     batch_size: 224
     random_state: 528000000
     features: 5989
-    tags: 14
+    tags: 11
   other:
     min_features: 2041
     max_features: 4500
@@ -152,7 +152,7 @@ concurrent:
     estimators: 68
     columns: 82
     ngrams: 6
-    folds: 12
+    folds: 14
   combine:
     trees: 57
     dense: 400

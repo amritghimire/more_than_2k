@@ -147,7 +147,7 @@ concurrent:
     threads: 3
     passes: 70
   preset:
-    max_depth: 12
+    max_depth: 9
     num_est: 225
     estimators: 68
     columns: 82

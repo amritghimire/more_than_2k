@@ -13,7 +13,7 @@ model:
     threads: 15
     estimators: 61
     drop: 0.4
-    columns: 39
+    columns: 48
   long:
     passes: 56
     trees: 54
@@ -134,9 +134,9 @@ concurrent:
     batch_size: 224
     random_state: 528000000
     features: 5989
-    tags: 11
+    tags: 14
   other:
-    min_features: 2041
+    min_features: 2129
     max_features: 4500
     min_split: 48
     batch_size: 720
@@ -221,7 +221,7 @@ train:
     estimators: 209
   diff:
     dense: 200
-    learning_rate: 0.15
+    learning_rate: 0.13519
     ngrams: 8
     tags: 63
     batch_size: 672
@@ -252,7 +252,7 @@ train:
 variables:
   other:
     drop: 0.2
-    dense: 300
+    dense: 248
     weight_factor: 0.3
     seed: 835280000
     layers: 4

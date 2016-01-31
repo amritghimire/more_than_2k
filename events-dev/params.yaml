@@ -248,12 +248,12 @@ train:
     folds: 3
   long:
     random_state: 632000000
-    seed: 640147000
+    seed: 730174381
 variables:
   other:
     drop: 0.2
     dense: 248
-    weight_factor: 0.3
+    weight_factor: 0.28972
     seed: 835280000
     layers: 4
   short:

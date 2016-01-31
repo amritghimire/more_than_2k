@@ -176,7 +176,7 @@ featurize:
     passes: 36
     weight_factor: 0.18438
     drop: 0.20796
-    max_features: 5286
+    max_features: 5501
     tags: 84
   short:
     min_features: 1103
@@ -205,7 +205,7 @@ featurize:
     batch_size: 444
     sample: 0.55693
     max_depth: 12
-    max_features: 454
+    max_features: 382
 train:
   auto:
     epochs: 20

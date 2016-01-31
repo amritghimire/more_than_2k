@@ -27,7 +27,7 @@ model:
   diff:
     estimators: 126
     threads: 15
-    num_est: 75
+    num_est: 87
     epochs: 70
     max_depth: 24
   short:
@@ -257,7 +257,7 @@ variables:
     seed: 835280000
     layers: 4
   short:
-    min_features: 4956
+    min_features: 3850
     weight_factor: 0.08205
     tags: 7
     trees: 57

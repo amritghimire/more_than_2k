@@ -188,7 +188,7 @@ featurize:
     epochs: 30
     columns: 27
   diff:
-    estimators: 44
+    estimators: 34
     layers: 4
     max_depth: 18
     max_features: 2555

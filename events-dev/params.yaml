@@ -10,7 +10,7 @@ model:
   combine:
     tags: 42
     min_features: 4350
-    threads: 13
+    threads: 15
     estimators: 61
     drop: 0.4
     columns: 39
@@ -163,7 +163,7 @@ concurrent:
     min_split: 32
   short:
     sample: 0.5
-    columns: 6
+    columns: 7
     seed: 521986000
   diff:
     weight_factor: 0.1
@@ -258,16 +258,16 @@ variables:
     layers: 4
   short:
     min_features: 3850
-    weight_factor: 0.08205
+    weight_factor: 0.10787
     tags: 7
     trees: 57
-    num_est: 175
+    num_est: 172
     learning_rate: 0.11
     folds: 9
     seed: 126530000
   combine:
     num_est: 100
-    tags: 81
+    tags: 79
     random_state: 4000000
     learning_rate: 0.09
     epochs: 5

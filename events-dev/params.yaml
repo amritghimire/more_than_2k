@@ -182,7 +182,7 @@ featurize:
     min_features: 1103
     layers: 4
     max_depth: 14
-    num_est: 111
+    num_est: 91
     estimators: 131
     dense: 200
     epochs: 30

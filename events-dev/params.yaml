@@ -60,7 +60,7 @@ settings:
     epochs: 10
     weight_factor: 0.2
     folds: 3
-    min_split: 48
+    min_split: 40
     split: 0.3
   preset:
     learning_rate: 0.04
@@ -77,7 +77,7 @@ settings:
     folds: 6
     sample: 0.25
     columns: 22
-    epochs: 10
+    epochs: 9
     min_split: 32
   auto:
     weight_factor: 0.2
@@ -136,7 +136,7 @@ concurrent:
     features: 5989
     tags: 14
   other:
-    min_features: 2129
+    min_features: 1648
     max_features: 4500
     min_split: 48
     batch_size: 720
@@ -160,7 +160,7 @@ concurrent:
     split: 0.11563
     weight_factor: 0.3
     min_features: 600
-    min_split: 32
+    min_split: 35
   short:
     sample: 0.5
     columns: 7
@@ -253,7 +253,7 @@ variables:
   other:
     drop: 0.2
     dense: 248
-    weight_factor: 0.28972
+    weight_factor: 0.24675
     seed: 835280000
     layers: 4
   short:

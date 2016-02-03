@@ -44,7 +44,7 @@ model:
     max_features: 2400
 settings:
   long:
-    min_split: 80
+    min_split: 92
     num_est: 225
     drop: 0.2
     epochs: 70
@@ -128,7 +128,7 @@ prepare:
     layers: 5
 concurrent:
   long:
-    seed: 323673000
+    seed: 355944054
     weight_factor: 0.3
   auto:
     batch_size: 224
@@ -233,7 +233,7 @@ train:
   combine:
     threads: 11
     ngrams: 6
-    min_split: 80
+    min_split: 91
     seed: 288097000
     split: 0.4
     sample: 0.5

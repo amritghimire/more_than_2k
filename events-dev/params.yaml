@@ -95,7 +95,7 @@ prepare:
     trees: 65
     split: 0.2
     columns: 33
-    passes: 52
+    passes: 47
     batch_size: 99
     tags: 68
   combine:
@@ -103,8 +103,8 @@ prepare:
     min_features: 1831
     sample: 0.21203
     trees: 9
-    num_est: 209
-    tags: 131
+    num_est: 198
+    tags: 100
   diff:
     tags: 45
     trees: 70
@@ -122,10 +122,10 @@ prepare:
   other:
     tags: 108
     split: 0.23789
-    dense: 452
+    dense: 409
     random_state: 300000000
     learning_rate: 0.06554
-    layers: 5
+    layers: 7
 concurrent:
   long:
     seed: 355944054

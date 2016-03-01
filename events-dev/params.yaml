@@ -224,7 +224,7 @@ train:
     learning_rate: 0.13519
     ngrams: 8
     tags: 63
-    batch_size: 672
+    batch_size: 657
     estimators: 151
     random_state: 663000000
     max_features: 1600

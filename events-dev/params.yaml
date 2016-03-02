@@ -4,7 +4,7 @@ model:
   other:
     estimators: 175
     sample: 0.5
-    min_features: 1100
+    min_features: 1372
     columns: 60
     layers: 6
   combine:

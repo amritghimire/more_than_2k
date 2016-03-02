@@ -248,7 +248,7 @@ train:
     folds: 3
   long:
     random_state: 632000000
-    seed: 730174381
+    seed: 497805221
 variables:
   other:
     drop: 0.2

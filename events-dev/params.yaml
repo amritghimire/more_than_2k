@@ -173,7 +173,7 @@ concurrent:
 featurize:
   other:
     layers: 6
-    passes: 36
+    passes: 50
     weight_factor: 0.23946
     drop: 0.20796
     max_features: 5501

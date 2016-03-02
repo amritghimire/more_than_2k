@@ -173,17 +173,17 @@ concurrent:
 featurize:
   other:
     layers: 6
-    passes: 50
+    passes: 36
     weight_factor: 0.23946
-    drop: 0.20796
+    drop: 0.21757
     max_features: 5501
     tags: 84
   short:
     min_features: 918
-    layers: 4
+    layers: 6
     max_depth: 14
     num_est: 91
-    estimators: 131
+    estimators: 99
     dense: 200
     epochs: 30
     columns: 27
@@ -202,7 +202,7 @@ featurize:
     max_features: 4174
     ngrams: 2
   combine:
-    batch_size: 444
+    batch_size: 386
     sample: 0.55693
     max_depth: 12
     max_features: 382

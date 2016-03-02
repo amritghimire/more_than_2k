@@ -35,7 +35,7 @@ model:
     seed: 854370000
     dense: 500
     batch_size: 768
-    tags: 112
+    tags: 119
     random_state: 112483395
     split: 0.2
   auto:
@@ -223,7 +223,7 @@ train:
     dense: 200
     learning_rate: 0.13519
     ngrams: 8
-    tags: 63
+    tags: 48
     batch_size: 657
     estimators: 151
     random_state: 663000000
@@ -260,7 +260,7 @@ variables:
     min_features: 3850
     weight_factor: 0.10787
     tags: 7
-    trees: 57
+    trees: 69
     num_est: 172
     learning_rate: 0.11
     folds: 9

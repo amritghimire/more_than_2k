@@ -111,7 +111,7 @@ featurize:
     sample: 0.25
     seed: 620192343
     min_features: 3598
-    batch_size: 41
+    batch_size: 37
   rf:
     folds: 7
   short:

@@ -56,7 +56,7 @@ tagging:
     estimators: 82
   long:
     features: 3463
-    layers: 2
+    layers: 1
     min_features: 2964
   short:
     dense: 203

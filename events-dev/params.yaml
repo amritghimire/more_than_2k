@@ -129,7 +129,7 @@ prepare:
 concurrent:
   long:
     seed: 355944054
-    weight_factor: 0.3
+    weight_factor: 0.24572
   auto:
     batch_size: 224
     random_state: 528000000
@@ -286,5 +286,5 @@ variables:
     min_features: 1550
   diff:
     sample: 0.25
-    epochs: 45
+    epochs: 46
     ngrams: 2

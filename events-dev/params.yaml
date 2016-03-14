@@ -4,7 +4,7 @@ model:
   other:
     estimators: 175
     sample: 0.5
-    min_features: 1372
+    min_features: 1148
     columns: 60
     layers: 6
   combine:
@@ -19,7 +19,7 @@ model:
     trees: 54
     learning_rate: 0.09
     ngrams: 6
-    estimators: 41
+    estimators: 44
     folds: 3
     columns: 42
     min_split: 48

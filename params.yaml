@@ -195,7 +195,7 @@ validation:
     sample: 0.78031
     layers: 4
   binary:
-    max_depth: 8
+    max_depth: 6
     num_est: 272
     learning_rate: 0.1
     split: 0.19402

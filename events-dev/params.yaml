@@ -176,7 +176,7 @@ featurize:
     passes: 36
     weight_factor: 0.23946
     drop: 0.21757
-    max_features: 5501
+    max_features: 4398
     tags: 84
   short:
     min_features: 918

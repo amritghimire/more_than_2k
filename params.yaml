@@ -135,7 +135,7 @@ preprocessing:
     threads: 7
     weight_factor: 0.1
   dev:
-    weight_factor: 0.23385
+    weight_factor: 0.37446
     learning_rate: 0.04
   long:
     layers: 4

@@ -108,7 +108,7 @@ featurize:
   dev:
     min_split: 64
     trees: 33
-    sample: 0.25
+    sample: 0.2168
     seed: 620192343
     min_features: 3598
     batch_size: 37

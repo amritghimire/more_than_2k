@@ -234,7 +234,7 @@ train:
     threads: 11
     ngrams: 6
     min_split: 91
-    seed: 288097000
+    seed: 283202762
     split: 0.4
     sample: 0.5
     estimators: 212

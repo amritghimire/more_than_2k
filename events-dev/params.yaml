@@ -26,7 +26,7 @@ model:
     threads: 3
   diff:
     estimators: 126
-    threads: 15
+    threads: 16
     num_est: 87
     epochs: 70
     max_depth: 24
@@ -157,7 +157,7 @@ concurrent:
     trees: 57
     dense: 400
     drop: 0.4
-    split: 0.11563
+    split: 0.08234
     weight_factor: 0.3
     min_features: 600
     min_split: 35

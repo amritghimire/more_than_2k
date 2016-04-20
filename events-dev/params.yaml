@@ -21,15 +21,15 @@ model:
     ngrams: 6
     estimators: 34
     folds: 3
-    columns: 42
+    columns: 52
     min_split: 48
     threads: 3
   diff:
     estimators: 126
     threads: 16
     num_est: 87
-    epochs: 70
-    max_depth: 24
+    epochs: 57
+    max_depth: 26
   short:
     num_est: 75
     seed: 854370000
@@ -154,7 +154,7 @@ concurrent:
     ngrams: 6
     folds: 14
   combine:
-    trees: 57
+    trees: 43
     dense: 400
     drop: 0.4
     split: 0.08234
@@ -210,7 +210,7 @@ train:
   auto:
     epochs: 20
     columns: 63
-    sample: 0.74752
+    sample: 0.87595
   other:
     columns: 75
     trees: 54

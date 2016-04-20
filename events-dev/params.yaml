@@ -37,7 +37,7 @@ model:
     batch_size: 768
     tags: 119
     random_state: 112483395
-    split: 0.2
+    split: 0.23202
   auto:
     epochs: 11
     layers: 2
@@ -163,7 +163,7 @@ concurrent:
     min_split: 35
   short:
     sample: 0.5
-    columns: 7
+    columns: 6
     seed: 521986000
   diff:
     weight_factor: 0.1

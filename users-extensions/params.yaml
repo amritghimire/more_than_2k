@@ -56,7 +56,7 @@ model:
     dense: 600
     folds: 12
   dev:
-    max_depth: 24
+    max_depth: 20
     learning_rate: 0.06
     tags: 7
     estimators: 40

@@ -236,7 +236,7 @@ train:
     min_split: 91
     seed: 283202762
     split: 0.4
-    sample: 0.5
+    sample: 0.57637
     estimators: 212
   preset:
     learning_rate: 0.14

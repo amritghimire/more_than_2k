@@ -16,7 +16,7 @@ concurrent:
     max_features: 1750
     batch_size: 736
     drop: 0.2
-    trees: 27
+    trees: 21
     learning_rate: 0.13
     tags: 77
     min_features: 4200
@@ -92,7 +92,7 @@ variables:
   short:
     learning_rate: 0.15
     passes: 78
-    random_state: 739000000
+    random_state: 855680275
     estimators: 250
   other:
     drop: 0.2
@@ -158,7 +158,7 @@ validation:
     max_depth: 8
     tags: 56
   settings:
-    learning_rate: 0.12
+    learning_rate: 0.13899
   batch:
     epochs: 40
     min_features: 2450

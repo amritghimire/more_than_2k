@@ -13,7 +13,7 @@ model:
   short:
     min_split: 16
     trees: 54
-    epochs: 45
+    epochs: 39
     learning_rate: 0.07553
   preset:
     ngrams: 4
@@ -143,7 +143,7 @@ preprocessing:
     learning_rate: 0.01
     ngrams: 3
   short:
-    max_features: 2614
+    max_features: 2385
     epochs: 54
   batch:
     estimators: 87
@@ -175,7 +175,7 @@ settings:
     learning_rate: 0.08786
     columns: 6
     trees: 63
-    batch_size: 996
+    batch_size: 760
   binary:
     min_split: 80
     batch_size: 31

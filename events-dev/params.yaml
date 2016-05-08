@@ -44,7 +44,7 @@ model:
     max_features: 2400
 settings:
   long:
-    min_split: 92
+    min_split: 61
     num_est: 225
     drop: 0.2
     epochs: 70

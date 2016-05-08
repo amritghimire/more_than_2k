@@ -28,7 +28,7 @@ concurrent:
     num_est: 75
     dense: 200
   batch:
-    trees: 36
+    trees: 32
     threads: 23
   dev:
     threads: 18
@@ -102,7 +102,7 @@ variables:
     min_split: 48
     num_est: 225
   dev:
-    max_depth: 16
+    max_depth: 13
     trees: 78
     num_est: 225
 train:
@@ -191,7 +191,7 @@ tagging:
   batch:
     batch_size: 912
     seed: 684427000
-    max_features: 3810
+    max_features: 4703
     drop: 0.2
     min_split: 80
   test:

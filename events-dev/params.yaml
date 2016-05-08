@@ -16,7 +16,7 @@ model:
     columns: 48
   long:
     passes: 56
-    trees: 54
+    trees: 44
     learning_rate: 0.09
     ngrams: 6
     estimators: 34
@@ -41,7 +41,7 @@ model:
   auto:
     epochs: 11
     layers: 2
-    max_features: 2400
+    max_features: 2890
 settings:
   long:
     min_split: 61
@@ -268,7 +268,7 @@ variables:
   combine:
     num_est: 100
     tags: 79
-    random_state: 4000000
+    random_state: 3026183
     learning_rate: 0.09
     epochs: 5
   long:

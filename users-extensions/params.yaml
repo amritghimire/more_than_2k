@@ -90,7 +90,7 @@ variables:
     tags: 119
     columns: 48
   short:
-    learning_rate: 0.15
+    learning_rate: 0.14362
     passes: 78
     random_state: 855680275
     estimators: 250
@@ -196,7 +196,7 @@ tagging:
     min_split: 80
   test:
     sample: 0.75
-    random_state: 772000000
+    random_state: 626104912
     max_depth: 16
   preset:
     seed: 888302000

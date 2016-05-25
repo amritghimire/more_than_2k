@@ -69,12 +69,12 @@ prepare:
     layers: 3
     epochs: 75
     features: 386
-    min_split: 32
+    min_split: 27
   collection:
     passes: 76
     seed: 865706000
     drop: 0.4
-    max_features: 1200
+    max_features: 920
     estimators: 244
   rf:
     features: 2240

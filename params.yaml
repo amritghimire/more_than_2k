@@ -1,7 +1,7 @@
 model:
   rf:
     max_depth: 26
-    min_features: 1042
+    min_features: 1305
     weight_factor: 0.07687
     batch_size: 1061
     trees: 39
@@ -24,7 +24,7 @@ model:
     ngrams: 7
     epochs: 15
     sample: 0.22102
-    min_features: 214
+    min_features: 225
     dense: 548
     tags: 8
   long:
@@ -59,7 +59,7 @@ tagging:
     layers: 1
     min_features: 2964
   short:
-    dense: 203
+    dense: 160
     threads: 3
   batch:
     sample: 0.58803

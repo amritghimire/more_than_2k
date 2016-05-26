@@ -4,7 +4,7 @@ model:
     min_features: 1305
     weight_factor: 0.07687
     batch_size: 1061
-    trees: 39
+    trees: 42
   batch:
     layers: 7
     min_split: 48
@@ -52,7 +52,7 @@ tagging:
     min_split: 48
   preset:
     seed: 129803821
-    batch_size: 98
+    batch_size: 94
     estimators: 82
   long:
     features: 3463
@@ -169,7 +169,7 @@ settings:
   rf:
     learning_rate: 0.04827
     num_est: 89
-    min_features: 1225
+    min_features: 1304
     seed: 688056171
   batch:
     learning_rate: 0.08786

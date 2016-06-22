@@ -225,7 +225,7 @@ featurize:
     learning_rate: 0.05
     max_depth: 24
   prod:
-    max_depth: 28
+    max_depth: 33
     layers: 6
     threads: 19
     split: 0.5
@@ -246,7 +246,7 @@ featurize:
     epochs: 20
   diff:
     folds: 6
-    columns: 6
+    columns: 5
     num_est: 175
     seed: 193107000
   other:

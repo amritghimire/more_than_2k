@@ -93,7 +93,7 @@ prepare:
     trees: 72
   preset:
     trees: 65
-    split: 0.2
+    split: 0.19541
     columns: 33
     passes: 47
     batch_size: 99
@@ -104,10 +104,10 @@ prepare:
     sample: 0.22072
     trees: 9
     num_est: 198
-    tags: 100
+    tags: 104
   diff:
     tags: 45
-    trees: 70
+    trees: 56
     layers: 2
     passes: 41
     dense: 108
@@ -125,7 +125,7 @@ prepare:
     dense: 409
     random_state: 300000000
     learning_rate: 0.06554
-    layers: 7
+    layers: 4
 concurrent:
   long:
     seed: 355944054

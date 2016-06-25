@@ -199,7 +199,7 @@ featurize:
     folds: 7
     random_state: 96694921
   auto:
-    max_features: 4174
+    max_features: 3662
     ngrams: 2
   combine:
     batch_size: 348

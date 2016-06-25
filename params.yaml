@@ -165,7 +165,7 @@ settings:
     max_depth: 16
   dev:
     sample: 0.50453
-    min_split: 43
+    min_split: 47
   rf:
     learning_rate: 0.04827
     num_est: 89

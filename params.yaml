@@ -1,7 +1,7 @@
 model:
   rf:
     max_depth: 26
-    min_features: 1305
+    min_features: 1298
     weight_factor: 0.07687
     batch_size: 1061
     trees: 42

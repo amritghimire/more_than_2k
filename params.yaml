@@ -188,7 +188,7 @@ validation:
   long:
     ngrams: 8
     random_state: 972000000
-    passes: 21
+    passes: 30
     batch_size: 194
     weight_factor: 0.36804
   batch:

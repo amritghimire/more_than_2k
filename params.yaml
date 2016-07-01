@@ -14,7 +14,7 @@ model:
     min_split: 16
     trees: 54
     epochs: 39
-    learning_rate: 0.07553
+    learning_rate: 0.06047
   preset:
     ngrams: 4
     split: 0.45522
@@ -32,7 +32,7 @@ model:
     learning_rate: 0.13491
     split: 0.22043
   dev:
-    folds: 9
+    folds: 6
 tagging:
   rf:
     max_depth: 8
@@ -168,7 +168,7 @@ settings:
     min_split: 47
   rf:
     learning_rate: 0.04827
-    num_est: 89
+    num_est: 91
     min_features: 1304
     seed: 688056171
   batch:

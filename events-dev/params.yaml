@@ -231,7 +231,7 @@ train:
     epochs: 15
     features: 3530
   combine:
-    threads: 11
+    threads: 10
     ngrams: 6
     min_split: 91
     seed: 283202762

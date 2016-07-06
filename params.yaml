@@ -136,7 +136,7 @@ preprocessing:
     weight_factor: 0.1
   dev:
     weight_factor: 0.37446
-    learning_rate: 0.04
+    learning_rate: 0.04225
   long:
     layers: 4
     weight_factor: 0.23524

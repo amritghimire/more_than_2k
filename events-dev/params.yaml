@@ -109,7 +109,7 @@ prepare:
     tags: 45
     trees: 56
     layers: 2
-    passes: 41
+    passes: 56
     dense: 108
     max_features: 75
   long:

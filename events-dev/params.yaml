@@ -102,8 +102,8 @@ prepare:
     passes: 38
     min_features: 1831
     sample: 0.22072
-    trees: 9
-    num_est: 198
+    trees: 10
+    num_est: 154
     tags: 104
   diff:
     tags: 45

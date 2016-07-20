@@ -48,7 +48,7 @@ tagging:
     min_split: 97
   binary:
     weight_factor: 0.09189
-    ngrams: 6
+    ngrams: 5
     min_split: 48
   preset:
     seed: 129803821

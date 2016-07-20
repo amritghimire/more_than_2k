@@ -59,7 +59,7 @@ model:
     max_depth: 20
     learning_rate: 0.06
     tags: 7
-    estimators: 40
+    estimators: 41
     seed: 815427000
     dense: 200
   test:
@@ -140,7 +140,7 @@ train:
     random_state: 590000000
     sample: 0.75
     split: 0.5
-    threads: 25
+    threads: 21
   preset:
     passes: 18
     random_state: 810000000

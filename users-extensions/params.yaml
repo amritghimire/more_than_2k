@@ -10,7 +10,7 @@ concurrent:
     drop: 0.1
     folds: 6
     min_features: 1750
-    estimators: 84
+    estimators: 93
   test:
     sample: 0.25
     max_features: 1750

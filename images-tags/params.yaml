@@ -4,7 +4,7 @@ model:
     tags: 28
     min_features: 1050
     estimators: 112
-    folds: 6
+    folds: 5
     seed: 733604000
   prod:
     columns: 30
@@ -31,7 +31,7 @@ model:
     max_depth: 3
   diff:
     estimators: 157
-    drop: 0.2
+    drop: 0.18772
     columns: 15
   long:
     layers: 2

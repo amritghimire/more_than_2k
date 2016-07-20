@@ -17,7 +17,7 @@ model:
     features: 2740
   rf:
     folds: 6
-    random_state: 284000000
+    random_state: 222422383
     ngrams: 4
     dense: 400
     weight_factor: 0.3

@@ -5,7 +5,7 @@ model:
     min_features: 1050
     estimators: 112
     folds: 5
-    seed: 733604000
+    seed: 707284539
   prod:
     columns: 30
     num_est: 175
@@ -42,7 +42,7 @@ concurrent:
     min_features: 1800
   preset:
     columns: 66
-    max_depth: 8
+    max_depth: 9
     sample: 0.75
     min_split: 16
     features: 2300
@@ -56,7 +56,7 @@ concurrent:
     tags: 119
   prod:
     columns: 51
-    threads: 27
+    threads: 28
     random_state: 706000000
     dense: 200
   classifier:
@@ -184,7 +184,7 @@ variables:
     random_state: 762000000
     features: 3270
   diff:
-    max_depth: 32
+    max_depth: 24
     trees: 72
     estimators: 146
     min_features: 4150

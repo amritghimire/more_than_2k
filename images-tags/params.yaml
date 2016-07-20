@@ -43,7 +43,7 @@ concurrent:
   preset:
     columns: 66
     max_depth: 9
-    sample: 0.75
+    sample: 0.61468
     min_split: 16
     features: 2300
   other:
@@ -51,7 +51,7 @@ concurrent:
     features: 3500
     columns: 79
     sample: 0.25
-    random_state: 727000000
+    random_state: 680288892
   diff:
     tags: 119
   prod:
@@ -90,7 +90,7 @@ settings:
     features: 4610
     tags: 77
   long:
-    folds: 6
+    folds: 5
     layers: 6
     min_split: 80
     epochs: 35
@@ -205,7 +205,7 @@ variables:
     layers: 2
   rf:
     min_features: 1750
-    sample: 0.5
+    sample: 0.52668
   prod:
     seed: 344975000
 featurize:

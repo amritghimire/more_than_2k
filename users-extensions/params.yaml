@@ -90,7 +90,7 @@ variables:
     tags: 119
     columns: 48
   short:
-    learning_rate: 0.14362
+    learning_rate: 0.1385
     passes: 78
     random_state: 855680275
     estimators: 250

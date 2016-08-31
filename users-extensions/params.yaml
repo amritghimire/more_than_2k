@@ -154,7 +154,7 @@ validation:
     layers: 4
     batch_size: 807
     min_split: 48
-    weight_factor: 0.1
+    weight_factor: 0.08754
     max_depth: 8
     tags: 56
   settings:
@@ -233,7 +233,7 @@ preprocessing:
   test:
     min_features: 4200
     ngrams: 4
-    columns: 48
+    columns: 53
     tags: 112
     dense: 100
   settings:
@@ -251,7 +251,7 @@ preprocessing:
     sample: 0.25
     epochs: 15
   short:
-    split: 0.5
+    split: 0.60803
     folds: 6
   preset:
     columns: 75

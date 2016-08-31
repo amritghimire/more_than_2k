@@ -140,7 +140,7 @@ train:
     random_state: 590000000
     sample: 0.75
     split: 0.5
-    threads: 21
+    threads: 26
   preset:
     passes: 18
     random_state: 810000000

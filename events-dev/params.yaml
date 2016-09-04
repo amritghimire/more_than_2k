@@ -181,7 +181,7 @@ featurize:
   short:
     min_features: 918
     layers: 6
-    max_depth: 14
+    max_depth: 18
     num_est: 91
     estimators: 118
     dense: 200
@@ -190,7 +190,7 @@ featurize:
   diff:
     estimators: 46
     layers: 4
-    max_depth: 18
+    max_depth: 14
     max_features: 3709
   long:
     tags: 59
@@ -203,7 +203,7 @@ featurize:
     ngrams: 2
   combine:
     batch_size: 348
-    sample: 0.55693
+    sample: 0.44294
     max_depth: 12
     max_features: 507
 train:

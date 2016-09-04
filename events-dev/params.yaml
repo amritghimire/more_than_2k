@@ -17,13 +17,13 @@ model:
   long:
     passes: 56
     trees: 44
-    learning_rate: 0.09
+    learning_rate: 0.10099
     ngrams: 6
     estimators: 34
     folds: 3
     columns: 52
     min_split: 48
-    threads: 3
+    threads: 2
   diff:
     estimators: 126
     threads: 16
@@ -70,7 +70,7 @@ settings:
     max_features: 2531
     tags: 108
     random_state: 90000000
-    trees: 57
+    trees: 43
     estimators: 31
     passes: 38
   diff:
@@ -162,7 +162,7 @@ concurrent:
     min_features: 600
     min_split: 35
   short:
-    sample: 0.5
+    sample: 0.49053
     columns: 6
     seed: 521986000
   diff:

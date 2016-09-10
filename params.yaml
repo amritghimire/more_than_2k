@@ -37,7 +37,7 @@ tagging:
   rf:
     max_depth: 8
     epochs: 10
-    threads: 14
+    threads: 13
     random_state: 426265819
   dev:
     threads: 31

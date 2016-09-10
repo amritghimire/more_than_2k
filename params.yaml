@@ -14,11 +14,11 @@ model:
     min_split: 16
     trees: 54
     epochs: 39
-    learning_rate: 0.06047
+    learning_rate: 0.0782
   preset:
     ngrams: 4
     split: 0.45522
-    folds: 6
+    folds: 9
     epochs: 20
   binary:
     ngrams: 7
@@ -161,7 +161,7 @@ settings:
     features: 1140
     min_split: 80
   short:
-    estimators: 61
+    estimators: 46
     max_depth: 16
   dev:
     sample: 0.50453
@@ -182,7 +182,7 @@ settings:
     max_features: 2372
     features: 3593
     passes: 7
-    split: 0.36811
+    split: 0.30283
     ngrams: 2
 validation:
   long:

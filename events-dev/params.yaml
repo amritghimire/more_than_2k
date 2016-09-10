@@ -194,7 +194,7 @@ featurize:
     max_features: 3709
   long:
     tags: 59
-    min_features: 2350
+    min_features: 1980
     learning_rate: 0.07304
     folds: 7
     random_state: 71987481

@@ -10,7 +10,7 @@ model:
     columns: 30
     num_est: 175
     dense: 100
-    sample: 0.5
+    sample: 0.6229
     random_state: 312000000
     max_features: 1750
     drop: 0.2
@@ -45,7 +45,7 @@ concurrent:
     max_depth: 9
     sample: 0.61468
     min_split: 16
-    features: 2300
+    features: 2373
   other:
     passes: 34
     features: 3500

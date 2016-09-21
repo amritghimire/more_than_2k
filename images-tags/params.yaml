@@ -112,7 +112,7 @@ prepare:
     split: 0.4
     batch_size: 368
     threads: 18
-    min_split: 64
+    min_split: 50
   rf:
     ngrams: 3
     epochs: 55

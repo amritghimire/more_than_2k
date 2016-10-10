@@ -230,7 +230,7 @@ featurize:
     threads: 19
     split: 0.5
     epochs: 40
-    min_split: 64
+    min_split: 66
     features: 3850
     min_features: 4950
   long:

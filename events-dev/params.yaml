@@ -158,7 +158,7 @@ concurrent:
     dense: 400
     drop: 0.4
     split: 0.08234
-    weight_factor: 0.3
+    weight_factor: 0.32452
     min_features: 600
     min_split: 35
   short:

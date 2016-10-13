@@ -29,7 +29,7 @@ model:
     threads: 16
     num_est: 87
     epochs: 57
-    max_depth: 26
+    max_depth: 39
   short:
     num_est: 75
     seed: 854370000

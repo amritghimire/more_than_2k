@@ -64,7 +64,7 @@ prepare:
     epochs: 40
     learning_rate: 0.11
     features: 3650
-    min_split: 64
+    min_split: 76
   batch:
     layers: 3
     epochs: 75
@@ -72,7 +72,7 @@ prepare:
     min_split: 27
   collection:
     passes: 76
-    seed: 865706000
+    seed: 649419158
     drop: 0.4
     max_features: 920
     estimators: 244

@@ -80,7 +80,7 @@ prepare:
     features: 2240
     num_est: 100
   prod:
-    weight_factor: 0.2
+    weight_factor: 0.1998
     drop: 0.4
     epochs: 70
     folds: 6
@@ -93,7 +93,7 @@ prepare:
     batch_size: 768
     trees: 3
   selection:
-    weight_factor: 0.3
+    weight_factor: 0.32634
 validation:
   prod:
     layers: 2

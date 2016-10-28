@@ -93,7 +93,7 @@ prepare:
     trees: 72
   preset:
     trees: 65
-    split: 0.19541
+    split: 0.23267
     columns: 33
     passes: 47
     batch_size: 99
@@ -114,11 +114,11 @@ prepare:
     max_features: 75
   long:
     columns: 12
-    trees: 40
+    trees: 43
   auto:
     num_est: 227
     min_split: 42
-    passes: 24
+    passes: 25
   other:
     tags: 108
     split: 0.23789

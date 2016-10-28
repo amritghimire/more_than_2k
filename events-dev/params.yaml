@@ -16,7 +16,7 @@ model:
     columns: 48
   long:
     passes: 56
-    trees: 44
+    trees: 51
     learning_rate: 0.10099
     ngrams: 6
     estimators: 34
@@ -29,7 +29,7 @@ model:
     threads: 16
     num_est: 87
     epochs: 57
-    max_depth: 39
+    max_depth: 30
   short:
     num_est: 75
     seed: 854370000
@@ -208,7 +208,7 @@ featurize:
     max_features: 507
 train:
   auto:
-    epochs: 20
+    epochs: 19
     columns: 63
     sample: 0.87595
   other:
@@ -227,7 +227,7 @@ train:
     batch_size: 657
     estimators: 151
     random_state: 663000000
-    max_features: 1600
+    max_features: 1563
     epochs: 15
     features: 3530
   combine:
@@ -266,7 +266,7 @@ variables:
     folds: 9
     seed: 126530000
   combine:
-    num_est: 100
+    num_est: 102
     tags: 79
     random_state: 3026183
     learning_rate: 0.09

@@ -11,7 +11,7 @@ model:
     split: 0.2
     max_depth: 13
   short:
-    min_split: 16
+    min_split: 14
     trees: 54
     epochs: 39
     learning_rate: 0.0782
@@ -38,7 +38,7 @@ tagging:
     max_depth: 8
     epochs: 10
     threads: 13
-    random_state: 426265819
+    random_state: 368429446
   dev:
     threads: 31
     features: 530

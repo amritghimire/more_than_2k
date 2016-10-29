@@ -109,9 +109,9 @@ featurize:
     min_split: 64
     trees: 32
     sample: 0.2168
-    seed: 620192343
+    seed: 720026092
     min_features: 3598
-    batch_size: 39
+    batch_size: 58
   rf:
     folds: 7
   short:

@@ -108,7 +108,7 @@ variables:
 train:
   short:
     threads: 5
-    dense: 300
+    dense: 303
     tags: 133
     columns: 36
   settings:
@@ -181,7 +181,7 @@ validation:
     min_features: 3250
   short:
     max_depth: 28
-    drop: 0.3
+    drop: 0.23665
     sample: 0.25
 tagging:
   settings:
@@ -220,7 +220,7 @@ preprocessing:
   dev:
     trees: 69
     folds: 12
-    batch_size: 512
+    batch_size: 637
   batch:
     layers: 4
     features: 410

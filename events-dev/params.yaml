@@ -92,7 +92,7 @@ prepare:
     layers: 2
     trees: 72
   preset:
-    trees: 74
+    trees: 51
     split: 0.23267
     columns: 33
     passes: 60
@@ -123,7 +123,7 @@ prepare:
     tags: 108
     split: 0.23789
     dense: 409
-    random_state: 300000000
+    random_state: 314384422
     learning_rate: 0.06554
     layers: 4
 concurrent:

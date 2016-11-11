@@ -10,7 +10,7 @@ model:
     columns: 30
     num_est: 175
     dense: 100
-    sample: 0.6229
+    sample: 0.38927
     random_state: 312000000
     max_features: 1750
     drop: 0.2
@@ -48,7 +48,7 @@ concurrent:
     features: 2373
   other:
     passes: 34
-    features: 3500
+    features: 3107
     columns: 79
     sample: 0.25
     random_state: 680288892
@@ -60,7 +60,7 @@ concurrent:
     random_state: 706000000
     dense: 200
   classifier:
-    learning_rate: 0.13
+    learning_rate: 0.13807
     num_est: 25
     max_depth: 12
     passes: 104
@@ -172,7 +172,7 @@ preprocessing:
     seed: 249776000
     estimators: 164
   long:
-    estimators: 99
+    estimators: 86
     seed: 530296000
     min_features: 1000
     layers: 2

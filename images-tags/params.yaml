@@ -241,7 +241,7 @@ featurize:
   classifier:
     seed: 982891000
     folds: 3
-    min_features: 4000
+    min_features: 3358
     threads: 32
     epochs: 20
   diff:

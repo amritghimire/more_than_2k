@@ -223,7 +223,7 @@ featurize:
     tags: 56
     weight_factor: 0.3
     learning_rate: 0.05
-    max_depth: 24
+    max_depth: 19
   prod:
     max_depth: 33
     layers: 6

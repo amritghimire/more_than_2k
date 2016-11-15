@@ -33,7 +33,7 @@ concurrent:
   dev:
     threads: 18
     estimators: 209
-    trees: 69
+    trees: 59
     split: 0.4
   short:
     min_split: 16
@@ -72,7 +72,7 @@ model:
 variables:
   preset:
     epochs: 25
-    layers: 2
+    layers: 1
     batch_size: 224
     learning_rate: 0.15
     passes: 116
@@ -167,7 +167,7 @@ validation:
     split: 0.2
     learning_rate: 0.02
   test:
-    epochs: 15
+    epochs: 14
     layers: 4
     max_depth: 4
   dev:
@@ -196,7 +196,7 @@ tagging:
     min_split: 80
   test:
     sample: 0.75
-    random_state: 626104912
+    random_state: 943625776
     max_depth: 16
   preset:
     seed: 888302000

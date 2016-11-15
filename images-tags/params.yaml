@@ -3,7 +3,7 @@ model:
     random_state: 603000000
     tags: 28
     min_features: 1050
-    estimators: 112
+    estimators: 98
     folds: 5
     seed: 707284539
   prod:
@@ -80,7 +80,7 @@ settings:
     min_split: 32
     learning_rate: 0.15
   preset:
-    layers: 4
+    layers: 3
     learning_rate: 0.13
     passes: 46
   prod:

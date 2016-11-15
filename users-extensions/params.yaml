@@ -229,7 +229,7 @@ preprocessing:
     trees: 39
     min_features: 4250
     ngrams: 2
-    split: 0.5
+    split: 0.61693
   test:
     min_features: 4200
     ngrams: 4

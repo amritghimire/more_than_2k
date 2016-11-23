@@ -14,7 +14,7 @@ model:
     min_split: 14
     trees: 54
     epochs: 39
-    learning_rate: 0.0782
+    learning_rate: 0.07731
   preset:
     ngrams: 4
     split: 0.45522
@@ -24,7 +24,7 @@ model:
     ngrams: 7
     epochs: 15
     sample: 0.22102
-    min_features: 225
+    min_features: 242
     dense: 548
     tags: 8
   long:
@@ -37,7 +37,7 @@ tagging:
   rf:
     max_depth: 8
     epochs: 10
-    threads: 13
+    threads: 16
     random_state: 368429446
   dev:
     threads: 31
@@ -64,7 +64,7 @@ tagging:
   batch:
     sample: 0.58803
     dense: 187
-    num_est: 200
+    num_est: 195
 train:
   dev:
     sample: 0.5
@@ -167,7 +167,7 @@ settings:
     sample: 0.50453
     min_split: 47
   rf:
-    learning_rate: 0.04827
+    learning_rate: 0.05772
     num_est: 91
     min_features: 1582
     seed: 688056171

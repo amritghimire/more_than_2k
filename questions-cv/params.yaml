@@ -67,14 +67,14 @@ prepare:
     min_split: 76
   batch:
     layers: 3
-    epochs: 75
+    epochs: 56
     features: 260
     min_split: 27
   collection:
     passes: 76
     seed: 1039627223
     drop: 0.4
-    max_features: 979
+    max_features: 1196
     estimators: 244
   rf:
     features: 2240
@@ -84,13 +84,13 @@ prepare:
     drop: 0.4
     epochs: 70
     folds: 5
-    max_features: 500
+    max_features: 567
     columns: 33
   other:
     random_state: 518871168
     min_features: 4094
     columns: 57
-    batch_size: 853
+    batch_size: 624
     trees: 3
   selection:
     weight_factor: 0.32634

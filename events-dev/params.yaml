@@ -92,7 +92,7 @@ prepare:
     layers: 2
     trees: 72
   preset:
-    trees: 51
+    trees: 67
     split: 0.23267
     columns: 33
     passes: 60
@@ -103,12 +103,12 @@ prepare:
     min_features: 2079
     sample: 0.22072
     trees: 10
-    num_est: 154
+    num_est: 243
     tags: 104
   diff:
     tags: 45
     trees: 56
-    layers: 2
+    layers: 1
     passes: 56
     dense: 108
     max_features: 75

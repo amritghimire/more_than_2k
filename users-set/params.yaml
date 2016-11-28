@@ -5,7 +5,7 @@ variables:
     features: 4850
   selection:
     max_depth: 12
-    num_est: 175
+    num_est: 181
     learning_rate: 0.12
     columns: 72
     seed: 808780000
@@ -162,7 +162,7 @@ settings:
     columns: 66
     max_features: 3600
   batch:
-    estimators: 95
+    estimators: 102
     ngrams: 8
     columns: 21
     dense: 500

@@ -35,7 +35,7 @@ model:
     seed: 854370000
     dense: 500
     batch_size: 768
-    tags: 119
+    tags: 93
     random_state: 112483395
     split: 0.23202
   auto:
@@ -57,7 +57,7 @@ settings:
     passes: 66
     columns: 45
   combine:
-    epochs: 10
+    epochs: 8
     weight_factor: 0.2
     folds: 3
     min_split: 40
@@ -253,7 +253,7 @@ variables:
   other:
     drop: 0.2
     dense: 248
-    weight_factor: 0.24675
+    weight_factor: 0.36167
     seed: 835280000
     layers: 4
   short:

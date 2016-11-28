@@ -74,7 +74,7 @@ settings:
     estimators: 31
     passes: 38
   diff:
-    folds: 6
+    folds: 5
     sample: 0.25
     columns: 22
     epochs: 9

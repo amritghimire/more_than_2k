@@ -55,7 +55,7 @@ settings:
     ngrams: 3
     random_state: 590000000
     passes: 66
-    columns: 45
+    columns: 35
   combine:
     epochs: 8
     weight_factor: 0.2

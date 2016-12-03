@@ -103,18 +103,18 @@ settings:
     folds: 3
 prepare:
   preset:
-    min_split: 48
+    min_split: 43
     trees: 33
-    seed: 214610000
+    seed: 248492766
   prod:
     estimators: 221
     seed: 321086000
-    split: 0.42843
+    split: 0.45088
     batch_size: 368
     threads: 18
     min_split: 50
   rf:
-    ngrams: 3
+    ngrams: 4
     epochs: 55
   long:
     min_split: 32
@@ -131,7 +131,7 @@ prepare:
     batch_size: 576
     random_state: 373586699
   classifier:
-    weight_factor: 0.3
+    weight_factor: 0.31905
     dense: 200
     tags: 126
   diff:

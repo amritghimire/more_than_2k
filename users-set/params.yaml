@@ -279,7 +279,7 @@ featurize:
     tags: 98
     features: 2800
     passes: 74
-    seed: 478541000
+    seed: 457818517
   batch:
     batch_size: 784
     threads: 25
@@ -301,6 +301,6 @@ featurize:
     random_state: 607000000
     min_features: 2150
     learning_rate: 0.08
-    layers: 2
+    layers: 1
   other:
     dense: 100

@@ -194,7 +194,7 @@ variables:
     num_est: 50
     min_split: 32
   classifier:
-    random_state: 485000000
+    random_state: 444735170
     ngrams: 6
     columns: 66
     layers: 6

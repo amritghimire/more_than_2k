@@ -112,7 +112,7 @@ prepare:
     split: 0.45088
     batch_size: 368
     threads: 18
-    min_split: 50
+    min_split: 62
   rf:
     ngrams: 4
     epochs: 55
@@ -125,14 +125,14 @@ prepare:
     features: 2740
   other:
     sample: 0.75
-    drop: 0.11248
+    drop: 0.0952
     columns: 10
     split: 0.5
     batch_size: 576
     random_state: 373586699
   classifier:
     weight_factor: 0.31905
-    dense: 200
+    dense: 203
     tags: 126
   diff:
     learning_rate: 0.13764

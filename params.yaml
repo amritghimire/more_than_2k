@@ -100,7 +100,7 @@ featurize:
     seed: 309961536
     sample: 0.61416
     epochs: 87
-    max_features: 3414
+    max_features: 3110
   preset:
     estimators: 201
     max_features: 2532

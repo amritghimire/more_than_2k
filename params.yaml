@@ -25,7 +25,7 @@ model:
     epochs: 15
     sample: 0.24183
     min_features: 242
-    dense: 548
+    dense: 592
     tags: 8
   long:
     min_features: 2950

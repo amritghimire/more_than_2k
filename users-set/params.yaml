@@ -182,7 +182,7 @@ model:
     random_state: 92000000
   selection:
     passes: 16
-    layers: 2
+    layers: 1
     folds: 6
     sample: 0.5
     num_est: 175

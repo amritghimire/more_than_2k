@@ -105,7 +105,7 @@ validation:
     num_est: 250
     layers: 4
     weight_factor: 0.3
-    estimators: 52
+    estimators: 58
     trees: 78
   selection:
     folds: 9
@@ -207,7 +207,7 @@ model:
     split: 0.5
     threads: 2
     max_depth: 32
-    min_features: 50
+    min_features: 60
     batch_size: 272
     seed: 667169000
   other:

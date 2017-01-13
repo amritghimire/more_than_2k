@@ -3,7 +3,7 @@ settings:
     epochs: 35
     min_features: 1100
     folds: 6
-    num_est: 100
+    num_est: 119
     drop: 0.2
     features: 1740
     random_state: 352000000

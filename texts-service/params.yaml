@@ -131,7 +131,7 @@ model:
     sample: 1.0
     max_depth: 20
     weight_factor: 0.2
-    min_split: 48
+    min_split: 54
     batch_size: 976
     threads: 1
     split: 0.3

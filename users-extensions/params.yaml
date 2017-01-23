@@ -100,7 +100,7 @@ variables:
   settings:
     tags: 70
     min_split: 48
-    num_est: 225
+    num_est: 175
   dev:
     max_depth: 13
     trees: 78

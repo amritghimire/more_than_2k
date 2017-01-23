@@ -43,7 +43,7 @@ concurrent:
     epochs: 35
 model:
   settings:
-    batch_size: 784
+    batch_size: 845
     epochs: 65
     columns: 18
     sample: 0.75
@@ -98,7 +98,7 @@ variables:
     drop: 0.2
     features: 650
   settings:
-    tags: 70
+    tags: 82
     min_split: 48
     num_est: 175
   dev:
@@ -203,7 +203,7 @@ tagging:
     num_est: 75
     ngrams: 6
   dev:
-    dense: 200
+    dense: 208
     folds: 3
     tags: 119
     num_est: 150
@@ -237,7 +237,7 @@ preprocessing:
     tags: 112
     dense: 100
   settings:
-    layers: 4
+    layers: 3
     weight_factor: 0.3
     seed: 290504000
     sample: 1.0

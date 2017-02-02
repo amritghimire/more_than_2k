@@ -46,13 +46,13 @@ model:
     batch_size: 845
     epochs: 65
     columns: 18
-    sample: 0.75
+    sample: 0.88279
   other:
     ngrams: 4
     columns: 66
     batch_size: 400
   short:
-    sample: 0.5
+    sample: 0.45915
     dense: 600
     folds: 12
   dev:
@@ -214,7 +214,7 @@ tagging:
   short:
     features: 4670
     threads: 28
-    columns: 24
+    columns: 19
     split: 0.4
 preprocessing:
   dev:
@@ -244,7 +244,7 @@ preprocessing:
     num_est: 50
     min_features: 4150
     threads: 20
-    columns: 48
+    columns: 56
   other:
     drop: 0.2
     trees: 9

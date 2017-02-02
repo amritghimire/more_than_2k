@@ -2,7 +2,7 @@ concurrent:
   settings:
     columns: 39
     min_features: 3250
-    max_features: 4350
+    max_features: 3842
     features: 4840
     drop: 0.4
   other:
@@ -61,7 +61,7 @@ model:
     tags: 7
     estimators: 41
     seed: 815427000
-    dense: 200
+    dense: 221
   test:
     layers: 4
     estimators: 168

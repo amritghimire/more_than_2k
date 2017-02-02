@@ -40,7 +40,7 @@ concurrent:
     num_est: 100
     features: 2240
     estimators: 234
-    epochs: 35
+    epochs: 38
 model:
   settings:
     batch_size: 845
@@ -130,7 +130,7 @@ train:
     random_state: 709000000
   dev:
     min_features: 3000
-    threads: 29
+    threads: 22
     random_state: 919000000
     dense: 300
     num_est: 100
@@ -172,7 +172,7 @@ validation:
     max_depth: 4
   dev:
     min_features: 2750
-    columns: 51
+    columns: 45
     dense: 500
     layers: 4
     trees: 30

@@ -281,7 +281,7 @@ featurize:
     passes: 74
     seed: 457818517
   batch:
-    batch_size: 784
+    batch_size: 979
     threads: 25
     weight_factor: 0.2
     max_features: 4331
@@ -291,10 +291,10 @@ featurize:
     threads: 2
   selection:
     columns: 15
-    passes: 38
+    passes: 37
     threads: 14
   rf:
-    passes: 22
+    passes: 16
     weight_factor: 0.3
     max_features: 1150
     tags: 126

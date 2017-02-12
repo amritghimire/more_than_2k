@@ -60,7 +60,7 @@ preprocessing:
     epochs: 40
   other:
     epochs: 65
-    folds: 12
+    folds: 10
     learning_rate: 0.15
     passes: 40
     ngrams: 4
@@ -207,7 +207,7 @@ model:
     split: 0.5
     threads: 2
     max_depth: 32
-    min_features: 60
+    min_features: 39
     batch_size: 272
     seed: 667169000
   other:

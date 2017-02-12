@@ -167,7 +167,7 @@ variables:
   collection:
     seed: 831947000
   prod:
-    epochs: 40
+    epochs: 42
     learning_rate: 0.12
     tags: 105
   selection:
@@ -186,7 +186,7 @@ settings:
     max_depth: 28
   prod:
     min_features: 2900
-    columns: 36
+    columns: 38
   rf:
     max_depth: 12
   collection:

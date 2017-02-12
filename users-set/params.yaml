@@ -1,7 +1,7 @@
 variables:
   other:
     epochs: 80
-    layers: 6
+    layers: 5
     features: 4850
   selection:
     max_depth: 12
@@ -28,7 +28,7 @@ variables:
     learning_rate: 0.1
     passes: 10
     min_split: 48
-    folds: 12
+    folds: 11
   classifier:
     estimators: 195
     seed: 399438000
@@ -152,7 +152,7 @@ settings:
   selection:
     layers: 3
     estimators: 118
-    seed: 132541000
+    seed: 161839442
     folds: 3
     threads: 15
   other:
@@ -192,7 +192,7 @@ model:
     dense: 400
     trees: 78
   rf:
-    num_est: 250
+    num_est: 254
     max_depth: 28
     sample: 0.75
     learning_rate: 0.05

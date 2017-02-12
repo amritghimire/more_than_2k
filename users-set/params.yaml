@@ -239,7 +239,7 @@ prepare:
   dev:
     columns: 57
     seed: 403331000
-    weight_factor: 0.2
+    weight_factor: 0.18617
     sample: 0.5
     epochs: 80
     trees: 12
@@ -252,7 +252,7 @@ prepare:
     split: 0.2
     features: 4980
   other:
-    num_est: 225
+    num_est: 200
     features: 230
     drop: 0.2
     epochs: 80

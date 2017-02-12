@@ -297,10 +297,10 @@ featurize:
     passes: 16
     weight_factor: 0.3
     max_features: 1150
-    tags: 126
+    tags: 113
     random_state: 607000000
     min_features: 2150
     learning_rate: 0.08
     layers: 1
   other:
-    dense: 100
+    dense: 112

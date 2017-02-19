@@ -127,7 +127,7 @@ preprocessing:
     epochs: 83
   binary:
     dense: 326
-    ngrams: 5
+    ngrams: 6
     split: 0.50256
     weight_factor: 0.12261
     max_depth: 26

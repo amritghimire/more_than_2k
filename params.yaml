@@ -63,7 +63,7 @@ tagging:
     threads: 3
   batch:
     sample: 0.58803
-    dense: 187
+    dense: 213
     num_est: 195
 train:
   dev:
@@ -78,7 +78,7 @@ train:
     max_features: 120
   batch:
     drop: 0.23801
-    tags: 102
+    tags: 90
   preset:
     num_est: 308
     features: 420
@@ -143,7 +143,7 @@ preprocessing:
     learning_rate: 0.01
     ngrams: 3
   short:
-    max_features: 2385
+    max_features: 2359
     epochs: 54
   batch:
     estimators: 87
@@ -216,7 +216,7 @@ validation:
     features: 5573
     threads: 11
     min_features: 2113
-    num_est: 198
+    num_est: 212
     learning_rate: 0.1485
   preset:
     learning_rate: 0.12187

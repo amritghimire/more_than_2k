@@ -155,7 +155,7 @@ model:
     drop: 0.2
 prepare:
   test:
-    num_est: 250
+    num_est: 243
     sample: 1.0
     trees: 12
     features: 1470
@@ -190,7 +190,7 @@ prepare:
     learning_rate: 0.03141
   other:
     random_state: 19000000
-    trees: 45
+    trees: 55
     split: 0.1
   diff:
     epochs: 20

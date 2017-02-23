@@ -169,7 +169,7 @@ prepare:
     learning_rate: 0.04
     min_features: 4400
   requests:
-    passes: 60
+    passes: 59
     epochs: 15
     weight_factor: 0.2
     random_state: 420000000

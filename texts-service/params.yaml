@@ -187,7 +187,7 @@ prepare:
     folds: 6
     features: 10
     split: 0.2
-    learning_rate: 0.03
+    learning_rate: 0.03141
   other:
     random_state: 19000000
     trees: 45

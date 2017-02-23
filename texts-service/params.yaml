@@ -185,9 +185,9 @@ prepare:
     dense: 200
     weight_factor: 0.1
     folds: 6
-    features: 10
+    features: 9
     split: 0.2
-    learning_rate: 0.03141
+    learning_rate: 0.03341
   other:
     random_state: 19000000
     trees: 55

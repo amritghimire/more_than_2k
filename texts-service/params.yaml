@@ -215,7 +215,7 @@ variables:
     dense: 500
   diff:
     split: 0.5
-    min_split: 16
+    min_split: 17
     max_features: 50
     tags: 56
     max_depth: 32

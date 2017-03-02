@@ -4,7 +4,7 @@ model:
   other:
     estimators: 147
     sample: 0.5
-    min_features: 1148
+    min_features: 1266
     columns: 60
     layers: 6
   combine:
@@ -15,7 +15,7 @@ model:
     drop: 0.4
     columns: 48
   long:
-    passes: 56
+    passes: 63
     trees: 51
     learning_rate: 0.0762
     ngrams: 6
@@ -28,7 +28,7 @@ model:
     estimators: 126
     threads: 16
     num_est: 87
-    epochs: 57
+    epochs: 86
     max_depth: 30
   short:
     num_est: 75

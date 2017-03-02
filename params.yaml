@@ -94,7 +94,7 @@ featurize:
     ngrams: 5
     tags: 75
   long:
-    ngrams: 7
+    ngrams: 9
     tags: 90
     folds: 13
     seed: 309961536

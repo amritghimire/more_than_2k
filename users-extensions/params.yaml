@@ -95,7 +95,7 @@ variables:
     random_state: 855680275
     estimators: 250
   other:
-    drop: 0.2
+    drop: 0.16156
     features: 650
   settings:
     tags: 82
@@ -129,7 +129,7 @@ train:
     dense: 300
     random_state: 709000000
   dev:
-    min_features: 3000
+    min_features: 3016
     threads: 22
     random_state: 919000000
     dense: 300
@@ -138,7 +138,7 @@ train:
     layers: 4
     features: 960
     random_state: 590000000
-    sample: 0.75
+    sample: 0.75929
     split: 0.5
     threads: 26
   preset:
@@ -224,7 +224,7 @@ preprocessing:
   batch:
     layers: 4
     features: 410
-    batch_size: 704
+    batch_size: 610
     learning_rate: 0.05
     trees: 39
     min_features: 4250

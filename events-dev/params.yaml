@@ -251,7 +251,7 @@ train:
     seed: 497805221
 variables:
   other:
-    drop: 0.2
+    drop: 0.19942
     dense: 248
     weight_factor: 0.36167
     seed: 835280000

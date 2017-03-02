@@ -2,7 +2,7 @@ model:
   preset:
     batch_size: 320
   other:
-    estimators: 147
+    estimators: 194
     sample: 0.5
     min_features: 1266
     columns: 60

@@ -240,7 +240,7 @@ train:
     estimators: 212
   preset:
     learning_rate: 0.14
-    features: 2740
+    features: 2077
     drop: 0.11893
   short:
     columns: 64

@@ -3,7 +3,7 @@ concurrent:
     columns: 39
     min_features: 3250
     max_features: 3842
-    features: 4840
+    features: 5570
     drop: 0.4
   other:
     split: 0.2

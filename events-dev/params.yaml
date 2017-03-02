@@ -2,7 +2,7 @@ model:
   preset:
     batch_size: 320
   other:
-    estimators: 175
+    estimators: 147
     sample: 0.5
     min_features: 1148
     columns: 60
@@ -17,7 +17,7 @@ model:
   long:
     passes: 56
     trees: 51
-    learning_rate: 0.10099
+    learning_rate: 0.0762
     ngrams: 6
     estimators: 34
     folds: 3
@@ -39,7 +39,7 @@ model:
     random_state: 112483395
     split: 0.23202
   auto:
-    epochs: 11
+    epochs: 10
     layers: 2
     max_features: 2890
 settings:

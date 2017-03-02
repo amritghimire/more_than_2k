@@ -204,7 +204,7 @@ validation:
     layers: 1
     min_split: 80
     columns: 33
-    folds: 3
+    folds: 2
   rf:
     threads: 7
     passes: 97

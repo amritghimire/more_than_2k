@@ -223,7 +223,7 @@ train:
     dense: 184
     learning_rate: 0.13519
     ngrams: 8
-    tags: 48
+    tags: 58
     batch_size: 657
     estimators: 151
     random_state: 663000000
@@ -285,6 +285,6 @@ variables:
     estimators: 158
     min_features: 1550
   diff:
-    sample: 0.25
+    sample: 0.25445
     epochs: 46
     ngrams: 2

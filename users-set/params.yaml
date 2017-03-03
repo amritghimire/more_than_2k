@@ -269,15 +269,15 @@ featurize:
   classifier:
     threads: 28
     folds: 12
-    num_est: 125
+    num_est: 99
     max_depth: 12
     batch_size: 880
     max_features: 4300
   dev:
     epochs: 50
-    ngrams: 8
+    ngrams: 6
     tags: 98
-    features: 2800
+    features: 2666
     passes: 74
     seed: 457818517
   batch:

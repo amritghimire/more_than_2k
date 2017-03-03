@@ -73,7 +73,7 @@ preprocessing:
     sample: 0.5
     ngrams: 4
     trees: 66
-    passes: 38
+    passes: 45
     drop: 0.4
     random_state: 395000000
   dev:
@@ -215,7 +215,7 @@ model:
   dev:
     sample: 0.25
     max_depth: 16
-    trees: 75
+    trees: 84
     passes: 6
     columns: 9
 prepare:

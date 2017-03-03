@@ -38,7 +38,7 @@ variables:
     split: 0.4
     min_split: 32
     features: 3950
-    random_state: 118000000
+    random_state: 146165681
     sample: 0.25
   dev:
     batch_size: 864
@@ -111,7 +111,7 @@ validation:
     folds: 9
     tags: 56
     min_split: 80
-    weight_factor: 0.1
+    weight_factor: 0.10804
     estimators: 45
     num_est: 250
     passes: 84

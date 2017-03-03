@@ -194,7 +194,7 @@ model:
   rf:
     num_est: 254
     max_depth: 28
-    sample: 0.75
+    sample: 0.75407
     learning_rate: 0.05
     folds: 9
     estimators: 163

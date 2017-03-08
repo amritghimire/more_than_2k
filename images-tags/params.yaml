@@ -221,7 +221,7 @@ featurize:
     max_features: 550
     split: 0.4
     tags: 68
-    weight_factor: 0.3266
+    weight_factor: 0.23173
     learning_rate: 0.05898
     max_depth: 19
   prod:
@@ -229,10 +229,10 @@ featurize:
     layers: 6
     threads: 19
     split: 0.5
-    epochs: 40
+    epochs: 31
     min_split: 66
     features: 3850
-    min_features: 4950
+    min_features: 5813
   long:
     seed: 1105278239
     split: 0.4
@@ -246,7 +246,7 @@ featurize:
     epochs: 20
   diff:
     folds: 6
-    columns: 5
+    columns: 6
     num_est: 151
     seed: 193107000
   other:

@@ -21,7 +21,7 @@ model:
     ngrams: 6
     estimators: 34
     folds: 3
-    columns: 52
+    columns: 37
     min_split: 48
     threads: 2
   diff:
@@ -140,7 +140,7 @@ concurrent:
     max_features: 4500
     min_split: 48
     batch_size: 881
-    seed: 611752287
+    seed: 788703861
     learning_rate: 0.05
     layers: 3
     tags: 63
@@ -164,7 +164,7 @@ concurrent:
   short:
     sample: 0.49053
     columns: 6
-    seed: 521986000
+    seed: 398761602
   diff:
     weight_factor: 0.1
     random_state: 263000000
@@ -255,7 +255,7 @@ variables:
     dense: 248
     weight_factor: 0.36167
     seed: 835280000
-    layers: 4
+    layers: 3
   short:
     min_features: 3850
     weight_factor: 0.10787

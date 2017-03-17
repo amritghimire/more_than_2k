@@ -106,7 +106,7 @@ prepare:
     num_est: 243
     tags: 104
   diff:
-    tags: 35
+    tags: 48
     trees: 56
     layers: 1
     passes: 56
@@ -122,7 +122,7 @@ prepare:
   other:
     tags: 151
     split: 0.23789
-    dense: 409
+    dense: 594
     random_state: 314384422
     learning_rate: 0.06554
     layers: 4

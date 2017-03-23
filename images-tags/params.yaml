@@ -127,13 +127,13 @@ prepare:
     sample: 0.75
     drop: 0.0952
     columns: 10
-    split: 0.5
+    split: 0.56436
     batch_size: 576
     random_state: 373586699
   classifier:
     weight_factor: 0.31905
     dense: 203
-    tags: 126
+    tags: 120
   diff:
     learning_rate: 0.13764
     max_depth: 3

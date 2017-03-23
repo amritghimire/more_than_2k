@@ -102,13 +102,13 @@ featurize:
     epochs: 87
     max_features: 3110
   preset:
-    estimators: 201
+    estimators: 239
     max_features: 2532
     passes: 76
   dev:
     min_split: 64
     trees: 32
-    sample: 0.2168
+    sample: 0.25133
     seed: 720026092
     min_features: 3598
     batch_size: 58

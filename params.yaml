@@ -91,15 +91,15 @@ featurize:
     passes: 7
     drop: 0.21663
     estimators: 250
-    ngrams: 5
+    ngrams: 4
     tags: 75
   long:
     ngrams: 9
     tags: 90
     folds: 13
     seed: 309961536
-    sample: 0.61416
-    epochs: 87
+    sample: 0.44223
+    epochs: 85
     max_features: 3110
   preset:
     estimators: 239

@@ -15,7 +15,7 @@ concurrent:
     folds: 6
     split: 0.4
   rf:
-    weight_factor: 0.1
+    weight_factor: 0.12272
     columns: 3
     passes: 20
     estimators: 225

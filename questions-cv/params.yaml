@@ -45,7 +45,7 @@ model:
   other:
     random_state: 676000000
     max_features: 5000
-    seed: 516510000
+    seed: 471928702
   prod:
     num_est: 225
     epochs: 40
@@ -97,7 +97,7 @@ prepare:
 validation:
   prod:
     layers: 2
-    max_depth: 16
+    max_depth: 12
     folds: 9
   collection:
     passes: 56
@@ -185,7 +185,7 @@ settings:
     passes: 14
     max_depth: 28
   prod:
-    min_features: 2900
+    min_features: 3534
     columns: 38
   rf:
     max_depth: 12

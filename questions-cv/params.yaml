@@ -5,7 +5,7 @@ concurrent:
     features: 960
     batch_size: 704
   short:
-    max_features: 4600
+    max_features: 5108
     folds: 9
   selection:
     random_state: 304000000
@@ -16,7 +16,7 @@ concurrent:
     split: 0.4
   rf:
     weight_factor: 0.12272
-    columns: 3
+    columns: 2
     passes: 20
     estimators: 225
   collection:
@@ -54,7 +54,7 @@ model:
   selection:
     layers: 2
     batch_size: 352
-    learning_rate: 0.15
+    learning_rate: 0.12462
     max_features: 1150
   batch:
     ngrams: 2
@@ -121,7 +121,7 @@ validation:
     tags: 77
     min_features: 1150
   batch:
-    max_features: 750
+    max_features: 934
     learning_rate: 0.15
     split: 0.5
     passes: 32
@@ -139,7 +139,7 @@ preprocessing:
   selection:
     columns: 78
     max_features: 5000
-    dense: 400
+    dense: 473
     sample: 0.5
     batch_size: 560
   other:

@@ -111,7 +111,7 @@ prepare:
     seed: 321086000
     split: 0.45088
     batch_size: 368
-    threads: 18
+    threads: 16
     min_split: 62
   rf:
     ngrams: 4

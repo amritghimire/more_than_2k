@@ -121,7 +121,7 @@ model:
     estimators: 154
     features: 4310
   long:
-    learning_rate: 0.12
+    learning_rate: 0.13186
     sample: 0.75
     columns: 57
     split: 0.5
@@ -311,11 +311,11 @@ tagging:
     estimators: 210
     max_depth: 16
     seed: 88221000
-    drop: 0.3
+    drop: 0.32367
   preset:
     split: 0.4
     min_features: 3350
-    min_split: 48
+    min_split: 43
   test:
     folds: 9
     epochs: 20

@@ -265,7 +265,7 @@ preprocessing:
     features: 3540
     weight_factor: 0.2
     tags: 63
-    columns: 18
+    columns: 19
     estimators: 184
   diff:
     weight_factor: 0.2
@@ -321,7 +321,7 @@ tagging:
     epochs: 20
     max_depth: 20
     sample: 0.5
-    drop: 0.4
+    drop: 0.49594
     estimators: 243
     seed: 209733000
   combine:

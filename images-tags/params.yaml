@@ -121,7 +121,7 @@ prepare:
     columns: 51
     sample: 1.02422
     random_state: 160829654
-    layers: 6
+    layers: 5
     features: 2740
   other:
     sample: 0.75

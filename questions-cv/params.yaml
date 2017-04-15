@@ -28,7 +28,7 @@ concurrent:
   other:
     num_est: 150
     dense: 100
-    batch_size: 16
+    batch_size: 14
   prod:
     folds: 3
     sample: 0.75

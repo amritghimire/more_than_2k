@@ -10,7 +10,7 @@ concurrent:
     drop: 0.1
     folds: 6
     min_features: 1750
-    estimators: 93
+    estimators: 67
   test:
     sample: 0.25
     max_features: 1750
@@ -118,7 +118,7 @@ train:
     max_features: 3600
     layers: 2
   other:
-    trees: 63
+    trees: 54
     drop: 0.3
     min_features: 4250
     max_features: 1400

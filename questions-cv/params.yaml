@@ -27,7 +27,7 @@ concurrent:
     weight_factor: 0.33961
   other:
     num_est: 150
-    dense: 100
+    dense: 76
     batch_size: 14
   prod:
     folds: 3
@@ -108,7 +108,7 @@ validation:
     dense: 300
     trees: 18
     split: 0.23489
-    features: 990
+    features: 964
     min_split: 16
   short:
     max_depth: 12

@@ -243,7 +243,7 @@ prepare:
     sample: 0.5
     epochs: 80
     trees: 12
-    batch_size: 928
+    batch_size: 903
     features: 3070
     max_features: 4600
     tags: 49
@@ -252,7 +252,7 @@ prepare:
     split: 0.2
     features: 4980
   other:
-    num_est: 200
+    num_est: 261
     features: 230
     drop: 0.2
     epochs: 80

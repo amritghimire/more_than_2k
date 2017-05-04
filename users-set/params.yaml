@@ -73,7 +73,7 @@ preprocessing:
     sample: 0.5
     ngrams: 4
     trees: 66
-    passes: 45
+    passes: 35
     drop: 0.4
     random_state: 395000000
   dev:
@@ -183,7 +183,7 @@ model:
   selection:
     passes: 16
     layers: 1
-    folds: 6
+    folds: 5
     sample: 0.5
     num_est: 175
   requests:
@@ -216,7 +216,7 @@ model:
     sample: 0.25
     max_depth: 16
     trees: 84
-    passes: 6
+    passes: 4
     columns: 9
 prepare:
   batch:

@@ -303,4 +303,4 @@ featurize:
     learning_rate: 0.08
     layers: 1
   other:
-    dense: 112
+    dense: 124

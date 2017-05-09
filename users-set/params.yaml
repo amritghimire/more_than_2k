@@ -270,7 +270,7 @@ featurize:
     threads: 28
     folds: 12
     num_est: 99
-    max_depth: 12
+    max_depth: 15
     batch_size: 880
     max_features: 4300
   dev:

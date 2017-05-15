@@ -46,7 +46,7 @@ model:
     batch_size: 845
     epochs: 65
     columns: 18
-    sample: 0.88279
+    sample: 0.71005
   other:
     ngrams: 4
     columns: 66
@@ -64,7 +64,7 @@ model:
     dense: 221
   test:
     layers: 4
-    estimators: 168
+    estimators: 152
     random_state: 383000000
     weight_factor: 0.3
   preset:
@@ -150,7 +150,7 @@ train:
     num_est: 225
 validation:
   preset:
-    trees: 48
+    trees: 50
     layers: 4
     batch_size: 807
     min_split: 48
@@ -223,7 +223,7 @@ preprocessing:
     batch_size: 637
   batch:
     layers: 4
-    features: 410
+    features: 450
     batch_size: 610
     learning_rate: 0.05
     trees: 39

@@ -114,7 +114,7 @@ train:
   settings:
     learning_rate: 0.08
     drop: 0.3
-    weight_factor: 0.3
+    weight_factor: 0.35783
     max_features: 3600
     layers: 2
   other:
@@ -240,7 +240,7 @@ preprocessing:
     layers: 3
     weight_factor: 0.3
     seed: 290504000
-    sample: 1.0
+    sample: 1.05571
     num_est: 50
     min_features: 4150
     threads: 20

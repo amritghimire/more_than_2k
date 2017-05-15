@@ -68,21 +68,21 @@ prepare:
   weight_factor: 0.1
   passes: 26
   drop: 0.1
-  sample: 0.5
+  sample: 0.50039
   estimators: 213
   tags: 119
-  trees: 75
+  trees: 82
   learning_rate: 0.12
   layers: 2
   num_est: 50
   random_state: 697000000
   columns: 57
   epochs: 15
-  dense: 200
-  ngrams: 6
+  dense: 220
+  ngrams: 5
   batch_size: 544
   min_split: 16
-  min_features: 2350
+  min_features: 1790
   features: 4410
   max_depth: 12
   folds: 9

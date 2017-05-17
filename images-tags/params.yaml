@@ -218,7 +218,7 @@ featurize:
     batch_size: 368
     trees: 57
   preset:
-    max_features: 550
+    max_features: 600
     split: 0.4
     tags: 68
     weight_factor: 0.23173

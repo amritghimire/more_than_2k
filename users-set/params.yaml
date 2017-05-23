@@ -295,7 +295,7 @@ featurize:
     threads: 14
   rf:
     passes: 16
-    weight_factor: 0.3
+    weight_factor: 0.25093
     max_features: 1150
     tags: 113
     random_state: 607000000

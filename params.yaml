@@ -98,13 +98,13 @@ featurize:
     tags: 90
     folds: 11
     seed: 309961536
-    sample: 0.50587
-    epochs: 85
-    max_features: 2507
+    sample: 0.41402
+    epochs: 68
+    max_features: 2754
   preset:
     estimators: 239
     max_features: 2532
-    passes: 76
+    passes: 60
   dev:
     min_split: 64
     trees: 32
@@ -118,7 +118,7 @@ featurize:
     trees: 56
     threads: 10
   batch:
-    ngrams: 8
+    ngrams: 9
 preprocessing:
   preset:
     split: 0.55897

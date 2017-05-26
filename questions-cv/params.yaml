@@ -140,7 +140,7 @@ preprocessing:
     columns: 78
     max_features: 5000
     dense: 473
-    sample: 0.5
+    sample: 0.42256
     batch_size: 560
   other:
     learning_rate: 0.06

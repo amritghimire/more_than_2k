@@ -8,7 +8,7 @@ settings:
     features: 1740
     random_state: 352000000
     tags: 84
-    dense: 300
+    dense: 263
     weight_factor: 0.1
   requests:
     batch_size: 720
@@ -45,7 +45,7 @@ settings:
     weight_factor: 0.2
   long:
     sample: 0.5
-    folds: 3
+    folds: 2
 concurrent:
   long:
     num_est: 75
@@ -205,7 +205,7 @@ variables:
   long:
     estimators: 80
     tags: 28
-    weight_factor: 0.2
+    weight_factor: 0.23348
     max_features: 1500
   test:
     threads: 7
@@ -246,7 +246,7 @@ preprocessing:
     sample: 0.25
     max_features: 2750
     seed: 430623000
-    folds: 6
+    folds: 5
     threads: 31
   combine:
     sample: 0.25

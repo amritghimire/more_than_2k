@@ -209,7 +209,7 @@ validation:
     threads: 7
     passes: 97
     max_features: 2135
-    max_depth: 21
+    max_depth: 31
   dev:
     trees: 3
     dense: 300

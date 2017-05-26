@@ -144,7 +144,7 @@ model:
     threads: 1
     max_features: 1400
     folds: 3
-    seed: 917100000
+    seed: 761722981
     split: 0.4
     sample: 0.25
   requests:

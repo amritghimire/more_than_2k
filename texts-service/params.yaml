@@ -23,7 +23,7 @@ settings:
     random_state: 510000000
     learning_rate: 0.04
     layers: 2
-    drop: 0.2
+    drop: 0.20203
     max_features: 200
   combine:
     max_features: 4450
@@ -60,7 +60,7 @@ concurrent:
     max_depth: 24
   test:
     ngrams: 8
-    weight_factor: 0.2
+    weight_factor: 0.24244
     estimators: 237
     dense: 500
     random_state: 828000000
@@ -293,7 +293,7 @@ tagging:
     seed: 945811000
     max_features: 4000
   requests:
-    max_depth: 32
+    max_depth: 33
     num_est: 225
     max_features: 1500
     epochs: 70

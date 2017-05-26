@@ -74,7 +74,7 @@ concurrent:
     learning_rate: 0.15
     max_features: 1450
     features: 1590
-    num_est: 225
+    num_est: 243
     columns: 15
     split: 0.5
     estimators: 95

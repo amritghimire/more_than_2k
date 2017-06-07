@@ -229,7 +229,7 @@ prepare:
     num_est: 50
     passes: 90
     layers: 6
-    epochs: 75
+    epochs: 84
     columns: 6
     random_state: 866000000
   requests:
@@ -238,9 +238,9 @@ prepare:
     features: 2430
   dev:
     columns: 58
-    seed: 403331000
+    seed: 326864642
     weight_factor: 0.18617
-    sample: 0.5
+    sample: 0.62307
     epochs: 80
     trees: 12
     batch_size: 903

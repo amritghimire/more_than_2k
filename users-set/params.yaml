@@ -56,7 +56,7 @@ preprocessing:
   selection:
     learning_rate: 0.05
     random_state: 183000000
-    drop: 0.1
+    drop: 0.12168
     epochs: 40
   other:
     epochs: 65

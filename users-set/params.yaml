@@ -222,8 +222,8 @@ prepare:
   batch:
     learning_rate: 0.15
     ngrams: 6
-    min_split: 16
-    features: 1450
+    min_split: 14
+    features: 1134
     split: 0.2
   rf:
     num_est: 50
@@ -237,7 +237,7 @@ prepare:
     folds: 12
     features: 2430
   dev:
-    columns: 57
+    columns: 58
     seed: 403331000
     weight_factor: 0.18617
     sample: 0.5
@@ -249,7 +249,7 @@ prepare:
     tags: 49
   classifier:
     columns: 63
-    split: 0.2
+    split: 0.23121
     features: 4980
   other:
     num_est: 234

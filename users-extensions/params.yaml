@@ -12,7 +12,7 @@ concurrent:
     min_features: 1750
     estimators: 67
   test:
-    sample: 0.25
+    sample: 0.29411
     max_features: 1750
     batch_size: 736
     drop: 0.2

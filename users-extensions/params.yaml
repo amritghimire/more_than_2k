@@ -24,7 +24,7 @@ concurrent:
     max_depth: 16
     split: 0.4
     tags: 119
-    columns: 42
+    columns: 34
     num_est: 75
     dense: 200
   batch:

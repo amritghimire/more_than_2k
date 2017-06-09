@@ -58,7 +58,7 @@ model:
     max_features: 1150
   batch:
     ngrams: 2
-    max_depth: 32
+    max_depth: 35
 prepare:
   short:
     epochs: 40

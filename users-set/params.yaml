@@ -220,7 +220,7 @@ model:
     columns: 9
 prepare:
   batch:
-    learning_rate: 0.15
+    learning_rate: 0.13753
     ngrams: 5
     min_split: 14
     features: 1134
@@ -238,7 +238,7 @@ prepare:
     features: 2430
   dev:
     columns: 58
-    seed: 326864642
+    seed: 396271869
     weight_factor: 0.18617
     sample: 0.62307
     epochs: 80
@@ -250,11 +250,11 @@ prepare:
   classifier:
     columns: 63
     split: 0.23121
-    features: 4980
+    features: 5101
   other:
     num_est: 234
     features: 230
-    drop: 0.2
+    drop: 0.16701
     epochs: 80
     folds: 9
     ngrams: 4

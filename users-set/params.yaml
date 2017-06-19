@@ -231,7 +231,7 @@ prepare:
     layers: 6
     epochs: 84
     columns: 6
-    random_state: 866000000
+    random_state: 986614829
   requests:
     split: 0.2
     folds: 12

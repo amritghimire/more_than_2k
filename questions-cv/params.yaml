@@ -38,7 +38,7 @@ model:
     num_est: 100
   rf:
     ngrams: 4
-    drop: 0.1
+    drop: 0.09169
     estimators: 99
     min_split: 32
     batch_size: 544

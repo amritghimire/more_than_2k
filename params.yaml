@@ -107,7 +107,7 @@ featurize:
     passes: 60
   dev:
     min_split: 64
-    trees: 32
+    trees: 31
     sample: 0.25133
     seed: 720026092
     min_features: 3598
@@ -115,7 +115,7 @@ featurize:
   rf:
     folds: 7
   short:
-    trees: 56
+    trees: 63
     threads: 10
   batch:
     ngrams: 9

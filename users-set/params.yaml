@@ -122,7 +122,7 @@ validation:
     estimators: 27
     features: 4650
   rf:
-    max_depth: 20
+    max_depth: 21
     estimators: 245
     min_split: 64
   classifier:
@@ -175,7 +175,7 @@ model:
     layers: 4
     trees: 24
     num_est: 125
-    seed: 550862000
+    seed: 682172675
     epochs: 50
     threads: 18
     weight_factor: 0.2

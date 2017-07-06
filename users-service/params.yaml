@@ -70,7 +70,7 @@ prepare:
   drop: 0.1
   sample: 0.50039
   estimators: 213
-  tags: 137
+  tags: 106
   trees: 82
   learning_rate: 0.0981
   layers: 2
@@ -78,7 +78,7 @@ prepare:
   random_state: 787673085
   columns: 57
   epochs: 15
-  dense: 152
+  dense: 248
   ngrams: 5
   batch_size: 544
   min_split: 16

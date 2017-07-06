@@ -101,7 +101,7 @@ validation:
     folds: 9
   collection:
     passes: 56
-    layers: 2
+    layers: 1
     weight_factor: 0.2
   rf:
     ngrams: 2
@@ -175,7 +175,7 @@ variables:
     features: 1700
     split: 0.1
   rf:
-    threads: 7
+    threads: 8
     weight_factor: 0.2
 settings:
   selection:

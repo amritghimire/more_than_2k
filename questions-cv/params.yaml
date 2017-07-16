@@ -16,7 +16,7 @@ concurrent:
     split: 0.4
   rf:
     weight_factor: 0.08678
-    columns: 2
+    columns: 3
     passes: 20
     estimators: 225
   collection:

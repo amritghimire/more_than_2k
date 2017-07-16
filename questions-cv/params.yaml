@@ -15,7 +15,7 @@ concurrent:
     folds: 6
     split: 0.4
   rf:
-    weight_factor: 0.12272
+    weight_factor: 0.08678
     columns: 2
     passes: 20
     estimators: 225
@@ -97,7 +97,7 @@ prepare:
 validation:
   prod:
     layers: 2
-    max_depth: 12
+    max_depth: 17
     folds: 9
   collection:
     passes: 56
@@ -152,7 +152,7 @@ preprocessing:
   prod:
     max_features: 200
     weight_factor: 0.1
-    passes: 6
+    passes: 5
 variables:
   short:
     min_features: 2250

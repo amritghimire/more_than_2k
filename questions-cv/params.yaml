@@ -68,7 +68,7 @@ prepare:
   batch:
     layers: 3
     epochs: 56
-    features: 366
+    features: 333
     min_split: 38
   collection:
     passes: 76

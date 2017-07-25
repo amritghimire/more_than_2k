@@ -102,7 +102,7 @@ validation:
     folds: 3
   requests:
     ngrams: 6
-    num_est: 250
+    num_est: 271
     layers: 4
     weight_factor: 0.3
     estimators: 58

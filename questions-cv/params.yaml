@@ -83,7 +83,7 @@ prepare:
     weight_factor: 0.1998
     drop: 0.44587
     epochs: 83
-    folds: 5
+    folds: 6
     max_features: 477
     columns: 37
   other:

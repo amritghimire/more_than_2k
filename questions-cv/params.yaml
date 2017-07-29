@@ -9,7 +9,7 @@ concurrent:
     folds: 9
   selection:
     random_state: 304000000
-    epochs: 80
+    epochs: 88
     max_depth: 16
     num_est: 150
     folds: 6
@@ -47,7 +47,7 @@ model:
     max_features: 5000
     seed: 471928702
   prod:
-    num_est: 225
+    num_est: 203
     epochs: 40
     ngrams: 8
     split: 0.4
@@ -175,7 +175,7 @@ variables:
     features: 1700
     split: 0.1
   rf:
-    threads: 8
+    threads: 5
     weight_factor: 0.2
 settings:
   selection:

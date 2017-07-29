@@ -61,7 +61,7 @@ model:
     max_depth: 35
 prepare:
   short:
-    epochs: 35
+    epochs: 49
     learning_rate: 0.11
     features: 3650
     min_split: 68
@@ -77,14 +77,14 @@ prepare:
     max_features: 1196
     estimators: 183
   rf:
-    features: 2240
+    features: 1712
     num_est: 95
   prod:
     weight_factor: 0.1998
     drop: 0.44587
     epochs: 83
     folds: 5
-    max_features: 385
+    max_features: 477
     columns: 37
   other:
     random_state: 655902915

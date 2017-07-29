@@ -31,7 +31,7 @@ concurrent:
     batch_size: 14
   prod:
     folds: 3
-    sample: 0.75
+    sample: 0.59213
 model:
   collection:
     tags: 63

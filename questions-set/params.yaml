@@ -1,0 +1,226 @@
+tagging:
+  requests:
+    ngrams: 2
+    random_state: 84000000
+    estimators: 207
+    weight_factor: 0.3
+  prod:
+    weight_factor: 0.2
+    sample: 0.5
+    columns: 9
+    max_depth: 28
+    tags: 91
+  combine:
+    tags: 7
+    num_est: 125
+  auto:
+    num_est: 225
+    dense: 600
+  classifier:
+    ngrams: 6
+    threads: 6
+  batch:
+    seed: 399182000
+    num_est: 250
+    random_state: 946000000
+variables:
+  preset:
+    tags: 63
+    layers: 2
+    estimators: 141
+    trees: 51
+  auto:
+    split: 0.5
+    max_features: 1100
+    estimators: 214
+    dense: 400
+  requests:
+    estimators: 89
+    tags: 112
+    sample: 0.5
+  combine:
+    random_state: 22000000
+    passes: 14
+    max_features: 4050
+    estimators: 81
+  prod:
+    threads: 15
+    trees: 30
+  classifier:
+    max_features: 2300
+    seed: 272039000
+  batch:
+    tags: 112
+concurrent:
+  classifier:
+    dense: 200
+    split: 0.4
+    max_features: 2450
+    seed: 240962000
+    passes: 80
+  prod:
+    columns: 36
+  batch:
+    split: 0.4
+    ngrams: 2
+    folds: 3
+    dense: 400
+  auto:
+    split: 0.4
+    folds: 3
+    tags: 63
+    num_est: 75
+  requests:
+    max_features: 3650
+    trees: 60
+    min_split: 64
+    num_est: 175
+  preset:
+    random_state: 237000000
+    folds: 9
+    columns: 72
+    tags: 126
+    trees: 12
+    sample: 1.0
+  combine:
+    max_depth: 16
+    trees: 12
+train:
+  auto:
+    sample: 0.25
+  requests:
+    min_split: 48
+    threads: 23
+    batch_size: 656
+    split: 0.1
+    folds: 3
+    random_state: 403000000
+    features: 4860
+  combine:
+    passes: 104
+    dense: 300
+    columns: 3
+    drop: 0.1
+    max_features: 3300
+  classifier:
+    num_est: 100
+    threads: 3
+    min_split: 80
+    features: 980
+  preset:
+    batch_size: 96
+    passes: 30
+    epochs: 75
+    learning_rate: 0.14
+  prod:
+    threads: 19
+  batch:
+    ngrams: 4
+settings:
+  combine:
+    min_features: 1400
+    passes: 106
+    max_features: 150
+    ngrams: 6
+  requests:
+    max_features: 550
+    min_features: 1050
+    layers: 2
+  batch:
+    sample: 0.75
+    random_state: 22000000
+    epochs: 25
+  preset:
+    min_split: 16
+    ngrams: 4
+    learning_rate: 0.05
+    drop: 0.4
+  prod:
+    estimators: 245
+    max_depth: 32
+    tags: 91
+    learning_rate: 0.05
+    weight_factor: 0.3
+  auto:
+    estimators: 209
+    layers: 4
+    passes: 100
+    batch_size: 512
+    drop: 0.3
+    ngrams: 4
+    epochs: 65
+    tags: 21
+    sample: 1.0
+  classifier:
+    dense: 500
+    ngrams: 2
+    columns: 27
+model:
+  preset:
+    learning_rate: 0.1
+    ngrams: 4
+    sample: 0.75
+    epochs: 55
+  combine:
+    threads: 10
+    sample: 0.25
+    max_depth: 24
+    passes: 26
+  classifier:
+    tags: 105
+    max_features: 2350
+    split: 0.4
+    trees: 63
+  prod:
+    seed: 358548000
+    dense: 300
+  batch:
+    trees: 39
+    columns: 36
+    num_est: 250
+  requests:
+    random_state: 603000000
+    layers: 2
+  auto:
+    min_split: 80
+    batch_size: 624
+    min_features: 2150
+    layers: 6
+    max_depth: 24
+featurize:
+  combine:
+    dense: 500
+    num_est: 50
+  prod:
+    seed: 360139000
+    trees: 6
+    dense: 300
+    random_state: 902000000
+    max_depth: 32
+    split: 0.2
+    threads: 11
+  classifier:
+    num_est: 25
+    columns: 66
+    trees: 45
+    folds: 12
+    threads: 17
+  preset:
+    folds: 3
+    min_features: 2700
+    layers: 4
+  requests:
+    weight_factor: 0.1
+    split: 0.4
+    passes: 36
+    layers: 4
+  auto:
+    drop: 0.2
+    min_features: 3500
+    trees: 15
+    passes: 64
+    dense: 200
+  batch:
+    seed: 284226000
+    tags: 112
+    split: 0.5

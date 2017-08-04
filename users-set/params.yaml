@@ -223,7 +223,7 @@ prepare:
     learning_rate: 0.13753
     ngrams: 5
     min_split: 14
-    features: 1134
+    features: 1674
     split: 0.2
   rf:
     num_est: 50
@@ -254,12 +254,12 @@ prepare:
   other:
     num_est: 234
     features: 230
-    drop: 0.16701
+    drop: 0.19198
     epochs: 80
-    folds: 9
+    folds: 7
     ngrams: 4
   selection:
-    split: 0.23766
+    split: 0.19493
     layers: 2
     ngrams: 6
     seed: 136815760

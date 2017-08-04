@@ -274,7 +274,7 @@ featurize:
     batch_size: 880
     max_features: 4300
   dev:
-    epochs: 50
+    epochs: 51
     ngrams: 6
     tags: 98
     features: 2666

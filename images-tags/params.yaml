@@ -213,7 +213,7 @@ featurize:
     dense: 100
     columns: 48
     max_features: 2750
-    drop: 0.12146
+    drop: 0.10838
     num_est: 125
     batch_size: 368
     trees: 57
@@ -231,10 +231,10 @@ featurize:
     split: 0.5
     epochs: 42
     min_split: 66
-    features: 3850
-    min_features: 4861
+    features: 3722
+    min_features: 5835
   long:
-    seed: 1025480163
+    seed: 1015120580
     split: 0.4
     threads: 6
     min_features: 3100

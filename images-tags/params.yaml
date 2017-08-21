@@ -124,7 +124,7 @@ prepare:
     layers: 5
     features: 2740
   other:
-    sample: 0.87439
+    sample: 0.76805
     drop: 0.0952
     columns: 7
     split: 0.51276

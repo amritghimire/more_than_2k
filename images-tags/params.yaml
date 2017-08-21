@@ -226,7 +226,7 @@ featurize:
     max_depth: 19
   prod:
     max_depth: 33
-    layers: 6
+    layers: 4
     threads: 17
     split: 0.5
     epochs: 42

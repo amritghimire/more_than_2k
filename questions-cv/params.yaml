@@ -75,7 +75,7 @@ prepare:
     seed: 830542176
     drop: 0.3159
     max_features: 1196
-    estimators: 183
+    estimators: 185
   rf:
     features: 1712
     num_est: 95

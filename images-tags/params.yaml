@@ -43,7 +43,7 @@ concurrent:
   preset:
     columns: 66
     max_depth: 9
-    sample: 0.61468
+    sample: 0.88258
     min_split: 16
     features: 2373
   other:
@@ -78,7 +78,7 @@ settings:
     num_est: 250
   other:
     min_split: 32
-    learning_rate: 0.15
+    learning_rate: 0.16318
   preset:
     layers: 3
     learning_rate: 0.13
@@ -173,7 +173,7 @@ preprocessing:
     estimators: 164
   long:
     estimators: 86
-    seed: 530296000
+    seed: 415467340
     min_features: 1000
     layers: 2
 variables:

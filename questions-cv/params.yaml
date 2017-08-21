@@ -15,7 +15,7 @@ concurrent:
     folds: 6
     split: 0.4
   rf:
-    weight_factor: 0.08678
+    weight_factor: 0.09449
     columns: 3
     passes: 20
     estimators: 225
@@ -39,7 +39,7 @@ model:
   rf:
     ngrams: 4
     drop: 0.09169
-    estimators: 99
+    estimators: 121
     min_split: 32
     batch_size: 544
   other:
@@ -108,7 +108,7 @@ validation:
     dense: 300
     trees: 18
     split: 0.23489
-    features: 964
+    features: 1076
     min_split: 16
   short:
     max_depth: 12
@@ -134,7 +134,7 @@ preprocessing:
   rf:
     tags: 98
     weight_factor: 0.2
-    split: 0.5
+    split: 0.56745
     passes: 80
   selection:
     columns: 78

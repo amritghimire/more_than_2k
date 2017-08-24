@@ -102,7 +102,7 @@ model:
   combine:
     min_features: 100
     max_depth: 4
-    sample: 0.75
+    sample: 0.71713
     estimators: 180
     features: 450
     split: 0.1

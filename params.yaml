@@ -94,19 +94,19 @@ featurize:
     ngrams: 4
     tags: 56
   long:
-    ngrams: 9
+    ngrams: 8
     tags: 90
     folds: 11
-    seed: 309961536
+    seed: 358696406
     sample: 0.41402
-    epochs: 68
+    epochs: 84
     max_features: 2754
   preset:
     estimators: 239
     max_features: 2532
     passes: 60
   dev:
-    min_split: 64
+    min_split: 93
     trees: 31
     sample: 0.25133
     seed: 720026092
@@ -118,7 +118,7 @@ featurize:
     trees: 63
     threads: 10
   batch:
-    ngrams: 9
+    ngrams: 7
 preprocessing:
   preset:
     split: 0.55897

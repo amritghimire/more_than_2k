@@ -147,7 +147,7 @@ preprocessing:
     min_features: 3400
   short:
     columns: 75
-    trees: 54
+    trees: 52
     estimators: 54
   prod:
     max_features: 200

@@ -79,7 +79,7 @@ concurrent:
     split: 0.5
     estimators: 95
   diff:
-    trees: 39
+    trees: 36
     tags: 119
     max_depth: 8
     columns: 48

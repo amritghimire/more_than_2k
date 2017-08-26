@@ -1,9 +1,9 @@
 model:
   preset:
-    batch_size: 320
+    batch_size: 350
   other:
     estimators: 194
-    sample: 0.5
+    sample: 0.37966
     min_features: 1266
     columns: 60
     layers: 6
@@ -226,7 +226,7 @@ train:
     tags: 58
     batch_size: 657
     estimators: 151
-    random_state: 663000000
+    random_state: 547792852
     max_features: 1563
     epochs: 15
     features: 3530
@@ -262,11 +262,11 @@ variables:
     tags: 7
     trees: 69
     num_est: 172
-    learning_rate: 0.11
+    learning_rate: 0.13
     folds: 9
     seed: 126530000
   combine:
-    num_est: 102
+    num_est: 122
     tags: 79
     random_state: 3026183
     learning_rate: 0.09

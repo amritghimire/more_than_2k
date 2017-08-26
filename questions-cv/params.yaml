@@ -68,10 +68,10 @@ prepare:
   batch:
     layers: 3
     epochs: 56
-    features: 333
+    features: 397
     min_split: 38
   collection:
-    passes: 76
+    passes: 59
     seed: 830542176
     drop: 0.3159
     max_features: 1407
@@ -80,7 +80,7 @@ prepare:
     features: 2541
     num_est: 95
   prod:
-    weight_factor: 0.1998
+    weight_factor: 0.20244
     drop: 0.44587
     epochs: 83
     folds: 6

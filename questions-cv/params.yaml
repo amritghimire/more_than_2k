@@ -40,7 +40,7 @@ model:
     ngrams: 4
     drop: 0.09169
     estimators: 121
-    min_split: 32
+    min_split: 26
     batch_size: 544
   other:
     random_state: 676000000
@@ -146,7 +146,7 @@ preprocessing:
     learning_rate: 0.06
     min_features: 3400
   short:
-    columns: 75
+    columns: 87
     trees: 52
     estimators: 54
   prod:

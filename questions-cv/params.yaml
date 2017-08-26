@@ -77,7 +77,7 @@ prepare:
     max_features: 1407
     estimators: 185
   rf:
-    features: 1712
+    features: 2541
     num_est: 95
   prod:
     weight_factor: 0.1998

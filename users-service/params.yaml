@@ -13,7 +13,7 @@ settings:
   dense: 400
   passes: 16
   columns: 21
-  random_state: 842000000
+  random_state: 1008347812
   trees: 60
   min_split: 32
   split: 0.3

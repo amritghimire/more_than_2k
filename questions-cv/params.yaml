@@ -61,7 +61,7 @@ model:
     max_depth: 35
 prepare:
   short:
-    epochs: 49
+    epochs: 41
     learning_rate: 0.11
     features: 3650
     min_split: 68
@@ -74,7 +74,7 @@ prepare:
     passes: 76
     seed: 830542176
     drop: 0.3159
-    max_features: 1196
+    max_features: 1407
     estimators: 185
   rf:
     features: 1712
@@ -90,7 +90,7 @@ prepare:
     random_state: 655902915
     min_features: 4437
     columns: 57
-    batch_size: 624
+    batch_size: 614
     trees: 3
   selection:
     weight_factor: 0.32634

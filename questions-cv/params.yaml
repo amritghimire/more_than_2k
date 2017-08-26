@@ -18,11 +18,11 @@ concurrent:
     weight_factor: 0.09449
     columns: 3
     passes: 20
-    estimators: 225
+    estimators: 232
   collection:
     ngrams: 2
     max_depth: 16
-    threads: 5
+    threads: 3
     min_split: 16
     weight_factor: 0.33961
   other:
@@ -44,7 +44,7 @@ model:
     batch_size: 544
   other:
     random_state: 676000000
-    max_features: 5000
+    max_features: 6150
     seed: 471928702
   prod:
     num_est: 203
@@ -159,7 +159,7 @@ variables:
     ngrams: 6
     folds: 6
   batch:
-    epochs: 10
+    epochs: 11
     threads: 28
   other:
     ngrams: 6
@@ -185,7 +185,7 @@ settings:
     passes: 14
     max_depth: 28
   prod:
-    min_features: 3534
+    min_features: 3216
     columns: 38
   rf:
     max_depth: 12

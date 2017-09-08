@@ -89,7 +89,7 @@ concurrent:
     sample: 0.75
     features: 1730
     weight_factor: 0.3
-    seed: 770729000
+    seed: 608662429
     learning_rate: 0.04
     passes: 94
     layers: 6

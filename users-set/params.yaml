@@ -27,11 +27,11 @@ variables:
     dense: 100
     learning_rate: 0.1
     passes: 10
-    min_split: 48
+    min_split: 49
     folds: 11
   classifier:
     estimators: 195
-    seed: 399438000
+    seed: 439035188
     threads: 4
     columns: 78
     layers: 2
@@ -118,7 +118,7 @@ validation:
   other:
     layers: 4
     split: 0.4
-    tags: 70
+    tags: 54
     estimators: 27
     features: 4650
   rf:
@@ -145,7 +145,7 @@ settings:
   classifier:
     min_features: 1700
     ngrams: 4
-    dense: 200
+    dense: 161
     columns: 33
     epochs: 20
     estimators: 179

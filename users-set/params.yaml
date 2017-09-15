@@ -274,7 +274,7 @@ featurize:
     batch_size: 880
     max_features: 4300
   dev:
-    epochs: 51
+    epochs: 47
     ngrams: 6
     tags: 98
     features: 2666
@@ -299,7 +299,7 @@ featurize:
     max_features: 1134
     tags: 113
     random_state: 607000000
-    min_features: 2150
+    min_features: 2439
     learning_rate: 0.08
     layers: 1
   other:

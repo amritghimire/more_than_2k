@@ -271,8 +271,8 @@ featurize:
     folds: 12
     num_est: 99
     max_depth: 15
-    batch_size: 880
-    max_features: 4300
+    batch_size: 772
+    max_features: 4719
   dev:
     epochs: 47
     ngrams: 6
@@ -284,14 +284,14 @@ featurize:
     batch_size: 979
     threads: 25
     weight_factor: 0.2
-    max_features: 4331
+    max_features: 5443
   requests:
-    sample: 0.2336
+    sample: 0.21743
     num_est: 200
     threads: 2
   selection:
     columns: 15
-    passes: 31
+    passes: 37
     threads: 12
   rf:
     passes: 16

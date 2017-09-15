@@ -227,7 +227,7 @@ prepare:
     split: 0.2
   rf:
     num_est: 50
-    passes: 90
+    passes: 109
     layers: 6
     epochs: 84
     columns: 6
@@ -249,7 +249,7 @@ prepare:
     tags: 49
   classifier:
     columns: 63
-    split: 0.17822
+    split: 0.20147
     features: 5101
   other:
     num_est: 247

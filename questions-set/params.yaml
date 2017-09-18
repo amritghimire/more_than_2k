@@ -26,7 +26,7 @@ tagging:
 variables:
   preset:
     tags: 63
-    layers: 2
+    layers: 1
     estimators: 141
     trees: 51
   auto:

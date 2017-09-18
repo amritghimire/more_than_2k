@@ -198,7 +198,7 @@ featurize:
     random_state: 902000000
     max_depth: 32
     split: 0.2
-    threads: 11
+    threads: 8
   classifier:
     num_est: 25
     columns: 66

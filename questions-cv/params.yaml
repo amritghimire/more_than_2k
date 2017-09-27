@@ -61,8 +61,8 @@ model:
     max_depth: 35
 prepare:
   short:
-    epochs: 41
-    learning_rate: 0.11
+    epochs: 46
+    learning_rate: 0.11509
     features: 3650
     min_split: 68
   batch:

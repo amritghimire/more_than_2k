@@ -84,7 +84,7 @@ concurrent:
     sample: 1.0
   combine:
     max_depth: 16
-    trees: 12
+    trees: 13
 train:
   auto:
     sample: 0.25

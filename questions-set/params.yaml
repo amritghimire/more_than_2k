@@ -118,7 +118,7 @@ train:
     ngrams: 4
 settings:
   combine:
-    min_features: 1400
+    min_features: 1439
     passes: 106
     max_features: 150
     ngrams: 6

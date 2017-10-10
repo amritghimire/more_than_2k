@@ -139,7 +139,7 @@ concurrent:
     min_features: 1648
     max_features: 4500
     min_split: 48
-    batch_size: 881
+    batch_size: 581
     seed: 788703861
     learning_rate: 0.05
     layers: 3
@@ -208,7 +208,7 @@ featurize:
     max_features: 507
 train:
   auto:
-    epochs: 19
+    epochs: 18
     columns: 63
     sample: 0.87595
   other:

@@ -74,15 +74,15 @@ prepare:
   trees: 82
   learning_rate: 0.0981
   layers: 2
-  num_est: 50
-  random_state: 722394515
+  num_est: 61
+  random_state: 777500746
   columns: 57
-  epochs: 15
+  epochs: 14
   dense: 178
   ngrams: 5
   batch_size: 544
   min_split: 16
-  min_features: 2166
+  min_features: 1909
   features: 4410
   max_depth: 12
   folds: 9

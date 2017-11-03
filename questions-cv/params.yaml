@@ -57,7 +57,7 @@ model:
     learning_rate: 0.12462
     max_features: 1150
   batch:
-    ngrams: 2
+    ngrams: 1
     max_depth: 35
 prepare:
   short:
@@ -100,14 +100,14 @@ validation:
     max_depth: 17
     folds: 9
   collection:
-    passes: 56
+    passes: 53
     layers: 1
     weight_factor: 0.2
   rf:
     ngrams: 2
     dense: 300
     trees: 18
-    split: 0.23489
+    split: 0.2988
     features: 1076
     min_split: 16
   short:
@@ -143,8 +143,8 @@ preprocessing:
     sample: 0.42256
     batch_size: 560
   other:
-    learning_rate: 0.06
-    min_features: 3400
+    learning_rate: 0.06542
+    min_features: 2841
   short:
     columns: 87
     trees: 52

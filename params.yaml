@@ -6,7 +6,7 @@ model:
     batch_size: 1061
     trees: 42
   batch:
-    layers: 7
+    layers: 5
     min_split: 48
     split: 0.2
     max_depth: 13
@@ -22,7 +22,7 @@ model:
     epochs: 21
   binary:
     ngrams: 7
-    epochs: 15
+    epochs: 12
     sample: 0.24183
     min_features: 242
     dense: 592
@@ -129,7 +129,7 @@ preprocessing:
     dense: 326
     ngrams: 6
     split: 0.50256
-    weight_factor: 0.12261
+    weight_factor: 0.09433
     max_depth: 26
   rf:
     threads: 7
@@ -216,9 +216,9 @@ validation:
     features: 5573
     threads: 9
     min_features: 2113
-    num_est: 200
+    num_est: 181
     learning_rate: 0.1485
   preset:
-    learning_rate: 0.12187
+    learning_rate: 0.12042
     ngrams: 8
     weight_factor: 0.2755

@@ -118,7 +118,7 @@ featurize:
     trees: 76
     threads: 10
   batch:
-    ngrams: 7
+    ngrams: 6
 preprocessing:
   preset:
     split: 0.55897

@@ -161,7 +161,7 @@ settings:
     features: 1140
     min_split: 67
   short:
-    estimators: 46
+    estimators: 64
     max_depth: 16
   dev:
     sample: 0.50453

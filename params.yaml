@@ -1,6 +1,6 @@
 model:
   rf:
-    max_depth: 26
+    max_depth: 20
     min_features: 1008
     weight_factor: 0.11089
     batch_size: 1061
@@ -181,7 +181,7 @@ settings:
     batch_size: 31
     max_features: 2372
     features: 3593
-    passes: 7
+    passes: 4
     split: 0.29622
     ngrams: 2
 validation:
@@ -212,7 +212,7 @@ validation:
     max_depth: 31
   dev:
     trees: 3
-    dense: 300
+    dense: 340
     features: 5573
     threads: 9
     min_features: 2113

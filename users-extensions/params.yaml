@@ -87,7 +87,7 @@ variables:
   test:
     epochs: 20
     sample: 0.5
-    tags: 104
+    tags: 112
     columns: 49
   short:
     learning_rate: 0.1385
@@ -175,7 +175,7 @@ validation:
     columns: 45
     dense: 500
     layers: 4
-    trees: 30
+    trees: 35
     drop: 0.3
   other:
     min_features: 3760

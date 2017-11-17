@@ -100,7 +100,7 @@ validation:
     max_depth: 17
     folds: 9
   collection:
-    passes: 53
+    passes: 52
     layers: 1
     weight_factor: 0.2
   rf:
@@ -160,7 +160,7 @@ variables:
     folds: 6
   batch:
     epochs: 11
-    threads: 28
+    threads: 26
   other:
     ngrams: 6
     dense: 400
@@ -169,7 +169,7 @@ variables:
   prod:
     epochs: 42
     learning_rate: 0.12
-    tags: 105
+    tags: 96
   selection:
     threads: 23
     features: 1700

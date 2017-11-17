@@ -146,7 +146,7 @@ preprocessing:
     learning_rate: 0.06542
     min_features: 2841
   short:
-    columns: 87
+    columns: 90
     trees: 52
     estimators: 54
   prod:

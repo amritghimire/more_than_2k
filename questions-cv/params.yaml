@@ -75,20 +75,20 @@ prepare:
     seed: 830542176
     drop: 0.36407
     max_features: 1171
-    estimators: 185
+    estimators: 234
   rf:
-    features: 2541
+    features: 2707
     num_est: 95
   prod:
     weight_factor: 0.20244
-    drop: 0.45198
+    drop: 0.43287
     epochs: 64
     folds: 6
     max_features: 477
-    columns: 37
+    columns: 25
   other:
     random_state: 655902915
-    min_features: 5421
+    min_features: 3602
     columns: 57
     batch_size: 614
     trees: 3

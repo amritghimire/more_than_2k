@@ -98,7 +98,7 @@ train:
     features: 4860
   combine:
     passes: 104
-    dense: 300
+    dense: 318
     columns: 3
     drop: 0.1
     max_features: 3300

@@ -83,7 +83,7 @@ prepare:
   batch_size: 544
   min_split: 12
   min_features: 1909
-  features: 4410
+  features: 4414
   max_depth: 12
   folds: 7
 tagging:

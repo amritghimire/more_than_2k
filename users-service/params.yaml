@@ -72,16 +72,16 @@ prepare:
   estimators: 213
   tags: 106
   trees: 89
-  learning_rate: 0.0981
+  learning_rate: 0.14509
   layers: 2
-  num_est: 61
+  num_est: 42
   random_state: 777500746
-  columns: 57
+  columns: 61
   epochs: 14
-  dense: 160
+  dense: 233
   ngrams: 5
   batch_size: 544
-  min_split: 16
+  min_split: 12
   min_features: 1909
   features: 4410
   max_depth: 12

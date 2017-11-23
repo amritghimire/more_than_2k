@@ -67,7 +67,7 @@ concurrent:
     dense: 400
   auto:
     split: 0.4
-    folds: 3
+    folds: 2
     tags: 63
     num_est: 75
   requests:

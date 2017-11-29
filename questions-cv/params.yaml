@@ -107,7 +107,7 @@ validation:
     ngrams: 2
     dense: 300
     trees: 18
-    split: 0.2988
+    split: 0.29192
     features: 1076
     min_split: 16
   short:

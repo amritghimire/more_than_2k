@@ -144,7 +144,7 @@ preprocessing:
     batch_size: 560
   other:
     learning_rate: 0.06542
-    min_features: 2841
+    min_features: 3480
   short:
     columns: 90
     trees: 52

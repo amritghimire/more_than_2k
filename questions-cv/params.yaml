@@ -163,7 +163,7 @@ variables:
     threads: 26
   other:
     ngrams: 6
-    dense: 400
+    dense: 306
   collection:
     seed: 831947000
   prod:

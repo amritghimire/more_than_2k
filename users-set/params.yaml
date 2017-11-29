@@ -287,7 +287,7 @@ featurize:
     max_features: 5443
   requests:
     sample: 0.21743
-    num_est: 200
+    num_est: 244
     threads: 2
   selection:
     columns: 15

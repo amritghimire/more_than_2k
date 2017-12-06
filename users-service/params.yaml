@@ -67,7 +67,7 @@ variables:
 prepare:
   weight_factor: 0.12289
   passes: 31
-  drop: 0.09841
+  drop: 0.08111
   sample: 0.50039
   estimators: 213
   tags: 106

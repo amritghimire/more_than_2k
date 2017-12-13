@@ -79,7 +79,7 @@ concurrent:
     random_state: 237000000
     folds: 9
     columns: 72
-    tags: 126
+    tags: 131
     trees: 12
     sample: 1.0
   combine:
@@ -89,7 +89,7 @@ train:
   auto:
     sample: 0.25
   requests:
-    min_split: 48
+    min_split: 55
     threads: 23
     batch_size: 656
     split: 0.1
@@ -148,7 +148,7 @@ settings:
     batch_size: 512
     drop: 0.3
     ngrams: 4
-    epochs: 65
+    epochs: 51
     tags: 21
     sample: 1.0
   classifier:
@@ -157,7 +157,7 @@ settings:
     columns: 27
 model:
   preset:
-    learning_rate: 0.1
+    learning_rate: 0.10953
     ngrams: 4
     sample: 0.75
     epochs: 55

@@ -101,7 +101,7 @@ prepare:
   combine:
     passes: 48
     min_features: 2079
-    sample: 0.22072
+    sample: 0.25647
     trees: 10
     num_est: 243
     tags: 104

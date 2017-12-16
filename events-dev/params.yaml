@@ -48,7 +48,7 @@ settings:
     num_est: 225
     drop: 0.18086
     epochs: 70
-    passes: 48
+    passes: 59
     folds: 3
   short:
     max_depth: 8

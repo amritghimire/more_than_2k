@@ -188,7 +188,7 @@ featurize:
     epochs: 42
     columns: 27
   diff:
-    estimators: 41
+    estimators: 56
     layers: 3
     max_depth: 18
     max_features: 3709
@@ -202,10 +202,10 @@ featurize:
     max_features: 3662
     ngrams: 2
   combine:
-    batch_size: 348
+    batch_size: 425
     sample: 0.39502
     max_depth: 12
-    max_features: 507
+    max_features: 588
 train:
   auto:
     epochs: 18

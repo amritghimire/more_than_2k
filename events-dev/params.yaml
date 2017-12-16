@@ -20,7 +20,7 @@ model:
     learning_rate: 0.0762
     ngrams: 6
     estimators: 34
-    folds: 3
+    folds: 2
     columns: 37
     min_split: 48
     threads: 2

@@ -118,7 +118,7 @@ prepare:
   auto:
     num_est: 227
     min_split: 42
-    passes: 19
+    passes: 29
   other:
     tags: 151
     split: 0.23789

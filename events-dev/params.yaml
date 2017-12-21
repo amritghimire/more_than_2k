@@ -94,7 +94,7 @@ prepare:
   preset:
     trees: 67
     split: 0.23267
-    columns: 33
+    columns: 39
     passes: 60
     batch_size: 99
     tags: 57
@@ -125,7 +125,7 @@ prepare:
     dense: 555
     random_state: 314384422
     learning_rate: 0.06554
-    layers: 4
+    layers: 5
 concurrent:
   long:
     seed: 355944054

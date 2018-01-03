@@ -66,7 +66,7 @@ variables:
   drop: 0.3
 prepare:
   weight_factor: 0.12289
-  passes: 31
+  passes: 27
   drop: 0.08111
   sample: 0.50039
   estimators: 213
@@ -75,7 +75,7 @@ prepare:
   learning_rate: 0.14509
   layers: 2
   num_est: 42
-  random_state: 777500746
+  random_state: 665637473
   columns: 61
   epochs: 15
   dense: 233

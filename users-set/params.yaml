@@ -231,26 +231,26 @@ prepare:
     layers: 6
     epochs: 84
     columns: 6
-    random_state: 986614829
+    random_state: 872841717
   requests:
     split: 0.2
     folds: 13
     features: 2430
   dev:
-    columns: 58
+    columns: 52
     seed: 465345853
     weight_factor: 0.18617
     sample: 0.62307
     epochs: 72
     trees: 12
     batch_size: 936
-    features: 3070
+    features: 3196
     max_features: 4600
     tags: 49
   classifier:
     columns: 63
     split: 0.20147
-    features: 5101
+    features: 3947
   other:
     num_est: 247
     features: 230
@@ -263,7 +263,7 @@ prepare:
     layers: 2
     ngrams: 6
     seed: 136815760
-    features: 1510
+    features: 1344
     passes: 46
 featurize:
   classifier:

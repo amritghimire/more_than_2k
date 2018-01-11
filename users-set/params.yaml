@@ -226,7 +226,7 @@ prepare:
     features: 1674
     split: 0.2
   rf:
-    num_est: 50
+    num_est: 49
     passes: 109
     layers: 6
     epochs: 84
@@ -254,7 +254,7 @@ prepare:
   other:
     num_est: 247
     features: 230
-    drop: 0.19198
+    drop: 0.18347
     epochs: 80
     folds: 7
     ngrams: 4
@@ -263,8 +263,8 @@ prepare:
     layers: 2
     ngrams: 6
     seed: 136815760
-    features: 1370
-    passes: 54
+    features: 1510
+    passes: 46
 featurize:
   classifier:
     threads: 28

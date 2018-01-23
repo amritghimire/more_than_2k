@@ -68,11 +68,11 @@ prepare:
   weight_factor: 0.12289
   passes: 27
   drop: 0.08111
-  sample: 0.50039
+  sample: 0.57083
   estimators: 213
   tags: 124
   trees: 89
-  learning_rate: 0.14509
+  learning_rate: 0.14303
   layers: 2
   num_est: 42
   random_state: 665637473

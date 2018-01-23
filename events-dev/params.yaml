@@ -85,7 +85,7 @@ settings:
 prepare:
   short:
     num_est: 209
-    weight_factor: 0.18042
+    weight_factor: 0.23293
     sample: 0.22684
     learning_rate: 0.08324
     split: 0.33122
@@ -108,7 +108,7 @@ prepare:
   diff:
     tags: 48
     trees: 56
-    layers: 1
+    layers: 2
     passes: 56
     dense: 108
     max_features: 75

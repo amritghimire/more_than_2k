@@ -149,7 +149,7 @@ concurrent:
   preset:
     max_depth: 9
     num_est: 225
-    estimators: 68
+    estimators: 56
     columns: 82
     ngrams: 6
     folds: 14
@@ -166,7 +166,7 @@ concurrent:
     columns: 6
     seed: 398761602
   diff:
-    weight_factor: 0.1
+    weight_factor: 0.10193
     random_state: 263000000
     folds: 3
     layers: 2
@@ -280,7 +280,7 @@ variables:
     tags: 49
     layers: 6
     dense: 466
-    max_depth: 17
+    max_depth: 16
   preset:
     estimators: 158
     min_features: 1550

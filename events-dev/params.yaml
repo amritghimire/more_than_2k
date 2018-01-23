@@ -150,7 +150,7 @@ concurrent:
     max_depth: 9
     num_est: 225
     estimators: 56
-    columns: 82
+    columns: 62
     ngrams: 6
     folds: 14
   combine:

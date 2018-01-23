@@ -136,7 +136,7 @@ concurrent:
     features: 5989
     tags: 14
   other:
-    min_features: 1648
+    min_features: 1773
     max_features: 4500
     min_split: 48
     batch_size: 581

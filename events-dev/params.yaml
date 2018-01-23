@@ -116,7 +116,7 @@ prepare:
     columns: 12
     trees: 47
   auto:
-    num_est: 227
+    num_est: 221
     min_split: 42
     passes: 29
   other:

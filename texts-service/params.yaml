@@ -177,7 +177,7 @@ prepare:
     trees: 81
     features: 4820
     dense: 100
-    sample: 0.5
+    sample: 0.5247
     max_depth: 32
     epochs: 45
     weight_factor: 0.3
@@ -189,7 +189,7 @@ prepare:
     split: 0.2
     learning_rate: 0.03341
   other:
-    random_state: 19000000
+    random_state: 20776859
     trees: 55
     split: 0.1
   diff:

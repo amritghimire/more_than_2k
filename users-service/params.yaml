@@ -65,7 +65,7 @@ variables:
   layers: 2
   drop: 0.3
 prepare:
-  weight_factor: 0.12289
+  weight_factor: 0.09204
   passes: 27
   drop: 0.08111
   sample: 0.57083

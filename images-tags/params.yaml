@@ -133,7 +133,7 @@ prepare:
   classifier:
     weight_factor: 0.31905
     dense: 167
-    tags: 120
+    tags: 155
   diff:
     learning_rate: 0.13764
     max_depth: 3

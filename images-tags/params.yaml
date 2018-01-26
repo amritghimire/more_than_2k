@@ -119,14 +119,14 @@ prepare:
   long:
     min_split: 32
     columns: 51
-    sample: 1.02422
+    sample: 1.06144
     random_state: 160829654
     layers: 5
-    features: 2740
+    features: 2087
   other:
     sample: 0.76805
     drop: 0.0952
-    columns: 7
+    columns: 11
     split: 0.51276
     batch_size: 576
     random_state: 373586699
@@ -138,7 +138,7 @@ prepare:
     learning_rate: 0.13764
     max_depth: 3
     split: 0.53609
-    min_features: 4609
+    min_features: 5043
 preprocessing:
   prod:
     dense: 300

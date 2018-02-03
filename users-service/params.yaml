@@ -54,7 +54,7 @@ variables:
   sample: 0.25
   tags: 112
   min_split: 80
-  num_est: 200
+  num_est: 199
   folds: 3
   dense: 300
   split: 0.4

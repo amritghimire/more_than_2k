@@ -89,7 +89,7 @@ prepare:
     sample: 0.22684
     learning_rate: 0.08324
     split: 0.33122
-    layers: 1
+    layers: 2
     trees: 86
   preset:
     trees: 67
@@ -109,7 +109,7 @@ prepare:
     tags: 48
     trees: 56
     layers: 2
-    passes: 56
+    passes: 58
     dense: 108
     max_features: 75
   long:
@@ -123,7 +123,7 @@ prepare:
     tags: 151
     split: 0.23789
     dense: 555
-    random_state: 314384422
+    random_state: 313413071
     learning_rate: 0.06554
     layers: 5
 concurrent:

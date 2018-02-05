@@ -89,7 +89,7 @@ prepare:
     sample: 0.22684
     learning_rate: 0.08324
     split: 0.33122
-    layers: 2
+    layers: 1
     trees: 86
   preset:
     trees: 67

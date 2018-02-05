@@ -233,7 +233,7 @@ prepare:
     columns: 6
     random_state: 872841717
   requests:
-    split: 0.2
+    split: 0.19119
     folds: 13
     features: 2430
   dev:
@@ -264,7 +264,7 @@ prepare:
     ngrams: 6
     seed: 136815760
     features: 1344
-    passes: 46
+    passes: 51
 featurize:
   classifier:
     threads: 28

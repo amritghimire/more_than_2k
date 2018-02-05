@@ -226,7 +226,7 @@ prepare:
     features: 1674
     split: 0.2
   rf:
-    num_est: 49
+    num_est: 45
     passes: 109
     layers: 6
     epochs: 84

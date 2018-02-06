@@ -204,7 +204,7 @@ featurize:
   combine:
     batch_size: 425
     sample: 0.51222
-    max_depth: 12
+    max_depth: 10
     max_features: 588
 train:
   auto:

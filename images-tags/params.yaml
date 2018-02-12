@@ -214,7 +214,7 @@ featurize:
     columns: 48
     max_features: 2750
     drop: 0.07595
-    num_est: 134
+    num_est: 120
     batch_size: 329
     trees: 57
   preset:

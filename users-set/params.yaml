@@ -202,7 +202,7 @@ model:
     features: 3110
   classifier:
     columns: 39
-    sample: 0.75
+    sample: 0.66847
     weight_factor: 0.2
     split: 0.5
     threads: 2

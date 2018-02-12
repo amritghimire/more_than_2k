@@ -77,15 +77,15 @@ prepare:
   num_est: 42
   random_state: 687403489
   columns: 61
-  epochs: 15
+  epochs: 14
   dense: 233
   ngrams: 5
   batch_size: 570
   min_split: 12
   min_features: 2845
-  features: 4414
-  max_depth: 12
-  folds: 7
+  features: 4875
+  max_depth: 11
+  folds: 9
 tagging:
   drop: 0.4
   ngrams: 4

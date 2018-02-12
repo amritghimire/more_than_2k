@@ -213,12 +213,12 @@ featurize:
     dense: 100
     columns: 48
     max_features: 2750
-    drop: 0.10838
+    drop: 0.07595
     num_est: 134
-    batch_size: 368
+    batch_size: 329
     trees: 57
   preset:
-    max_features: 600
+    max_features: 641
     split: 0.41885
     tags: 60
     weight_factor: 0.23173
@@ -235,7 +235,7 @@ featurize:
     min_features: 5835
   long:
     seed: 1015120580
-    split: 0.4
+    split: 0.35932
     threads: 6
     min_features: 3100
   classifier:
@@ -248,7 +248,7 @@ featurize:
     folds: 6
     columns: 6
     num_est: 151
-    seed: 175793857
+    seed: 151684665
   other:
     drop: 0.24402
     learning_rate: 0.02

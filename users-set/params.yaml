@@ -99,7 +99,7 @@ validation:
     trees: 30
     split: 0.1
     passes: 100
-    folds: 3
+    folds: 2
   requests:
     ngrams: 6
     num_est: 271

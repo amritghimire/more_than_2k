@@ -82,7 +82,7 @@ prepare:
   ngrams: 5
   batch_size: 570
   min_split: 12
-  min_features: 1909
+  min_features: 2845
   features: 4414
   max_depth: 12
   folds: 7

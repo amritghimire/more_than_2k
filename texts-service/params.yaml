@@ -165,8 +165,8 @@ prepare:
     seed: 230183000
     folds: 9
     estimators: 131
-    dense: 400
-    learning_rate: 0.04
+    dense: 361
+    learning_rate: 0.04325
     min_features: 4400
   requests:
     passes: 59
@@ -184,9 +184,9 @@ prepare:
   combine:
     dense: 200
     weight_factor: 0.1
-    folds: 6
+    folds: 5
     features: 9
-    split: 0.2
+    split: 0.23454
     learning_rate: 0.03341
   other:
     random_state: 20776859
@@ -194,7 +194,7 @@ prepare:
     split: 0.1
   diff:
     epochs: 20
-    estimators: 137
+    estimators: 134
 variables:
   preset:
     weight_factor: 0.3

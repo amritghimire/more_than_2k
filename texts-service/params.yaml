@@ -277,7 +277,7 @@ preprocessing:
     layers: 6
     drop: 0.1
     seed: 523834000
-    features: 1780
+    features: 2006
     passes: 86
     tags: 42
   long:

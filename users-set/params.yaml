@@ -42,7 +42,7 @@ variables:
     sample: 0.25
   dev:
     batch_size: 864
-    passes: 22
+    passes: 24
     tags: 35
     min_split: 32
     max_features: 3650

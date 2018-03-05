@@ -181,20 +181,20 @@ featurize:
   short:
     min_features: 918
     layers: 4
-    max_depth: 18
+    max_depth: 14
     num_est: 106
     estimators: 118
     dense: 153
     epochs: 42
     columns: 27
   diff:
-    estimators: 56
+    estimators: 39
     layers: 3
-    max_depth: 16
+    max_depth: 14
     max_features: 3709
   long:
     tags: 66
-    min_features: 1980
+    min_features: 2407
     learning_rate: 0.07304
     folds: 7
     random_state: 71987481

@@ -172,20 +172,20 @@ prepare:
     passes: 59
     epochs: 15
     weight_factor: 0.2
-    random_state: 420000000
+    random_state: 399465806
   long:
     trees: 81
     features: 4820
     dense: 100
     sample: 0.5247
     max_depth: 32
-    epochs: 45
+    epochs: 53
     weight_factor: 0.3
   combine:
-    dense: 200
+    dense: 187
     weight_factor: 0.1
     folds: 5
-    features: 9
+    features: 12
     split: 0.23454
     learning_rate: 0.03341
   other:

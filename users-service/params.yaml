@@ -65,7 +65,7 @@ variables:
   layers: 2
   drop: 0.3
 prepare:
-  weight_factor: 0.09204
+  weight_factor: 0.08175
   passes: 27
   drop: 0.1199
   sample: 0.57083
@@ -83,7 +83,7 @@ prepare:
   batch_size: 570
   min_split: 12
   min_features: 2845
-  features: 4875
+  features: 5482
   max_depth: 11
   folds: 9
 tagging:

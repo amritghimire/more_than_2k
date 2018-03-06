@@ -8,7 +8,7 @@ settings:
   num_est: 50
   ngrams: 4
   max_features: 300
-  seed: 789390000
+  seed: 893727687
   batch_size: 656
   dense: 400
   passes: 16

@@ -87,7 +87,7 @@ prepare:
   max_depth: 11
   folds: 9
 tagging:
-  drop: 0.4
+  drop: 0.47753
   ngrams: 4
   threads: 14
   num_est: 50

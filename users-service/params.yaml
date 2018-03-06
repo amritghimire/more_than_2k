@@ -21,7 +21,7 @@ settings:
   layers: 4
 concurrent:
   weight_factor: 0.1
-  sample: 0.25
+  sample: 0.27269
   ngrams: 6
   min_split: 16
   num_est: 25

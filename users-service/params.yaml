@@ -71,7 +71,7 @@ prepare:
   sample: 0.56112
   estimators: 213
   tags: 124
-  trees: 89
+  trees: 85
   learning_rate: 0.14303
   layers: 1
   num_est: 42

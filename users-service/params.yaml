@@ -66,7 +66,7 @@ variables:
   drop: 0.3
 prepare:
   weight_factor: 0.09172
-  passes: 27
+  passes: 30
   drop: 0.1199
   sample: 0.56112
   estimators: 213
@@ -80,7 +80,7 @@ prepare:
   epochs: 14
   dense: 205
   ngrams: 6
-  batch_size: 570
+  batch_size: 671
   min_split: 12
   min_features: 2845
   features: 5242

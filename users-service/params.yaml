@@ -69,7 +69,7 @@ prepare:
   passes: 30
   drop: 0.1199
   sample: 0.56112
-  estimators: 213
+  estimators: 187
   tags: 124
   trees: 85
   learning_rate: 0.14303

@@ -27,7 +27,7 @@ concurrent:
     weight_factor: 0.33961
   other:
     num_est: 150
-    dense: 76
+    dense: 93
     batch_size: 14
   prod:
     folds: 3
@@ -41,7 +41,7 @@ model:
     drop: 0.09169
     estimators: 121
     min_split: 26
-    batch_size: 544
+    batch_size: 557
   other:
     random_state: 676000000
     max_features: 6150
@@ -49,7 +49,7 @@ model:
   prod:
     num_est: 203
     epochs: 40
-    ngrams: 8
+    ngrams: 9
     split: 0.4
   selection:
     layers: 2
@@ -151,7 +151,7 @@ preprocessing:
     estimators: 54
   prod:
     max_features: 200
-    weight_factor: 0.1
+    weight_factor: 0.0782
     passes: 5
 variables:
   short:

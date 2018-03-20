@@ -16,7 +16,7 @@ concurrent:
     split: 0.4
   rf:
     weight_factor: 0.09449
-    columns: 3
+    columns: 2
     passes: 20
     estimators: 232
   collection:
@@ -109,7 +109,7 @@ validation:
     trees: 18
     split: 0.29192
     features: 1076
-    min_split: 16
+    min_split: 17
   short:
     max_depth: 12
     tags: 126
@@ -146,7 +146,7 @@ preprocessing:
     learning_rate: 0.05786
     min_features: 3480
   short:
-    columns: 90
+    columns: 67
     trees: 52
     estimators: 54
   prod:

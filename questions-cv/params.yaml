@@ -77,7 +77,7 @@ prepare:
     max_features: 1171
     estimators: 236
   rf:
-    features: 2707
+    features: 1834
     num_est: 95
   prod:
     weight_factor: 0.20244
@@ -90,7 +90,7 @@ prepare:
     random_state: 655902915
     min_features: 3602
     columns: 57
-    batch_size: 614
+    batch_size: 611
     trees: 3
   selection:
     weight_factor: 0.28266

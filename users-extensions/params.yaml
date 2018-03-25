@@ -4,7 +4,7 @@ concurrent:
     min_features: 3250
     max_features: 3842
     features: 5570
-    drop: 0.4
+    drop: 0.45239
   other:
     split: 0.2
     drop: 0.1
@@ -113,7 +113,7 @@ train:
     columns: 36
   settings:
     learning_rate: 0.08
-    drop: 0.3
+    drop: 0.28523
     weight_factor: 0.35783
     max_features: 3600
     layers: 2

@@ -110,7 +110,7 @@ prepare:
     trees: 56
     layers: 2
     passes: 56
-    dense: 108
+    dense: 106
     max_features: 75
   long:
     columns: 12

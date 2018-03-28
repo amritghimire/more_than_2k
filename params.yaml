@@ -207,7 +207,7 @@ validation:
     folds: 2
   rf:
     threads: 7
-    passes: 97
+    passes: 88
     max_features: 3055
     max_depth: 31
   dev:

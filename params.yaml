@@ -7,7 +7,7 @@ model:
     trees: 42
   batch:
     layers: 5
-    min_split: 48
+    min_split: 58
     split: 0.2
     max_depth: 13
   short:
@@ -152,7 +152,7 @@ preprocessing:
 settings:
   preset:
     epochs: 60
-    tags: 23
+    tags: 24
     columns: 78
     drop: 0.07732
     ngrams: 2
@@ -167,7 +167,7 @@ settings:
     sample: 0.50453
     min_split: 50
   rf:
-    learning_rate: 0.05772
+    learning_rate: 0.04168
     num_est: 91
     min_features: 1582
     seed: 688056171
@@ -182,7 +182,7 @@ settings:
     max_features: 2372
     features: 3593
     passes: 4
-    split: 0.29622
+    split: 0.29189
     ngrams: 2
 validation:
   long:
@@ -192,7 +192,7 @@ validation:
     batch_size: 194
     weight_factor: 0.36804
   batch:
-    sample: 0.78031
+    sample: 0.61316
     layers: 4
   binary:
     max_depth: 6

@@ -7,7 +7,7 @@ featurize:
     min_features: 3300
     max_features: 3700
   test:
-    trees: 21
+    trees: 24
     min_split: 48
   model:
     random_state: 507000000

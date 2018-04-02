@@ -18,7 +18,7 @@ featurize:
     split: 0.1
     columns: 18
   combine:
-    weight_factor: 0.1
+    weight_factor: 0.09091
     features: 3060
     min_split: 80
     trees: 48

@@ -190,12 +190,12 @@ model:
 featurize:
   combine:
     dense: 418
-    num_est: 50
+    num_est: 42
   prod:
     seed: 360139000
-    trees: 4
-    dense: 300
-    random_state: 902000000
+    trees: 6
+    dense: 249
+    random_state: 839179077
     max_depth: 32
     split: 0.16748
     threads: 8
@@ -215,7 +215,7 @@ featurize:
     passes: 36
     layers: 3
   auto:
-    drop: 0.2
+    drop: 0.20196
     min_features: 3500
     trees: 15
     passes: 64

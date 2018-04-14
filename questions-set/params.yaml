@@ -3,7 +3,7 @@ tagging:
     ngrams: 2
     random_state: 84000000
     estimators: 207
-    weight_factor: 0.3
+    weight_factor: 0.30488
   prod:
     weight_factor: 0.2
     sample: 0.5
@@ -137,7 +137,7 @@ settings:
     drop: 0.4
   prod:
     estimators: 245
-    max_depth: 32
+    max_depth: 36
     tags: 91
     learning_rate: 0.05
     weight_factor: 0.3
@@ -167,7 +167,7 @@ model:
     max_depth: 24
     passes: 26
   classifier:
-    tags: 105
+    tags: 130
     max_features: 2350
     split: 0.4
     trees: 63
@@ -180,7 +180,7 @@ model:
     num_est: 250
   requests:
     random_state: 603000000
-    layers: 2
+    layers: 1
   auto:
     min_split: 80
     batch_size: 624

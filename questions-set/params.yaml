@@ -160,7 +160,7 @@ model:
     learning_rate: 0.10953
     ngrams: 4
     sample: 0.75
-    epochs: 55
+    epochs: 65
   combine:
     threads: 10
     sample: 0.30643

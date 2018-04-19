@@ -12,7 +12,7 @@ settings:
     weight_factor: 0.1
   requests:
     batch_size: 720
-    min_split: 48
+    min_split: 39
     layers: 4
     threads: 1
     num_est: 150

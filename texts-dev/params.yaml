@@ -46,7 +46,7 @@ validation:
     weight_factor: 0.3
     drop: 0.3
     epochs: 25
-    random_state: 820000000
+    random_state: 830571583
   dev:
     features: 4410
     trees: 54

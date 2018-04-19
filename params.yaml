@@ -115,7 +115,7 @@ featurize:
   rf:
     folds: 9
   short:
-    trees: 76
+    trees: 69
     threads: 10
   batch:
     ngrams: 6

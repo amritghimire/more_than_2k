@@ -142,7 +142,7 @@ settings:
     learning_rate: 0.05
     weight_factor: 0.3
   auto:
-    estimators: 209
+    estimators: 163
     layers: 4
     passes: 100
     batch_size: 512

@@ -17,7 +17,7 @@ tagging:
     num_est: 225
     dense: 600
   classifier:
-    ngrams: 6
+    ngrams: 5
     threads: 6
   batch:
     seed: 399182000

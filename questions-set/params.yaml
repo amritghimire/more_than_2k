@@ -68,7 +68,7 @@ concurrent:
   auto:
     split: 0.4
     folds: 2
-    tags: 63
+    tags: 55
     num_est: 75
   requests:
     max_features: 3650

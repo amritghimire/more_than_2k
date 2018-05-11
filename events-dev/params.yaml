@@ -97,16 +97,16 @@ prepare:
     columns: 39
     passes: 60
     batch_size: 99
-    tags: 57
+    tags: 78
   combine:
     passes: 48
     min_features: 2079
-    sample: 0.25647
+    sample: 0.31037
     trees: 10
     num_est: 243
     tags: 104
   diff:
-    tags: 48
+    tags: 33
     trees: 56
     layers: 2
     passes: 56
@@ -124,7 +124,7 @@ prepare:
     split: 0.23789
     dense: 555
     random_state: 239319467
-    learning_rate: 0.06554
+    learning_rate: 0.06037
     layers: 5
 concurrent:
   long:

@@ -188,13 +188,13 @@ featurize:
     epochs: 42
     columns: 27
   diff:
-    estimators: 39
+    estimators: 46
     layers: 3
     max_depth: 14
     max_features: 3709
   long:
     tags: 66
-    min_features: 2407
+    min_features: 2618
     learning_rate: 0.07304
     folds: 7
     random_state: 71987481

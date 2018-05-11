@@ -164,7 +164,7 @@ concurrent:
   short:
     sample: 0.49053
     columns: 6
-    seed: 398761602
+    seed: 404629015
   diff:
     weight_factor: 0.10193
     random_state: 263000000
@@ -273,7 +273,7 @@ variables:
     epochs: 5
   long:
     estimators: 197
-    weight_factor: 0.27018
+    weight_factor: 0.26779
     tags: 21
     min_features: 3300
   auto:

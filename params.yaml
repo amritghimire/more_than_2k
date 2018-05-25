@@ -197,7 +197,7 @@ validation:
   binary:
     max_depth: 6
     num_est: 272
-    learning_rate: 0.1
+    learning_rate: 0.12033
     split: 0.19402
     weight_factor: 0.3
   short:

@@ -107,7 +107,7 @@ prepare:
     trees: 30
     seed: 235048976
   prod:
-    estimators: 227
+    estimators: 271
     seed: 321086000
     split: 0.45088
     batch_size: 429
@@ -117,7 +117,7 @@ prepare:
     ngrams: 4
     epochs: 55
   long:
-    min_split: 25
+    min_split: 36
     columns: 51
     sample: 1.06144
     random_state: 160587398
@@ -129,7 +129,7 @@ prepare:
     columns: 11
     split: 0.51276
     batch_size: 576
-    random_state: 373586699
+    random_state: 385514060
   classifier:
     weight_factor: 0.35232
     dense: 167

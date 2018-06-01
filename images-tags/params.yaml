@@ -104,7 +104,7 @@ settings:
 prepare:
   preset:
     min_split: 43
-    trees: 34
+    trees: 30
     seed: 235048976
   prod:
     estimators: 221
@@ -133,7 +133,7 @@ prepare:
   classifier:
     weight_factor: 0.35232
     dense: 167
-    tags: 155
+    tags: 110
   diff:
     learning_rate: 0.13764
     max_depth: 3

@@ -107,7 +107,7 @@ prepare:
     trees: 30
     seed: 235048976
   prod:
-    estimators: 221
+    estimators: 227
     seed: 321086000
     split: 0.45088
     batch_size: 429
@@ -124,7 +124,7 @@ prepare:
     layers: 5
     features: 2087
   other:
-    sample: 0.76805
+    sample: 0.918
     drop: 0.0952
     columns: 11
     split: 0.51276
@@ -138,7 +138,7 @@ prepare:
     learning_rate: 0.13764
     max_depth: 3
     split: 0.53609
-    min_features: 5043
+    min_features: 4521
 preprocessing:
   prod:
     dense: 300

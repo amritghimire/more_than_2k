@@ -45,7 +45,7 @@ model:
   other:
     random_state: 676000000
     max_features: 6150
-    seed: 471928702
+    seed: 528465684
   prod:
     num_est: 203
     epochs: 40
@@ -192,7 +192,7 @@ settings:
   collection:
     weight_factor: 0.3
   batch:
-    num_est: 250
+    num_est: 197
     estimators: 35
   other:
     folds: 3

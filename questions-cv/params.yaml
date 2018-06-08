@@ -35,7 +35,7 @@ concurrent:
 model:
   collection:
     tags: 63
-    num_est: 100
+    num_est: 108
   rf:
     ngrams: 4
     drop: 0.09169
@@ -160,7 +160,7 @@ variables:
     folds: 6
   batch:
     epochs: 11
-    threads: 26
+    threads: 28
   other:
     ngrams: 6
     dense: 306
@@ -190,11 +190,11 @@ settings:
   rf:
     max_depth: 12
   collection:
-    weight_factor: 0.3
+    weight_factor: 0.30412
   batch:
     num_est: 197
     estimators: 35
   other:
     folds: 3
   short:
-    ngrams: 4
+    ngrams: 3

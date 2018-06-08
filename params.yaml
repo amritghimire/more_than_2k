@@ -95,7 +95,7 @@ featurize:
     tags: 68
   long:
     ngrams: 6
-    tags: 72
+    tags: 111
     folds: 10
     seed: 358696406
     sample: 0.41402
@@ -108,7 +108,7 @@ featurize:
   dev:
     min_split: 86
     trees: 31
-    sample: 0.22824
+    sample: 0.22148
     seed: 720026092
     min_features: 3718
     batch_size: 42
@@ -116,7 +116,7 @@ featurize:
     folds: 9
   short:
     trees: 69
-    threads: 10
+    threads: 12
   batch:
     ngrams: 6
 preprocessing:

@@ -164,7 +164,7 @@ settings:
     estimators: 64
     max_depth: 20
   dev:
-    sample: 0.50453
+    sample: 0.54451
     min_split: 50
   rf:
     learning_rate: 0.04168
@@ -189,7 +189,7 @@ validation:
     ngrams: 8
     random_state: 1197221276
     passes: 30
-    batch_size: 194
+    batch_size: 188
     weight_factor: 0.36804
   batch:
     sample: 0.61316

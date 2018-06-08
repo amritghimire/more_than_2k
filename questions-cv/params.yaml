@@ -35,7 +35,7 @@ concurrent:
 model:
   collection:
     tags: 63
-    num_est: 108
+    num_est: 110
   rf:
     ngrams: 4
     drop: 0.09169

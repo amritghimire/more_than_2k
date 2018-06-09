@@ -49,7 +49,7 @@ settings:
 concurrent:
   long:
     num_est: 75
-    batch_size: 736
+    batch_size: 552
     sample: 1.0
     random_state: 54000000
     split: 0.0934
@@ -128,7 +128,7 @@ model:
     max_features: 2350
     random_state: 495000000
   other:
-    sample: 1.0
+    sample: 0.87009
     max_depth: 20
     weight_factor: 0.2
     min_split: 54

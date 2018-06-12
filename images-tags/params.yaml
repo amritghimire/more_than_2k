@@ -88,7 +88,7 @@ settings:
     ngrams: 4
     max_depth: 12
     features: 4610
-    tags: 77
+    tags: 70
   long:
     folds: 5
     layers: 6

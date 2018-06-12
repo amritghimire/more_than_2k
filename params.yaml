@@ -43,9 +43,9 @@ tagging:
     threads: 28
     features: 530
     sample: 0.75694
-    columns: 14
+    columns: 19
     dense: 285
-    min_split: 97
+    min_split: 61
   binary:
     weight_factor: 0.09189
     ngrams: 5

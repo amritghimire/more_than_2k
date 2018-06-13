@@ -130,7 +130,7 @@ prepare:
   concurrent:
     threads: 6
     split: 0.1
-    max_depth: 8
+    max_depth: 9
     drop: 0.4
     dense: 500
     weight_factor: 0.1
@@ -152,7 +152,7 @@ prepare:
     weight_factor: 0.1
     passes: 100
     ngrams: 4
-    layers: 4
+    layers: 3
     num_est: 100
     max_depth: 16
   test:
@@ -167,13 +167,13 @@ prepare:
     ngrams: 6
     num_est: 225
     columns: 66
-    dense: 100
+    dense: 123
   dev:
     ngrams: 4
     batch_size: 624
     min_features: 2000
     epochs: 40
-    split: 0.4
+    split: 0.43496
     columns: 57
     seed: 205636000
 tagging:

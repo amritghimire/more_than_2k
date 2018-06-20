@@ -15,7 +15,7 @@ settings:
   columns: 21
   random_state: 1008347812
   trees: 60
-  min_split: 32
+  min_split: 30
   split: 0.3
   drop: 0.17815
   layers: 4

@@ -14,7 +14,7 @@ settings:
   passes: 16
   columns: 21
   random_state: 1008347812
-  trees: 60
+  trees: 57
   min_split: 30
   split: 0.3
   drop: 0.17815
@@ -48,14 +48,14 @@ variables:
   columns: 27
   estimators: 47
   max_depth: 12
-  seed: 814518000
+  seed: 901562702
   passes: 66
   random_state: 937000000
   sample: 0.25
   tags: 112
   min_split: 80
   num_est: 199
-  folds: 3
+  folds: 2
   dense: 300
   split: 0.4
   batch_size: 608
@@ -89,8 +89,8 @@ prepare:
 tagging:
   drop: 0.47753
   ngrams: 4
-  threads: 14
-  num_est: 50
+  threads: 16
+  num_est: 44
   batch_size: 912
   layers: 2
   estimators: 44

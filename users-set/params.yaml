@@ -221,15 +221,15 @@ model:
 prepare:
   batch:
     learning_rate: 0.13753
-    ngrams: 5
+    ngrams: 7
     min_split: 14
-    features: 1674
+    features: 1432
     split: 0.24942
   rf:
     num_est: 45
     passes: 109
     layers: 5
-    epochs: 84
+    epochs: 92
     columns: 6
     random_state: 806182106
   requests:
@@ -240,7 +240,7 @@ prepare:
     columns: 52
     seed: 465345853
     weight_factor: 0.18617
-    sample: 0.62307
+    sample: 0.59126
     epochs: 72
     trees: 14
     batch_size: 936
@@ -248,7 +248,7 @@ prepare:
     max_features: 4600
     tags: 49
   classifier:
-    columns: 63
+    columns: 67
     split: 0.20147
     features: 3947
   other:

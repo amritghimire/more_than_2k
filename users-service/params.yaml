@@ -96,7 +96,7 @@ tagging:
   estimators: 44
   folds: 6
   weight_factor: 0.1
-  columns: 54
+  columns: 58
   trees: 78
   learning_rate: 0.13
   seed: 952765000

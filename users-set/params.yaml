@@ -224,14 +224,14 @@ prepare:
     ngrams: 5
     min_split: 14
     features: 1674
-    split: 0.2
+    split: 0.24942
   rf:
     num_est: 45
     passes: 109
-    layers: 6
+    layers: 5
     epochs: 84
     columns: 6
-    random_state: 872841717
+    random_state: 806182106
   requests:
     split: 0.19119
     folds: 13
@@ -242,7 +242,7 @@ prepare:
     weight_factor: 0.18617
     sample: 0.62307
     epochs: 72
-    trees: 12
+    trees: 14
     batch_size: 936
     features: 3196
     max_features: 4600
@@ -264,7 +264,7 @@ prepare:
     ngrams: 6
     seed: 136815760
     features: 1344
-    passes: 51
+    passes: 66
 featurize:
   classifier:
     threads: 28

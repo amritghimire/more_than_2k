@@ -38,7 +38,7 @@ model:
     seed: 272372000
 concurrent:
   rf:
-    random_state: 797403818
+    random_state: 742433958
     min_features: 1800
   preset:
     columns: 66
@@ -150,7 +150,7 @@ preprocessing:
     batch_size: 176
     ngrams: 4
     passes: 104
-    estimators: 199
+    estimators: 234
   rf:
     min_features: 3700
     columns: 6

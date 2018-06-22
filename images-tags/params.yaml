@@ -228,7 +228,7 @@ featurize:
     max_depth: 26
     layers: 4
     threads: 17
-    split: 0.5
+    split: 0.53186
     epochs: 42
     min_split: 66
     features: 4087

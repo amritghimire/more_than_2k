@@ -38,7 +38,7 @@ model:
     seed: 272372000
 concurrent:
   rf:
-    random_state: 742433958
+    random_state: 759004965
     min_features: 1800
   preset:
     columns: 66
@@ -173,7 +173,7 @@ preprocessing:
     estimators: 164
   long:
     estimators: 86
-    seed: 415467340
+    seed: 425137941
     min_features: 1000
     layers: 2
 variables:
@@ -194,7 +194,7 @@ variables:
     num_est: 50
     min_split: 32
   classifier:
-    random_state: 444735170
+    random_state: 448420718
     ngrams: 6
     columns: 66
     layers: 6

@@ -165,7 +165,7 @@ prepare:
     split: 0.4
     max_features: 4900
     ngrams: 6
-    num_est: 225
+    num_est: 272
     columns: 66
     dense: 123
   dev:

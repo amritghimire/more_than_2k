@@ -81,10 +81,10 @@ prepare:
   dense: 195
   ngrams: 6
   batch_size: 671
-  min_split: 12
+  min_split: 14
   min_features: 2845
   features: 5242
-  max_depth: 11
+  max_depth: 12
   folds: 9
 tagging:
   drop: 0.47753

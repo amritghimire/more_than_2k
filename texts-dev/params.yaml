@@ -133,9 +133,9 @@ prepare:
     max_depth: 9
     drop: 0.4
     dense: 500
-    weight_factor: 0.1
+    weight_factor: 0.08925
   preprocessing:
-    min_features: 3250
+    min_features: 2846
     drop: 0.2
     batch_size: 80
     weight_factor: 0.2

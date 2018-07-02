@@ -9,7 +9,7 @@ tagging:
     sample: 0.5
     columns: 9
     max_depth: 28
-    tags: 91
+    tags: 80
   combine:
     tags: 7
     num_est: 125

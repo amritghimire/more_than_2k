@@ -137,7 +137,7 @@ settings:
     drop: 0.4
   prod:
     estimators: 245
-    max_depth: 36
+    max_depth: 35
     tags: 91
     learning_rate: 0.05
     weight_factor: 0.3

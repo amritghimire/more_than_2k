@@ -195,7 +195,7 @@ featurize:
     seed: 360139000
     trees: 6
     dense: 249
-    random_state: 839179077
+    random_state: 780804113
     max_depth: 32
     split: 0.16748
     threads: 8
@@ -207,7 +207,7 @@ featurize:
     threads: 17
   preset:
     folds: 2
-    min_features: 2700
+    min_features: 3227
     layers: 4
   requests:
     weight_factor: 0.1
@@ -221,6 +221,6 @@ featurize:
     passes: 68
     dense: 200
   batch:
-    seed: 223053454
+    seed: 224314351
     tags: 112
     split: 0.5

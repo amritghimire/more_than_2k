@@ -79,7 +79,7 @@ concurrent:
     random_state: 237000000
     folds: 9
     columns: 72
-    tags: 131
+    tags: 111
     trees: 12
     sample: 1.0
   combine:

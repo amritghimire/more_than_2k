@@ -218,9 +218,9 @@ featurize:
     drop: 0.20196
     min_features: 3500
     trees: 15
-    passes: 68
+    passes: 60
     dense: 200
   batch:
     seed: 224314351
-    tags: 112
+    tags: 94
     split: 0.5

@@ -22,7 +22,7 @@ model:
     estimators: 34
     folds: 2
     columns: 37
-    min_split: 48
+    min_split: 45
     threads: 2
   diff:
     estimators: 126

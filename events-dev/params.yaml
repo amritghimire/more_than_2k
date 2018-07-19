@@ -223,7 +223,7 @@ train:
     dense: 184
     learning_rate: 0.13519
     ngrams: 8
-    tags: 58
+    tags: 55
     batch_size: 657
     estimators: 151
     random_state: 547792852

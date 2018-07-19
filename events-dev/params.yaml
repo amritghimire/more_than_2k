@@ -84,7 +84,7 @@ settings:
     tags: 126
 prepare:
   short:
-    num_est: 209
+    num_est: 233
     weight_factor: 0.15957
     sample: 0.22684
     learning_rate: 0.08324
@@ -100,7 +100,7 @@ prepare:
     tags: 78
   combine:
     passes: 48
-    min_features: 2079
+    min_features: 1475
     sample: 0.31037
     trees: 10
     num_est: 243

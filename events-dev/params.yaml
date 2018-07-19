@@ -259,7 +259,7 @@ variables:
   short:
     min_features: 3850
     weight_factor: 0.10787
-    tags: 7
+    tags: 8
     trees: 69
     num_est: 172
     learning_rate: 0.13

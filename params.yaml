@@ -97,7 +97,7 @@ featurize:
     ngrams: 6
     tags: 111
     folds: 10
-    seed: 358696406
+    seed: 243856187
     sample: 0.41402
     epochs: 80
     max_features: 2754
@@ -107,13 +107,13 @@ featurize:
     passes: 60
   dev:
     min_split: 86
-    trees: 31
+    trees: 33
     sample: 0.22148
     seed: 720026092
     min_features: 3718
     batch_size: 42
   rf:
-    folds: 7
+    folds: 10
   short:
     trees: 69
     threads: 12

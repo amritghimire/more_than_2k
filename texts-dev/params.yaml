@@ -70,7 +70,7 @@ validation:
     passes: 118
     weight_factor: 0.1
     layers: 4
-    trees: 66
+    trees: 49
   other:
     tags: 7
     num_est: 25
@@ -205,7 +205,7 @@ tagging:
     drop: 0.1
     folds: 6
     split: 0.2
-    max_features: 4250
+    max_features: 4932
   dev:
     columns: 42
     features: 3300
@@ -292,7 +292,7 @@ train:
     estimators: 128
     batch_size: 752
     sample: 0.75
-    split: 0.3
+    split: 0.30522
     trees: 3
   other:
     passes: 102

@@ -146,14 +146,14 @@ prepare:
     estimators: 133
     num_est: 200
     split: 0.4
-    features: 5020
+    features: 4243
     min_split: 48
   combine:
     weight_factor: 0.1
     passes: 100
     ngrams: 4
     layers: 3
-    num_est: 100
+    num_est: 124
     max_depth: 16
   test:
     weight_factor: 0.3
@@ -171,7 +171,7 @@ prepare:
   dev:
     ngrams: 3
     batch_size: 624
-    min_features: 2000
+    min_features: 1656
     epochs: 40
     split: 0.36624
     columns: 57

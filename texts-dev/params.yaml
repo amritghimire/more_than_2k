@@ -133,7 +133,7 @@ prepare:
     max_depth: 9
     drop: 0.4
     dense: 500
-    weight_factor: 0.08925
+    weight_factor: 0.09584
   preprocessing:
     min_features: 2846
     drop: 0.2
@@ -159,7 +159,7 @@ prepare:
     weight_factor: 0.3
     passes: 4
     min_split: 55
-    threads: 16
+    threads: 15
   other:
     max_depth: 20
     split: 0.4

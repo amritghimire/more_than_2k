@@ -30,7 +30,7 @@ variables:
     min_split: 49
     folds: 11
   classifier:
-    estimators: 195
+    estimators: 159
     seed: 439035188
     threads: 4
     columns: 78

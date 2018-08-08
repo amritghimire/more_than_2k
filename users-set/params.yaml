@@ -41,7 +41,7 @@ variables:
     random_state: 146165681
     sample: 0.25
   dev:
-    batch_size: 864
+    batch_size: 865
     passes: 24
     tags: 35
     min_split: 32
@@ -59,7 +59,7 @@ preprocessing:
     drop: 0.12168
     epochs: 38
   other:
-    epochs: 65
+    epochs: 53
     folds: 10
     learning_rate: 0.15
     passes: 40
@@ -197,7 +197,7 @@ model:
     sample: 0.75407
     learning_rate: 0.05
     folds: 9
-    estimators: 163
+    estimators: 145
     weight_factor: 0.3
     features: 3110
   classifier:

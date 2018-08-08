@@ -57,7 +57,7 @@ preprocessing:
     learning_rate: 0.05
     random_state: 183000000
     drop: 0.12168
-    epochs: 38
+    epochs: 44
   other:
     epochs: 53
     folds: 10
@@ -128,7 +128,7 @@ validation:
   classifier:
     split: 0.4
     max_features: 1250
-    tags: 133
+    tags: 102
   batch:
     drop: 0.2
     threads: 18
@@ -177,7 +177,7 @@ model:
     num_est: 125
     seed: 682172675
     epochs: 50
-    threads: 18
+    threads: 22
     weight_factor: 0.2
     random_state: 92000000
   selection:

@@ -30,7 +30,7 @@ variables:
     min_split: 49
     folds: 11
   classifier:
-    estimators: 159
+    estimators: 205
     seed: 439035188
     threads: 4
     columns: 78
@@ -182,7 +182,7 @@ model:
     random_state: 92000000
   selection:
     passes: 16
-    layers: 1
+    layers: 2
     folds: 5
     sample: 0.5
     num_est: 175
@@ -196,7 +196,7 @@ model:
     max_depth: 28
     sample: 0.75407
     learning_rate: 0.05
-    folds: 9
+    folds: 10
     estimators: 145
     weight_factor: 0.3
     features: 3110

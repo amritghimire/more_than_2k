@@ -97,7 +97,7 @@ validation:
     batch_size: 512
     tags: 77
     trees: 30
-    split: 0.1
+    split: 0.07635
     passes: 100
     folds: 2
   requests:
@@ -162,7 +162,7 @@ settings:
     columns: 70
     max_features: 3600
   batch:
-    estimators: 102
+    estimators: 97
     ngrams: 8
     columns: 21
     dense: 500

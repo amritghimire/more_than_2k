@@ -120,7 +120,7 @@ prepare:
     min_split: 42
     passes: 29
   other:
-    tags: 151
+    tags: 106
     split: 0.23789
     dense: 555
     random_state: 239319467

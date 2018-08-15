@@ -85,7 +85,7 @@ variables:
     passes: 84
     weight_factor: 0.3
   test:
-    epochs: 20
+    epochs: 19
     sample: 0.5
     tags: 112
     columns: 49

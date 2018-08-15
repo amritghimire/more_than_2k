@@ -229,12 +229,12 @@ prepare:
     num_est: 45
     passes: 109
     layers: 4
-    epochs: 65
+    epochs: 80
     columns: 6
     random_state: 806182106
   requests:
     split: 0.19119
-    folds: 13
+    folds: 11
     features: 2430
   dev:
     columns: 52
@@ -245,7 +245,7 @@ prepare:
     trees: 14
     batch_size: 936
     features: 3196
-    max_features: 4600
+    max_features: 5549
     tags: 49
   classifier:
     columns: 67

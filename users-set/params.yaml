@@ -228,8 +228,8 @@ prepare:
   rf:
     num_est: 45
     passes: 109
-    layers: 5
-    epochs: 92
+    layers: 4
+    epochs: 65
     columns: 6
     random_state: 806182106
   requests:
@@ -241,7 +241,7 @@ prepare:
     seed: 465345853
     weight_factor: 0.18617
     sample: 0.59126
-    epochs: 72
+    epochs: 62
     trees: 14
     batch_size: 936
     features: 3196
@@ -264,7 +264,7 @@ prepare:
     ngrams: 6
     seed: 136815760
     features: 1344
-    passes: 66
+    passes: 47
 featurize:
   classifier:
     threads: 28

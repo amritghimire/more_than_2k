@@ -63,7 +63,7 @@ prepare:
   short:
     epochs: 45
     learning_rate: 0.11509
-    features: 3637
+    features: 4032
     min_split: 68
   batch:
     layers: 3
@@ -82,10 +82,10 @@ prepare:
   prod:
     weight_factor: 0.20244
     drop: 0.37936
-    epochs: 64
+    epochs: 76
     folds: 6
     max_features: 457
-    columns: 26
+    columns: 39
   other:
     random_state: 655902915
     min_features: 3602

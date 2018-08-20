@@ -81,7 +81,7 @@ prepare:
     num_est: 95
   prod:
     weight_factor: 0.20244
-    drop: 0.39323
+    drop: 0.37936
     epochs: 64
     folds: 6
     max_features: 457
@@ -89,7 +89,7 @@ prepare:
   other:
     random_state: 655902915
     min_features: 3602
-    columns: 57
+    columns: 69
     batch_size: 611
     trees: 3
   selection:

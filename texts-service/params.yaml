@@ -126,7 +126,7 @@ model:
     columns: 57
     split: 0.5
     max_features: 2350
-    random_state: 495000000
+    random_state: 402365341
   other:
     sample: 0.87009
     max_depth: 20

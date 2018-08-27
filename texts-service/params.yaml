@@ -18,7 +18,7 @@ settings:
     num_est: 150
     random_state: 41000000
     max_features: 3800
-    estimators: 34
+    estimators: 38
   test:
     random_state: 510000000
     learning_rate: 0.04
@@ -142,7 +142,7 @@ model:
     min_split: 80
     min_features: 4100
     threads: 1
-    max_features: 1400
+    max_features: 1568
     folds: 3
     seed: 761722981
     split: 0.4

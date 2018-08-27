@@ -34,7 +34,7 @@ settings:
     epochs: 10
   other:
     learning_rate: 0.01
-    seed: 451865000
+    seed: 430734343
     min_split: 64
     trees: 60
     max_features: 1200

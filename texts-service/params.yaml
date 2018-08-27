@@ -237,7 +237,7 @@ variables:
 preprocessing:
   requests:
     num_est: 250
-    weight_factor: 0.2
+    weight_factor: 0.19355
     folds: 9
     min_split: 64
     sample: 0.25

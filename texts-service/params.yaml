@@ -184,9 +184,9 @@ prepare:
   combine:
     dense: 187
     weight_factor: 0.1
-    folds: 5
+    folds: 4
     features: 12
-    split: 0.23454
+    split: 0.23216
     learning_rate: 0.03341
   other:
     random_state: 20776859

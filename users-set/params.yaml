@@ -267,7 +267,7 @@ prepare:
     passes: 47
 featurize:
   classifier:
-    threads: 28
+    threads: 34
     folds: 12
     num_est: 99
     max_depth: 15
@@ -299,7 +299,7 @@ featurize:
     max_features: 1134
     tags: 113
     random_state: 751662110
-    min_features: 2439
+    min_features: 2345
     learning_rate: 0.08
     layers: 1
   other:

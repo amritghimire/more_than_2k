@@ -88,14 +88,14 @@ settings:
     batch_size: 32
     num_est: 25
     folds: 3
-    random_state: 415000000
+    random_state: 458432672
     learning_rate: 0.04
   other:
     folds: 6
     columns: 15
     min_features: 4900
     weight_factor: 0.2
-    features: 2060
+    features: 1593
     random_state: 282000000
     estimators: 183
     tags: 35
@@ -115,7 +115,7 @@ settings:
     seed: 757924000
   preprocessing:
     sample: 0.25
-    drop: 0.1
+    drop: 0.08704
     threads: 17
     split: 0.3
     estimators: 204
@@ -189,7 +189,7 @@ tagging:
   combine:
     max_depth: 32
     split: 0.2
-    columns: 24
+    columns: 21
   other:
     max_features: 4200
     columns: 36

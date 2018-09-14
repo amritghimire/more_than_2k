@@ -52,11 +52,11 @@ validation:
     trees: 54
     min_split: 80
     split: 0.5
-    folds: 9
+    folds: 6
   combine:
     min_features: 300
     passes: 84
-    features: 3880
+    features: 2917
     learning_rate: 0.15
   test:
     tags: 49
@@ -259,7 +259,7 @@ variables:
     columns: 42
   test:
     min_split: 48
-    weight_factor: 0.1
+    weight_factor: 0.07915
     features: 4820
     random_state: 18000000
     epochs: 65
@@ -299,5 +299,5 @@ train:
     seed: 899860000
   combine:
     ngrams: 4
-    folds: 12
+    folds: 9
     layers: 4

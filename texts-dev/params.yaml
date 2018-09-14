@@ -4,7 +4,7 @@ featurize:
     epochs: 58
     trees: 42
     columns: 72
-    min_features: 3300
+    min_features: 2798
     max_features: 3700
   test:
     trees: 24
@@ -12,7 +12,7 @@ featurize:
   model:
     random_state: 507000000
     batch_size: 1024
-    tags: 154
+    tags: 124
     passes: 42
     folds: 12
     split: 0.1
@@ -25,14 +25,14 @@ featurize:
     estimators: 231
     columns: 33
     tags: 14
-    threads: 22
+    threads: 26
   other:
     trees: 63
-    random_state: 166000000
+    random_state: 175902484
     passes: 68
     estimators: 46
     batch_size: 528
-    drop: 0.2
+    drop: 0.23755
   dev:
     num_est: 250
     sample: 0.25

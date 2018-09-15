@@ -82,7 +82,7 @@ settings:
   preset:
     layers: 3
     learning_rate: 0.13
-    passes: 46
+    passes: 52
   prod:
     epochs: 30
     ngrams: 4

@@ -114,7 +114,7 @@ prepare:
     threads: 16
     min_split: 62
   rf:
-    ngrams: 4
+    ngrams: 3
     epochs: 45
   long:
     min_split: 36

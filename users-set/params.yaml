@@ -275,7 +275,7 @@ featurize:
     max_features: 4719
   dev:
     epochs: 47
-    ngrams: 6
+    ngrams: 7
     tags: 98
     features: 2666
     passes: 74

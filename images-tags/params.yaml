@@ -219,7 +219,7 @@ featurize:
     trees: 57
   preset:
     max_features: 641
-    split: 0.41885
+    split: 0.48956
     tags: 60
     weight_factor: 0.23173
     learning_rate: 0.05898

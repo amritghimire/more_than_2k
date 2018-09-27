@@ -212,7 +212,7 @@ featurize:
   rf:
     dense: 100
     columns: 48
-    max_features: 2750
+    max_features: 3259
     drop: 0.08146
     num_est: 120
     batch_size: 329
@@ -229,7 +229,7 @@ featurize:
     layers: 4
     threads: 17
     split: 0.53186
-    epochs: 42
+    epochs: 36
     min_split: 66
     features: 4087
     min_features: 5835

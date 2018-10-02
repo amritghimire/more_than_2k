@@ -234,7 +234,7 @@ prepare:
     random_state: 806182106
   requests:
     split: 0.15111
-    folds: 11
+    folds: 10
     features: 2430
   dev:
     columns: 52
@@ -245,7 +245,7 @@ prepare:
     trees: 14
     batch_size: 936
     features: 3196
-    max_features: 4934
+    max_features: 5295
     tags: 49
   classifier:
     columns: 67

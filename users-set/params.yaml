@@ -240,12 +240,12 @@ prepare:
     columns: 52
     seed: 465345853
     weight_factor: 0.18617
-    sample: 0.59126
+    sample: 0.49427
     epochs: 62
     trees: 14
     batch_size: 936
     features: 3196
-    max_features: 5549
+    max_features: 4934
     tags: 49
   classifier:
     columns: 67

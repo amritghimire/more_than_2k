@@ -173,7 +173,7 @@ prepare:
     batch_size: 624
     min_features: 1656
     epochs: 40
-    split: 0.36624
+    split: 0.4808
     columns: 57
     seed: 205636000
 tagging:

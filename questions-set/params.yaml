@@ -195,7 +195,7 @@ featurize:
     seed: 360139000
     trees: 6
     dense: 249
-    random_state: 780804113
+    random_state: 752723792
     max_depth: 32
     split: 0.16748
     threads: 8

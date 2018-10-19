@@ -202,7 +202,7 @@ featurize:
   classifier:
     num_est: 28
     columns: 66
-    trees: 45
+    trees: 54
     folds: 12
     threads: 17
   preset:
@@ -215,7 +215,7 @@ featurize:
     passes: 36
     layers: 3
   auto:
-    drop: 0.20196
+    drop: 0.22065
     min_features: 3500
     trees: 15
     passes: 60

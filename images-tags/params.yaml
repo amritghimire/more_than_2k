@@ -74,7 +74,7 @@ settings:
     min_split: 64
     max_depth: 16
     dense: 300
-    drop: 0.11088
+    drop: 0.11444
     num_est: 250
   other:
     min_split: 32
@@ -157,7 +157,7 @@ preprocessing:
     tags: 28
   diff:
     threads: 28
-    min_features: 3500
+    min_features: 4160
     random_state: 553000000
     trees: 78
   other:
@@ -168,7 +168,7 @@ preprocessing:
     features: 2880
   preset:
     epochs: 25
-    split: 0.4
+    split: 0.34353
     seed: 249776000
     estimators: 164
   long:

@@ -67,7 +67,7 @@ concurrent:
     threads: 1
   long:
     layers: 2
-    max_features: 2433
+    max_features: 2832
     weight_factor: 0.1
 settings:
   rf:

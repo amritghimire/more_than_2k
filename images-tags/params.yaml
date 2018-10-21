@@ -221,7 +221,7 @@ featurize:
     max_features: 641
     split: 0.48956
     tags: 60
-    weight_factor: 0.23173
+    weight_factor: 0.36444
     learning_rate: 0.05898
     max_depth: 19
   prod:

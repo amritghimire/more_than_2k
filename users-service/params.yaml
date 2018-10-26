@@ -20,9 +20,9 @@ settings:
   drop: 0.17815
   layers: 4
 concurrent:
-  weight_factor: 0.1
+  weight_factor: 0.10509
   sample: 0.27269
-  ngrams: 6
+  ngrams: 7
   min_split: 16
   num_est: 25
   drop: 0.3
@@ -57,10 +57,10 @@ variables:
   num_est: 199
   folds: 2
   dense: 300
-  split: 0.4
+  split: 0.30223
   batch_size: 608
   features: 3900
-  max_features: 3800
+  max_features: 3016
   ngrams: 2
   layers: 2
   drop: 0.3
@@ -104,6 +104,6 @@ tagging:
   max_depth: 12
   min_features: 2150
   sample: 0.25
-  tags: 105
+  tags: 111
   epochs: 50
   features: 2460

@@ -27,7 +27,7 @@ concurrent:
   num_est: 25
   drop: 0.3
   random_state: 256000000
-  threads: 2
+  threads: 3
   passes: 98
   tags: 98
   features: 2810
@@ -51,7 +51,7 @@ variables:
   seed: 901562702
   passes: 66
   random_state: 937000000
-  sample: 0.25
+  sample: 0.22269
   tags: 112
   min_split: 80
   num_est: 199

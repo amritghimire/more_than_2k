@@ -151,7 +151,7 @@ concurrent:
     num_est: 225
     estimators: 56
     columns: 62
-    ngrams: 6
+    ngrams: 4
     folds: 14
   combine:
     trees: 43

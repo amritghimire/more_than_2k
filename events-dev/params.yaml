@@ -37,7 +37,7 @@ model:
     batch_size: 768
     tags: 93
     random_state: 156566786
-    split: 0.23202
+    split: 0.19772
   auto:
     epochs: 10
     layers: 2
@@ -72,7 +72,7 @@ settings:
     random_state: 90000000
     trees: 43
     estimators: 31
-    passes: 38
+    passes: 41
   diff:
     folds: 5
     sample: 0.25

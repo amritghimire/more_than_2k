@@ -224,7 +224,7 @@ train:
     learning_rate: 0.13519
     ngrams: 8
     tags: 55
-    batch_size: 657
+    batch_size: 639
     estimators: 151
     random_state: 547792852
     max_features: 1563
@@ -236,7 +236,7 @@ train:
     min_split: 91
     seed: 351561583
     split: 0.4
-    sample: 0.57637
+    sample: 0.62001
     estimators: 212
   preset:
     learning_rate: 0.14
@@ -264,7 +264,7 @@ variables:
     num_est: 172
     learning_rate: 0.13
     folds: 9
-    seed: 126530000
+    seed: 153088032
   combine:
     num_est: 122
     tags: 79

@@ -267,14 +267,14 @@ prepare:
     passes: 47
 featurize:
   classifier:
-    threads: 34
+    threads: 22
     folds: 12
     num_est: 99
     max_depth: 15
     batch_size: 772
     max_features: 4719
   dev:
-    epochs: 47
+    epochs: 41
     ngrams: 7
     tags: 102
     features: 2666

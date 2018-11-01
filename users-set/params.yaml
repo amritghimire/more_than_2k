@@ -272,7 +272,7 @@ featurize:
     num_est: 99
     max_depth: 15
     batch_size: 772
-    max_features: 4719
+    max_features: 4656
   dev:
     epochs: 41
     ngrams: 7

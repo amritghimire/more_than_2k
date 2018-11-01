@@ -276,7 +276,7 @@ featurize:
   dev:
     epochs: 47
     ngrams: 7
-    tags: 98
+    tags: 102
     features: 2666
     passes: 74
     seed: 423518680
@@ -300,7 +300,7 @@ featurize:
     tags: 113
     random_state: 751662110
     min_features: 2345
-    learning_rate: 0.08
+    learning_rate: 0.07917
     layers: 1
   other:
     dense: 124

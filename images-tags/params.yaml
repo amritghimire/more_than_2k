@@ -56,7 +56,7 @@ concurrent:
     tags: 119
   prod:
     columns: 51
-    threads: 28
+    threads: 30
     random_state: 706000000
     dense: 200
   classifier:

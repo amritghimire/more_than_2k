@@ -13,7 +13,7 @@ settings:
   dense: 400
   passes: 16
   columns: 21
-  random_state: 1008347812
+  random_state: 869548485
   trees: 57
   min_split: 30
   split: 0.3
@@ -106,4 +106,4 @@ tagging:
   sample: 0.25
   tags: 111
   epochs: 50
-  features: 2460
+  features: 1906

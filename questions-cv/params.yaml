@@ -62,7 +62,7 @@ model:
 prepare:
   short:
     epochs: 45
-    learning_rate: 0.11509
+    learning_rate: 0.09952
     features: 4032
     min_split: 68
   batch:
@@ -78,7 +78,7 @@ prepare:
     estimators: 236
   rf:
     features: 1834
-    num_est: 95
+    num_est: 111
   prod:
     weight_factor: 0.20244
     drop: 0.37936
@@ -93,7 +93,7 @@ prepare:
     batch_size: 611
     trees: 3
   selection:
-    weight_factor: 0.28266
+    weight_factor: 0.34162
 validation:
   prod:
     layers: 2

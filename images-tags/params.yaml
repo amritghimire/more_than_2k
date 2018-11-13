@@ -61,7 +61,7 @@ concurrent:
     dense: 200
   classifier:
     learning_rate: 0.13807
-    num_est: 25
+    num_est: 24
     max_depth: 12
     passes: 104
     threads: 1
@@ -188,7 +188,7 @@ variables:
     trees: 72
     estimators: 146
     min_features: 4150
-    split: 0.2
+    split: 0.16914
   long:
     seed: 493427000
     num_est: 50

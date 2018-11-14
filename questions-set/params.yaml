@@ -69,7 +69,7 @@ concurrent:
     split: 0.4
     folds: 2
     tags: 55
-    num_est: 75
+    num_est: 73
   requests:
     max_features: 3650
     trees: 60
@@ -92,7 +92,7 @@ train:
     min_split: 55
     threads: 23
     batch_size: 656
-    split: 0.1
+    split: 0.1009
     folds: 3
     random_state: 403000000
     features: 4860
@@ -103,7 +103,7 @@ train:
     drop: 0.1
     max_features: 3300
   classifier:
-    num_est: 98
+    num_est: 124
     threads: 3
     min_split: 80
     features: 980
@@ -119,7 +119,7 @@ train:
 settings:
   combine:
     min_features: 1439
-    passes: 106
+    passes: 108
     max_features: 150
     ngrams: 6
   requests:
@@ -169,7 +169,7 @@ model:
   classifier:
     tags: 130
     max_features: 2350
-    split: 0.4
+    split: 0.44353
     trees: 63
   prod:
     seed: 358548000

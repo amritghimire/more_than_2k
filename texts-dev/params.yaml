@@ -166,10 +166,10 @@ prepare:
     max_features: 4900
     ngrams: 6
     num_est: 272
-    columns: 66
+    columns: 58
     dense: 123
   dev:
-    ngrams: 3
+    ngrams: 4
     batch_size: 624
     min_features: 1656
     epochs: 40

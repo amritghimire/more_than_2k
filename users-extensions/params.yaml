@@ -1,7 +1,7 @@
 concurrent:
   settings:
     columns: 39
-    min_features: 3250
+    min_features: 3391
     max_features: 3842
     features: 5570
     drop: 0.45239
@@ -242,7 +242,7 @@ preprocessing:
     seed: 290504000
     sample: 1.05571
     num_est: 50
-    min_features: 4150
+    min_features: 3851
     threads: 20
     columns: 56
   other:
@@ -251,7 +251,7 @@ preprocessing:
     sample: 0.25
     epochs: 15
   short:
-    split: 0.60803
+    split: 0.59895
     folds: 6
   preset:
     columns: 75

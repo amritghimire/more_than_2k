@@ -66,7 +66,7 @@ model:
     layers: 4
     estimators: 152
     random_state: 459065127
-    weight_factor: 0.3
+    weight_factor: 0.26704
   preset:
     drop: 0.3
 variables:

@@ -122,7 +122,7 @@ featurize:
 preprocessing:
   preset:
     split: 0.55897
-    dense: 95
+    dense: 101
     tags: 115
     epochs: 83
   binary:
@@ -164,7 +164,7 @@ settings:
     estimators: 64
     max_depth: 20
   dev:
-    sample: 0.54451
+    sample: 0.56569
     min_split: 50
   rf:
     learning_rate: 0.04168
@@ -207,7 +207,7 @@ validation:
     folds: 2
   rf:
     threads: 7
-    passes: 88
+    passes: 116
     max_features: 3055
     max_depth: 31
   dev:

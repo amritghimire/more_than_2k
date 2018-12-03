@@ -28,7 +28,7 @@ concurrent:
   drop: 0.3
   random_state: 256000000
   threads: 3
-  passes: 98
+  passes: 114
   tags: 98
   features: 2810
   folds: 6
@@ -91,7 +91,7 @@ tagging:
   ngrams: 4
   threads: 16
   num_est: 44
-  batch_size: 912
+  batch_size: 1071
   layers: 2
   estimators: 44
   folds: 6

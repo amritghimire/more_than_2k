@@ -269,7 +269,7 @@ variables:
     columns: 12
 train:
   preprocessing:
-    drop: 0.2
+    drop: 0.1652
     learning_rate: 0.11
   model:
     random_state: 175000000

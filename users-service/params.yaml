@@ -57,7 +57,7 @@ variables:
   num_est: 199
   folds: 2
   dense: 300
-  split: 0.30223
+  split: 0.375
   batch_size: 758
   features: 3900
   max_features: 3016

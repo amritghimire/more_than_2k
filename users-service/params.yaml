@@ -97,7 +97,7 @@ tagging:
   folds: 6
   weight_factor: 0.1
   columns: 58
-  trees: 78
+  trees: 87
   learning_rate: 0.13
   seed: 952765000
   dense: 500

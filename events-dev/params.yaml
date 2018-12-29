@@ -203,7 +203,7 @@ featurize:
     ngrams: 2
   combine:
     batch_size: 471
-    sample: 0.51222
+    sample: 0.43941
     max_depth: 10
     max_features: 588
 train:

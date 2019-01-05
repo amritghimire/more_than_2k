@@ -92,7 +92,7 @@ prepare:
     layers: 1
     trees: 86
   preset:
-    trees: 67
+    trees: 59
     split: 0.23267
     columns: 39
     passes: 60
@@ -110,7 +110,7 @@ prepare:
     trees: 56
     layers: 2
     passes: 56
-    dense: 106
+    dense: 89
     max_features: 75
   long:
     columns: 16
@@ -120,7 +120,7 @@ prepare:
     min_split: 42
     passes: 29
   other:
-    tags: 106
+    tags: 147
     split: 0.23789
     dense: 555
     random_state: 239319467

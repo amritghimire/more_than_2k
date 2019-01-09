@@ -71,7 +71,7 @@ prepare:
     features: 284
     min_split: 28
   collection:
-    passes: 82
+    passes: 86
     seed: 830542176
     drop: 0.36621
     max_features: 1171
@@ -82,7 +82,7 @@ prepare:
   prod:
     weight_factor: 0.21202
     drop: 0.48663
-    epochs: 76
+    epochs: 60
     folds: 7
     max_features: 457
     columns: 32

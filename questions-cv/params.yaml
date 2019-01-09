@@ -73,7 +73,7 @@ prepare:
   collection:
     passes: 86
     seed: 830542176
-    drop: 0.36621
+    drop: 0.49047
     max_features: 1171
     estimators: 236
   rf:
@@ -82,7 +82,7 @@ prepare:
   prod:
     weight_factor: 0.21202
     drop: 0.48663
-    epochs: 60
+    epochs: 76
     folds: 7
     max_features: 457
     columns: 32

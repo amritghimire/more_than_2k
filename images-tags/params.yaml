@@ -120,7 +120,7 @@ prepare:
     min_split: 36
     columns: 51
     sample: 1.06144
-    random_state: 160587398
+    random_state: 127790177
     layers: 5
     features: 2087
   other:

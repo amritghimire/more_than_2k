@@ -68,7 +68,7 @@ prepare:
   batch:
     layers: 3
     epochs: 56
-    features: 341
+    features: 284
     min_split: 28
   collection:
     passes: 82
@@ -80,16 +80,16 @@ prepare:
     features: 1834
     num_est: 111
   prod:
-    weight_factor: 0.20244
-    drop: 0.48682
+    weight_factor: 0.21202
+    drop: 0.48663
     epochs: 76
-    folds: 6
+    folds: 7
     max_features: 457
     columns: 32
   other:
     random_state: 655902915
     min_features: 3791
-    columns: 69
+    columns: 49
     batch_size: 611
     trees: 3
   selection:

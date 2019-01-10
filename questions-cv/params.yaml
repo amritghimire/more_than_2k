@@ -75,7 +75,7 @@ prepare:
     seed: 830542176
     drop: 0.49047
     max_features: 1171
-    estimators: 236
+    estimators: 260
   rf:
     features: 1834
     num_est: 111
@@ -88,12 +88,12 @@ prepare:
     columns: 32
   other:
     random_state: 655902915
-    min_features: 3791
+    min_features: 4066
     columns: 49
     batch_size: 611
     trees: 3
   selection:
-    weight_factor: 0.34162
+    weight_factor: 0.30516
 validation:
   prod:
     layers: 2

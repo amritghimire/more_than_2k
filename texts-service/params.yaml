@@ -260,7 +260,7 @@ preprocessing:
     max_depth: 20
     min_split: 35
   other:
-    min_split: 48
+    min_split: 40
     epochs: 70
     features: 3540
     weight_factor: 0.2

@@ -180,7 +180,7 @@ prepare:
     sample: 0.5247
     max_depth: 32
     epochs: 53
-    weight_factor: 0.3
+    weight_factor: 0.23275
   combine:
     dense: 187
     weight_factor: 0.1
@@ -194,7 +194,7 @@ prepare:
     split: 0.1
   diff:
     epochs: 20
-    estimators: 134
+    estimators: 133
 variables:
   preset:
     weight_factor: 0.3

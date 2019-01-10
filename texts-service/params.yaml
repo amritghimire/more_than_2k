@@ -139,7 +139,7 @@ model:
     passes: 104
     learning_rate: 0.07
   test:
-    min_split: 80
+    min_split: 79
     min_features: 3675
     threads: 1
     max_features: 1568

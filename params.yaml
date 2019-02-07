@@ -55,7 +55,7 @@ tagging:
     batch_size: 94
     estimators: 82
   long:
-    features: 3463
+    features: 3147
     layers: 2
     min_features: 2964
   short:
@@ -74,7 +74,7 @@ train:
     passes: 14
     num_est: 186
   binary:
-    learning_rate: 0.12467
+    learning_rate: 0.16241
     max_features: 120
   batch:
     drop: 0.23801
@@ -169,7 +169,7 @@ settings:
   rf:
     learning_rate: 0.04168
     num_est: 91
-    min_features: 1582
+    min_features: 1407
     seed: 688056171
   batch:
     learning_rate: 0.08786
@@ -190,7 +190,7 @@ validation:
     random_state: 1197221276
     passes: 30
     batch_size: 188
-    weight_factor: 0.36804
+    weight_factor: 0.29629
   batch:
     sample: 0.61316
     layers: 4

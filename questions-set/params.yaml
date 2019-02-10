@@ -3,7 +3,7 @@ tagging:
     ngrams: 2
     random_state: 84000000
     estimators: 207
-    weight_factor: 0.30488
+    weight_factor: 0.30504
   prod:
     weight_factor: 0.2
     sample: 0.5
@@ -54,12 +54,12 @@ variables:
 concurrent:
   classifier:
     dense: 200
-    split: 0.4
+    split: 0.43126
     max_features: 2450
     seed: 240962000
     passes: 80
   prod:
-    columns: 36
+    columns: 32
   batch:
     split: 0.4
     ngrams: 2
@@ -152,7 +152,7 @@ settings:
     tags: 21
     sample: 1.0
   classifier:
-    dense: 500
+    dense: 608
     ngrams: 2
     columns: 27
 model:

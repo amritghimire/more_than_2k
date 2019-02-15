@@ -252,7 +252,7 @@ variables:
     features: 4420
   dev:
     max_features: 2650
-    weight_factor: 0.3
+    weight_factor: 0.23672
     min_features: 4250
     split: 0.1
     threads: 10

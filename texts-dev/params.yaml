@@ -270,7 +270,7 @@ variables:
 train:
   preprocessing:
     drop: 0.1652
-    learning_rate: 0.11
+    learning_rate: 0.10494
   model:
     random_state: 175000000
     features: 1060

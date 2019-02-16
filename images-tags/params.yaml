@@ -165,7 +165,7 @@ preprocessing:
     threads: 15
     random_state: 191000000
     passes: 62
-    features: 2880
+    features: 3222
   preset:
     epochs: 25
     split: 0.34353
@@ -185,14 +185,14 @@ variables:
     features: 3270
   diff:
     max_depth: 24
-    trees: 72
+    trees: 83
     estimators: 146
     min_features: 4150
     split: 0.16914
   long:
     seed: 493427000
     num_est: 50
-    min_split: 32
+    min_split: 24
   classifier:
     random_state: 448420718
     ngrams: 6

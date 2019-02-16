@@ -150,7 +150,7 @@ settings:
     epochs: 20
     estimators: 179
   selection:
-    layers: 3
+    layers: 4
     estimators: 138
     seed: 161839442
     folds: 3

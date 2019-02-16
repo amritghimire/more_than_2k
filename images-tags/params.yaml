@@ -23,7 +23,7 @@ model:
     weight_factor: 0.3
   other:
     tags: 84
-    layers: 2
+    layers: 1
   classifier:
     min_features: 1850
     min_split: 48

@@ -11,7 +11,7 @@ settings:
     dense: 263
     weight_factor: 0.1
   requests:
-    batch_size: 720
+    batch_size: 610
     min_split: 39
     layers: 4
     threads: 1
@@ -87,7 +87,7 @@ concurrent:
     sample: 0.5
   preset:
     sample: 0.75
-    features: 1730
+    features: 1758
     weight_factor: 0.3
     seed: 608662429
     learning_rate: 0.04

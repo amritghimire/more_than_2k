@@ -158,7 +158,7 @@ prepare:
   test:
     weight_factor: 0.3
     passes: 4
-    min_split: 55
+    min_split: 51
     threads: 15
   other:
     max_depth: 15
@@ -167,7 +167,7 @@ prepare:
     ngrams: 6
     num_est: 272
     columns: 58
-    dense: 123
+    dense: 100
   dev:
     ngrams: 4
     batch_size: 624

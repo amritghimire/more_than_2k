@@ -250,5 +250,5 @@ featurize:
     num_est: 151
     seed: 151684665
   other:
-    drop: 0.24402
+    drop: 0.21938
     learning_rate: 0.02

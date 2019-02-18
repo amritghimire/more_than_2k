@@ -35,7 +35,7 @@ variables:
     estimators: 214
     dense: 400
   requests:
-    estimators: 89
+    estimators: 93
     tags: 112
     sample: 0.5
   combine:
@@ -123,7 +123,7 @@ settings:
     max_features: 150
     ngrams: 6
   requests:
-    max_features: 550
+    max_features: 684
     min_features: 1050
     layers: 2
   batch:

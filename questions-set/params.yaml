@@ -3,7 +3,7 @@ tagging:
     ngrams: 2
     random_state: 84000000
     estimators: 207
-    weight_factor: 0.30504
+    weight_factor: 0.26551
   prod:
     weight_factor: 0.2
     sample: 0.5
@@ -47,7 +47,7 @@ variables:
     threads: 15
     trees: 30
   classifier:
-    max_features: 2232
+    max_features: 1964
     seed: 272039000
   batch:
     tags: 112
@@ -81,7 +81,7 @@ concurrent:
     columns: 72
     tags: 111
     trees: 12
-    sample: 1.0
+    sample: 0.82158
   combine:
     max_depth: 16
     trees: 13

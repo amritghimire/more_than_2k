@@ -99,7 +99,7 @@ featurize:
     folds: 10
     seed: 243856187
     sample: 0.52699
-    epochs: 80
+    epochs: 56
     max_features: 2842
   preset:
     estimators: 234
@@ -110,7 +110,7 @@ featurize:
     trees: 33
     sample: 0.25193
     seed: 720026092
-    min_features: 3718
+    min_features: 3641
     batch_size: 42
   rf:
     folds: 7

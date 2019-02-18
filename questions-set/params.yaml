@@ -55,7 +55,7 @@ concurrent:
   classifier:
     dense: 200
     split: 0.43126
-    max_features: 2450
+    max_features: 2620
     seed: 240962000
     passes: 80
   prod:
@@ -133,7 +133,7 @@ settings:
   preset:
     min_split: 16
     ngrams: 3
-    learning_rate: 0.05
+    learning_rate: 0.04096
     drop: 0.4
   prod:
     estimators: 245

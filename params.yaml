@@ -95,7 +95,7 @@ featurize:
     tags: 68
   long:
     ngrams: 7
-    tags: 103
+    tags: 73
     folds: 10
     seed: 243856187
     sample: 0.52699

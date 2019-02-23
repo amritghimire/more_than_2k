@@ -81,7 +81,7 @@ settings:
     min_split: 31
   auto:
     weight_factor: 0.2
-    tags: 126
+    tags: 103
 prepare:
   short:
     num_est: 233
@@ -241,7 +241,7 @@ train:
   preset:
     learning_rate: 0.14
     features: 2077
-    drop: 0.11893
+    drop: 0.11259
   short:
     columns: 64
     num_est: 250

@@ -8,7 +8,7 @@ model:
     seed: 707284539
   prod:
     columns: 30
-    num_est: 175
+    num_est: 164
     dense: 100
     sample: 0.38927
     random_state: 312000000
@@ -38,7 +38,7 @@ model:
     seed: 272372000
 concurrent:
   rf:
-    random_state: 759004965
+    random_state: 653074762
     min_features: 1800
   preset:
     columns: 66

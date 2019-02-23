@@ -274,7 +274,7 @@ featurize:
     batch_size: 772
     max_features: 4656
   dev:
-    epochs: 41
+    epochs: 45
     ngrams: 7
     tags: 102
     features: 2666
@@ -286,7 +286,7 @@ featurize:
     weight_factor: 0.2
     max_features: 5443
   requests:
-    sample: 0.21743
+    sample: 0.20487
     num_est: 244
     threads: 2
   selection:

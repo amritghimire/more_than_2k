@@ -62,7 +62,7 @@ model:
 prepare:
   short:
     epochs: 33
-    learning_rate: 0.12062
+    learning_rate: 0.13541
     features: 4032
     min_split: 68
   batch:
@@ -71,7 +71,7 @@ prepare:
     features: 284
     min_split: 28
   collection:
-    passes: 86
+    passes: 93
     seed: 830542176
     drop: 0.49047
     max_features: 979
@@ -80,7 +80,7 @@ prepare:
     features: 1834
     num_est: 111
   prod:
-    weight_factor: 0.21202
+    weight_factor: 0.21475
     drop: 0.49255
     epochs: 53
     folds: 6

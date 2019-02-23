@@ -185,12 +185,12 @@ featurize:
     num_est: 106
     estimators: 97
     dense: 153
-    epochs: 42
+    epochs: 39
     columns: 27
   diff:
     estimators: 46
     layers: 3
-    max_depth: 14
+    max_depth: 16
     max_features: 3709
   long:
     tags: 66
@@ -199,7 +199,7 @@ featurize:
     folds: 7
     random_state: 71987481
   auto:
-    max_features: 3662
+    max_features: 3796
     ngrams: 2
   combine:
     batch_size: 471

@@ -176,14 +176,14 @@ featurize:
     passes: 45
     weight_factor: 0.23946
     drop: 0.15879
-    max_features: 5009
+    max_features: 4214
     tags: 96
   short:
     min_features: 849
     layers: 4
     max_depth: 13
     num_est: 106
-    estimators: 118
+    estimators: 97
     dense: 153
     epochs: 42
     columns: 27

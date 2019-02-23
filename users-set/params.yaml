@@ -278,8 +278,8 @@ featurize:
     ngrams: 7
     tags: 102
     features: 2666
-    passes: 74
-    seed: 423518680
+    passes: 65
+    seed: 496152743
   batch:
     batch_size: 979
     threads: 25

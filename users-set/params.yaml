@@ -276,7 +276,7 @@ featurize:
   dev:
     epochs: 57
     ngrams: 7
-    tags: 102
+    tags: 98
     features: 2666
     passes: 65
     seed: 496152743
@@ -288,14 +288,14 @@ featurize:
   requests:
     sample: 0.20487
     num_est: 244
-    threads: 2
+    threads: 1
   selection:
     columns: 15
     passes: 37
     threads: 12
   rf:
     passes: 16
-    weight_factor: 0.25093
+    weight_factor: 0.37315
     max_features: 1134
     tags: 113
     random_state: 480677740

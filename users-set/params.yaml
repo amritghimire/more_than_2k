@@ -292,15 +292,15 @@ featurize:
   selection:
     columns: 15
     passes: 37
-    threads: 16
+    threads: 12
   rf:
     passes: 16
     weight_factor: 0.25093
     max_features: 1134
     tags: 113
-    random_state: 751662110
+    random_state: 480677740
     min_features: 2345
     learning_rate: 0.07917
-    layers: 1
+    layers: 2
   other:
     dense: 87

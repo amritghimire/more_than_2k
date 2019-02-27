@@ -159,7 +159,7 @@ prepare:
     sample: 1.0
     trees: 12
     features: 1470
-    columns: 81
+    columns: 71
   preset:
     max_depth: 8
     seed: 230183000
@@ -179,12 +179,12 @@ prepare:
     dense: 100
     sample: 0.5247
     max_depth: 32
-    epochs: 53
+    epochs: 35
     weight_factor: 0.23275
   combine:
     dense: 187
-    weight_factor: 0.1
-    folds: 4
+    weight_factor: 0.10162
+    folds: 5
     features: 12
     split: 0.23216
     learning_rate: 0.03341

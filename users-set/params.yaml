@@ -268,7 +268,7 @@ prepare:
 featurize:
   classifier:
     threads: 22
-    folds: 12
+    folds: 13
     num_est: 99
     max_depth: 15
     batch_size: 1007

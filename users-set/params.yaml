@@ -297,9 +297,9 @@ featurize:
     passes: 16
     weight_factor: 0.37315
     max_features: 1134
-    tags: 113
+    tags: 108
     random_state: 676961428
-    min_features: 2345
+    min_features: 2528
     learning_rate: 0.07917
     layers: 2
   other:

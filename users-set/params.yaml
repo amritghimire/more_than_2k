@@ -16,7 +16,7 @@ variables:
     min_features: 2450
     seed: 864241000
   batch:
-    threads: 2
+    threads: 1
     split: 0.2
     weight_factor: 0.3
     batch_size: 640
@@ -116,7 +116,7 @@ validation:
     num_est: 250
     passes: 84
   other:
-    layers: 4
+    layers: 3
     split: 0.4
     tags: 54
     estimators: 27
@@ -146,7 +146,7 @@ settings:
     min_features: 1700
     ngrams: 4
     dense: 161
-    columns: 33
+    columns: 31
     epochs: 20
     estimators: 179
   selection:

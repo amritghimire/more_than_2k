@@ -277,14 +277,14 @@ featurize:
     epochs: 57
     ngrams: 9
     tags: 98
-    features: 2666
+    features: 3482
     passes: 65
     seed: 496152743
   batch:
     batch_size: 747
     threads: 25
     weight_factor: 0.2
-    max_features: 4928
+    max_features: 3570
   requests:
     sample: 0.20487
     num_est: 244
@@ -295,7 +295,7 @@ featurize:
     threads: 10
   rf:
     passes: 16
-    weight_factor: 0.37315
+    weight_factor: 0.25447
     max_features: 1134
     tags: 108
     random_state: 676961428

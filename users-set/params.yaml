@@ -275,7 +275,7 @@ featurize:
     max_features: 4656
   dev:
     epochs: 57
-    ngrams: 7
+    ngrams: 9
     tags: 98
     features: 2666
     passes: 65
@@ -292,13 +292,13 @@ featurize:
   selection:
     columns: 15
     passes: 37
-    threads: 12
+    threads: 16
   rf:
     passes: 16
     weight_factor: 0.37315
     max_features: 1134
     tags: 113
-    random_state: 560641165
+    random_state: 634146354
     min_features: 2345
     learning_rate: 0.07917
     layers: 2

@@ -196,7 +196,7 @@ tagging:
     epochs: 70
     threads: 17
     features: 670
-    random_state: 747000000
+    random_state: 728561032
     dense: 400
   test:
     trees: 75

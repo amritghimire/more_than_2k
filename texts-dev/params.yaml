@@ -219,7 +219,7 @@ tagging:
     trees: 42
     num_est: 125
     passes: 40
-    max_depth: 8
+    max_depth: 9
     dense: 300
     threads: 18
   preprocessing:

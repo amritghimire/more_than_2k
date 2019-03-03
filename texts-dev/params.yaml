@@ -207,7 +207,7 @@ tagging:
     split: 0.2
     max_features: 4932
   dev:
-    columns: 42
+    columns: 48
     features: 3300
     max_depth: 32
     random_state: 454000000

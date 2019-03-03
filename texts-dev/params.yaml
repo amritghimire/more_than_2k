@@ -5,7 +5,7 @@ featurize:
     trees: 42
     columns: 72
     min_features: 2798
-    max_features: 3700
+    max_features: 2961
   test:
     trees: 24
     min_split: 39
@@ -19,7 +19,7 @@ featurize:
     columns: 18
   combine:
     weight_factor: 0.09091
-    features: 3060
+    features: 2762
     min_split: 80
     trees: 48
     estimators: 231
@@ -30,7 +30,7 @@ featurize:
     trees: 63
     random_state: 175902484
     passes: 68
-    estimators: 46
+    estimators: 56
     batch_size: 528
     drop: 0.23755
   dev:
@@ -39,7 +39,7 @@ featurize:
   concurrent:
     seed: 31338000
     num_est: 175
-    max_features: 3700
+    max_features: 3906
 validation:
   concurrent:
     layers: 2

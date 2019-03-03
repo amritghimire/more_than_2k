@@ -194,7 +194,7 @@ tagging:
     max_features: 4200
     columns: 36
     epochs: 70
-    threads: 17
+    threads: 13
     features: 670
     random_state: 728561032
     dense: 400

@@ -109,12 +109,12 @@ prepare:
     tags: 33
     trees: 56
     layers: 2
-    passes: 56
+    passes: 51
     dense: 89
     max_features: 75
   long:
     columns: 16
-    trees: 47
+    trees: 45
   auto:
     num_est: 221
     min_split: 42

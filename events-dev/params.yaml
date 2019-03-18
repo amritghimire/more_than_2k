@@ -200,7 +200,7 @@ featurize:
     random_state: 102069361
   auto:
     max_features: 3695
-    ngrams: 2
+    ngrams: 1
   combine:
     batch_size: 356
     sample: 0.43941

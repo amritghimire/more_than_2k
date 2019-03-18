@@ -69,19 +69,19 @@ prepare:
     layers: 3
     epochs: 56
     features: 284
-    min_split: 28
+    min_split: 25
   collection:
     passes: 93
     seed: 830542176
     drop: 0.49047
-    max_features: 979
-    estimators: 260
+    max_features: 1165
+    estimators: 252
   rf:
     features: 1834
     num_est: 111
   prod:
     weight_factor: 0.21475
-    drop: 0.49255
+    drop: 0.3433
     epochs: 53
     folds: 6
     max_features: 493

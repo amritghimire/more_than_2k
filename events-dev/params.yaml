@@ -180,7 +180,7 @@ featurize:
     tags: 96
   short:
     min_features: 849
-    layers: 5
+    layers: 4
     max_depth: 13
     num_est: 106
     estimators: 97
@@ -197,7 +197,7 @@ featurize:
     min_features: 2618
     learning_rate: 0.07304
     folds: 7
-    random_state: 109885880
+    random_state: 102069361
   auto:
     max_features: 3695
     ngrams: 2

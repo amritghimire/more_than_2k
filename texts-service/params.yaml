@@ -157,7 +157,7 @@ prepare:
   test:
     num_est: 243
     sample: 1.0
-    trees: 12
+    trees: 9
     features: 1470
     columns: 71
   preset:
@@ -166,7 +166,7 @@ prepare:
     folds: 9
     estimators: 131
     dense: 490
-    learning_rate: 0.04325
+    learning_rate: 0.03177
     min_features: 4400
   requests:
     passes: 59
@@ -184,9 +184,9 @@ prepare:
   combine:
     dense: 187
     weight_factor: 0.10162
-    folds: 5
+    folds: 6
     features: 12
-    split: 0.23216
+    split: 0.16631
     learning_rate: 0.03341
   other:
     random_state: 23114576

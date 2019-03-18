@@ -172,7 +172,7 @@ concurrent:
     layers: 2
 featurize:
   other:
-    layers: 7
+    layers: 5
     passes: 45
     weight_factor: 0.23946
     drop: 0.15879
@@ -180,7 +180,7 @@ featurize:
     tags: 96
   short:
     min_features: 849
-    layers: 6
+    layers: 5
     max_depth: 13
     num_est: 106
     estimators: 97
@@ -199,7 +199,7 @@ featurize:
     folds: 7
     random_state: 109885880
   auto:
-    max_features: 3796
+    max_features: 3695
     ngrams: 2
   combine:
     batch_size: 356

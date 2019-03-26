@@ -211,19 +211,19 @@ variables:
 featurize:
   rf:
     dense: 100
-    columns: 48
+    columns: 41
     max_features: 3259
     drop: 0.08146
     num_est: 120
     batch_size: 329
     trees: 57
   preset:
-    max_features: 641
+    max_features: 506
     split: 0.48956
     tags: 60
     weight_factor: 0.36444
     learning_rate: 0.04114
-    max_depth: 19
+    max_depth: 24
   prod:
     max_depth: 23
     layers: 4
@@ -247,7 +247,7 @@ featurize:
   diff:
     folds: 6
     columns: 6
-    num_est: 151
+    num_est: 145
     seed: 193096920
   other:
     drop: 0.21938

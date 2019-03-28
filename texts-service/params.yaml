@@ -178,7 +178,7 @@ prepare:
     features: 4820
     dense: 100
     sample: 0.5247
-    max_depth: 32
+    max_depth: 35
     epochs: 35
     weight_factor: 0.23275
   combine:
@@ -194,7 +194,7 @@ prepare:
     split: 0.1
   diff:
     epochs: 20
-    estimators: 133
+    estimators: 151
 variables:
   preset:
     weight_factor: 0.3

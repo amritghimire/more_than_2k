@@ -210,7 +210,7 @@ variables:
     seed: 344975000
 featurize:
   rf:
-    dense: 100
+    dense: 81
     columns: 41
     max_features: 3259
     drop: 0.08146

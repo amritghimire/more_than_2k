@@ -57,7 +57,7 @@ concurrent:
   prod:
     columns: 51
     threads: 30
-    random_state: 706000000
+    random_state: 640782289
     dense: 200
   classifier:
     learning_rate: 0.13807
@@ -170,7 +170,7 @@ preprocessing:
     epochs: 25
     split: 0.34353
     seed: 249776000
-    estimators: 164
+    estimators: 133
   long:
     estimators: 86
     seed: 425137941

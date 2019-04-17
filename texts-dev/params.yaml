@@ -54,7 +54,7 @@ validation:
     split: 0.5
     folds: 6
   combine:
-    min_features: 300
+    min_features: 312
     passes: 84
     features: 2917
     learning_rate: 0.15
@@ -65,7 +65,7 @@ validation:
     dense: 300
     passes: 126
   preprocessing:
-    split: 0.1
+    split: 0.08948
     columns: 81
     passes: 118
     weight_factor: 0.1

@@ -241,7 +241,7 @@ prepare:
     seed: 465345853
     weight_factor: 0.18617
     sample: 0.49427
-    epochs: 62
+    epochs: 63
     trees: 14
     batch_size: 936
     features: 3196

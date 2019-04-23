@@ -25,7 +25,7 @@ tagging:
     random_state: 946000000
 variables:
   preset:
-    tags: 63
+    tags: 72
     layers: 1
     estimators: 141
     trees: 51
@@ -53,7 +53,7 @@ variables:
     tags: 112
 concurrent:
   classifier:
-    dense: 200
+    dense: 230
     split: 0.43126
     max_features: 2620
     seed: 240962000
@@ -110,7 +110,7 @@ train:
   preset:
     batch_size: 96
     passes: 30
-    epochs: 75
+    epochs: 83
     learning_rate: 0.14
   prod:
     threads: 19
@@ -121,7 +121,7 @@ settings:
     min_features: 1439
     passes: 108
     max_features: 150
-    ngrams: 6
+    ngrams: 4
   requests:
     max_features: 684
     min_features: 1050
@@ -167,7 +167,7 @@ model:
     max_depth: 24
     passes: 26
   classifier:
-    tags: 130
+    tags: 88
     max_features: 2350
     split: 0.44353
     trees: 63

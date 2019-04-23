@@ -2,7 +2,7 @@ tagging:
   requests:
     ngrams: 2
     random_state: 84000000
-    estimators: 207
+    estimators: 249
     weight_factor: 0.26551
   prod:
     weight_factor: 0.2
@@ -37,7 +37,7 @@ variables:
   requests:
     estimators: 93
     tags: 112
-    sample: 0.5
+    sample: 0.59342
   combine:
     random_state: 22000000
     passes: 14
@@ -143,7 +143,7 @@ settings:
     weight_factor: 0.3
   auto:
     estimators: 163
-    layers: 4
+    layers: 3
     passes: 100
     batch_size: 512
     drop: 0.3

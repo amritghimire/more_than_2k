@@ -223,11 +223,11 @@ prepare:
     learning_rate: 0.13454
     ngrams: 7
     min_split: 14
-    features: 1432
+    features: 1468
     split: 0.24942
   rf:
     num_est: 45
-    passes: 109
+    passes: 72
     layers: 4
     epochs: 80
     columns: 4

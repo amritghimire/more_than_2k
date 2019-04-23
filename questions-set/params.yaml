@@ -113,7 +113,7 @@ train:
     epochs: 83
     learning_rate: 0.14
   prod:
-    threads: 19
+    threads: 14
   batch:
     ngrams: 4
 settings:

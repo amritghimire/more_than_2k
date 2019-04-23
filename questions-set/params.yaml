@@ -128,7 +128,7 @@ settings:
     layers: 2
   batch:
     sample: 0.75
-    random_state: 22000000
+    random_state: 23905411
     epochs: 25
   preset:
     min_split: 16

@@ -12,7 +12,7 @@ concurrent:
     epochs: 88
     max_depth: 16
     num_est: 150
-    folds: 6
+    folds: 5
     split: 0.49188
   rf:
     weight_factor: 0.09449

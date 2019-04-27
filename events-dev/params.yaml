@@ -279,7 +279,7 @@ variables:
   auto:
     tags: 49
     layers: 6
-    dense: 408
+    dense: 420
     max_depth: 16
   preset:
     estimators: 158

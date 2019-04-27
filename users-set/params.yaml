@@ -59,7 +59,7 @@ preprocessing:
     drop: 0.12168
     epochs: 44
   other:
-    epochs: 53
+    epochs: 51
     folds: 10
     learning_rate: 0.15
     passes: 40

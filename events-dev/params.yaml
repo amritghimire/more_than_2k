@@ -92,10 +92,10 @@ prepare:
     layers: 1
     trees: 86
   preset:
-    trees: 59
+    trees: 74
     split: 0.23267
     columns: 39
-    passes: 60
+    passes: 55
     batch_size: 99
     tags: 78
   combine:

@@ -138,8 +138,8 @@ prepare:
     min_features: 2846
     drop: 0.2
     batch_size: 83
-    weight_factor: 0.2
-    split: 0.5
+    weight_factor: 0.24117
+    split: 0.58324
     seed: 618376000
     max_depth: 4
   model:
@@ -164,7 +164,7 @@ prepare:
     max_depth: 15
     split: 0.34524
     max_features: 4900
-    ngrams: 6
+    ngrams: 5
     num_est: 272
     columns: 71
     dense: 100

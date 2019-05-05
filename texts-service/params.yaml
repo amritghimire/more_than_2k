@@ -1,7 +1,7 @@
 settings:
   preset:
     epochs: 35
-    min_features: 1100
+    min_features: 917
     folds: 6
     num_est: 119
     drop: 0.2
@@ -69,7 +69,7 @@ concurrent:
     features: 4620
     trees: 51
     folds: 3
-    num_est: 100
+    num_est: 80
   requests:
     learning_rate: 0.15
     max_features: 1450
@@ -134,7 +134,7 @@ model:
     min_split: 54
     batch_size: 976
     threads: 1
-    split: 0.3
+    split: 0.3548
     ngrams: 6
     passes: 104
     learning_rate: 0.07
@@ -254,7 +254,7 @@ preprocessing:
     weight_factor: 0.3
     max_features: 500
     features: 4000
-    min_features: 250
+    min_features: 234
     folds: 9
     split: 0.1
     max_depth: 20

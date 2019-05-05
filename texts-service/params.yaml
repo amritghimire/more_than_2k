@@ -216,8 +216,8 @@ variables:
   diff:
     split: 0.5
     min_split: 17
-    max_features: 50
-    tags: 56
+    max_features: 59
+    tags: 54
     max_depth: 33
   requests:
     num_est: 125

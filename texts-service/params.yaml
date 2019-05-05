@@ -37,7 +37,7 @@ settings:
     seed: 430734343
     min_split: 64
     trees: 60
-    max_features: 1200
+    max_features: 1441
   diff:
     max_depth: 28
     random_state: 137000000
@@ -121,7 +121,7 @@ model:
     estimators: 154
     features: 4310
   long:
-    learning_rate: 0.13186
+    learning_rate: 0.14151
     sample: 0.75
     columns: 57
     split: 0.5
@@ -258,7 +258,7 @@ preprocessing:
     folds: 9
     split: 0.1
     max_depth: 20
-    min_split: 35
+    min_split: 30
   other:
     min_split: 40
     epochs: 70

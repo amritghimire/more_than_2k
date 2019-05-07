@@ -111,7 +111,7 @@ validation:
     features: 1076
     min_split: 17
   short:
-    max_depth: 12
+    max_depth: 13
     tags: 126
     folds: 6
     split: 0.2
@@ -160,7 +160,7 @@ variables:
     folds: 6
   batch:
     epochs: 11
-    threads: 30
+    threads: 26
   other:
     ngrams: 6
     dense: 306

@@ -98,7 +98,7 @@ validation:
   prod:
     layers: 2
     max_depth: 17
-    folds: 10
+    folds: 7
   collection:
     passes: 52
     layers: 1
@@ -126,7 +126,7 @@ validation:
     split: 0.48604
     passes: 32
   selection:
-    sample: 0.5
+    sample: 0.53937
 preprocessing:
   collection:
     sample: 0.75
@@ -160,7 +160,7 @@ variables:
     folds: 6
   batch:
     epochs: 11
-    threads: 28
+    threads: 30
   other:
     ngrams: 6
     dense: 306
@@ -171,7 +171,7 @@ variables:
     learning_rate: 0.12
     tags: 85
   selection:
-    threads: 23
+    threads: 21
     features: 1700
     split: 0.1
   rf:

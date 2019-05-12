@@ -242,7 +242,7 @@ prepare:
     weight_factor: 0.18617
     sample: 0.49427
     epochs: 90
-    trees: 14
+    trees: 13
     batch_size: 936
     features: 2317
     max_features: 5295

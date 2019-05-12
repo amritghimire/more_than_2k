@@ -167,9 +167,9 @@ prepare:
     estimators: 131
     dense: 490
     learning_rate: 0.03177
-    min_features: 4400
+    min_features: 3991
   requests:
-    passes: 59
+    passes: 72
     epochs: 15
     weight_factor: 0.2
     random_state: 399465806
@@ -184,7 +184,7 @@ prepare:
   combine:
     dense: 187
     weight_factor: 0.10162
-    folds: 6
+    folds: 5
     features: 12
     split: 0.16631
     learning_rate: 0.03341

@@ -83,7 +83,7 @@ preprocessing:
     dense: 100
     threads: 5
     folds: 9
-    trees: 45
+    trees: 36
   classifier:
     weight_factor: 0.1
     learning_rate: 0.15

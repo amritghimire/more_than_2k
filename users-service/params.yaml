@@ -91,7 +91,7 @@ tagging:
   ngrams: 4
   threads: 16
   num_est: 44
-  batch_size: 1071
+  batch_size: 741
   layers: 2
   estimators: 44
   folds: 6

@@ -161,7 +161,7 @@ preprocessing:
     random_state: 553000000
     trees: 78
   other:
-    columns: 54
+    columns: 56
     threads: 15
     random_state: 191000000
     passes: 62

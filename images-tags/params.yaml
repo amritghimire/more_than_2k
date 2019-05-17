@@ -111,7 +111,7 @@ prepare:
     seed: 321086000
     split: 0.45088
     batch_size: 371
-    threads: 16
+    threads: 13
     min_split: 62
   rf:
     ngrams: 3
@@ -125,13 +125,13 @@ prepare:
     features: 2087
   other:
     sample: 0.77063
-    drop: 0.0952
+    drop: 0.09904
     columns: 11
     split: 0.37586
     batch_size: 576
-    random_state: 385514060
+    random_state: 406130588
   classifier:
-    weight_factor: 0.35232
+    weight_factor: 0.2392
     dense: 242
     tags: 146
   diff:

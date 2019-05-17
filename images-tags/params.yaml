@@ -78,7 +78,7 @@ settings:
     num_est: 250
   other:
     min_split: 32
-    learning_rate: 0.16318
+    learning_rate: 0.17025
   preset:
     layers: 3
     learning_rate: 0.13
@@ -185,7 +185,7 @@ variables:
     features: 3270
   diff:
     max_depth: 24
-    trees: 83
+    trees: 86
     estimators: 146
     min_features: 4150
     split: 0.16914

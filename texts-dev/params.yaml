@@ -1,9 +1,9 @@
 featurize:
   preprocessing:
     estimators: 42
-    epochs: 58
+    epochs: 61
     trees: 42
-    columns: 72
+    columns: 79
     min_features: 2798
     max_features: 2961
   test:
@@ -21,7 +21,7 @@ featurize:
     weight_factor: 0.09091
     features: 2762
     min_split: 80
-    trees: 48
+    trees: 57
     estimators: 231
     columns: 33
     tags: 14
@@ -32,7 +32,7 @@ featurize:
     passes: 68
     estimators: 56
     batch_size: 528
-    drop: 0.23755
+    drop: 0.18346
   dev:
     num_est: 250
     sample: 0.25

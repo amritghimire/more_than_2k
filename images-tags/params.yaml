@@ -226,24 +226,24 @@ featurize:
     max_depth: 24
   prod:
     max_depth: 23
-    layers: 4
+    layers: 6
     threads: 20
     split: 0.53186
-    epochs: 36
+    epochs: 41
     min_split: 66
     features: 4087
-    min_features: 4502
+    min_features: 4111
   long:
     seed: 1015120580
     split: 0.35932
     threads: 6
-    min_features: 3100
+    min_features: 3756
   classifier:
     seed: 1045197566
     folds: 3
     min_features: 3358
     threads: 32
-    epochs: 22
+    epochs: 23
   diff:
     folds: 6
     columns: 6

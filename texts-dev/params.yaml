@@ -7,13 +7,13 @@ featurize:
     min_features: 2798
     max_features: 2961
   test:
-    trees: 24
+    trees: 20
     min_split: 39
   model:
     random_state: 471477507
     batch_size: 1024
     tags: 124
-    passes: 42
+    passes: 51
     folds: 12
     split: 0.1
     columns: 18
@@ -31,14 +31,14 @@ featurize:
     random_state: 175902484
     passes: 68
     estimators: 56
-    batch_size: 528
+    batch_size: 451
     drop: 0.18346
   dev:
     num_est: 250
     sample: 0.25
   concurrent:
-    seed: 31338000
-    num_est: 175
+    seed: 32170411
+    num_est: 187
     max_features: 3906
 validation:
   concurrent:

@@ -151,7 +151,7 @@ model:
     estimators: 112
     min_features: 1400
     trees: 12
-    sample: 0.5
+    sample: 0.51323
     drop: 0.23695
 prepare:
   test:

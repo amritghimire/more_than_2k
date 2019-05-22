@@ -186,7 +186,7 @@ prepare:
     weight_factor: 0.10162
     folds: 5
     features: 12
-    split: 0.16631
+    split: 0.17682
     learning_rate: 0.03341
   other:
     random_state: 23114576

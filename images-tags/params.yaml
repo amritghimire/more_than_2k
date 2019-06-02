@@ -9,7 +9,7 @@ model:
   prod:
     columns: 30
     num_est: 164
-    dense: 100
+    dense: 118
     sample: 0.38927
     random_state: 312000000
     max_features: 1750
@@ -178,7 +178,7 @@ preprocessing:
     layers: 2
 variables:
   other:
-    min_split: 80
+    min_split: 70
     trees: 24
     threads: 15
     random_state: 762000000

@@ -4,7 +4,7 @@ model:
     tags: 28
     min_features: 1050
     estimators: 98
-    folds: 5
+    folds: 4
     seed: 707284539
   prod:
     columns: 30
@@ -25,8 +25,8 @@ model:
     tags: 84
     layers: 1
   classifier:
-    min_features: 1850
-    min_split: 48
+    min_features: 1950
+    min_split: 51
     ngrams: 2
     max_depth: 3
   diff:
@@ -61,7 +61,7 @@ concurrent:
     dense: 200
   classifier:
     learning_rate: 0.13807
-    num_est: 24
+    num_est: 25
     max_depth: 12
     passes: 104
     threads: 1
@@ -98,7 +98,7 @@ settings:
     min_features: 3550
     min_split: 80
     drop: 0.1
-    estimators: 104
+    estimators: 90
   classifier:
     folds: 3
 prepare:

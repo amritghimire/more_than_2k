@@ -66,7 +66,7 @@ model:
     layers: 4
     estimators: 152
     random_state: 459065127
-    weight_factor: 0.26704
+    weight_factor: 0.33911
   preset:
     drop: 0.3
 variables:
@@ -140,7 +140,7 @@ train:
     random_state: 590000000
     sample: 0.75929
     split: 0.5
-    threads: 26
+    threads: 25
   preset:
     passes: 18
     random_state: 810000000
@@ -176,7 +176,7 @@ validation:
     dense: 500
     layers: 4
     trees: 35
-    drop: 0.3
+    drop: 0.23447
   other:
     min_features: 3760
   short:
@@ -196,7 +196,7 @@ tagging:
     min_split: 80
   test:
     sample: 0.75
-    random_state: 943625776
+    random_state: 807824389
     max_depth: 16
   preset:
     seed: 888302000

@@ -3,7 +3,7 @@ model:
     random_state: 603000000
     tags: 28
     min_features: 1050
-    estimators: 98
+    estimators: 116
     folds: 4
     seed: 707284539
   prod:
@@ -168,7 +168,7 @@ preprocessing:
     features: 3222
   preset:
     epochs: 25
-    split: 0.34353
+    split: 0.47821
     seed: 249776000
     estimators: 133
   long:

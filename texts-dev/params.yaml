@@ -129,11 +129,11 @@ settings:
 prepare:
   concurrent:
     threads: 6
-    split: 0.1
+    split: 0.11179
     max_depth: 9
     drop: 0.4
     dense: 500
-    weight_factor: 0.09584
+    weight_factor: 0.0867
   preprocessing:
     min_features: 2846
     drop: 0.2
@@ -156,7 +156,7 @@ prepare:
     num_est: 124
     max_depth: 16
   test:
-    weight_factor: 0.3
+    weight_factor: 0.26543
     passes: 4
     min_split: 51
     threads: 15
@@ -173,7 +173,7 @@ prepare:
     batch_size: 624
     min_features: 1656
     epochs: 40
-    split: 0.45427
+    split: 0.48939
     columns: 57
     seed: 205636000
 tagging:

@@ -12,8 +12,8 @@ featurize:
   model:
     random_state: 471477507
     batch_size: 1024
-    tags: 124
-    passes: 51
+    tags: 159
+    passes: 50
     folds: 12
     split: 0.1
     columns: 18
@@ -35,9 +35,9 @@ featurize:
     drop: 0.18346
   dev:
     num_est: 250
-    sample: 0.25
+    sample: 0.24263
   concurrent:
-    seed: 32170411
+    seed: 27077449
     num_est: 187
     max_features: 3906
 validation:

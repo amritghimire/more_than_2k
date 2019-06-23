@@ -45,7 +45,7 @@ concurrent:
 variables:
   min_features: 2000
   learning_rate: 0.09
-  columns: 27
+  columns: 20
   estimators: 47
   max_depth: 12
   seed: 901562702
@@ -91,7 +91,7 @@ tagging:
   ngrams: 4
   threads: 16
   num_est: 44
-  batch_size: 741
+  batch_size: 931
   layers: 2
   estimators: 44
   folds: 6

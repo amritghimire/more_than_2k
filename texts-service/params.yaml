@@ -179,7 +179,7 @@ prepare:
     dense: 100
     sample: 0.5247
     max_depth: 35
-    epochs: 35
+    epochs: 34
     weight_factor: 0.23275
   combine:
     dense: 187
@@ -187,7 +187,7 @@ prepare:
     folds: 5
     features: 12
     split: 0.17682
-    learning_rate: 0.03341
+    learning_rate: 0.02842
   other:
     random_state: 23114576
     trees: 55

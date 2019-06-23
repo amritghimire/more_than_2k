@@ -41,7 +41,7 @@ concurrent:
   min_features: 800
   seed: 825243000
   batch_size: 144
-  estimators: 154
+  estimators: 180
 variables:
   min_features: 2000
   learning_rate: 0.09

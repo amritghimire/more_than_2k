@@ -159,13 +159,13 @@ prepare:
     sample: 1.0
     trees: 9
     features: 1470
-    columns: 71
+    columns: 79
   preset:
     max_depth: 8
     seed: 187003143
     folds: 9
     estimators: 131
-    dense: 490
+    dense: 430
     learning_rate: 0.03177
     min_features: 3991
   requests:
@@ -185,7 +185,7 @@ prepare:
     dense: 187
     weight_factor: 0.10162
     folds: 5
-    features: 12
+    features: 10
     split: 0.17682
     learning_rate: 0.02842
   other:

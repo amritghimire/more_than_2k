@@ -68,7 +68,7 @@ prepare:
   batch:
     layers: 3
     epochs: 56
-    features: 284
+    features: 292
     min_split: 32
   collection:
     passes: 93
@@ -82,7 +82,7 @@ prepare:
   prod:
     weight_factor: 0.21475
     drop: 0.3433
-    epochs: 53
+    epochs: 76
     folds: 6
     max_features: 493
     columns: 32

@@ -41,7 +41,7 @@ concurrent:
     random_state: 653074762
     min_features: 1800
   preset:
-    columns: 66
+    columns: 63
     max_depth: 9
     sample: 0.88258
     min_split: 16
@@ -62,7 +62,7 @@ concurrent:
   classifier:
     learning_rate: 0.13807
     num_est: 25
-    max_depth: 12
+    max_depth: 14
     passes: 104
     threads: 1
   long:
@@ -173,7 +173,7 @@ preprocessing:
     estimators: 133
   long:
     estimators: 86
-    seed: 425137941
+    seed: 414560253
     min_features: 1000
     layers: 2
 variables:
@@ -185,7 +185,7 @@ variables:
     features: 3270
   diff:
     max_depth: 24
-    trees: 86
+    trees: 70
     estimators: 146
     min_features: 4150
     split: 0.16914

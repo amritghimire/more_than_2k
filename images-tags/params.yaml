@@ -60,7 +60,7 @@ concurrent:
     random_state: 640782289
     dense: 200
   classifier:
-    learning_rate: 0.13807
+    learning_rate: 0.1094
     num_est: 25
     max_depth: 14
     passes: 104

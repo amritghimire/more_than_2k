@@ -223,7 +223,7 @@ featurize:
     tags: 69
     weight_factor: 0.36444
     learning_rate: 0.04114
-    max_depth: 24
+    max_depth: 27
   prod:
     max_depth: 23
     layers: 6
@@ -234,14 +234,14 @@ featurize:
     features: 4087
     min_features: 4111
   long:
-    seed: 1015120580
+    seed: 956874226
     split: 0.35932
     threads: 6
     min_features: 3756
   classifier:
     seed: 1045197566
     folds: 3
-    min_features: 3358
+    min_features: 3482
     threads: 32
     epochs: 23
   diff:

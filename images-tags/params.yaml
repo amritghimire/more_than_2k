@@ -138,7 +138,7 @@ prepare:
     learning_rate: 0.13764
     max_depth: 3
     split: 0.54466
-    min_features: 4307
+    min_features: 4060
 preprocessing:
   prod:
     dense: 300

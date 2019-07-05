@@ -5,7 +5,7 @@ featurize:
     trees: 37
     columns: 79
     min_features: 2798
-    max_features: 2961
+    max_features: 3287
   test:
     trees: 20
     min_split: 39
@@ -24,7 +24,7 @@ featurize:
     trees: 57
     estimators: 231
     columns: 33
-    tags: 14
+    tags: 16
     threads: 26
   other:
     trees: 63

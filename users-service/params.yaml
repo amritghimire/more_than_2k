@@ -7,7 +7,7 @@ settings:
   estimators: 171
   num_est: 50
   ngrams: 4
-  max_features: 300
+  max_features: 281
   seed: 893727687
   batch_size: 656
   dense: 400
@@ -56,7 +56,7 @@ variables:
   min_split: 80
   num_est: 199
   folds: 2
-  dense: 300
+  dense: 319
   split: 0.375
   batch_size: 758
   features: 3900

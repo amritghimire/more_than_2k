@@ -3,8 +3,8 @@ settings:
   epochs: 55
   tags: 7
   min_features: 1450
-  threads: 18
-  estimators: 171
+  threads: 17
+  estimators: 182
   num_est: 50
   ngrams: 4
   max_features: 368
@@ -46,7 +46,7 @@ variables:
   min_features: 2000
   learning_rate: 0.09
   columns: 20
-  estimators: 43
+  estimators: 36
   max_depth: 12
   seed: 901562702
   passes: 66
@@ -93,7 +93,7 @@ tagging:
   num_est: 44
   batch_size: 931
   layers: 2
-  estimators: 44
+  estimators: 35
   folds: 6
   weight_factor: 0.1
   columns: 58

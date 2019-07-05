@@ -13,7 +13,7 @@ featurize:
     random_state: 471477507
     batch_size: 1024
     tags: 159
-    passes: 50
+    passes: 38
     folds: 12
     split: 0.1
     columns: 21
@@ -23,7 +23,7 @@ featurize:
     min_split: 80
     trees: 57
     estimators: 231
-    columns: 33
+    columns: 45
     tags: 16
     threads: 26
   other:

@@ -7,7 +7,7 @@ settings:
   estimators: 171
   num_est: 50
   ngrams: 4
-  max_features: 281
+  max_features: 368
   seed: 893727687
   batch_size: 656
   dense: 400
@@ -32,7 +32,7 @@ concurrent:
   tags: 98
   features: 2810
   folds: 6
-  dense: 200
+  dense: 245
   trees: 69
   columns: 42
   epochs: 45
@@ -46,7 +46,7 @@ variables:
   min_features: 2000
   learning_rate: 0.09
   columns: 20
-  estimators: 47
+  estimators: 43
   max_depth: 12
   seed: 901562702
   passes: 66
@@ -63,7 +63,7 @@ variables:
   max_features: 3016
   ngrams: 2
   layers: 2
-  drop: 0.3
+  drop: 0.33054
 prepare:
   weight_factor: 0.09172
   passes: 21

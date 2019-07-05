@@ -108,7 +108,7 @@ train:
     min_split: 80
     features: 980
   preset:
-    batch_size: 96
+    batch_size: 86
     passes: 30
     epochs: 83
     learning_rate: 0.14
@@ -121,14 +121,14 @@ settings:
     min_features: 1439
     passes: 108
     max_features: 150
-    ngrams: 4
+    ngrams: 6
   requests:
     max_features: 684
     min_features: 1050
     layers: 2
   batch:
     sample: 0.75
-    random_state: 23905411
+    random_state: 23750242
     epochs: 25
   preset:
     min_split: 16
@@ -136,7 +136,7 @@ settings:
     learning_rate: 0.04096
     drop: 0.4
   prod:
-    estimators: 245
+    estimators: 300
     max_depth: 35
     tags: 91
     learning_rate: 0.05

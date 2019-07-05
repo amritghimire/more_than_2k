@@ -12,7 +12,7 @@ featurize:
   model:
     random_state: 471477507
     batch_size: 1024
-    tags: 159
+    tags: 128
     passes: 38
     folds: 12
     split: 0.1
@@ -31,7 +31,7 @@ featurize:
     random_state: 175902484
     passes: 68
     estimators: 56
-    batch_size: 657
+    batch_size: 472
     drop: 0.18971
   dev:
     num_est: 250

@@ -16,7 +16,7 @@ featurize:
     passes: 50
     folds: 12
     split: 0.1
-    columns: 18
+    columns: 21
   combine:
     weight_factor: 0.09091
     features: 2762

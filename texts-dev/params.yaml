@@ -8,22 +8,22 @@ featurize:
     max_features: 3287
   test:
     trees: 20
-    min_split: 39
+    min_split: 57
   model:
-    random_state: 471477507
+    random_state: 521586710
     batch_size: 1024
     tags: 128
     passes: 38
     folds: 12
     split: 0.1
-    columns: 21
+    columns: 15
   combine:
     weight_factor: 0.09091
     features: 2762
     min_split: 80
     trees: 57
     estimators: 231
-    columns: 45
+    columns: 41
     tags: 10
     threads: 26
   other:

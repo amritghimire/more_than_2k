@@ -63,7 +63,7 @@ validation:
     weight_factor: 0.2
     threads: 28
     dense: 300
-    passes: 126
+    passes: 148
   preprocessing:
     split: 0.08948
     columns: 81
@@ -109,7 +109,7 @@ settings:
   concurrent:
     min_features: 1600
     random_state: 853000000
-    sample: 0.75
+    sample: 0.74701
     ngrams: 2
     drop: 0.1
     seed: 757924000
@@ -289,7 +289,7 @@ train:
     features: 3920
   concurrent:
     layers: 2
-    estimators: 128
+    estimators: 117
     batch_size: 752
     sample: 0.75
     split: 0.30522

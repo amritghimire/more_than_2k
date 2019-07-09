@@ -42,9 +42,9 @@ settings:
     max_depth: 28
     random_state: 137000000
     columns: 39
-    weight_factor: 0.2
+    weight_factor: 0.2115
   long:
-    sample: 0.5
+    sample: 0.58797
     folds: 2
 concurrent:
   long:
@@ -129,7 +129,7 @@ model:
     random_state: 402365341
   other:
     sample: 0.87009
-    max_depth: 20
+    max_depth: 22
     weight_factor: 0.2
     min_split: 54
     batch_size: 976
@@ -296,7 +296,7 @@ tagging:
     max_depth: 33
     num_est: 225
     max_features: 1201
-    epochs: 70
+    epochs: 61
     columns: 27
     trees: 48
   diff:

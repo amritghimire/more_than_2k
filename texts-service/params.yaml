@@ -11,7 +11,7 @@ settings:
     dense: 263
     weight_factor: 0.1
   requests:
-    batch_size: 610
+    batch_size: 705
     min_split: 39
     layers: 4
     threads: 1
@@ -74,7 +74,7 @@ concurrent:
     learning_rate: 0.15
     max_features: 1450
     features: 1590
-    num_est: 243
+    num_est: 232
     columns: 15
     split: 0.5
     estimators: 95

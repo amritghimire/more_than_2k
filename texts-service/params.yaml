@@ -315,7 +315,7 @@ tagging:
   preset:
     split: 0.4
     min_features: 3350
-    min_split: 43
+    min_split: 42
   test:
     folds: 9
     epochs: 20

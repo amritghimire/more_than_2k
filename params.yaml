@@ -69,7 +69,7 @@ train:
   dev:
     sample: 0.5
     batch_size: 317
-    learning_rate: 0.13
+    learning_rate: 0.10853
   rf:
     passes: 14
     num_est: 186
@@ -161,7 +161,7 @@ settings:
     features: 1140
     min_split: 67
   short:
-    estimators: 64
+    estimators: 41
     max_depth: 20
   dev:
     sample: 0.56569
@@ -186,7 +186,7 @@ settings:
     ngrams: 2
 validation:
   long:
-    ngrams: 8
+    ngrams: 6
     random_state: 1197221276
     passes: 30
     batch_size: 188

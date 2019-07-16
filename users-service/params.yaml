@@ -50,7 +50,7 @@ variables:
   max_depth: 12
   seed: 901562702
   passes: 66
-  random_state: 937000000
+  random_state: 940158371
   sample: 0.22269
   tags: 112
   min_split: 80
@@ -60,7 +60,7 @@ variables:
   split: 0.375
   batch_size: 758
   features: 3900
-  max_features: 3016
+  max_features: 3448
   ngrams: 2
   layers: 2
   drop: 0.33054

@@ -8,7 +8,7 @@ settings:
   num_est: 50
   ngrams: 4
   max_features: 368
-  seed: 893727687
+  seed: 694646561
   batch_size: 656
   dense: 400
   passes: 16
@@ -49,7 +49,7 @@ variables:
   estimators: 36
   max_depth: 12
   seed: 901562702
-  passes: 66
+  passes: 61
   random_state: 940158371
   sample: 0.22269
   tags: 112
@@ -90,7 +90,7 @@ tagging:
   drop: 0.47753
   ngrams: 4
   threads: 16
-  num_est: 44
+  num_est: 38
   batch_size: 931
   layers: 2
   estimators: 35

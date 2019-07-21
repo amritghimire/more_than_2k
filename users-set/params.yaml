@@ -52,7 +52,7 @@ preprocessing:
     weight_factor: 0.3
     dense: 300
     folds: 9
-    random_state: 149000000
+    random_state: 113828301
   selection:
     learning_rate: 0.05
     random_state: 183000000
@@ -178,7 +178,7 @@ model:
     seed: 682172675
     epochs: 50
     threads: 22
-    weight_factor: 0.2
+    weight_factor: 0.20535
     random_state: 92000000
   selection:
     passes: 16
@@ -187,8 +187,8 @@ model:
     sample: 0.5
     num_est: 175
   requests:
-    seed: 66095019
-    epochs: 80
+    seed: 63128668
+    epochs: 71
     dense: 400
     trees: 78
   rf:

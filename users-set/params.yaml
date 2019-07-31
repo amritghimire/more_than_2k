@@ -114,7 +114,7 @@ validation:
     weight_factor: 0.10804
     estimators: 45
     num_est: 250
-    passes: 84
+    passes: 56
   other:
     layers: 3
     split: 0.4

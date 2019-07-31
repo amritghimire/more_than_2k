@@ -68,7 +68,7 @@ preprocessing:
     max_features: 150
   rf:
     threads: 6
-    num_est: 160
+    num_est: 157
     folds: 3
     sample: 0.5
     ngrams: 4

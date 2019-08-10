@@ -56,7 +56,7 @@ concurrent:
     min_split: 80
     dense: 500
     ngrams: 4
-    folds: 3
+    folds: 2
     max_depth: 24
   test:
     ngrams: 8
@@ -250,7 +250,7 @@ preprocessing:
     threads: 31
   combine:
     sample: 0.25
-    learning_rate: 0.08
+    learning_rate: 0.07392
     weight_factor: 0.3
     max_features: 500
     features: 4000

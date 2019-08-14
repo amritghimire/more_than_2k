@@ -147,7 +147,7 @@ preprocessing:
     trees: 57
     max_depth: 16
     folds: 12
-    batch_size: 176
+    batch_size: 157
     ngrams: 4
     passes: 104
     estimators: 234
@@ -186,7 +186,7 @@ variables:
   diff:
     max_depth: 24
     trees: 70
-    estimators: 146
+    estimators: 139
     min_features: 4150
     split: 0.16914
   long:

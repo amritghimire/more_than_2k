@@ -149,7 +149,7 @@ prepare:
     features: 5574
     min_split: 48
   combine:
-    weight_factor: 0.1
+    weight_factor: 0.12006
     passes: 100
     ngrams: 4
     layers: 3

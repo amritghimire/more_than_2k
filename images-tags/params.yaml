@@ -234,7 +234,7 @@ featurize:
     features: 4087
     min_features: 4111
   long:
-    seed: 956874226
+    seed: 867641705
     split: 0.35932
     threads: 6
     min_features: 3756
@@ -250,5 +250,5 @@ featurize:
     num_est: 145
     seed: 193096920
   other:
-    drop: 0.23785
+    drop: 0.19693
     learning_rate: 0.02

@@ -213,7 +213,7 @@ featurize:
     dense: 81
     columns: 41
     max_features: 3259
-    drop: 0.08146
+    drop: 0.08248
     num_est: 120
     batch_size: 329
     trees: 57

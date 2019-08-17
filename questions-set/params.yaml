@@ -189,12 +189,12 @@ model:
     max_depth: 24
 featurize:
   combine:
-    dense: 418
+    dense: 511
     num_est: 47
   prod:
     seed: 360139000
     trees: 6
-    dense: 286
+    dense: 230
     random_state: 752723792
     max_depth: 32
     split: 0.16748
@@ -211,7 +211,7 @@ featurize:
     layers: 4
   requests:
     weight_factor: 0.1
-    split: 0.4
+    split: 0.40714
     passes: 36
     layers: 3
   auto:
@@ -222,5 +222,5 @@ featurize:
     dense: 200
   batch:
     seed: 224314351
-    tags: 94
+    tags: 136
     split: 0.5

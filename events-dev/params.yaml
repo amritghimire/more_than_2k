@@ -53,7 +53,7 @@ settings:
   short:
     max_depth: 8
     ngrams: 3
-    random_state: 590000000
+    random_state: 590643602
     passes: 66
     columns: 35
   combine:
@@ -269,7 +269,7 @@ variables:
     num_est: 122
     tags: 79
     random_state: 3026183
-    learning_rate: 0.09
+    learning_rate: 0.10751
     epochs: 5
   long:
     estimators: 197

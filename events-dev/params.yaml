@@ -39,7 +39,7 @@ model:
     random_state: 156566786
     split: 0.19772
   auto:
-    epochs: 10
+    epochs: 12
     layers: 2
     max_features: 2890
 settings:
@@ -51,7 +51,7 @@ settings:
     passes: 59
     folds: 3
   short:
-    max_depth: 8
+    max_depth: 9
     ngrams: 3
     random_state: 590643602
     passes: 66
@@ -253,7 +253,7 @@ variables:
   other:
     drop: 0.19942
     dense: 248
-    weight_factor: 0.36167
+    weight_factor: 0.33641
     seed: 835280000
     layers: 3
   short:
@@ -280,7 +280,7 @@ variables:
     tags: 49
     layers: 6
     dense: 420
-    max_depth: 16
+    max_depth: 14
   preset:
     estimators: 158
     min_features: 1550

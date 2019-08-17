@@ -11,7 +11,7 @@ tagging:
     max_depth: 28
     tags: 80
   combine:
-    tags: 7
+    tags: 6
     num_est: 125
   auto:
     num_est: 225
@@ -20,7 +20,7 @@ tagging:
     ngrams: 5
     threads: 6
   batch:
-    seed: 399182000
+    seed: 419571748
     num_est: 250
     random_state: 946000000
 variables:
@@ -42,7 +42,7 @@ variables:
     random_state: 22000000
     passes: 14
     max_features: 4050
-    estimators: 81
+    estimators: 78
   prod:
     threads: 15
     trees: 30

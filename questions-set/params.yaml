@@ -78,7 +78,7 @@ concurrent:
   preset:
     random_state: 244545249
     folds: 9
-    columns: 72
+    columns: 65
     tags: 111
     trees: 12
     sample: 0.82158
@@ -123,7 +123,7 @@ settings:
     max_features: 150
     ngrams: 6
   requests:
-    max_features: 684
+    max_features: 513
     min_features: 1050
     layers: 2
   batch:
@@ -150,7 +150,7 @@ settings:
     ngrams: 4
     epochs: 51
     tags: 21
-    sample: 1.0
+    sample: 0.91748
   classifier:
     dense: 608
     ngrams: 2

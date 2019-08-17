@@ -175,7 +175,7 @@ prepare:
     epochs: 40
     split: 0.48939
     columns: 57
-    seed: 205636000
+    seed: 224840989
 tagging:
   model:
     weight_factor: 0.2

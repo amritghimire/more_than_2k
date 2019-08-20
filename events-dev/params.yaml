@@ -57,7 +57,7 @@ settings:
     passes: 66
     columns: 35
   combine:
-    epochs: 8
+    epochs: 7
     weight_factor: 0.2
     folds: 3
     min_split: 47
@@ -215,7 +215,7 @@ train:
     columns: 75
     trees: 54
     epochs: 70
-    sample: 0.29454
+    sample: 0.29299
     drop: 0.2
     tags: 103
     estimators: 209
@@ -260,7 +260,7 @@ variables:
     min_features: 3850
     weight_factor: 0.10787
     tags: 8
-    trees: 69
+    trees: 51
     num_est: 172
     learning_rate: 0.13
     folds: 9

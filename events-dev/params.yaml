@@ -33,7 +33,7 @@ model:
   short:
     num_est: 75
     seed: 854370000
-    dense: 500
+    dense: 445
     batch_size: 768
     tags: 93
     random_state: 156566786
@@ -149,7 +149,7 @@ concurrent:
   preset:
     max_depth: 9
     num_est: 225
-    estimators: 56
+    estimators: 49
     columns: 62
     ngrams: 4
     folds: 14
@@ -226,7 +226,7 @@ train:
     tags: 55
     batch_size: 639
     estimators: 151
-    random_state: 547792852
+    random_state: 722399450
     max_features: 1563
     epochs: 15
     features: 3530

@@ -215,7 +215,7 @@ train:
     columns: 75
     trees: 54
     epochs: 70
-    sample: 0.25
+    sample: 0.29454
     drop: 0.2
     tags: 103
     estimators: 209

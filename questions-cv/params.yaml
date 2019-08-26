@@ -117,7 +117,7 @@ validation:
     split: 0.2
   other:
     learning_rate: 0.12
-    max_features: 1200
+    max_features: 941
     tags: 84
     min_features: 1150
   batch:
@@ -190,7 +190,7 @@ settings:
   rf:
     max_depth: 12
   collection:
-    weight_factor: 0.29463
+    weight_factor: 0.27139
   batch:
     num_est: 197
     estimators: 35

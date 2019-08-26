@@ -23,7 +23,7 @@ concurrent:
     ngrams: 2
     max_depth: 16
     threads: 3
-    min_split: 16
+    min_split: 19
     weight_factor: 0.33961
   other:
     num_est: 150

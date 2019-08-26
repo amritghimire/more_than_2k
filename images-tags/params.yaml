@@ -68,7 +68,7 @@ concurrent:
   long:
     layers: 2
     max_features: 2362
-    weight_factor: 0.1
+    weight_factor: 0.11406
 settings:
   rf:
     min_split: 64

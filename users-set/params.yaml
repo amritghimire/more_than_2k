@@ -246,7 +246,7 @@ prepare:
     batch_size: 936
     features: 2317
     max_features: 5295
-    tags: 49
+    tags: 37
   classifier:
     columns: 67
     split: 0.18786

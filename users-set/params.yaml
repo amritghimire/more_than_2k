@@ -283,7 +283,7 @@ featurize:
   batch:
     batch_size: 747
     threads: 25
-    weight_factor: 0.2
+    weight_factor: 0.2396
     max_features: 4515
   requests:
     sample: 0.20487

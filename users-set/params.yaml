@@ -227,7 +227,7 @@ prepare:
     split: 0.24942
   rf:
     num_est: 45
-    passes: 72
+    passes: 76
     layers: 5
     epochs: 80
     columns: 4
@@ -259,7 +259,7 @@ prepare:
     folds: 9
     ngrams: 4
   selection:
-    split: 0.24611
+    split: 0.15413
     layers: 2
     ngrams: 6
     seed: 136815760

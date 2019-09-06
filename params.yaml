@@ -32,7 +32,7 @@ model:
     learning_rate: 0.13491
     split: 0.22043
   dev:
-    folds: 6
+    folds: 8
 tagging:
   rf:
     max_depth: 8

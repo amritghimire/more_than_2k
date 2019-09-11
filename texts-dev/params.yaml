@@ -2,7 +2,7 @@ featurize:
   preprocessing:
     estimators: 42
     epochs: 64
-    trees: 37
+    trees: 45
     columns: 79
     min_features: 2798
     max_features: 3287
@@ -16,19 +16,19 @@ featurize:
     passes: 38
     folds: 12
     split: 0.1
-    columns: 15
+    columns: 19
   combine:
     weight_factor: 0.09091
     features: 2762
     min_split: 80
     trees: 57
-    estimators: 231
+    estimators: 196
     columns: 41
     tags: 10
     threads: 26
   other:
     trees: 63
-    random_state: 175902484
+    random_state: 172625588
     passes: 68
     estimators: 56
     batch_size: 472

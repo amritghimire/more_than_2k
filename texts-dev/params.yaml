@@ -37,7 +37,7 @@ featurize:
     num_est: 250
     sample: 0.24263
   concurrent:
-    seed: 27077449
+    seed: 23921690
     num_est: 187
     max_features: 3906
 validation:

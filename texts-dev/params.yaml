@@ -21,7 +21,7 @@ featurize:
     weight_factor: 0.09091
     features: 2762
     min_split: 80
-    trees: 57
+    trees: 37
     estimators: 196
     columns: 41
     tags: 10

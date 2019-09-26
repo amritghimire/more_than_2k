@@ -234,7 +234,7 @@ prepare:
     random_state: 746798656
   requests:
     split: 0.15111
-    folds: 10
+    folds: 12
     features: 2430
   dev:
     columns: 52

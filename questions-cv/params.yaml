@@ -55,7 +55,7 @@ model:
     layers: 2
     batch_size: 352
     learning_rate: 0.16522
-    max_features: 1150
+    max_features: 1270
   batch:
     ngrams: 1
     max_depth: 35
@@ -104,7 +104,7 @@ validation:
     layers: 1
     weight_factor: 0.2
   rf:
-    ngrams: 2
+    ngrams: 1
     dense: 300
     trees: 18
     split: 0.29192
@@ -134,7 +134,7 @@ preprocessing:
   rf:
     tags: 98
     weight_factor: 0.18628
-    split: 0.56745
+    split: 0.52931
     passes: 72
   selection:
     columns: 78

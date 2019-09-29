@@ -82,12 +82,12 @@ prepare:
   prod:
     weight_factor: 0.21475
     drop: 0.3433
-    epochs: 76
+    epochs: 81
     folds: 6
     max_features: 493
-    columns: 32
+    columns: 40
   other:
-    random_state: 655902915
+    random_state: 541985117
     min_features: 4066
     columns: 49
     batch_size: 784

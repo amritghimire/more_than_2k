@@ -70,10 +70,10 @@ prepare:
   drop: 0.1199
   sample: 0.56112
   estimators: 187
-  tags: 129
+  tags: 100
   trees: 85
   learning_rate: 0.10378
-  layers: 1
+  layers: 2
   num_est: 52
   random_state: 687403489
   columns: 61

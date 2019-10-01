@@ -80,7 +80,7 @@ settings:
     epochs: 9
     min_split: 31
   auto:
-    weight_factor: 0.2
+    weight_factor: 0.22843
     tags: 103
 prepare:
   short:

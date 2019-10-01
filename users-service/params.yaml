@@ -71,15 +71,15 @@ prepare:
   sample: 0.56112
   estimators: 187
   tags: 100
-  trees: 85
+  trees: 59
   learning_rate: 0.10378
-  layers: 2
+  layers: 1
   num_est: 52
   random_state: 687403489
   columns: 61
   epochs: 18
   dense: 202
-  ngrams: 6
+  ngrams: 5
   batch_size: 647
   min_split: 14
   min_features: 2865

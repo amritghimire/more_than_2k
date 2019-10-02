@@ -66,7 +66,7 @@ variables:
   drop: 0.33054
 prepare:
   weight_factor: 0.09172
-  passes: 21
+  passes: 19
   drop: 0.1199
   sample: 0.56112
   estimators: 187
@@ -78,7 +78,7 @@ prepare:
   random_state: 687403489
   columns: 61
   epochs: 18
-  dense: 202
+  dense: 190
   ngrams: 5
   batch_size: 647
   min_split: 14

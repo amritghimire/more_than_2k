@@ -48,7 +48,7 @@ variables:
   columns: 20
   estimators: 36
   max_depth: 12
-  seed: 901562702
+  seed: 698881232
   passes: 61
   random_state: 940158371
   sample: 0.22269

@@ -55,7 +55,7 @@ concurrent:
     split: 0.0934
     min_split: 80
     dense: 500
-    ngrams: 4
+    ngrams: 3
     folds: 2
     max_depth: 24
   test:
@@ -117,7 +117,7 @@ model:
     split: 0.4
     seed: 319448000
     num_est: 50
-    learning_rate: 0.1
+    learning_rate: 0.10608
     estimators: 154
     features: 4310
   long:
@@ -260,7 +260,7 @@ preprocessing:
     max_depth: 20
     min_split: 38
   other:
-    min_split: 40
+    min_split: 56
     epochs: 70
     features: 3540
     weight_factor: 0.2
@@ -281,7 +281,7 @@ preprocessing:
     passes: 86
     tags: 42
   long:
-    drop: 0.2
+    drop: 0.21353
     passes: 16
     tags: 105
     features: 1270

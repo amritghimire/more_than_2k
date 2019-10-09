@@ -85,7 +85,7 @@ prepare:
     epochs: 81
     folds: 6
     max_features: 493
-    columns: 40
+    columns: 31
   other:
     random_state: 541985117
     min_features: 4066

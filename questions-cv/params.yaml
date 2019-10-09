@@ -72,10 +72,10 @@ prepare:
     min_split: 32
   collection:
     passes: 93
-    seed: 830542176
+    seed: 706235091
     drop: 0.44012
     max_features: 1420
-    estimators: 252
+    estimators: 267
   rf:
     features: 1778
     num_est: 122

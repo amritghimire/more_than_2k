@@ -131,7 +131,7 @@ concurrent:
     seed: 355944054
     weight_factor: 0.24572
   auto:
-    batch_size: 224
+    batch_size: 216
     random_state: 528000000
     features: 5989
     tags: 14

@@ -55,7 +55,7 @@ model:
     layers: 2
     batch_size: 352
     learning_rate: 0.16522
-    max_features: 1270
+    max_features: 1298
   batch:
     ngrams: 1
     max_depth: 35

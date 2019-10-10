@@ -95,7 +95,7 @@ validation:
   dev:
     sample: 0.5
     batch_size: 512
-    tags: 77
+    tags: 61
     trees: 30
     split: 0.07635
     passes: 100

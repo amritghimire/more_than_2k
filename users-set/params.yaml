@@ -286,7 +286,7 @@ featurize:
     weight_factor: 0.2396
     max_features: 4515
   requests:
-    sample: 0.20487
+    sample: 0.21149
     num_est: 207
     threads: 1
   selection:
@@ -297,7 +297,7 @@ featurize:
     passes: 16
     weight_factor: 0.25447
     max_features: 1134
-    tags: 133
+    tags: 113
     random_state: 676961428
     min_features: 2256
     learning_rate: 0.07917

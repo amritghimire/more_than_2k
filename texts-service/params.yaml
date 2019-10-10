@@ -253,7 +253,7 @@ preprocessing:
     learning_rate: 0.07392
     weight_factor: 0.3
     max_features: 500
-    features: 4000
+    features: 4887
     min_features: 234
     folds: 9
     split: 0.1

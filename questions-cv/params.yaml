@@ -96,7 +96,7 @@ prepare:
     weight_factor: 0.30516
 validation:
   prod:
-    layers: 2
+    layers: 1
     max_depth: 17
     folds: 7
   collection:

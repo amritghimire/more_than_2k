@@ -72,8 +72,8 @@ prepare:
   estimators: 187
   tags: 100
   trees: 59
-  learning_rate: 0.10378
-  layers: 2
+  learning_rate: 0.14183
+  layers: 1
   num_est: 52
   random_state: 687403489
   columns: 61
@@ -84,7 +84,7 @@ prepare:
   min_split: 14
   min_features: 2865
   features: 4079
-  max_depth: 12
+  max_depth: 9
   folds: 6
 tagging:
   drop: 0.4705

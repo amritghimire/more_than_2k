@@ -135,7 +135,7 @@ preprocessing:
     tags: 98
     weight_factor: 0.18628
     split: 0.52931
-    passes: 72
+    passes: 91
   selection:
     columns: 78
     max_features: 5000

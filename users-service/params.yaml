@@ -3,7 +3,7 @@ settings:
   epochs: 55
   tags: 7
   min_features: 1450
-  threads: 17
+  threads: 19
   estimators: 182
   num_est: 50
   ngrams: 4

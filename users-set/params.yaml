@@ -271,7 +271,7 @@ featurize:
     folds: 13
     num_est: 99
     max_depth: 15
-    batch_size: 1007
+    batch_size: 1057
     max_features: 4656
   dev:
     epochs: 40
@@ -283,7 +283,7 @@ featurize:
   batch:
     batch_size: 840
     threads: 25
-    weight_factor: 0.2396
+    weight_factor: 0.17142
     max_features: 4515
   requests:
     sample: 0.21149
@@ -291,14 +291,14 @@ featurize:
     threads: 1
   selection:
     columns: 15
-    passes: 37
+    passes: 45
     threads: 15
   rf:
     passes: 17
     weight_factor: 0.25447
-    max_features: 1134
+    max_features: 1254
     tags: 113
-    random_state: 529192934
+    random_state: 736975813
     min_features: 2256
     learning_rate: 0.07917
     layers: 2

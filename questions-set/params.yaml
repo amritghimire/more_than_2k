@@ -213,7 +213,7 @@ featurize:
     weight_factor: 0.1
     split: 0.40714
     passes: 36
-    layers: 3
+    layers: 4
   auto:
     drop: 0.22065
     min_features: 3500

@@ -2,7 +2,7 @@ concurrent:
   batch:
     tags: 63
     epochs: 55
-    features: 960
+    features: 1029
     batch_size: 704
   short:
     max_features: 5108

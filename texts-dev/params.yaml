@@ -1,6 +1,6 @@
 featurize:
   preprocessing:
-    estimators: 42
+    estimators: 48
     epochs: 64
     trees: 34
     columns: 79

@@ -148,7 +148,7 @@ settings:
     batch_size: 512
     drop: 0.3
     ngrams: 4
-    epochs: 51
+    epochs: 55
     tags: 21
     sample: 0.91748
   classifier:

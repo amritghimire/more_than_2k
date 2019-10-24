@@ -78,7 +78,7 @@ prepare:
     estimators: 267
   rf:
     features: 1778
-    num_est: 122
+    num_est: 103
   prod:
     weight_factor: 0.21475
     drop: 0.3433

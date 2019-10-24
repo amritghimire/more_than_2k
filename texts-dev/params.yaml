@@ -140,7 +140,7 @@ prepare:
     batch_size: 80
     weight_factor: 0.24117
     split: 0.58324
-    seed: 764960412
+    seed: 511400890
     max_depth: 4
   model:
     estimators: 163

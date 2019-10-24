@@ -154,7 +154,7 @@ prepare:
     ngrams: 4
     layers: 3
     num_est: 124
-    max_depth: 16
+    max_depth: 12
   test:
     weight_factor: 0.26543
     passes: 4

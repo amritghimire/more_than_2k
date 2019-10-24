@@ -203,7 +203,7 @@ featurize:
     num_est: 28
     columns: 67
     trees: 54
-    folds: 12
+    folds: 14
     threads: 17
   preset:
     folds: 3

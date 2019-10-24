@@ -227,7 +227,7 @@ prepare:
     split: 0.24942
   rf:
     num_est: 45
-    passes: 76
+    passes: 85
     layers: 5
     epochs: 80
     columns: 4
@@ -244,7 +244,7 @@ prepare:
     epochs: 90
     trees: 13
     batch_size: 936
-    features: 2317
+    features: 3731
     max_features: 5295
     tags: 37
   classifier:

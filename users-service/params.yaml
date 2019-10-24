@@ -73,7 +73,7 @@ prepare:
   tags: 100
   trees: 59
   learning_rate: 0.10378
-  layers: 1
+  layers: 2
   num_est: 52
   random_state: 687403489
   columns: 61

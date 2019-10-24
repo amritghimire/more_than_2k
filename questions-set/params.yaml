@@ -196,7 +196,7 @@ featurize:
     trees: 6
     dense: 230
     random_state: 752723792
-    max_depth: 32
+    max_depth: 34
     split: 0.16748
     threads: 8
   classifier:

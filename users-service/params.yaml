@@ -28,7 +28,7 @@ concurrent:
   drop: 0.3
   random_state: 256000000
   threads: 3
-  passes: 114
+  passes: 93
   tags: 98
   features: 2810
   folds: 6
@@ -47,7 +47,7 @@ variables:
   learning_rate: 0.09
   columns: 20
   estimators: 36
-  max_depth: 12
+  max_depth: 14
   seed: 698881232
   passes: 61
   random_state: 940158371
@@ -101,7 +101,7 @@ tagging:
   learning_rate: 0.13
   seed: 952765000
   dense: 500
-  max_depth: 12
+  max_depth: 9
   min_features: 2150
   sample: 0.25
   tags: 111

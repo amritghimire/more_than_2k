@@ -294,11 +294,11 @@ featurize:
     passes: 37
     threads: 15
   rf:
-    passes: 16
+    passes: 17
     weight_factor: 0.25447
     max_features: 1134
     tags: 113
-    random_state: 676961428
+    random_state: 529192934
     min_features: 2256
     learning_rate: 0.07917
     layers: 2

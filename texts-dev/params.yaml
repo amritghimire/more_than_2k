@@ -4,7 +4,7 @@ featurize:
     epochs: 64
     trees: 34
     columns: 79
-    min_features: 2798
+    min_features: 3771
     max_features: 3287
   test:
     trees: 20
@@ -19,12 +19,12 @@ featurize:
     columns: 19
   combine:
     weight_factor: 0.09091
-    features: 2762
+    features: 3002
     min_split: 80
     trees: 51
     estimators: 196
     columns: 41
-    tags: 13
+    tags: 15
     threads: 26
   other:
     trees: 63

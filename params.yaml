@@ -82,7 +82,7 @@ train:
   preset:
     num_est: 308
     features: 420
-    drop: 0.323
+    drop: 0.49652
   short:
     min_split: 54
 featurize:
@@ -195,7 +195,7 @@ validation:
     sample: 0.61316
     layers: 4
   binary:
-    max_depth: 6
+    max_depth: 8
     num_est: 272
     learning_rate: 0.12033
     split: 0.19402

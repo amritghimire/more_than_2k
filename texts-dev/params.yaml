@@ -15,7 +15,7 @@ featurize:
     tags: 107
     passes: 38
     folds: 12
-    split: 0.10174
+    split: 0.12011
     columns: 19
   combine:
     weight_factor: 0.09091

@@ -11,7 +11,7 @@ featurize:
     min_split: 57
   model:
     random_state: 482900434
-    batch_size: 1082
+    batch_size: 943
     tags: 107
     passes: 38
     folds: 12

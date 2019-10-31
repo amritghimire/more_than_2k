@@ -8,7 +8,7 @@ tagging:
     weight_factor: 0.2
     sample: 0.5
     columns: 9
-    max_depth: 28
+    max_depth: 34
     tags: 80
   combine:
     tags: 6
@@ -33,7 +33,7 @@ variables:
     split: 0.5
     max_features: 1100
     estimators: 214
-    dense: 400
+    dense: 441
   requests:
     estimators: 93
     tags: 112

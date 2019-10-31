@@ -206,7 +206,7 @@ featurize:
     folds: 14
     threads: 17
   preset:
-    folds: 3
+    folds: 2
     min_features: 3332
     layers: 4
   requests:

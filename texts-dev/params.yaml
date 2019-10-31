@@ -10,7 +10,7 @@ featurize:
     trees: 20
     min_split: 57
   model:
-    random_state: 521586710
+    random_state: 482900434
     batch_size: 1082
     tags: 107
     passes: 38
@@ -25,17 +25,17 @@ featurize:
     estimators: 196
     columns: 33
     tags: 15
-    threads: 26
+    threads: 17
   other:
     trees: 63
     random_state: 172625588
     passes: 68
-    estimators: 56
+    estimators: 53
     batch_size: 472
     drop: 0.18971
   dev:
     num_est: 250
-    sample: 0.23215
+    sample: 0.1924
   concurrent:
     seed: 23921690
     num_est: 187

@@ -13,7 +13,7 @@ variables:
   rf:
     trees: 3
     threads: 5
-    min_features: 2450
+    min_features: 2603
     seed: 864241000
   batch:
     threads: 1

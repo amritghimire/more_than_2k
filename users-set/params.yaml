@@ -284,7 +284,7 @@ featurize:
     batch_size: 840
     threads: 25
     weight_factor: 0.17142
-    max_features: 4515
+    max_features: 5212
   requests:
     sample: 0.21149
     num_est: 207
@@ -292,7 +292,7 @@ featurize:
   selection:
     columns: 15
     passes: 45
-    threads: 15
+    threads: 16
   rf:
     passes: 17
     weight_factor: 0.25447
@@ -301,6 +301,6 @@ featurize:
     random_state: 736975813
     min_features: 2256
     learning_rate: 0.07917
-    layers: 2
+    layers: 1
   other:
     dense: 87

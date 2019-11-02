@@ -117,7 +117,7 @@ prepare:
     ngrams: 3
     epochs: 45
   long:
-    min_split: 35
+    min_split: 25
     columns: 61
     sample: 1.06144
     random_state: 127790177

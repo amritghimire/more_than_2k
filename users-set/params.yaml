@@ -238,9 +238,9 @@ prepare:
     features: 2430
   dev:
     columns: 52
-    seed: 465345853
+    seed: 328752808
     weight_factor: 0.18617
-    sample: 0.58084
+    sample: 0.37519
     epochs: 90
     trees: 13
     batch_size: 936
@@ -263,7 +263,7 @@ prepare:
     layers: 2
     ngrams: 6
     seed: 136815760
-    features: 1281
+    features: 1555
     passes: 47
 featurize:
   classifier:

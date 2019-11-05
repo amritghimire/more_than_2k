@@ -201,24 +201,24 @@ featurize:
     threads: 8
   classifier:
     num_est: 28
-    columns: 67
-    trees: 54
+    columns: 55
+    trees: 34
     folds: 14
     threads: 17
   preset:
     folds: 2
-    min_features: 3332
+    min_features: 2082
     layers: 4
   requests:
     weight_factor: 0.1
     split: 0.40714
     passes: 36
-    layers: 3
+    layers: 4
   auto:
     drop: 0.22065
     min_features: 3500
     trees: 15
-    passes: 60
+    passes: 54
     dense: 203
   batch:
     seed: 224314351

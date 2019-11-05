@@ -193,7 +193,7 @@ featurize:
     num_est: 47
   prod:
     seed: 360139000
-    trees: 6
+    trees: 4
     dense: 230
     random_state: 752723792
     max_depth: 34
@@ -213,13 +213,13 @@ featurize:
     weight_factor: 0.1
     split: 0.40714
     passes: 36
-    layers: 4
+    layers: 3
   auto:
     drop: 0.22065
     min_features: 3500
     trees: 15
     passes: 60
-    dense: 200
+    dense: 203
   batch:
     seed: 224314351
     tags: 136

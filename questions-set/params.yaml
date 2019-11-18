@@ -204,14 +204,14 @@ featurize:
     columns: 55
     trees: 34
     folds: 14
-    threads: 17
+    threads: 18
   preset:
     folds: 2
     min_features: 2082
     layers: 4
   requests:
     weight_factor: 0.1
-    split: 0.40714
+    split: 0.30454
     passes: 36
     layers: 4
   auto:

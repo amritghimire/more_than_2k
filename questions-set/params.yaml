@@ -202,7 +202,7 @@ featurize:
   classifier:
     num_est: 28
     columns: 55
-    trees: 34
+    trees: 54
     folds: 14
     threads: 18
   preset:

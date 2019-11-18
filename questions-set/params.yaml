@@ -189,7 +189,7 @@ model:
     max_depth: 24
 featurize:
   combine:
-    dense: 511
+    dense: 529
     num_est: 47
   prod:
     seed: 360139000

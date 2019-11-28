@@ -33,7 +33,7 @@ variables:
     split: 0.5
     max_features: 1100
     estimators: 214
-    dense: 441
+    dense: 411
   requests:
     estimators: 93
     tags: 112

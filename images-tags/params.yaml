@@ -43,7 +43,7 @@ concurrent:
   preset:
     columns: 63
     max_depth: 9
-    sample: 0.88258
+    sample: 0.68987
     min_split: 16
     features: 2373
   other:

@@ -108,7 +108,7 @@ prepare:
     seed: 247587064
   prod:
     estimators: 271
-    seed: 365702658
+    seed: 371684791
     split: 0.45088
     batch_size: 371
     threads: 13

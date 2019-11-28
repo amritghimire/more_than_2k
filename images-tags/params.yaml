@@ -172,7 +172,7 @@ preprocessing:
     seed: 287996070
     estimators: 133
   long:
-    estimators: 86
+    estimators: 98
     seed: 414560253
     min_features: 1000
     layers: 2

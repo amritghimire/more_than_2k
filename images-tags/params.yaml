@@ -14,7 +14,7 @@ model:
     random_state: 312000000
     max_features: 1750
     drop: 0.2
-    features: 2740
+    features: 2569
   rf:
     folds: 6
     random_state: 222422383
@@ -93,7 +93,7 @@ settings:
     folds: 5
     layers: 6
     min_split: 80
-    epochs: 42
+    epochs: 33
   diff:
     min_features: 3550
     min_split: 80
@@ -141,7 +141,7 @@ prepare:
     min_features: 5679
 preprocessing:
   prod:
-    dense: 300
+    dense: 355
     max_features: 3450
     split: 0.3
     trees: 57

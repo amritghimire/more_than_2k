@@ -152,7 +152,7 @@ settings:
     tags: 21
     sample: 0.91748
   classifier:
-    dense: 608
+    dense: 385
     ngrams: 2
     columns: 27
 model:

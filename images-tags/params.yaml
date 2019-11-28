@@ -55,7 +55,7 @@ concurrent:
   diff:
     tags: 119
   prod:
-    columns: 61
+    columns: 60
     threads: 30
     random_state: 640782289
     dense: 200
@@ -150,7 +150,7 @@ preprocessing:
     batch_size: 157
     ngrams: 4
     passes: 104
-    estimators: 234
+    estimators: 225
   rf:
     min_features: 3700
     columns: 6

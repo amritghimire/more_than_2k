@@ -6,7 +6,7 @@ settings:
     num_est: 119
     drop: 0.2
     features: 1740
-    random_state: 352000000
+    random_state: 336617488
     tags: 84
     dense: 263
     weight_factor: 0.1

@@ -69,7 +69,7 @@ concurrent:
     features: 4620
     trees: 51
     folds: 3
-    num_est: 80
+    num_est: 88
   requests:
     learning_rate: 0.15
     max_features: 1450
@@ -217,7 +217,7 @@ variables:
     split: 0.5
     min_split: 17
     max_features: 59
-    tags: 54
+    tags: 62
     max_depth: 33
   requests:
     num_est: 125

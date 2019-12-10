@@ -67,7 +67,7 @@ concurrent:
     passes: 108
     min_split: 80
     features: 4620
-    trees: 51
+    trees: 38
     folds: 3
     num_est: 88
   requests:
@@ -223,7 +223,7 @@ variables:
     num_est: 125
     random_state: 258385205
   combine:
-    sample: 0.75
+    sample: 0.73631
     features: 4320
     dense: 200
     min_features: 1300
@@ -318,7 +318,7 @@ tagging:
     min_split: 42
   test:
     folds: 9
-    epochs: 20
+    epochs: 24
     max_depth: 20
     sample: 0.5
     drop: 0.49594

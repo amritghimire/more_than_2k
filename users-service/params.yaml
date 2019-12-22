@@ -14,7 +14,7 @@ settings:
   passes: 16
   columns: 21
   random_state: 869548485
-  trees: 57
+  trees: 62
   min_split: 30
   split: 0.30196
   drop: 0.17815
@@ -47,7 +47,7 @@ variables:
   learning_rate: 0.09
   columns: 20
   estimators: 36
-  max_depth: 14
+  max_depth: 9
   seed: 698881232
   passes: 61
   random_state: 940158371

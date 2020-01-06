@@ -92,18 +92,18 @@ featurize:
     drop: 0.21663
     estimators: 226
     ngrams: 7
-    tags: 68
+    tags: 81
   long:
     ngrams: 7
     tags: 89
     folds: 10
     seed: 243856187
-    sample: 0.47812
+    sample: 0.58417
     epochs: 74
     max_features: 2312
   preset:
     estimators: 272
-    max_features: 3094
+    max_features: 2283
     passes: 85
   dev:
     min_split: 62
@@ -111,7 +111,7 @@ featurize:
     sample: 0.26591
     seed: 551590437
     min_features: 3377
-    batch_size: 42
+    batch_size: 48
   rf:
     folds: 7
   short:

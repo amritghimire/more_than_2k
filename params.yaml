@@ -59,7 +59,7 @@ tagging:
     layers: 2
     min_features: 2964
   short:
-    dense: 160
+    dense: 219
     threads: 3
   batch:
     sample: 0.58803
@@ -151,7 +151,7 @@ preprocessing:
     min_split: 29
 settings:
   preset:
-    epochs: 60
+    epochs: 48
     tags: 24
     columns: 78
     drop: 0.07732
@@ -219,6 +219,6 @@ validation:
     num_est: 181
     learning_rate: 0.1485
   preset:
-    learning_rate: 0.12042
+    learning_rate: 0.12913
     ngrams: 8
     weight_factor: 0.2755

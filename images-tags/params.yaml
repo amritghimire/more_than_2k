@@ -222,7 +222,7 @@ featurize:
     split: 0.48956
     tags: 42
     weight_factor: 0.36444
-    learning_rate: 0.04114
+    learning_rate: 0.05986
     max_depth: 27
   prod:
     max_depth: 23
@@ -242,13 +242,13 @@ featurize:
     seed: 1045197566
     folds: 3
     min_features: 3285
-    threads: 32
-    epochs: 23
+    threads: 31
+    epochs: 18
   diff:
     folds: 6
     columns: 6
     num_est: 145
-    seed: 193096920
+    seed: 202623362
   other:
     drop: 0.19693
     learning_rate: 0.02

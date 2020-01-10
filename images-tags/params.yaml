@@ -5,7 +5,7 @@ model:
     min_features: 1050
     estimators: 116
     folds: 4
-    seed: 707284539
+    seed: 886215425
   prod:
     columns: 30
     num_est: 164
@@ -64,7 +64,7 @@ concurrent:
     num_est: 22
     max_depth: 14
     passes: 104
-    threads: 1
+    threads: 0
   long:
     layers: 2
     max_features: 3704

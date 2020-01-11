@@ -131,11 +131,11 @@ prepare:
     threads: 6
     split: 0.11179
     max_depth: 9
-    drop: 0.32162
+    drop: 0.32849
     dense: 500
-    weight_factor: 0.0867
+    weight_factor: 0.07933
   preprocessing:
-    min_features: 3788
+    min_features: 2458
     drop: 0.2
     batch_size: 80
     weight_factor: 0.24117
@@ -172,9 +172,9 @@ prepare:
     ngrams: 4
     batch_size: 624
     min_features: 1656
-    epochs: 40
+    epochs: 34
     split: 0.48939
-    columns: 57
+    columns: 52
     seed: 224840989
 tagging:
   model:

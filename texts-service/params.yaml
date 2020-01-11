@@ -29,7 +29,7 @@ settings:
     max_features: 4450
     min_split: 48
     estimators: 161
-    batch_size: 416
+    batch_size: 402
     learning_rate: 0.09548
     epochs: 10
   other:
@@ -245,7 +245,7 @@ preprocessing:
     features: 4590
     sample: 0.25
     max_features: 2750
-    seed: 430623000
+    seed: 334766781
     folds: 5
     threads: 31
   combine:

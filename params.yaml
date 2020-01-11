@@ -159,7 +159,7 @@ settings:
   long:
     min_features: 677
     features: 1140
-    min_split: 67
+    min_split: 82
   short:
     estimators: 41
     max_depth: 20

@@ -117,25 +117,25 @@ prepare:
     ngrams: 3
     epochs: 45
   long:
-    min_split: 25
+    min_split: 35
     columns: 61
     sample: 1.06144
     random_state: 127790177
-    layers: 5
+    layers: 6
     features: 2087
   other:
     sample: 0.77063
-    drop: 0.09904
+    drop: 0.10627
     columns: 11
     split: 0.37586
-    batch_size: 576
+    batch_size: 539
     random_state: 406130588
   classifier:
     weight_factor: 0.22672
     dense: 242
     tags: 146
   diff:
-    learning_rate: 0.13764
+    learning_rate: 0.13821
     max_depth: 3
     split: 0.54466
     min_features: 5679

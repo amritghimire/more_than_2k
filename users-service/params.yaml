@@ -67,9 +67,9 @@ variables:
 prepare:
   weight_factor: 0.09172
   passes: 19
-  drop: 0.1199
+  drop: 0.09843
   sample: 0.56112
-  estimators: 224
+  estimators: 254
   tags: 100
   trees: 59
   learning_rate: 0.14183
@@ -81,7 +81,7 @@ prepare:
   dense: 190
   ngrams: 5
   batch_size: 647
-  min_split: 14
+  min_split: 18
   min_features: 2865
   features: 4079
   max_depth: 9

@@ -1,7 +1,7 @@
 concurrent:
   batch:
     tags: 63
-    epochs: 55
+    epochs: 51
     features: 1029
     batch_size: 704
   short:
@@ -112,7 +112,7 @@ validation:
     min_split: 17
   short:
     max_depth: 13
-    tags: 126
+    tags: 146
     folds: 6
     split: 0.2
   other:
@@ -155,7 +155,7 @@ preprocessing:
     passes: 5
 variables:
   short:
-    min_features: 2250
+    min_features: 2750
     ngrams: 6
     folds: 6
   batch:

@@ -31,7 +31,7 @@ model:
     max_depth: 3
   diff:
     estimators: 157
-    drop: 0.20851
+    drop: 0.16872
     columns: 15
   long:
     layers: 2
@@ -161,7 +161,7 @@ preprocessing:
     random_state: 618301152
     trees: 78
   other:
-    columns: 56
+    columns: 65
     threads: 15
     random_state: 191000000
     passes: 62
@@ -174,7 +174,7 @@ preprocessing:
   long:
     estimators: 98
     seed: 414560253
-    min_features: 1000
+    min_features: 1189
     layers: 2
 variables:
   other:

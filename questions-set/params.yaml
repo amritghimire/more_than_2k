@@ -219,7 +219,7 @@ featurize:
     min_features: 3500
     trees: 15
     passes: 54
-    dense: 203
+    dense: 248
   batch:
     seed: 224314351
     tags: 136

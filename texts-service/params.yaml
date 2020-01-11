@@ -71,7 +71,7 @@ concurrent:
     folds: 3
     num_est: 88
   requests:
-    learning_rate: 0.15
+    learning_rate: 0.11632
     max_features: 1450
     features: 1590
     num_est: 232

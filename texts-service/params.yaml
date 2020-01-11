@@ -155,9 +155,9 @@ model:
     drop: 0.23695
 prepare:
   test:
-    num_est: 243
+    num_est: 249
     sample: 1.0
-    trees: 9
+    trees: 10
     features: 1470
     columns: 79
   preset:
@@ -179,7 +179,7 @@ prepare:
     dense: 100
     sample: 0.5247
     max_depth: 35
-    epochs: 34
+    epochs: 43
     weight_factor: 0.23275
   combine:
     dense: 187

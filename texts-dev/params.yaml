@@ -77,7 +77,7 @@ validation:
     epochs: 15
     learning_rate: 0.08
   model:
-    max_depth: 32
+    max_depth: 30
     ngrams: 4
     min_split: 32
 settings:

@@ -1,6 +1,6 @@
 model:
   rf:
-    max_depth: 20
+    max_depth: 22
     min_features: 1008
     weight_factor: 0.11089
     batch_size: 1061

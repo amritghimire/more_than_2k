@@ -192,7 +192,7 @@ featurize:
     dense: 529
     num_est: 47
   prod:
-    seed: 360139000
+    seed: 302092534
     trees: 4
     dense: 230
     random_state: 752723792

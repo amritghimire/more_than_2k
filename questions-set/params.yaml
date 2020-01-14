@@ -207,15 +207,15 @@ featurize:
     threads: 18
   preset:
     folds: 2
-    min_features: 2082
+    min_features: 2650
     layers: 4
   requests:
     weight_factor: 0.1
-    split: 0.30454
+    split: 0.45265
     passes: 36
     layers: 4
   auto:
-    drop: 0.22065
+    drop: 0.21082
     min_features: 3500
     trees: 15
     passes: 54

@@ -68,7 +68,7 @@ tagging:
 train:
   dev:
     sample: 0.5
-    batch_size: 317
+    batch_size: 373
     learning_rate: 0.10853
   rf:
     passes: 14

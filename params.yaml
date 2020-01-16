@@ -133,7 +133,7 @@ preprocessing:
     max_depth: 26
   rf:
     threads: 7
-    weight_factor: 0.1
+    weight_factor: 0.10324
   dev:
     weight_factor: 0.37446
     learning_rate: 0.0332

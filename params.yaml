@@ -57,7 +57,7 @@ tagging:
   long:
     features: 3147
     layers: 2
-    min_features: 2964
+    min_features: 3064
   short:
     dense: 219
     threads: 3

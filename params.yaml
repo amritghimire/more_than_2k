@@ -221,4 +221,4 @@ validation:
   preset:
     learning_rate: 0.12913
     ngrams: 8
-    weight_factor: 0.2755
+    weight_factor: 0.29647

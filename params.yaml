@@ -84,7 +84,7 @@ train:
     features: 420
     drop: 0.49652
   short:
-    min_split: 54
+    min_split: 79
 featurize:
   binary:
     features: 2927

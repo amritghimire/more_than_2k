@@ -13,7 +13,7 @@ model:
   short:
     min_split: 14
     trees: 54
-    epochs: 39
+    epochs: 51
     learning_rate: 0.07731
   preset:
     ngrams: 4

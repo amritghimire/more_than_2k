@@ -1,6 +1,6 @@
 model:
   rf:
-    max_depth: 22
+    max_depth: 26
     min_features: 1008
     weight_factor: 0.11089
     batch_size: 1061
@@ -17,7 +17,7 @@ model:
     learning_rate: 0.07731
   preset:
     ngrams: 4
-    split: 0.45522
+    split: 0.32019
     folds: 7
     epochs: 21
   binary:
@@ -35,7 +35,7 @@ model:
     folds: 8
 tagging:
   rf:
-    max_depth: 9
+    max_depth: 6
     epochs: 10
     threads: 16
     random_state: 368429446
@@ -187,7 +187,7 @@ settings:
 validation:
   long:
     ngrams: 6
-    random_state: 1008142457
+    random_state: 1105315761
     passes: 30
     batch_size: 188
     weight_factor: 0.29629

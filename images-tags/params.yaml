@@ -234,7 +234,7 @@ featurize:
     features: 4087
     min_features: 4111
   long:
-    seed: 867641705
+    seed: 714854744
     split: 0.35932
     threads: 6
     min_features: 3756

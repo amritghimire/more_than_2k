@@ -18,7 +18,7 @@ model:
   rf:
     folds: 6
     random_state: 222422383
-    ngrams: 4
+    ngrams: 3
     dense: 400
     weight_factor: 0.3
   other:

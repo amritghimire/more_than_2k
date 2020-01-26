@@ -88,7 +88,7 @@ train:
 featurize:
   binary:
     features: 2927
-    passes: 7
+    passes: 8
     drop: 0.21663
     estimators: 226
     ngrams: 7
@@ -96,7 +96,7 @@ featurize:
   long:
     ngrams: 7
     tags: 89
-    folds: 10
+    folds: 13
     seed: 243856187
     sample: 0.58417
     epochs: 74

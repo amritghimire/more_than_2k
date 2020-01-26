@@ -102,7 +102,7 @@ featurize:
     epochs: 74
     max_features: 2312
   preset:
-    estimators: 272
+    estimators: 292
     max_features: 2283
     passes: 85
   dev:

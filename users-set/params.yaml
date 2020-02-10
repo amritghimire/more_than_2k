@@ -277,7 +277,7 @@ featurize:
     epochs: 40
     ngrams: 9
     tags: 98
-    features: 3482
+    features: 2462
     passes: 65
     seed: 496152743
   batch:
@@ -291,7 +291,7 @@ featurize:
     threads: 1
   selection:
     columns: 15
-    passes: 45
+    passes: 43
     threads: 16
   rf:
     passes: 17
@@ -303,4 +303,4 @@ featurize:
     learning_rate: 0.07917
     layers: 1
   other:
-    dense: 87
+    dense: 88

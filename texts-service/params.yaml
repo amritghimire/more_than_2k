@@ -172,7 +172,7 @@ prepare:
     passes: 72
     epochs: 15
     weight_factor: 0.2
-    random_state: 399465806
+    random_state: 364086368
   long:
     trees: 81
     features: 4820

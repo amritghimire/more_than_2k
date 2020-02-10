@@ -231,7 +231,7 @@ prepare:
     layers: 5
     epochs: 80
     columns: 6
-    random_state: 746798656
+    random_state: 956362358
   requests:
     split: 0.23611
     folds: 12
@@ -240,7 +240,7 @@ prepare:
     columns: 52
     seed: 328752808
     weight_factor: 0.18617
-    sample: 0.37519
+    sample: 0.42957
     epochs: 90
     trees: 13
     batch_size: 936

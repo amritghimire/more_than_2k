@@ -36,7 +36,7 @@ model:
     dense: 445
     batch_size: 768
     tags: 93
-    random_state: 156566786
+    random_state: 168213973
     split: 0.19772
   auto:
     epochs: 12
@@ -166,7 +166,7 @@ concurrent:
     columns: 6
     seed: 404629015
   diff:
-    weight_factor: 0.10193
+    weight_factor: 0.12333
     random_state: 263000000
     folds: 3
     layers: 2
@@ -218,14 +218,14 @@ train:
     sample: 0.29299
     drop: 0.2
     tags: 103
-    estimators: 209
+    estimators: 258
   diff:
     dense: 184
     learning_rate: 0.15706
     ngrams: 8
     tags: 55
     batch_size: 639
-    estimators: 151
+    estimators: 145
     random_state: 722399450
     max_features: 1563
     epochs: 15

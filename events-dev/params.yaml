@@ -93,7 +93,7 @@ prepare:
     trees: 86
   preset:
     trees: 77
-    split: 0.23267
+    split: 0.21307
     columns: 39
     passes: 55
     batch_size: 99

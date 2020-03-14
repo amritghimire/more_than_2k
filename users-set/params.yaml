@@ -20,7 +20,7 @@ variables:
     split: 0.2
     weight_factor: 0.3
     batch_size: 640
-    tags: 35
+    tags: 30
     learning_rate: 0.09
     epochs: 70
   requests:
@@ -145,7 +145,7 @@ settings:
   classifier:
     min_features: 1700
     ngrams: 4
-    dense: 161
+    dense: 231
     columns: 31
     epochs: 20
     estimators: 179

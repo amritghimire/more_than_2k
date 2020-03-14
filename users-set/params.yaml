@@ -239,7 +239,7 @@ prepare:
   dev:
     columns: 52
     seed: 328752808
-    weight_factor: 0.18617
+    weight_factor: 0.17909
     sample: 0.42957
     epochs: 79
     trees: 13

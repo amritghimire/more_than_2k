@@ -224,7 +224,7 @@ prepare:
     ngrams: 7
     min_split: 14
     features: 1536
-    split: 0.24942
+    split: 0.15609
   rf:
     num_est: 45
     passes: 85
@@ -242,7 +242,7 @@ prepare:
     weight_factor: 0.17909
     sample: 0.42957
     epochs: 79
-    trees: 13
+    trees: 9
     batch_size: 936
     features: 3731
     max_features: 5295
@@ -250,7 +250,7 @@ prepare:
   classifier:
     columns: 67
     split: 0.18786
-    features: 3947
+    features: 5831
   other:
     num_est: 247
     features: 230

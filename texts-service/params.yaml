@@ -52,7 +52,7 @@ concurrent:
     batch_size: 552
     sample: 1.0
     random_state: 54000000
-    split: 0.0934
+    split: 0.1188
     min_split: 80
     dense: 500
     ngrams: 3

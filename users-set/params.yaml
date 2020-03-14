@@ -248,7 +248,7 @@ prepare:
     max_features: 5295
     tags: 57
   classifier:
-    columns: 67
+    columns: 66
     split: 0.18786
     features: 5831
   other:

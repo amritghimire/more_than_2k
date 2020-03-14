@@ -13,7 +13,7 @@ variables:
   rf:
     trees: 3
     threads: 5
-    min_features: 2603
+    min_features: 2686
     seed: 864241000
   batch:
     threads: 1
@@ -78,7 +78,7 @@ preprocessing:
     random_state: 395000000
   dev:
     columns: 15
-    tags: 49
+    tags: 42
     random_state: 681000000
     dense: 100
     threads: 5

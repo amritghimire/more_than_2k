@@ -64,7 +64,7 @@ preprocessing:
     learning_rate: 0.15
     passes: 40
     ngrams: 4
-    max_depth: 16
+    max_depth: 12
     max_features: 150
   rf:
     threads: 6

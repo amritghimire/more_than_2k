@@ -98,7 +98,7 @@ validation:
     tags: 61
     trees: 30
     split: 0.07635
-    passes: 100
+    passes: 86
     folds: 2
   requests:
     ngrams: 5

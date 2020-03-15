@@ -178,11 +178,11 @@ prepare:
     features: 4820
     dense: 100
     sample: 0.5247
-    max_depth: 35
+    max_depth: 32
     epochs: 43
     weight_factor: 0.23275
   combine:
-    dense: 187
+    dense: 161
     weight_factor: 0.10162
     folds: 5
     features: 10

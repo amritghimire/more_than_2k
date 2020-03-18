@@ -189,7 +189,7 @@ prepare:
     split: 0.17682
     learning_rate: 0.03733
   other:
-    random_state: 23114576
+    random_state: 17996313
     trees: 36
     split: 0.1
   diff:

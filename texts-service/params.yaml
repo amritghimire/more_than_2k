@@ -156,7 +156,7 @@ model:
 prepare:
   test:
     num_est: 249
-    sample: 1.0
+    sample: 0.76846
     trees: 10
     features: 1470
     columns: 79
@@ -165,25 +165,25 @@ prepare:
     seed: 187003143
     folds: 9
     estimators: 131
-    dense: 430
+    dense: 494
     learning_rate: 0.03482
     min_features: 3991
   requests:
     passes: 72
     epochs: 15
-    weight_factor: 0.2
+    weight_factor: 0.16307
     random_state: 404129224
   long:
     trees: 81
     features: 4820
-    dense: 100
+    dense: 88
     sample: 0.5247
     max_depth: 32
     epochs: 43
     weight_factor: 0.23275
   combine:
     dense: 161
-    weight_factor: 0.10162
+    weight_factor: 0.08965
     folds: 5
     features: 10
     split: 0.17682

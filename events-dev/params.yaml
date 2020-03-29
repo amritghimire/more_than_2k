@@ -97,7 +97,7 @@ prepare:
     columns: 39
     passes: 55
     batch_size: 99
-    tags: 78
+    tags: 81
   combine:
     passes: 49
     min_features: 1475
@@ -124,7 +124,7 @@ prepare:
     split: 0.23789
     dense: 598
     random_state: 239319467
-    learning_rate: 0.06037
+    learning_rate: 0.07132
     layers: 5
 concurrent:
   long:

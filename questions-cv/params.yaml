@@ -15,7 +15,7 @@ concurrent:
     folds: 5
     split: 0.49188
   rf:
-    weight_factor: 0.09449
+    weight_factor: 0.11717
     columns: 2
     passes: 20
     estimators: 182
@@ -50,7 +50,7 @@ model:
     num_est: 203
     epochs: 40
     ngrams: 9
-    split: 0.4
+    split: 0.49509
   selection:
     layers: 2
     batch_size: 352
@@ -141,7 +141,7 @@ preprocessing:
     max_features: 5000
     dense: 473
     sample: 0.42256
-    batch_size: 560
+    batch_size: 666
   other:
     learning_rate: 0.05786
     min_features: 3480
@@ -181,7 +181,7 @@ settings:
   selection:
     dense: 400
     trees: 72
-    seed: 745509000
+    seed: 710513101
     passes: 15
     max_depth: 30
   prod:

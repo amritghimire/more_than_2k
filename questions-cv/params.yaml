@@ -69,7 +69,7 @@ prepare:
     layers: 4
     epochs: 57
     features: 292
-    min_split: 32
+    min_split: 37
   collection:
     passes: 93
     seed: 706235091

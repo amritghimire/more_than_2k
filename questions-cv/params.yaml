@@ -75,10 +75,10 @@ prepare:
     seed: 706235091
     drop: 0.44012
     max_features: 1420
-    estimators: 267
+    estimators: 196
   rf:
     features: 1778
-    num_est: 103
+    num_est: 123
   prod:
     weight_factor: 0.21475
     drop: 0.3433

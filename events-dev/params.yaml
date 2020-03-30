@@ -60,7 +60,7 @@ settings:
     epochs: 7
     weight_factor: 0.2
     folds: 3
-    min_split: 47
+    min_split: 37
     split: 0.3
   preset:
     learning_rate: 0.04
@@ -224,7 +224,7 @@ train:
     learning_rate: 0.15706
     ngrams: 8
     tags: 55
-    batch_size: 639
+    batch_size: 526
     estimators: 145
     random_state: 722399450
     max_features: 1563

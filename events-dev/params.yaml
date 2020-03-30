@@ -100,11 +100,11 @@ prepare:
     tags: 81
   combine:
     passes: 49
-    min_features: 1475
+    min_features: 2192
     sample: 0.21669
-    trees: 10
+    trees: 14
     num_est: 243
-    tags: 135
+    tags: 93
   diff:
     tags: 33
     trees: 56
@@ -120,7 +120,7 @@ prepare:
     min_split: 42
     passes: 28
   other:
-    tags: 147
+    tags: 96
     split: 0.23789
     dense: 598
     random_state: 239319467

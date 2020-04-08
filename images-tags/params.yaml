@@ -215,7 +215,7 @@ featurize:
     max_features: 3259
     drop: 0.11145
     num_est: 141
-    batch_size: 329
+    batch_size: 338
     trees: 57
   preset:
     max_features: 506
@@ -226,7 +226,7 @@ featurize:
     max_depth: 27
   prod:
     max_depth: 23
-    layers: 6
+    layers: 7
     threads: 20
     split: 0.53186
     epochs: 41
@@ -240,14 +240,14 @@ featurize:
     min_features: 3756
   classifier:
     seed: 1045197566
-    folds: 3
+    folds: 2
     min_features: 3285
     threads: 31
-    epochs: 18
+    epochs: 21
   diff:
     folds: 6
     columns: 7
-    num_est: 145
+    num_est: 187
     seed: 202623362
   other:
     drop: 0.19693

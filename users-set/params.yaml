@@ -13,13 +13,13 @@ variables:
   rf:
     trees: 3
     threads: 5
-    min_features: 2686
+    min_features: 2738
     seed: 864241000
   batch:
     threads: 1
     split: 0.2
     weight_factor: 0.3
-    batch_size: 640
+    batch_size: 569
     tags: 30
     learning_rate: 0.09
     epochs: 70
@@ -45,7 +45,7 @@ variables:
     passes: 24
     tags: 35
     min_split: 32
-    max_features: 3650
+    max_features: 3278
     epochs: 30
 preprocessing:
   batch:
@@ -83,7 +83,7 @@ preprocessing:
     dense: 100
     threads: 5
     folds: 9
-    trees: 36
+    trees: 54
   classifier:
     weight_factor: 0.1
     learning_rate: 0.15

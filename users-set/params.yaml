@@ -224,7 +224,7 @@ prepare:
     ngrams: 7
     min_split: 14
     features: 1536
-    split: 0.15609
+    split: 0.21976
   rf:
     num_est: 45
     passes: 85

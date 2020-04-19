@@ -12,7 +12,7 @@ variables:
     threads: 2
   rf:
     trees: 3
-    threads: 5
+    threads: 6
     min_features: 2738
     seed: 864241000
   batch:
@@ -38,7 +38,7 @@ variables:
     split: 0.4
     min_split: 25
     features: 3950
-    random_state: 146165681
+    random_state: 124800574
     sample: 0.25
   dev:
     batch_size: 865
@@ -141,7 +141,7 @@ settings:
   requests:
     min_features: 97
     trees: 17
-    threads: 31
+    threads: 35
   classifier:
     min_features: 1700
     ngrams: 4

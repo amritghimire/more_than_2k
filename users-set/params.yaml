@@ -41,7 +41,7 @@ variables:
     random_state: 124800574
     sample: 0.25
   dev:
-    batch_size: 865
+    batch_size: 738
     passes: 24
     tags: 35
     min_split: 32
@@ -61,7 +61,7 @@ preprocessing:
   other:
     epochs: 51
     folds: 11
-    learning_rate: 0.15
+    learning_rate: 0.17957
     passes: 40
     ngrams: 4
     max_depth: 12
@@ -118,7 +118,7 @@ validation:
   other:
     layers: 3
     split: 0.4
-    tags: 54
+    tags: 81
     estimators: 27
     features: 4650
   rf:
@@ -215,7 +215,7 @@ model:
   dev:
     sample: 0.27687
     max_depth: 16
-    trees: 84
+    trees: 60
     passes: 4
     columns: 9
 prepare:

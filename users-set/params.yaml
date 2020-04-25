@@ -271,7 +271,7 @@ featurize:
     folds: 13
     num_est: 99
     max_depth: 15
-    batch_size: 1057
+    batch_size: 994
     max_features: 4656
   dev:
     epochs: 40

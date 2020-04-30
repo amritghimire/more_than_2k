@@ -252,7 +252,7 @@ prepare:
     split: 0.18786
     features: 5831
   other:
-    num_est: 247
+    num_est: 193
     features: 230
     drop: 0.24222
     epochs: 80

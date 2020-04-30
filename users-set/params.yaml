@@ -122,7 +122,7 @@ validation:
     estimators: 27
     features: 4650
   rf:
-    max_depth: 21
+    max_depth: 24
     estimators: 245
     min_split: 64
   classifier:

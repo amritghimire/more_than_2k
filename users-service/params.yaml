@@ -76,7 +76,7 @@ prepare:
   layers: 1
   num_est: 52
   random_state: 687403489
-  columns: 61
+  columns: 62
   epochs: 18
   dense: 190
   ngrams: 5
@@ -84,7 +84,7 @@ prepare:
   min_split: 18
   min_features: 2865
   features: 4079
-  max_depth: 9
+  max_depth: 14
   folds: 6
 tagging:
   drop: 0.4705

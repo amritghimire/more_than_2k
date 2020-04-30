@@ -220,7 +220,7 @@ model:
     columns: 9
 prepare:
   batch:
-    learning_rate: 0.13454
+    learning_rate: 0.11748
     ngrams: 7
     min_split: 14
     features: 1536

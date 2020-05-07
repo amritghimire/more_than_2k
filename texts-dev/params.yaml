@@ -265,7 +265,7 @@ variables:
     epochs: 65
   model:
     folds: 6
-    max_features: 2550
+    max_features: 2912
     columns: 12
 train:
   preprocessing:

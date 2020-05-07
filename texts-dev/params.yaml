@@ -184,7 +184,7 @@ tagging:
     min_features: 1300
     batch_size: 624
     min_split: 80
-    layers: 2
+    layers: 1
     features: 3420
   combine:
     max_depth: 32

@@ -19,12 +19,12 @@ featurize:
     columns: 19
   combine:
     weight_factor: 0.09091
-    features: 3002
+    features: 3745
     min_split: 80
     trees: 38
     estimators: 196
     columns: 33
-    tags: 15
+    tags: 11
     threads: 17
   other:
     trees: 55

@@ -1,7 +1,7 @@
 featurize:
   preprocessing:
     estimators: 43
-    epochs: 64
+    epochs: 76
     trees: 34
     columns: 72
     min_features: 3771
@@ -19,7 +19,7 @@ featurize:
     columns: 19
   combine:
     weight_factor: 0.09091
-    features: 3745
+    features: 2659
     min_split: 80
     trees: 38
     estimators: 196
@@ -34,7 +34,7 @@ featurize:
     batch_size: 472
     drop: 0.18971
   dev:
-    num_est: 250
+    num_est: 288
     sample: 0.1924
   concurrent:
     seed: 23921690

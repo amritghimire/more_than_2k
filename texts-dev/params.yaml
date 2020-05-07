@@ -3,14 +3,14 @@ featurize:
     estimators: 43
     epochs: 76
     trees: 34
-    columns: 72
+    columns: 71
     min_features: 3771
     max_features: 3287
   test:
     trees: 20
     min_split: 57
   model:
-    random_state: 482900434
+    random_state: 522070860
     batch_size: 943
     tags: 107
     passes: 38
@@ -22,14 +22,14 @@ featurize:
     features: 2659
     min_split: 80
     trees: 38
-    estimators: 196
+    estimators: 223
     columns: 33
     tags: 11
     threads: 17
   other:
     trees: 55
     random_state: 172625588
-    passes: 68
+    passes: 66
     estimators: 53
     batch_size: 472
     drop: 0.18971

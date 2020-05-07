@@ -27,7 +27,7 @@ featurize:
     tags: 15
     threads: 17
   other:
-    trees: 63
+    trees: 55
     random_state: 172625588
     passes: 68
     estimators: 53

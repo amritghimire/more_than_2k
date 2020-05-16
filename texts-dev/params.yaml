@@ -131,7 +131,7 @@ prepare:
     threads: 6
     split: 0.11179
     max_depth: 8
-    drop: 0.32849
+    drop: 0.47022
     dense: 500
     weight_factor: 0.07933
   preprocessing:
@@ -140,12 +140,12 @@ prepare:
     batch_size: 80
     weight_factor: 0.24117
     split: 0.58324
-    seed: 766319017
+    seed: 753678833
     max_depth: 4
   model:
     estimators: 163
     num_est: 200
-    split: 0.4
+    split: 0.30619
     features: 5574
     min_split: 48
   combine:

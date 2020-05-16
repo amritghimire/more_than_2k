@@ -21,7 +21,7 @@ model:
     ngrams: 6
     estimators: 34
     folds: 2
-    columns: 37
+    columns: 49
     min_split: 39
     threads: 2
   diff:
@@ -148,7 +148,7 @@ concurrent:
     passes: 83
   preset:
     max_depth: 9
-    num_est: 225
+    num_est: 203
     estimators: 49
     columns: 62
     ngrams: 4
@@ -218,7 +218,7 @@ train:
     sample: 0.29299
     drop: 0.2
     tags: 103
-    estimators: 258
+    estimators: 188
   diff:
     dense: 184
     learning_rate: 0.15706

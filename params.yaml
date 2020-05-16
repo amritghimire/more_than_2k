@@ -87,7 +87,7 @@ train:
     min_split: 79
 featurize:
   binary:
-    features: 2927
+    features: 2641
     passes: 8
     drop: 0.21663
     estimators: 226
@@ -104,7 +104,7 @@ featurize:
   preset:
     estimators: 292
     max_features: 2283
-    passes: 85
+    passes: 56
   dev:
     min_split: 62
     trees: 33

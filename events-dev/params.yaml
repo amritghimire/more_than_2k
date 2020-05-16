@@ -213,7 +213,7 @@ train:
     sample: 0.87595
   other:
     columns: 75
-    trees: 54
+    trees: 45
     epochs: 70
     sample: 0.29299
     drop: 0.2

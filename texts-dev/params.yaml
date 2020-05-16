@@ -290,7 +290,7 @@ train:
   concurrent:
     layers: 2
     estimators: 117
-    batch_size: 752
+    batch_size: 901
     sample: 0.75
     split: 0.30522
     trees: 3

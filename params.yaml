@@ -98,7 +98,7 @@ featurize:
     tags: 89
     folds: 13
     seed: 243856187
-    sample: 0.58417
+    sample: 0.60269
     epochs: 74
     max_features: 2312
   preset:

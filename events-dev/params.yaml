@@ -45,7 +45,7 @@ model:
 settings:
   long:
     min_split: 61
-    num_est: 225
+    num_est: 262
     drop: 0.18086
     epochs: 58
     passes: 59

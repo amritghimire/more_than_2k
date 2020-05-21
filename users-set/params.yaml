@@ -244,7 +244,7 @@ prepare:
     epochs: 79
     trees: 9
     batch_size: 936
-    features: 3731
+    features: 3034
     max_features: 5295
     tags: 57
   classifier:
@@ -253,7 +253,7 @@ prepare:
     features: 5831
   other:
     num_est: 193
-    features: 230
+    features: 273
     drop: 0.24222
     epochs: 80
     folds: 9

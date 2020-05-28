@@ -237,7 +237,7 @@ train:
     seed: 351561583
     split: 0.4
     sample: 0.62001
-    estimators: 212
+    estimators: 227
   preset:
     learning_rate: 0.14
     features: 2077

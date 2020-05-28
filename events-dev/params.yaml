@@ -70,7 +70,7 @@ settings:
     max_features: 2531
     tags: 108
     random_state: 90000000
-    trees: 43
+    trees: 69
     estimators: 31
     passes: 41
   diff:
@@ -266,7 +266,7 @@ variables:
     folds: 9
     seed: 153088032
   combine:
-    num_est: 122
+    num_est: 77
     tags: 79
     random_state: 3026183
     learning_rate: 0.10751

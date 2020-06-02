@@ -167,7 +167,7 @@ variables:
   collection:
     seed: 1005929556
   prod:
-    epochs: 45
+    epochs: 44
     learning_rate: 0.1168
     tags: 92
   selection:

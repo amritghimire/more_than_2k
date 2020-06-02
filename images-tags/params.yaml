@@ -122,23 +122,23 @@ prepare:
     sample: 1.06144
     random_state: 136581753
     layers: 6
-    features: 2087
+    features: 3139
   other:
-    sample: 0.77063
+    sample: 0.57519
     drop: 0.10627
     columns: 11
     split: 0.4263
     batch_size: 539
     random_state: 406130588
   classifier:
-    weight_factor: 0.22672
+    weight_factor: 0.23582
     dense: 242
     tags: 146
   diff:
     learning_rate: 0.11928
     max_depth: 3
     split: 0.54466
-    min_features: 5679
+    min_features: 4438
 preprocessing:
   prod:
     dense: 355

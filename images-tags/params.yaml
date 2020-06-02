@@ -109,7 +109,7 @@ prepare:
   prod:
     estimators: 271
     seed: 371684791
-    split: 0.45088
+    split: 0.34413
     batch_size: 333
     threads: 13
     min_split: 62
@@ -127,7 +127,7 @@ prepare:
     sample: 0.77063
     drop: 0.10627
     columns: 11
-    split: 0.37586
+    split: 0.4263
     batch_size: 539
     random_state: 406130588
   classifier:

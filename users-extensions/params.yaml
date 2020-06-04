@@ -6,7 +6,7 @@ concurrent:
     features: 5570
     drop: 0.45239
   other:
-    split: 0.2
+    split: 0.23788
     drop: 0.1
     folds: 6
     min_features: 1750
@@ -16,9 +16,9 @@ concurrent:
     max_features: 1750
     batch_size: 736
     drop: 0.2
-    trees: 21
+    trees: 31
     learning_rate: 0.13
-    tags: 77
+    tags: 88
     min_features: 4200
   preset:
     max_depth: 16
@@ -90,7 +90,7 @@ variables:
     tags: 112
     columns: 49
   short:
-    learning_rate: 0.1385
+    learning_rate: 0.13237
     passes: 78
     random_state: 855680275
     estimators: 250

@@ -5,7 +5,7 @@ concurrent:
     features: 1029
     batch_size: 704
   short:
-    max_features: 5108
+    max_features: 4588
     folds: 6
   selection:
     random_state: 304000000
@@ -144,7 +144,7 @@ preprocessing:
     batch_size: 666
   other:
     learning_rate: 0.05786
-    min_features: 3480
+    min_features: 2699
   short:
     columns: 67
     trees: 52
@@ -182,7 +182,7 @@ settings:
     dense: 400
     trees: 72
     seed: 710513101
-    passes: 15
+    passes: 12
     max_depth: 30
   prod:
     min_features: 3301

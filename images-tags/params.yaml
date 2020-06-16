@@ -104,15 +104,15 @@ settings:
 prepare:
   preset:
     min_split: 54
-    trees: 30
+    trees: 36
     seed: 247587064
   prod:
     estimators: 271
-    seed: 371684791
+    seed: 280407426
     split: 0.37505
     batch_size: 333
     threads: 13
-    min_split: 62
+    min_split: 53
   rf:
     ngrams: 3
     epochs: 45
@@ -127,7 +127,7 @@ prepare:
     sample: 0.57519
     drop: 0.10627
     columns: 11
-    split: 0.4263
+    split: 0.59775
     batch_size: 539
     random_state: 406130588
   classifier:

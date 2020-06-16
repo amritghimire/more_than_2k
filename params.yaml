@@ -24,7 +24,7 @@ model:
     ngrams: 7
     epochs: 16
     sample: 0.24183
-    min_features: 242
+    min_features: 221
     dense: 592
     tags: 8
   long:
@@ -41,7 +41,7 @@ tagging:
     random_state: 368429446
   dev:
     threads: 24
-    features: 530
+    features: 550
     sample: 0.75694
     columns: 19
     dense: 285
@@ -74,7 +74,7 @@ train:
     passes: 14
     num_est: 186
   binary:
-    learning_rate: 0.16241
+    learning_rate: 0.11548
     max_features: 120
   batch:
     drop: 0.23801
@@ -164,7 +164,7 @@ settings:
     estimators: 41
     max_depth: 20
   dev:
-    sample: 0.56569
+    sample: 0.50028
     min_split: 50
   rf:
     learning_rate: 0.04168
@@ -211,7 +211,7 @@ validation:
     max_features: 3055
     max_depth: 31
   dev:
-    trees: 3
+    trees: 2
     dense: 340
     features: 5573
     threads: 9

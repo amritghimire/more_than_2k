@@ -123,7 +123,7 @@ prepare:
     tags: 96
     split: 0.23789
     dense: 598
-    random_state: 239319467
+    random_state: 310043180
     learning_rate: 0.07132
     layers: 5
 concurrent:

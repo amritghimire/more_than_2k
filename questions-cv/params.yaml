@@ -105,7 +105,7 @@ validation:
     weight_factor: 0.2
   rf:
     ngrams: 1
-    dense: 300
+    dense: 316
     trees: 18
     split: 0.29192
     features: 1076

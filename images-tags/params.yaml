@@ -109,7 +109,7 @@ prepare:
   prod:
     estimators: 271
     seed: 371684791
-    split: 0.34413
+    split: 0.37505
     batch_size: 333
     threads: 13
     min_split: 62
@@ -138,7 +138,7 @@ prepare:
     learning_rate: 0.11928
     max_depth: 3
     split: 0.54466
-    min_features: 4438
+    min_features: 4143
 preprocessing:
   prod:
     dense: 355

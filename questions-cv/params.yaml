@@ -72,7 +72,7 @@ prepare:
     min_split: 37
   collection:
     passes: 93
-    seed: 706235091
+    seed: 897908885
     drop: 0.44012
     max_features: 1420
     estimators: 303
@@ -88,12 +88,12 @@ prepare:
     columns: 31
   other:
     random_state: 541985117
-    min_features: 3318
+    min_features: 3849
     columns: 70
     batch_size: 784
     trees: 3
   selection:
-    weight_factor: 0.30516
+    weight_factor: 0.35862
 validation:
   prod:
     layers: 1

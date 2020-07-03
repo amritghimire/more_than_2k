@@ -180,9 +180,9 @@ featurize:
     tags: 66
   short:
     min_features: 675
-    layers: 4
+    layers: 6
     max_depth: 13
-    num_est: 98
+    num_est: 119
     estimators: 97
     dense: 153
     epochs: 39
@@ -196,7 +196,7 @@ featurize:
     tags: 66
     min_features: 1873
     learning_rate: 0.08256
-    folds: 11
+    folds: 7
     random_state: 102069361
   auto:
     max_features: 3332

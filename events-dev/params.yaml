@@ -140,7 +140,7 @@ concurrent:
     max_features: 4500
     min_split: 52
     batch_size: 581
-    seed: 788703861
+    seed: 869334387
     learning_rate: 0.05
     layers: 3
     tags: 68

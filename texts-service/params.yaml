@@ -167,7 +167,7 @@ prepare:
     estimators: 131
     dense: 309
     learning_rate: 0.03482
-    min_features: 3991
+    min_features: 4401
   requests:
     passes: 72
     epochs: 15
@@ -178,8 +178,8 @@ prepare:
     features: 4820
     dense: 88
     sample: 0.5247
-    max_depth: 32
-    epochs: 43
+    max_depth: 26
+    epochs: 50
     weight_factor: 0.28848
   combine:
     dense: 161
@@ -193,7 +193,7 @@ prepare:
     trees: 36
     split: 0.1
   diff:
-    epochs: 20
+    epochs: 18
     estimators: 111
 variables:
   preset:

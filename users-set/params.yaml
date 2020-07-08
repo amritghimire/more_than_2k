@@ -120,7 +120,7 @@ validation:
     split: 0.4
     tags: 81
     estimators: 27
-    features: 4650
+    features: 4759
   rf:
     max_depth: 24
     estimators: 245

@@ -90,7 +90,7 @@ train:
     sample: 0.25
   requests:
     min_split: 55
-    threads: 23
+    threads: 28
     batch_size: 656
     split: 0.1009
     folds: 3
@@ -179,7 +179,7 @@ model:
     columns: 36
     num_est: 250
   requests:
-    random_state: 603000000
+    random_state: 715304949
     layers: 1
   auto:
     min_split: 80

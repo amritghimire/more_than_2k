@@ -271,11 +271,11 @@ featurize:
     folds: 13
     num_est: 99
     max_depth: 15
-    batch_size: 994
+    batch_size: 853
     max_features: 4656
   dev:
     epochs: 54
-    ngrams: 9
+    ngrams: 6
     tags: 98
     features: 2462
     passes: 65
@@ -292,13 +292,13 @@ featurize:
   selection:
     columns: 18
     passes: 43
-    threads: 16
+    threads: 14
   rf:
     passes: 17
     weight_factor: 0.33614
     max_features: 1254
     tags: 113
-    random_state: 736975813
+    random_state: 661212611
     min_features: 2256
     learning_rate: 0.07917
     layers: 1

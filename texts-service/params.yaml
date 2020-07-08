@@ -158,7 +158,7 @@ prepare:
     num_est: 249
     sample: 0.76846
     trees: 10
-    features: 1470
+    features: 1264
     columns: 79
   preset:
     max_depth: 9

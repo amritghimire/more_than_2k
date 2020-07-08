@@ -169,7 +169,7 @@ settings:
   rf:
     learning_rate: 0.04168
     num_est: 119
-    min_features: 1407
+    min_features: 1378
     seed: 688056171
   batch:
     learning_rate: 0.08786

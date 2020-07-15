@@ -92,7 +92,7 @@ prepare:
     layers: 1
     trees: 86
   preset:
-    trees: 77
+    trees: 76
     split: 0.17994
     columns: 39
     passes: 55

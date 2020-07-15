@@ -46,7 +46,7 @@ settings:
   long:
     min_split: 61
     num_est: 262
-    drop: 0.18086
+    drop: 0.23144
     epochs: 58
     passes: 59
     folds: 3
@@ -150,7 +150,7 @@ concurrent:
     max_depth: 9
     num_est: 203
     estimators: 49
-    columns: 62
+    columns: 83
     ngrams: 4
     folds: 14
   combine:
@@ -226,7 +226,7 @@ train:
     tags: 55
     batch_size: 526
     estimators: 145
-    random_state: 722399450
+    random_state: 667133371
     max_features: 1563
     epochs: 15
     features: 3530

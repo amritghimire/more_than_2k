@@ -57,7 +57,7 @@ settings:
     passes: 66
     columns: 35
   combine:
-    epochs: 7
+    epochs: 10
     weight_factor: 0.2
     folds: 3
     min_split: 37
@@ -244,7 +244,7 @@ train:
     drop: 0.11259
   short:
     columns: 64
-    num_est: 250
+    num_est: 268
     folds: 3
   long:
     random_state: 632000000

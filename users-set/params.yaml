@@ -256,14 +256,14 @@ prepare:
     features: 273
     drop: 0.24222
     epochs: 80
-    folds: 9
+    folds: 10
     ngrams: 4
   selection:
     split: 0.15413
     layers: 1
     ngrams: 5
     seed: 136815760
-    features: 1555
+    features: 1427
     passes: 50
 featurize:
   classifier:

@@ -75,7 +75,7 @@ prepare:
   learning_rate: 0.14183
   layers: 1
   num_est: 52
-  random_state: 687403489
+  random_state: 769131116
   columns: 62
   epochs: 18
   dense: 190

@@ -235,11 +235,11 @@ prepare:
   requests:
     split: 0.23611
     folds: 12
-    features: 2430
+    features: 2032
   dev:
     columns: 52
     seed: 328752808
-    weight_factor: 0.17909
+    weight_factor: 0.15615
     sample: 0.42957
     epochs: 79
     trees: 9
@@ -264,7 +264,7 @@ prepare:
     ngrams: 5
     seed: 136815760
     features: 1555
-    passes: 47
+    passes: 50
 featurize:
   classifier:
     threads: 22

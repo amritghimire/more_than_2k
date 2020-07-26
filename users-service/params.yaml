@@ -80,7 +80,7 @@ prepare:
   epochs: 18
   dense: 190
   ngrams: 5
-  batch_size: 647
+  batch_size: 437
   min_split: 18
   min_features: 2865
   features: 4079

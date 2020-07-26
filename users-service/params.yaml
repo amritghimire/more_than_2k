@@ -69,22 +69,22 @@ prepare:
   passes: 19
   drop: 0.1048
   sample: 0.56112
-  estimators: 254
+  estimators: 213
   tags: 100
   trees: 76
   learning_rate: 0.14901
   layers: 1
   num_est: 52
-  random_state: 769131116
+  random_state: 859093353
   columns: 62
   epochs: 18
   dense: 184
   ngrams: 5
-  batch_size: 437
+  batch_size: 584
   min_split: 19
   min_features: 2865
-  features: 4079
-  max_depth: 14
+  features: 5062
+  max_depth: 12
   folds: 6
 tagging:
   drop: 0.4705

@@ -72,7 +72,7 @@ prepare:
   estimators: 254
   tags: 100
   trees: 59
-  learning_rate: 0.14183
+  learning_rate: 0.09421
   layers: 1
   num_est: 52
   random_state: 769131116

@@ -62,7 +62,7 @@ concurrent:
   classifier:
     learning_rate: 0.1094
     num_est: 22
-    max_depth: 14
+    max_depth: 9
     passes: 104
     threads: 0
   long:
@@ -90,7 +90,7 @@ settings:
     features: 4610
     tags: 72
   long:
-    folds: 5
+    folds: 7
     layers: 6
     min_split: 80
     epochs: 33

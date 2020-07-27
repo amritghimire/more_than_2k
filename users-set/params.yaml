@@ -220,7 +220,7 @@ model:
     columns: 9
 prepare:
   batch:
-    learning_rate: 0.16669
+    learning_rate: 0.18378
     ngrams: 7
     min_split: 14
     features: 1536
@@ -246,7 +246,7 @@ prepare:
     batch_size: 936
     features: 3034
     max_features: 5295
-    tags: 57
+    tags: 51
   classifier:
     columns: 66
     split: 0.18786
@@ -256,7 +256,7 @@ prepare:
     features: 273
     drop: 0.24222
     epochs: 80
-    folds: 10
+    folds: 9
     ngrams: 4
   selection:
     split: 0.15413

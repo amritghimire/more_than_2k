@@ -65,7 +65,7 @@ model:
   test:
     layers: 4
     estimators: 152
-    random_state: 459065127
+    random_state: 349467356
     weight_factor: 0.33911
   preset:
     drop: 0.3
@@ -108,7 +108,7 @@ variables:
 train:
   short:
     threads: 5
-    dense: 303
+    dense: 306
     tags: 133
     columns: 36
   settings:

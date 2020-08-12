@@ -37,7 +37,7 @@ variables:
   requests:
     estimators: 93
     tags: 112
-    sample: 0.41157
+    sample: 0.3853
   combine:
     random_state: 22000000
     passes: 14
@@ -57,7 +57,7 @@ concurrent:
     split: 0.43126
     max_features: 2620
     seed: 240962000
-    passes: 80
+    passes: 91
   prod:
     columns: 32
   batch:
@@ -100,7 +100,7 @@ train:
     passes: 104
     dense: 318
     columns: 3
-    drop: 0.1
+    drop: 0.09973
     max_features: 3300
   classifier:
     num_est: 124
@@ -180,7 +180,7 @@ model:
     num_est: 250
   requests:
     random_state: 715304949
-    layers: 1
+    layers: 2
   auto:
     min_split: 80
     batch_size: 624

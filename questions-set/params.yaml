@@ -221,6 +221,6 @@ featurize:
     passes: 54
     dense: 248
   batch:
-    seed: 224314351
+    seed: 283861537
     tags: 136
     split: 0.5

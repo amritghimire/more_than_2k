@@ -210,7 +210,7 @@ featurize:
     min_features: 2650
     layers: 4
   requests:
-    weight_factor: 0.09019
+    weight_factor: 0.08132
     split: 0.45265
     passes: 36
     layers: 4

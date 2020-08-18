@@ -283,14 +283,14 @@ featurize:
   batch:
     batch_size: 840
     threads: 25
-    weight_factor: 0.17142
+    weight_factor: 0.15043
     max_features: 4080
   requests:
     sample: 0.21149
     num_est: 207
     threads: 1
   selection:
-    columns: 18
+    columns: 12
     passes: 43
     threads: 14
   rf:

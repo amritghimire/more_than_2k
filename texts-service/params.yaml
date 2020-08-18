@@ -221,7 +221,7 @@ variables:
     max_depth: 33
   requests:
     num_est: 125
-    random_state: 258385205
+    random_state: 370235690
   combine:
     sample: 0.73631
     features: 4320
@@ -256,7 +256,7 @@ preprocessing:
     features: 4887
     min_features: 234
     folds: 9
-    split: 0.1
+    split: 0.08744
     max_depth: 20
     min_split: 38
   other:
@@ -282,7 +282,7 @@ preprocessing:
     tags: 42
   long:
     drop: 0.21353
-    passes: 16
+    passes: 14
     tags: 105
     features: 1270
 tagging:

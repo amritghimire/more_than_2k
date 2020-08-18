@@ -96,7 +96,7 @@ prepare:
     split: 0.17994
     columns: 39
     passes: 55
-    batch_size: 99
+    batch_size: 91
     tags: 81
   combine:
     passes: 49
@@ -120,7 +120,7 @@ prepare:
     min_split: 42
     passes: 28
   other:
-    tags: 96
+    tags: 121
     split: 0.23789
     dense: 598
     random_state: 310043180

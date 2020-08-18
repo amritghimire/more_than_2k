@@ -169,21 +169,21 @@ prepare:
     learning_rate: 0.03482
     min_features: 4401
   requests:
-    passes: 72
+    passes: 70
     epochs: 15
     weight_factor: 0.16307
-    random_state: 404129224
+    random_state: 375107075
   long:
     trees: 64
     features: 4820
     dense: 88
-    sample: 0.5247
+    sample: 0.38536
     max_depth: 26
     epochs: 50
-    weight_factor: 0.28848
+    weight_factor: 0.32846
   combine:
     dense: 161
-    weight_factor: 0.08965
+    weight_factor: 0.09359
     folds: 5
     features: 10
     split: 0.17682

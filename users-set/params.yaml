@@ -16,7 +16,7 @@ variables:
     min_features: 2738
     seed: 864241000
   batch:
-    threads: 1
+    threads: 2
     split: 0.2
     weight_factor: 0.3
     batch_size: 569
@@ -41,7 +41,7 @@ variables:
     random_state: 124800574
     sample: 0.25
   dev:
-    batch_size: 738
+    batch_size: 787
     passes: 24
     tags: 35
     min_split: 32
@@ -110,7 +110,7 @@ validation:
   selection:
     folds: 9
     tags: 56
-    min_split: 80
+    min_split: 78
     weight_factor: 0.10804
     estimators: 45
     num_est: 250

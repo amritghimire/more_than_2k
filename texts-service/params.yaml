@@ -275,7 +275,7 @@ preprocessing:
     random_state: 307000000
   test:
     layers: 6
-    drop: 0.1
+    drop: 0.09448
     seed: 523834000
     features: 1431
     passes: 86

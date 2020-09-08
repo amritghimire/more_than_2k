@@ -98,7 +98,7 @@ validation:
   prod:
     layers: 1
     max_depth: 19
-    folds: 7
+    folds: 8
   collection:
     passes: 52
     layers: 1

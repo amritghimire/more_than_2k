@@ -150,7 +150,7 @@ preprocessing:
     trees: 52
     estimators: 54
   prod:
-    max_features: 211
+    max_features: 180
     weight_factor: 0.0782
     passes: 5
 variables:

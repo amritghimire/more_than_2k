@@ -104,7 +104,7 @@ settings:
     columns: 42
     num_est: 125
     ngrams: 2
-    min_features: 1750
+    min_features: 1980
     dense: 200
   concurrent:
     min_features: 1600

@@ -170,9 +170,9 @@ prepare:
     min_features: 4401
   requests:
     passes: 70
-    epochs: 15
+    epochs: 14
     weight_factor: 0.16307
-    random_state: 375107075
+    random_state: 475437438
   long:
     trees: 91
     features: 4820
@@ -193,7 +193,7 @@ prepare:
     trees: 36
     split: 0.1
   diff:
-    epochs: 22
+    epochs: 21
     estimators: 111
 variables:
   preset:

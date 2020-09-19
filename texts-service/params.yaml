@@ -40,7 +40,7 @@ settings:
     max_features: 1441
   diff:
     max_depth: 28
-    random_state: 137000000
+    random_state: 125999386
     columns: 39
     weight_factor: 0.2115
   long:
@@ -277,7 +277,7 @@ preprocessing:
     layers: 6
     drop: 0.09448
     seed: 523834000
-    features: 1431
+    features: 1442
     passes: 86
     tags: 42
   long:

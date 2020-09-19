@@ -174,7 +174,7 @@ prepare:
     weight_factor: 0.16307
     random_state: 375107075
   long:
-    trees: 64
+    trees: 91
     features: 4820
     dense: 88
     sample: 0.38536

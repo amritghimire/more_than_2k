@@ -141,7 +141,7 @@ preprocessing:
     layers: 4
     weight_factor: 0.23524
     learning_rate: 0.01158
-    ngrams: 3
+    ngrams: 4
   short:
     max_features: 1995
     epochs: 54

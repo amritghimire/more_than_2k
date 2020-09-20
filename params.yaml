@@ -8,7 +8,7 @@ model:
   batch:
     layers: 5
     min_split: 58
-    split: 0.1648
+    split: 0.16698
     max_depth: 13
   short:
     min_split: 14
@@ -154,7 +154,7 @@ settings:
     epochs: 48
     tags: 24
     columns: 78
-    drop: 0.07732
+    drop: 0.0998
     ngrams: 2
   long:
     min_features: 677
@@ -188,7 +188,7 @@ validation:
   long:
     ngrams: 6
     random_state: 1105315761
-    passes: 30
+    passes: 24
     batch_size: 188
     weight_factor: 0.29629
   batch:

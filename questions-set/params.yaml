@@ -196,13 +196,13 @@ featurize:
     trees: 6
     dense: 230
     random_state: 752723792
-    max_depth: 25
+    max_depth: 24
     split: 0.16748
     threads: 8
   classifier:
     num_est: 28
     columns: 55
-    trees: 54
+    trees: 42
     folds: 14
     threads: 17
   preset:
@@ -218,7 +218,7 @@ featurize:
     drop: 0.21082
     min_features: 3500
     trees: 15
-    passes: 54
+    passes: 61
     dense: 248
   batch:
     seed: 283861537

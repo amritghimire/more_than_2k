@@ -1,8 +1,8 @@
 model:
   preset:
     random_state: 603000000
-    tags: 28
-    min_features: 1050
+    tags: 32
+    min_features: 877
     estimators: 116
     folds: 4
     seed: 886215425
@@ -41,7 +41,7 @@ concurrent:
     random_state: 653074762
     min_features: 1800
   preset:
-    columns: 63
+    columns: 72
     max_depth: 9
     sample: 0.68987
     min_split: 16

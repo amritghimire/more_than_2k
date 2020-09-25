@@ -25,14 +25,14 @@ model:
     tags: 84
     layers: 1
   classifier:
-    min_features: 1950
+    min_features: 1579
     min_split: 51
     ngrams: 2
     max_depth: 3
   diff:
     estimators: 157
     drop: 0.16872
-    columns: 15
+    columns: 12
   long:
     layers: 2
     seed: 272372000
@@ -48,7 +48,7 @@ concurrent:
     features: 2373
   other:
     passes: 34
-    features: 3107
+    features: 3549
     columns: 79
     sample: 0.25
     random_state: 874437588
@@ -90,7 +90,7 @@ settings:
     features: 4610
     tags: 72
   long:
-    folds: 7
+    folds: 5
     layers: 6
     min_split: 80
     epochs: 33

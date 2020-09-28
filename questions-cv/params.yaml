@@ -197,4 +197,4 @@ settings:
   other:
     folds: 3
   short:
-    ngrams: 3
+    ngrams: 4

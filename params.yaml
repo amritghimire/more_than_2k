@@ -201,7 +201,7 @@ validation:
     split: 0.19402
     weight_factor: 0.3
   short:
-    layers: 1
+    layers: 2
     min_split: 80
     columns: 33
     folds: 2

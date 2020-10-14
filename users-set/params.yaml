@@ -291,7 +291,7 @@ featurize:
     threads: 1
   selection:
     columns: 12
-    passes: 43
+    passes: 35
     threads: 14
   rf:
     passes: 17

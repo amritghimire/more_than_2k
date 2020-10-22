@@ -161,7 +161,7 @@ prepare:
     min_split: 51
     threads: 17
   other:
-    max_depth: 24
+    max_depth: 20
     split: 0.30128
     max_features: 4900
     ngrams: 5
@@ -170,7 +170,7 @@ prepare:
     dense: 100
   dev:
     ngrams: 4
-    batch_size: 547
+    batch_size: 724
     min_features: 1656
     epochs: 34
     split: 0.48939

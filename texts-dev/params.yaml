@@ -13,7 +13,7 @@ featurize:
     random_state: 464098713
     batch_size: 943
     tags: 107
-    passes: 43
+    passes: 40
     folds: 9
     split: 0.10847
     columns: 19

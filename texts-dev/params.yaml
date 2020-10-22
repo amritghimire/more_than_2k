@@ -170,7 +170,7 @@ prepare:
     dense: 100
   dev:
     ngrams: 4
-    batch_size: 624
+    batch_size: 547
     min_features: 1656
     epochs: 34
     split: 0.48939

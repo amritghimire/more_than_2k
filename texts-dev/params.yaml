@@ -139,7 +139,7 @@ prepare:
     drop: 0.2
     batch_size: 80
     weight_factor: 0.24117
-    split: 0.58324
+    split: 0.46639
     seed: 753678833
     max_depth: 4
   model:

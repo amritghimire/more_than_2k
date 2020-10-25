@@ -88,7 +88,7 @@ prepare:
   folds: 7
 tagging:
   drop: 0.4705
-  ngrams: 4
+  ngrams: 3
   threads: 16
   num_est: 38
   batch_size: 931
@@ -97,7 +97,7 @@ tagging:
   folds: 6
   weight_factor: 0.1
   columns: 58
-  trees: 87
+  trees: 91
   learning_rate: 0.13
   seed: 952765000
   dense: 500

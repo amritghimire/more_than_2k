@@ -16,7 +16,7 @@ model:
     columns: 48
   long:
     passes: 42
-    trees: 51
+    trees: 54
     learning_rate: 0.0762
     ngrams: 6
     estimators: 34
@@ -147,7 +147,7 @@ concurrent:
     threads: 3
     passes: 83
   preset:
-    max_depth: 9
+    max_depth: 13
     num_est: 203
     estimators: 49
     columns: 83

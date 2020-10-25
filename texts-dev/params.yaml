@@ -23,7 +23,7 @@ featurize:
     min_split: 78
     trees: 38
     estimators: 223
-    columns: 33
+    columns: 50
     tags: 11
     threads: 17
   other:

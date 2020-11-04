@@ -187,7 +187,7 @@ variables:
     max_depth: 24
     trees: 70
     estimators: 139
-    min_features: 4150
+    min_features: 4566
     split: 0.16914
   long:
     seed: 493427000

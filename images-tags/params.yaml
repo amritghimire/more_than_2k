@@ -16,7 +16,7 @@ model:
     drop: 0.2
     features: 2569
   rf:
-    folds: 6
+    folds: 5
     random_state: 222422383
     ngrams: 3
     dense: 400
@@ -48,7 +48,7 @@ concurrent:
     features: 2373
   other:
     passes: 34
-    features: 3549
+    features: 2769
     columns: 79
     sample: 0.25
     random_state: 874437588
@@ -93,14 +93,14 @@ settings:
     folds: 5
     layers: 6
     min_split: 80
-    epochs: 33
+    epochs: 31
   diff:
     min_features: 3550
     min_split: 80
     drop: 0.1
     estimators: 98
   classifier:
-    folds: 3
+    folds: 2
 prepare:
   preset:
     min_split: 54
@@ -204,7 +204,7 @@ variables:
     passes: 52
     layers: 2
   rf:
-    min_features: 1750
+    min_features: 1386
     sample: 0.52668
   prod:
     seed: 362728388

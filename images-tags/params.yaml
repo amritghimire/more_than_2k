@@ -9,7 +9,7 @@ model:
   prod:
     columns: 30
     num_est: 164
-    dense: 118
+    dense: 92
     sample: 0.38927
     random_state: 312000000
     max_features: 1750
@@ -98,7 +98,7 @@ settings:
     min_features: 3550
     min_split: 80
     drop: 0.1
-    estimators: 90
+    estimators: 98
   classifier:
     folds: 3
 prepare:
@@ -163,7 +163,7 @@ preprocessing:
   other:
     columns: 65
     threads: 15
-    random_state: 191000000
+    random_state: 152138495
     passes: 62
     features: 3222
   preset:

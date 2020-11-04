@@ -34,7 +34,7 @@ concurrent:
     sample: 0.59213
 model:
   collection:
-    tags: 54
+    tags: 65
     num_est: 110
   rf:
     ngrams: 4

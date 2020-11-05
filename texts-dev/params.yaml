@@ -14,7 +14,7 @@ featurize:
     batch_size: 943
     tags: 107
     passes: 40
-    folds: 9
+    folds: 13
     split: 0.10847
     columns: 19
   combine:
@@ -22,7 +22,7 @@ featurize:
     features: 2659
     min_split: 62
     trees: 38
-    estimators: 223
+    estimators: 181
     columns: 50
     tags: 11
     threads: 17
@@ -32,13 +32,13 @@ featurize:
     passes: 66
     estimators: 53
     batch_size: 472
-    drop: 0.18971
+    drop: 0.22254
   dev:
-    num_est: 288
+    num_est: 245
     sample: 0.1924
   concurrent:
     seed: 23921690
-    num_est: 187
+    num_est: 190
     max_features: 3906
 validation:
   concurrent:

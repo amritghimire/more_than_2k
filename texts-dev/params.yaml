@@ -55,13 +55,13 @@ validation:
     folds: 6
   combine:
     min_features: 312
-    passes: 84
+    passes: 94
     features: 2917
     learning_rate: 0.15
   test:
     tags: 49
     weight_factor: 0.2
-    threads: 28
+    threads: 33
     dense: 300
     passes: 148
   preprocessing:
@@ -125,7 +125,7 @@ settings:
     sample: 0.5
   model:
     dense: 200
-    estimators: 78
+    estimators: 91
 prepare:
   concurrent:
     threads: 6
@@ -229,7 +229,7 @@ tagging:
     features: 4170
 variables:
   concurrent:
-    min_features: 2100
+    min_features: 2399
     split: 0.4
     threads: 18
     columns: 21

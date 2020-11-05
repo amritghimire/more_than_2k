@@ -51,7 +51,7 @@ validation:
     features: 4410
     trees: 54
     min_split: 80
-    split: 0.5
+    split: 0.56779
     folds: 6
   combine:
     min_features: 312

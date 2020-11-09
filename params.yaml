@@ -87,9 +87,9 @@ train:
     min_split: 79
 featurize:
   binary:
-    features: 2641
+    features: 3350
     passes: 8
-    drop: 0.21663
+    drop: 0.21674
     estimators: 226
     ngrams: 7
     tags: 81
@@ -102,7 +102,7 @@ featurize:
     epochs: 74
     max_features: 2312
   preset:
-    estimators: 292
+    estimators: 267
     max_features: 2283
     passes: 56
   dev:

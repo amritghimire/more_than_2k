@@ -184,7 +184,7 @@ featurize:
     max_depth: 13
     num_est: 119
     estimators: 97
-    dense: 153
+    dense: 179
     epochs: 39
     columns: 39
   diff:

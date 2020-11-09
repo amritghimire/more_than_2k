@@ -103,7 +103,7 @@ featurize:
     max_features: 2312
   preset:
     estimators: 267
-    max_features: 2283
+    max_features: 2134
     passes: 56
   dev:
     min_split: 74

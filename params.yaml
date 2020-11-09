@@ -88,7 +88,7 @@ train:
 featurize:
   binary:
     features: 3350
-    passes: 8
+    passes: 7
     drop: 0.21674
     estimators: 226
     ngrams: 7

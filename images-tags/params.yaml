@@ -213,15 +213,15 @@ featurize:
     dense: 81
     columns: 57
     max_features: 3259
-    drop: 0.11145
+    drop: 0.09685
     num_est: 141
     batch_size: 281
     trees: 52
   preset:
-    max_features: 506
+    max_features: 677
     split: 0.48956
     tags: 60
-    weight_factor: 0.36676
+    weight_factor: 0.26134
     learning_rate: 0.05576
     max_depth: 24
   prod:

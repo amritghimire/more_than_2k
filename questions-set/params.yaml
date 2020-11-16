@@ -212,7 +212,7 @@ featurize:
   requests:
     weight_factor: 0.08132
     split: 0.45265
-    passes: 36
+    passes: 34
     layers: 4
   auto:
     drop: 0.21082

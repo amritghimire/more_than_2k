@@ -30,9 +30,9 @@ concurrent:
   threads: 3
   passes: 93
   tags: 98
-  features: 2810
+  features: 2344
   folds: 6
-  dense: 245
+  dense: 215
   trees: 64
   columns: 42
   epochs: 45
@@ -49,7 +49,7 @@ variables:
   estimators: 36
   max_depth: 9
   seed: 698881232
-  passes: 61
+  passes: 77
   random_state: 940158371
   sample: 0.22269
   tags: 112
@@ -95,7 +95,7 @@ tagging:
   layers: 2
   estimators: 35
   folds: 6
-  weight_factor: 0.1
+  weight_factor: 0.09603
   columns: 58
   trees: 91
   learning_rate: 0.13
@@ -105,5 +105,5 @@ tagging:
   min_features: 2150
   sample: 0.25
   tags: 111
-  epochs: 50
+  epochs: 56
   features: 2363

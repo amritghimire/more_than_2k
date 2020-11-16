@@ -204,7 +204,7 @@ featurize:
     columns: 55
     trees: 42
     folds: 14
-    threads: 17
+    threads: 15
   preset:
     folds: 2
     min_features: 2650

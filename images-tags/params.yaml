@@ -211,12 +211,12 @@ variables:
 featurize:
   rf:
     dense: 81
-    columns: 41
+    columns: 57
     max_features: 3259
     drop: 0.11145
     num_est: 141
-    batch_size: 291
-    trees: 57
+    batch_size: 281
+    trees: 52
   preset:
     max_features: 506
     split: 0.48956
@@ -242,7 +242,7 @@ featurize:
     seed: 1045197566
     folds: 2
     min_features: 3758
-    threads: 39
+    threads: 31
     epochs: 17
   diff:
     folds: 6

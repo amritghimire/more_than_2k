@@ -1,6 +1,6 @@
 concurrent:
   batch:
-    tags: 63
+    tags: 65
     epochs: 51
     features: 1029
     batch_size: 704
@@ -118,7 +118,7 @@ validation:
   other:
     learning_rate: 0.12
     max_features: 941
-    tags: 84
+    tags: 87
     min_features: 1150
   batch:
     max_features: 934

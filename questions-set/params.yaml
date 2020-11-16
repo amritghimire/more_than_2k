@@ -222,5 +222,5 @@ featurize:
     dense: 248
   batch:
     seed: 283861537
-    tags: 136
+    tags: 134
     split: 0.5

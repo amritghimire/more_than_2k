@@ -2,7 +2,7 @@ concurrent:
   batch:
     tags: 65
     epochs: 51
-    features: 1029
+    features: 772
     batch_size: 704
   short:
     max_features: 4588
@@ -114,7 +114,7 @@ validation:
     max_depth: 13
     tags: 146
     folds: 6
-    split: 0.2
+    split: 0.21611
   other:
     learning_rate: 0.12
     max_features: 941
@@ -180,12 +180,12 @@ variables:
 settings:
   selection:
     dense: 400
-    trees: 72
+    trees: 56
     seed: 710513101
     passes: 12
     max_depth: 30
   prod:
-    min_features: 3301
+    min_features: 2880
     columns: 38
   rf:
     max_depth: 12

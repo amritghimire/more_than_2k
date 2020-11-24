@@ -10,7 +10,7 @@ concurrent:
   selection:
     random_state: 304000000
     epochs: 84
-    max_depth: 16
+    max_depth: 19
     num_est: 166
     folds: 5
     split: 0.44902
@@ -34,7 +34,7 @@ concurrent:
     sample: 0.59213
 model:
   collection:
-    tags: 65
+    tags: 50
     num_est: 110
   rf:
     ngrams: 4
@@ -43,7 +43,7 @@ model:
     min_split: 26
     batch_size: 557
   other:
-    random_state: 676000000
+    random_state: 585943185
     max_features: 5311
     seed: 528465684
   prod:
@@ -133,7 +133,7 @@ preprocessing:
     layers: 6
   rf:
     tags: 98
-    weight_factor: 0.18628
+    weight_factor: 0.1825
     split: 0.52931
     passes: 91
   selection:

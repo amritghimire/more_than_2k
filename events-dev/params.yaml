@@ -85,7 +85,7 @@ settings:
 prepare:
   short:
     num_est: 182
-    weight_factor: 0.15957
+    weight_factor: 0.16559
     sample: 0.28512
     learning_rate: 0.08324
     split: 0.49357
@@ -122,7 +122,7 @@ prepare:
   other:
     tags: 121
     split: 0.23789
-    dense: 598
+    dense: 473
     random_state: 369490568
     learning_rate: 0.07132
     layers: 5

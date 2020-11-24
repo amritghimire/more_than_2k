@@ -71,7 +71,7 @@ prepare:
     features: 292
     min_split: 35
   collection:
-    passes: 58
+    passes: 78
     seed: 897908885
     drop: 0.44012
     max_features: 1006

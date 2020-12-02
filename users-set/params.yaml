@@ -228,7 +228,7 @@ prepare:
   rf:
     num_est: 45
     passes: 85
-    layers: 5
+    layers: 4
     epochs: 80
     columns: 6
     random_state: 956362358
@@ -239,14 +239,14 @@ prepare:
   dev:
     columns: 67
     seed: 328752808
-    weight_factor: 0.15615
+    weight_factor: 0.15334
     sample: 0.42957
     epochs: 79
     trees: 9
     batch_size: 936
-    features: 3034
+    features: 2853
     max_features: 5295
-    tags: 51
+    tags: 56
   classifier:
     columns: 66
     split: 0.18786

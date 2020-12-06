@@ -81,7 +81,7 @@ concurrent:
     columns: 65
     tags: 111
     trees: 12
-    sample: 0.82158
+    sample: 0.88674
   combine:
     max_depth: 16
     trees: 13
@@ -150,7 +150,7 @@ settings:
     ngrams: 3
     epochs: 55
     tags: 21
-    sample: 0.91748
+    sample: 0.7944
   classifier:
     dense: 385
     ngrams: 2

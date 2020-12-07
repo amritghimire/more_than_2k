@@ -45,7 +45,7 @@ variables:
     estimators: 96
   prod:
     threads: 15
-    trees: 30
+    trees: 35
   classifier:
     max_features: 1964
     seed: 272039000
@@ -78,7 +78,7 @@ concurrent:
   preset:
     random_state: 210029238
     folds: 9
-    columns: 65
+    columns: 69
     tags: 111
     trees: 12
     sample: 0.88674

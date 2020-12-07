@@ -74,7 +74,7 @@ concurrent:
     max_features: 3650
     trees: 60
     min_split: 79
-    num_est: 175
+    num_est: 200
   preset:
     random_state: 210029238
     folds: 9

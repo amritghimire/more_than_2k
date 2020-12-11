@@ -92,7 +92,7 @@ featurize:
     drop: 0.21674
     estimators: 226
     ngrams: 7
-    tags: 81
+    tags: 74
   long:
     ngrams: 7
     tags: 89
@@ -107,7 +107,7 @@ featurize:
     passes: 81
   dev:
     min_split: 74
-    trees: 33
+    trees: 32
     sample: 0.26591
     seed: 551590437
     min_features: 3377

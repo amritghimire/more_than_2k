@@ -25,7 +25,7 @@ model:
     epochs: 16
     sample: 0.24183
     min_features: 159
-    dense: 592
+    dense: 559
     tags: 8
   long:
     min_features: 2950
@@ -80,7 +80,7 @@ train:
     drop: 0.23801
     tags: 90
   preset:
-    num_est: 308
+    num_est: 276
     features: 420
     drop: 0.49652
   short:
@@ -157,7 +157,7 @@ settings:
     drop: 0.0998
     ngrams: 2
   long:
-    min_features: 677
+    min_features: 652
     features: 1140
     min_split: 82
   short:
@@ -181,7 +181,7 @@ settings:
     batch_size: 31
     max_features: 1730
     features: 3593
-    passes: 4
+    passes: 6
     split: 0.29189
     ngrams: 2
 validation:

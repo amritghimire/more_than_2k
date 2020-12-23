@@ -157,7 +157,7 @@ prepare:
     max_depth: 12
   test:
     weight_factor: 0.26543
-    passes: 4
+    passes: 3
     min_split: 51
     threads: 17
   other:

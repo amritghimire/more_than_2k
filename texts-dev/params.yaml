@@ -284,7 +284,7 @@ train:
     split: 0.3
   dev:
     min_split: 64
-    learning_rate: 0.15
+    learning_rate: 0.14293
     seed: 686289000
     features: 3920
   concurrent:

@@ -31,7 +31,7 @@ concurrent:
     trees: 32
     threads: 23
   dev:
-    threads: 18
+    threads: 20
     estimators: 209
     trees: 59
     split: 0.4
@@ -119,7 +119,7 @@ train:
     layers: 2
   other:
     trees: 54
-    drop: 0.3
+    drop: 0.35946
     min_features: 4250
     max_features: 1400
   batch:
@@ -235,13 +235,13 @@ preprocessing:
     ngrams: 4
     columns: 53
     tags: 112
-    dense: 100
+    dense: 105
   settings:
     layers: 3
     weight_factor: 0.3
     seed: 238507777
     sample: 1.05571
-    num_est: 50
+    num_est: 40
     min_features: 3851
     threads: 20
     columns: 56

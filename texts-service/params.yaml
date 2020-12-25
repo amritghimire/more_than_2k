@@ -141,11 +141,11 @@ model:
   test:
     min_split: 79
     min_features: 3675
-    threads: 1
+    threads: 0
     max_features: 1568
     folds: 3
     seed: 761722981
-    split: 0.4
+    split: 0.48559
     sample: 0.25
   requests:
     estimators: 112

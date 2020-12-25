@@ -37,7 +37,7 @@ variables:
   requests:
     estimators: 93
     tags: 112
-    sample: 0.3853
+    sample: 0.45771
   combine:
     random_state: 22000000
     passes: 14

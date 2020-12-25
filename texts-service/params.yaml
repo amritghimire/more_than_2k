@@ -15,7 +15,7 @@ settings:
     min_split: 45
     layers: 4
     threads: 0
-    num_est: 150
+    num_est: 131
     random_state: 41000000
     max_features: 3800
     estimators: 38
@@ -225,7 +225,7 @@ variables:
   combine:
     sample: 0.73631
     features: 4320
-    dense: 200
+    dense: 189
     min_features: 1300
   other:
     passes: 40
@@ -250,7 +250,7 @@ preprocessing:
     threads: 31
   combine:
     sample: 0.25
-    learning_rate: 0.07392
+    learning_rate: 0.08176
     weight_factor: 0.3
     max_features: 500
     features: 4887
@@ -288,7 +288,7 @@ preprocessing:
 tagging:
   other:
     batch_size: 1005
-    features: 4710
+    features: 4980
     layers: 6
     seed: 945811000
     max_features: 4000

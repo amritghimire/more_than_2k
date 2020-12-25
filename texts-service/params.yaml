@@ -4,7 +4,7 @@ settings:
     min_features: 917
     folds: 6
     num_est: 119
-    drop: 0.2
+    drop: 0.20202
     features: 1740
     random_state: 336617488
     tags: 84
@@ -50,7 +50,7 @@ concurrent:
   long:
     num_est: 75
     batch_size: 552
-    sample: 1.0
+    sample: 1.22943
     random_state: 54000000
     split: 0.1188
     min_split: 80

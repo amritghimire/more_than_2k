@@ -14,7 +14,7 @@ settings:
     batch_size: 705
     min_split: 45
     layers: 4
-    threads: 1
+    threads: 0
     num_est: 150
     random_state: 41000000
     max_features: 3800
@@ -68,7 +68,7 @@ concurrent:
     min_split: 80
     features: 4620
     trees: 38
-    folds: 3
+    folds: 2
     num_est: 109
   requests:
     learning_rate: 0.11632
@@ -77,7 +77,7 @@ concurrent:
     num_est: 232
     columns: 15
     split: 0.5
-    estimators: 95
+    estimators: 96
   diff:
     trees: 36
     tags: 119
@@ -95,7 +95,7 @@ concurrent:
     layers: 6
   other:
     tags: 70
-    max_depth: 32
+    max_depth: 24
   combine:
     epochs: 50
 model:
@@ -258,7 +258,7 @@ preprocessing:
     folds: 9
     split: 0.08744
     max_depth: 20
-    min_split: 38
+    min_split: 35
   other:
     min_split: 56
     epochs: 70

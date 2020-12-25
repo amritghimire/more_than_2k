@@ -159,7 +159,7 @@ prepare:
     sample: 1.07757
     trees: 10
     features: 1735
-    columns: 79
+    columns: 91
   preset:
     max_depth: 9
     seed: 187003143
@@ -175,7 +175,7 @@ prepare:
     random_state: 475437438
   long:
     trees: 91
-    features: 4820
+    features: 3620
     dense: 88
     sample: 0.38536
     max_depth: 26
@@ -191,7 +191,7 @@ prepare:
   other:
     random_state: 18382665
     trees: 36
-    split: 0.1
+    split: 0.08309
   diff:
     epochs: 21
     estimators: 111

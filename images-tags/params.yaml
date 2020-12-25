@@ -132,7 +132,7 @@ prepare:
     random_state: 406130588
   classifier:
     weight_factor: 0.26345
-    dense: 227
+    dense: 198
     tags: 146
   diff:
     learning_rate: 0.11928

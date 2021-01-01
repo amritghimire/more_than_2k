@@ -81,7 +81,7 @@ concurrent:
     columns: 69
     tags: 111
     trees: 12
-    sample: 0.88674
+    sample: 1.15328
   combine:
     max_depth: 16
     trees: 13

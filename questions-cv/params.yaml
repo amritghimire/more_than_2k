@@ -11,7 +11,7 @@ concurrent:
     random_state: 304000000
     epochs: 84
     max_depth: 19
-    num_est: 166
+    num_est: 172
     folds: 5
     split: 0.44902
   rf:

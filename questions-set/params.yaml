@@ -121,7 +121,7 @@ settings:
     min_features: 1131
     passes: 85
     max_features: 150
-    ngrams: 4
+    ngrams: 6
   requests:
     max_features: 569
     min_features: 1050

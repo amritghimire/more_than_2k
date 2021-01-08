@@ -71,7 +71,7 @@ settings:
     tags: 108
     random_state: 90000000
     trees: 69
-    estimators: 31
+    estimators: 30
     passes: 41
   diff:
     folds: 5

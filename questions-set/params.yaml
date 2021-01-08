@@ -1,7 +1,7 @@
 tagging:
   requests:
     ngrams: 2
-    random_state: 84000000
+    random_state: 75482764
     estimators: 249
     weight_factor: 0.26551
   prod:
@@ -76,7 +76,7 @@ concurrent:
     min_split: 79
     num_est: 200
   preset:
-    random_state: 210029238
+    random_state: 248236268
     folds: 9
     columns: 69
     tags: 111
@@ -139,8 +139,8 @@ settings:
     estimators: 300
     max_depth: 35
     tags: 91
-    learning_rate: 0.05
-    weight_factor: 0.3
+    learning_rate: 0.05247
+    weight_factor: 0.26729
   auto:
     estimators: 163
     layers: 3

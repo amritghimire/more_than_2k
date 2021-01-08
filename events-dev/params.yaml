@@ -1,6 +1,6 @@
 model:
   preset:
-    batch_size: 350
+    batch_size: 263
   other:
     estimators: 194
     sample: 0.37966
@@ -69,7 +69,7 @@ settings:
     max_depth: 32
     max_features: 2531
     tags: 108
-    random_state: 90000000
+    random_state: 111524624
     trees: 69
     estimators: 30
     passes: 41
@@ -157,7 +157,7 @@ concurrent:
     trees: 43
     dense: 400
     drop: 0.41212
-    split: 0.08234
+    split: 0.1155
     weight_factor: 0.32452
     min_features: 600
     min_split: 35
@@ -248,7 +248,7 @@ train:
     folds: 3
   long:
     random_state: 632000000
-    seed: 497805221
+    seed: 521556506
 variables:
   other:
     drop: 0.19942

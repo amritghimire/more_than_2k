@@ -237,12 +237,12 @@ prepare:
     folds: 12
     features: 2432
   dev:
-    columns: 67
-    seed: 328752808
+    columns: 43
+    seed: 382101716
     weight_factor: 0.15334
     sample: 0.42957
     epochs: 79
-    trees: 9
+    trees: 12
     batch_size: 936
     features: 2853
     max_features: 5295

@@ -96,8 +96,8 @@ prepare:
     split: 0.17994
     columns: 39
     passes: 58
-    batch_size: 91
-    tags: 81
+    batch_size: 99
+    tags: 63
   combine:
     passes: 49
     min_features: 2192
@@ -113,7 +113,7 @@ prepare:
     dense: 89
     max_features: 75
   long:
-    columns: 15
+    columns: 16
     trees: 45
   auto:
     num_est: 216

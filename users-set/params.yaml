@@ -223,7 +223,7 @@ prepare:
     learning_rate: 0.18378
     ngrams: 7
     min_split: 14
-    features: 1536
+    features: 1435
     split: 0.21976
   rf:
     num_est: 45

@@ -235,7 +235,7 @@ prepare:
   requests:
     split: 0.23611
     folds: 12
-    features: 2432
+    features: 1910
   dev:
     columns: 43
     seed: 382101716
@@ -256,14 +256,14 @@ prepare:
     features: 273
     drop: 0.24222
     epochs: 80
-    folds: 9
+    folds: 7
     ngrams: 4
   selection:
     split: 0.15413
     layers: 1
     ngrams: 5
     seed: 136815760
-    features: 1427
+    features: 1685
     passes: 50
 featurize:
   classifier:

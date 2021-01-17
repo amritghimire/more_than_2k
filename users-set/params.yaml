@@ -243,9 +243,9 @@ prepare:
     sample: 0.42957
     epochs: 79
     trees: 12
-    batch_size: 936
-    features: 2853
-    max_features: 5295
+    batch_size: 728
+    features: 2577
+    max_features: 3663
     tags: 56
   classifier:
     columns: 66

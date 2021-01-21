@@ -8,7 +8,7 @@ concurrent:
   other:
     split: 0.23788
     drop: 0.1
-    folds: 6
+    folds: 5
     min_features: 1750
     estimators: 67
   test:

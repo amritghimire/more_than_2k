@@ -33,7 +33,7 @@ concurrent:
   dev:
     threads: 20
     estimators: 209
-    trees: 59
+    trees: 66
     split: 0.4
   short:
     min_split: 16
@@ -102,7 +102,7 @@ variables:
     min_split: 48
     num_est: 175
   dev:
-    max_depth: 13
+    max_depth: 18
     trees: 78
     num_est: 225
 train:
@@ -123,7 +123,7 @@ train:
     min_features: 4250
     max_features: 1400
   batch:
-    epochs: 15
+    epochs: 14
     features: 2950
     columns: 58
     dense: 300
@@ -223,7 +223,7 @@ preprocessing:
     batch_size: 637
   batch:
     layers: 4
-    features: 450
+    features: 493
     batch_size: 610
     learning_rate: 0.05
     trees: 39

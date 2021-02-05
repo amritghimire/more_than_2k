@@ -19,7 +19,7 @@ model:
     ngrams: 4
     split: 0.32019
     folds: 7
-    epochs: 21
+    epochs: 17
   binary:
     ngrams: 7
     epochs: 16
@@ -146,7 +146,7 @@ preprocessing:
     max_features: 1995
     epochs: 54
   batch:
-    estimators: 87
+    estimators: 105
     ngrams: 2
     min_split: 29
 settings:
@@ -180,7 +180,7 @@ settings:
     min_split: 60
     batch_size: 31
     max_features: 1730
-    features: 3593
+    features: 3809
     passes: 6
     split: 0.29189
     ngrams: 2
@@ -212,7 +212,7 @@ validation:
     max_depth: 31
   dev:
     trees: 2
-    dense: 340
+    dense: 265
     features: 5573
     threads: 9
     min_features: 2190

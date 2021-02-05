@@ -50,7 +50,7 @@ variables:
   max_depth: 9
   seed: 698881232
   passes: 77
-  random_state: 940158371
+  random_state: 988485972
   sample: 0.22269
   tags: 112
   min_split: 80
@@ -104,6 +104,6 @@ tagging:
   max_depth: 9
   min_features: 2150
   sample: 0.25
-  tags: 111
+  tags: 106
   epochs: 56
   features: 2363

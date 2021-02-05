@@ -26,7 +26,7 @@ concurrent:
   min_split: 16
   num_est: 25
   drop: 0.3
-  random_state: 256000000
+  random_state: 255764941
   threads: 3
   passes: 93
   tags: 98
@@ -51,12 +51,12 @@ variables:
   seed: 698881232
   passes: 77
   random_state: 988485972
-  sample: 0.22269
+  sample: 0.30464
   tags: 112
   min_split: 80
   num_est: 199
-  folds: 2
-  dense: 319
+  folds: 3
+  dense: 287
   split: 0.375
   batch_size: 758
   features: 3900
@@ -90,7 +90,7 @@ tagging:
   drop: 0.39455
   ngrams: 3
   threads: 16
-  num_est: 38
+  num_est: 57
   batch_size: 931
   layers: 2
   estimators: 35

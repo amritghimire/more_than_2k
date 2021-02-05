@@ -52,7 +52,7 @@ tagging:
     min_split: 45
   preset:
     seed: 129803821
-    batch_size: 94
+    batch_size: 90
     estimators: 82
   long:
     features: 3147

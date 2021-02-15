@@ -159,7 +159,7 @@ prepare:
     sample: 1.07757
     trees: 10
     features: 1735
-    columns: 91
+    columns: 86
   preset:
     max_depth: 9
     seed: 187003143
@@ -169,7 +169,7 @@ prepare:
     learning_rate: 0.03482
     min_features: 4401
   requests:
-    passes: 55
+    passes: 61
     epochs: 14
     weight_factor: 0.16307
     random_state: 479076373

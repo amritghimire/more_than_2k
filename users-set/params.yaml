@@ -37,12 +37,12 @@ variables:
     layers: 2
     split: 0.4
     min_split: 25
-    features: 3950
+    features: 3878
     random_state: 124800574
     sample: 0.25
   dev:
     batch_size: 787
-    passes: 24
+    passes: 20
     tags: 35
     min_split: 32
     max_features: 3278
@@ -111,7 +111,7 @@ validation:
     folds: 9
     tags: 56
     min_split: 78
-    weight_factor: 0.10804
+    weight_factor: 0.10642
     estimators: 45
     num_est: 250
     passes: 56
@@ -167,7 +167,7 @@ settings:
     columns: 21
     dense: 500
   dev:
-    max_depth: 28
+    max_depth: 27
     batch_size: 720
     seed: 821966000
 model:

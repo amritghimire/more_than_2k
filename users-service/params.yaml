@@ -78,13 +78,13 @@ prepare:
   random_state: 534316482
   columns: 62
   epochs: 18
-  dense: 184
+  dense: 232
   ngrams: 5
   batch_size: 584
   min_split: 19
   min_features: 2865
   features: 4366
-  max_depth: 12
+  max_depth: 10
   folds: 7
 tagging:
   drop: 0.39455

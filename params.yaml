@@ -29,7 +29,7 @@ model:
     tags: 8
   long:
     min_features: 2950
-    learning_rate: 0.13491
+    learning_rate: 0.10582
     split: 0.22043
   dev:
     folds: 8
@@ -52,7 +52,7 @@ tagging:
     min_split: 45
   preset:
     seed: 129803821
-    batch_size: 90
+    batch_size: 103
     estimators: 82
   long:
     features: 3147
@@ -186,7 +186,7 @@ settings:
     ngrams: 2
 validation:
   long:
-    ngrams: 6
+    ngrams: 8
     random_state: 1105315761
     passes: 24
     batch_size: 188

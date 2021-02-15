@@ -81,7 +81,7 @@ prepare:
   dense: 232
   ngrams: 5
   batch_size: 584
-  min_split: 19
+  min_split: 16
   min_features: 2865
   features: 4366
   max_depth: 10

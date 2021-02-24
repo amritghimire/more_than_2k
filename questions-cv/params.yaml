@@ -152,7 +152,7 @@ preprocessing:
   prod:
     max_features: 180
     weight_factor: 0.0782
-    passes: 5
+    passes: 7
 variables:
   short:
     min_features: 2750

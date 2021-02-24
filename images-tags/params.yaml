@@ -104,7 +104,7 @@ settings:
 prepare:
   preset:
     min_split: 54
-    trees: 36
+    trees: 46
     seed: 247587064
   prod:
     estimators: 271
@@ -129,7 +129,7 @@ prepare:
     columns: 11
     split: 0.59775
     batch_size: 539
-    random_state: 268138991
+    random_state: 359649363
   classifier:
     weight_factor: 0.26345
     dense: 198
@@ -138,7 +138,7 @@ prepare:
     learning_rate: 0.15447
     max_depth: 3
     split: 0.4354
-    min_features: 4143
+    min_features: 6066
 preprocessing:
   prod:
     dense: 355

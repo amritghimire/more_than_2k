@@ -52,7 +52,7 @@ model:
     ngrams: 9
     split: 0.49509
   selection:
-    layers: 2
+    layers: 1
     batch_size: 330
     learning_rate: 0.16522
     max_features: 1298
@@ -133,11 +133,11 @@ preprocessing:
     layers: 6
   rf:
     tags: 98
-    weight_factor: 0.1825
+    weight_factor: 0.20387
     split: 0.52931
     passes: 91
   selection:
-    columns: 71
+    columns: 81
     max_features: 5000
     dense: 473
     sample: 0.42256
@@ -163,9 +163,9 @@ variables:
     threads: 26
   other:
     ngrams: 6
-    dense: 306
+    dense: 360
   collection:
-    seed: 900379499
+    seed: 1019950104
   prod:
     epochs: 44
     learning_rate: 0.1168

@@ -165,7 +165,7 @@ variables:
     ngrams: 6
     dense: 306
   collection:
-    seed: 1005929556
+    seed: 900379499
   prod:
     epochs: 44
     learning_rate: 0.1168

@@ -1,6 +1,6 @@
 variables:
   other:
-    epochs: 80
+    epochs: 87
     layers: 5
     features: 4850
   selection:
@@ -60,7 +60,7 @@ preprocessing:
     epochs: 44
   other:
     epochs: 51
-    folds: 11
+    folds: 14
     learning_rate: 0.17957
     passes: 40
     ngrams: 4
@@ -140,7 +140,7 @@ settings:
     epochs: 70
   requests:
     min_features: 97
-    trees: 17
+    trees: 21
     threads: 35
   classifier:
     min_features: 1700

@@ -219,7 +219,7 @@ featurize:
     trees: 52
   preset:
     max_features: 681
-    split: 0.48956
+    split: 0.43435
     tags: 59
     weight_factor: 0.26134
     learning_rate: 0.05554
@@ -232,7 +232,7 @@ featurize:
     epochs: 41
     min_split: 66
     features: 4087
-    min_features: 5347
+    min_features: 4998
   long:
     seed: 714854744
     split: 0.36679

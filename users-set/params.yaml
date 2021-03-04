@@ -207,7 +207,7 @@ model:
     split: 0.5
     threads: 2
     max_depth: 32
-    min_features: 39
+    min_features: 55
     batch_size: 272
     seed: 667169000
   other:

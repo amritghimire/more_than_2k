@@ -224,7 +224,7 @@ prepare:
     ngrams: 7
     min_split: 14
     features: 1435
-    split: 0.22995
+    split: 0.17467
   rf:
     num_est: 45
     passes: 85
@@ -255,7 +255,7 @@ prepare:
     num_est: 238
     features: 249
     drop: 0.24222
-    epochs: 80
+    epochs: 74
     folds: 7
     ngrams: 4
   selection:

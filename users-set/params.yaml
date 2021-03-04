@@ -163,7 +163,7 @@ settings:
     max_features: 3600
   batch:
     estimators: 97
-    ngrams: 8
+    ngrams: 6
     columns: 21
     dense: 500
   dev:

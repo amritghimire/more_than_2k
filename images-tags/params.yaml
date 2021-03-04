@@ -215,12 +215,12 @@ featurize:
     max_features: 3259
     drop: 0.09685
     num_est: 141
-    batch_size: 281
+    batch_size: 402
     trees: 52
   preset:
-    max_features: 677
+    max_features: 681
     split: 0.48956
-    tags: 48
+    tags: 59
     weight_factor: 0.26134
     learning_rate: 0.05554
     max_depth: 24

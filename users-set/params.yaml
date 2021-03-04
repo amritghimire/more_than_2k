@@ -233,14 +233,14 @@ prepare:
     columns: 6
     random_state: 956362358
   requests:
-    split: 0.23611
+    split: 0.21127
     folds: 12
     features: 1910
   dev:
     columns: 43
     seed: 382101716
     weight_factor: 0.15334
-    sample: 0.42957
+    sample: 0.39119
     epochs: 79
     trees: 12
     batch_size: 728
@@ -254,17 +254,17 @@ prepare:
   other:
     num_est: 238
     features: 249
-    drop: 0.24222
+    drop: 0.22865
     epochs: 74
     folds: 7
     ngrams: 4
   selection:
     split: 0.15413
     layers: 1
-    ngrams: 5
+    ngrams: 7
     seed: 136815760
     features: 1685
-    passes: 50
+    passes: 60
 featurize:
   classifier:
     threads: 22

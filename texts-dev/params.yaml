@@ -39,7 +39,7 @@ featurize:
   concurrent:
     seed: 23921690
     num_est: 190
-    max_features: 3906
+    max_features: 3894
 validation:
   concurrent:
     layers: 2

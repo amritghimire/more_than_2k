@@ -1,7 +1,7 @@
 featurize:
   preprocessing:
     estimators: 49
-    epochs: 76
+    epochs: 65
     trees: 34
     columns: 86
     min_features: 3771
@@ -31,7 +31,7 @@ featurize:
     random_state: 146465105
     passes: 66
     estimators: 53
-    batch_size: 472
+    batch_size: 473
     drop: 0.22254
   dev:
     num_est: 245

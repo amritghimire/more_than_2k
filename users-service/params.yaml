@@ -18,7 +18,7 @@ settings:
   min_split: 30
   split: 0.30196
   drop: 0.17815
-  layers: 4
+  layers: 3
 concurrent:
   weight_factor: 0.10509
   sample: 0.27269

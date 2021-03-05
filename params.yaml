@@ -63,7 +63,7 @@ tagging:
     threads: 3
   batch:
     sample: 0.58803
-    dense: 213
+    dense: 196
     num_est: 195
 train:
   dev:
@@ -74,7 +74,7 @@ train:
     passes: 14
     num_est: 186
   binary:
-    learning_rate: 0.11548
+    learning_rate: 0.15774
     max_features: 142
   batch:
     drop: 0.20356
@@ -157,7 +157,7 @@ settings:
     drop: 0.0998
     ngrams: 2
   long:
-    min_features: 652
+    min_features: 657
     features: 1140
     min_split: 82
   short:

@@ -212,7 +212,7 @@ featurize:
   rf:
     dense: 81
     columns: 57
-    max_features: 3259
+    max_features: 3060
     drop: 0.09685
     num_est: 141
     batch_size: 402
@@ -226,7 +226,7 @@ featurize:
     max_depth: 24
   prod:
     max_depth: 23
-    layers: 7
+    layers: 4
     threads: 21
     split: 0.53186
     epochs: 41
@@ -250,5 +250,5 @@ featurize:
     num_est: 187
     seed: 202623362
   other:
-    drop: 0.19693
+    drop: 0.21918
     learning_rate: 0.02

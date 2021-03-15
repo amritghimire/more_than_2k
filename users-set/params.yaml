@@ -6,7 +6,7 @@ variables:
   selection:
     max_depth: 12
     num_est: 181
-    learning_rate: 0.12
+    learning_rate: 0.09823
     columns: 72
     seed: 808780000
     threads: 2
@@ -136,7 +136,7 @@ settings:
   rf:
     tags: 70
     batch_size: 48
-    trees: 10
+    trees: 9
     epochs: 70
   requests:
     min_features: 97
@@ -192,7 +192,7 @@ model:
     dense: 400
     trees: 78
   rf:
-    num_est: 254
+    num_est: 228
     max_depth: 28
     sample: 0.75407
     learning_rate: 0.05

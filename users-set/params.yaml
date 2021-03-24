@@ -279,7 +279,7 @@ featurize:
     tags: 98
     features: 2638
     passes: 65
-    seed: 496152743
+    seed: 556576566
   batch:
     batch_size: 840
     threads: 25
@@ -295,7 +295,7 @@ featurize:
     threads: 14
   rf:
     passes: 17
-    weight_factor: 0.2657
+    weight_factor: 0.23791
     max_features: 1254
     tags: 113
     random_state: 577915224

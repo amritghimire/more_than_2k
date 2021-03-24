@@ -41,7 +41,7 @@ variables:
     random_state: 124800574
     sample: 0.25
   dev:
-    batch_size: 787
+    batch_size: 1011
     passes: 20
     tags: 35
     min_split: 32

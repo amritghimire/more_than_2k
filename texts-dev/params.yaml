@@ -93,7 +93,7 @@ settings:
   other:
     folds: 6
     columns: 15
-    min_features: 4900
+    min_features: 5157
     weight_factor: 0.2
     features: 1593
     random_state: 282000000
@@ -261,7 +261,7 @@ variables:
     min_split: 48
     weight_factor: 0.07915
     features: 4820
-    random_state: 18000000
+    random_state: 18229596
     epochs: 65
   model:
     folds: 6

@@ -125,7 +125,7 @@ settings:
     sample: 0.5
   model:
     dense: 200
-    estimators: 91
+    estimators: 90
 prepare:
   concurrent:
     threads: 6
@@ -196,7 +196,7 @@ tagging:
     epochs: 70
     threads: 13
     features: 670
-    random_state: 728561032
+    random_state: 856451491
     dense: 400
   test:
     trees: 75
@@ -266,7 +266,7 @@ variables:
   model:
     folds: 6
     max_features: 2912
-    columns: 12
+    columns: 14
 train:
   preprocessing:
     drop: 0.1652

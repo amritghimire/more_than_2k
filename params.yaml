@@ -4,7 +4,7 @@ model:
     min_features: 1008
     weight_factor: 0.11089
     batch_size: 1061
-    trees: 42
+    trees: 32
   batch:
     layers: 5
     min_split: 58
@@ -45,7 +45,7 @@ tagging:
     sample: 0.75694
     columns: 19
     dense: 285
-    min_split: 61
+    min_split: 60
   binary:
     weight_factor: 0.09189
     ngrams: 5
@@ -124,7 +124,7 @@ preprocessing:
     split: 0.48703
     dense: 101
     tags: 128
-    epochs: 83
+    epochs: 64
   binary:
     dense: 326
     ngrams: 6

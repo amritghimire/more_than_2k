@@ -19,7 +19,7 @@ model:
     ngrams: 4
     split: 0.32019
     folds: 7
-    epochs: 17
+    epochs: 20
   binary:
     ngrams: 7
     epochs: 16

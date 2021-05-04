@@ -7,7 +7,7 @@ model:
     trees: 32
   batch:
     layers: 5
-    min_split: 58
+    min_split: 49
     split: 0.16698
     max_depth: 13
   short:

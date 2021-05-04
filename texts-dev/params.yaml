@@ -147,7 +147,7 @@ prepare:
     num_est: 200
     split: 0.30619
     features: 5574
-    min_split: 48
+    min_split: 51
   combine:
     weight_factor: 0.12006
     passes: 100

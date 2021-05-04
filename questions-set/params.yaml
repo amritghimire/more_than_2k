@@ -21,7 +21,7 @@ tagging:
     threads: 6
   batch:
     seed: 419571748
-    num_est: 250
+    num_est: 224
     random_state: 946000000
 variables:
   preset:
@@ -91,7 +91,7 @@ train:
   requests:
     min_split: 55
     threads: 28
-    batch_size: 656
+    batch_size: 671
     split: 0.1009
     folds: 3
     random_state: 403000000
@@ -128,7 +128,7 @@ settings:
     layers: 2
   batch:
     sample: 0.75
-    random_state: 23750242
+    random_state: 25996513
     epochs: 25
   preset:
     min_split: 16

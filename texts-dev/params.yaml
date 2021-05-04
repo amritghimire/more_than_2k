@@ -145,11 +145,11 @@ prepare:
   model:
     estimators: 163
     num_est: 200
-    split: 0.30619
+    split: 0.40289
     features: 5574
     min_split: 51
   combine:
-    weight_factor: 0.12006
+    weight_factor: 0.12319
     passes: 100
     ngrams: 4
     layers: 3
@@ -165,9 +165,9 @@ prepare:
     split: 0.30128
     max_features: 4900
     ngrams: 5
-    num_est: 272
+    num_est: 210
     columns: 71
-    dense: 100
+    dense: 79
   dev:
     ngrams: 4
     batch_size: 724

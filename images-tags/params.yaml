@@ -10,7 +10,7 @@ model:
     columns: 30
     num_est: 164
     dense: 92
-    sample: 0.38927
+    sample: 0.41022
     random_state: 312000000
     max_features: 1750
     drop: 0.2

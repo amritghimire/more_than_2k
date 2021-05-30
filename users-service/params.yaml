@@ -76,13 +76,13 @@ prepare:
   layers: 1
   num_est: 52
   random_state: 534316482
-  columns: 62
+  columns: 54
   epochs: 15
   dense: 232
   ngrams: 7
   batch_size: 584
   min_split: 16
-  min_features: 2865
+  min_features: 2741
   features: 4366
   max_depth: 10
   folds: 7

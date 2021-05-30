@@ -216,7 +216,7 @@ featurize:
     drop: 0.09685
     num_est: 141
     batch_size: 402
-    trees: 52
+    trees: 64
   preset:
     max_features: 645
     split: 0.43435
@@ -235,7 +235,7 @@ featurize:
     min_features: 4998
   long:
     seed: 714854744
-    split: 0.36679
+    split: 0.35484
     threads: 5
     min_features: 3756
   classifier:
@@ -247,7 +247,7 @@ featurize:
   diff:
     folds: 5
     columns: 7
-    num_est: 187
+    num_est: 191
     seed: 202623362
   other:
     drop: 0.21918

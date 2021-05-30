@@ -8,7 +8,7 @@ tagging:
     weight_factor: 0.2
     sample: 0.5
     columns: 9
-    max_depth: 34
+    max_depth: 27
     tags: 80
   combine:
     tags: 6

@@ -225,7 +225,7 @@ featurize:
     learning_rate: 0.05554
     max_depth: 24
   prod:
-    max_depth: 23
+    max_depth: 26
     layers: 7
     threads: 21
     split: 0.53186

@@ -207,7 +207,7 @@ featurize:
     threads: 15
   preset:
     folds: 2
-    min_features: 2315
+    min_features: 2395
     layers: 4
   requests:
     weight_factor: 0.08132

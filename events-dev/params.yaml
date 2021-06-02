@@ -177,19 +177,19 @@ featurize:
     weight_factor: 0.21957
     drop: 0.15879
     max_features: 4089
-    tags: 66
+    tags: 85
   short:
-    min_features: 675
+    min_features: 880
     layers: 6
     max_depth: 13
     num_est: 119
-    estimators: 97
+    estimators: 127
     dense: 165
     epochs: 39
     columns: 39
   diff:
-    estimators: 46
-    layers: 3
+    estimators: 41
+    layers: 4
     max_depth: 16
     max_features: 3755
   long:

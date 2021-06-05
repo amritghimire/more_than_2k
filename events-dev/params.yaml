@@ -102,7 +102,7 @@ prepare:
     passes: 49
     min_features: 2192
     sample: 0.21669
-    trees: 14
+    trees: 11
     num_est: 243
     tags: 93
   diff:

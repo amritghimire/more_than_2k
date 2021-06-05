@@ -114,7 +114,7 @@ prepare:
     max_features: 75
   long:
     columns: 16
-    trees: 45
+    trees: 59
   auto:
     num_est: 216
     min_split: 42

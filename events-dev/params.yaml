@@ -164,7 +164,7 @@ concurrent:
   short:
     sample: 0.49053
     columns: 6
-    seed: 404629015
+    seed: 638132383
   diff:
     weight_factor: 0.12333
     random_state: 263000000
@@ -233,11 +233,11 @@ train:
   combine:
     threads: 10
     ngrams: 6
-    min_split: 91
+    min_split: 67
     seed: 351561583
     split: 0.4
     sample: 0.62001
-    estimators: 227
+    estimators: 251
   preset:
     learning_rate: 0.14
     features: 2077
@@ -255,13 +255,13 @@ variables:
     dense: 232
     weight_factor: 0.33641
     seed: 835280000
-    layers: 3
+    layers: 4
   short:
     min_features: 3850
     weight_factor: 0.10787
     tags: 8
     trees: 51
-    num_est: 172
+    num_est: 145
     learning_rate: 0.13
     folds: 9
     seed: 153088032

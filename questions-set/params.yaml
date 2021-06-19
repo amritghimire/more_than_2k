@@ -170,7 +170,7 @@ model:
     tags: 88
     max_features: 2350
     split: 0.44353
-    trees: 63
+    trees: 49
   prod:
     seed: 358548000
     dense: 324

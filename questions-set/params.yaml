@@ -173,7 +173,7 @@ model:
     trees: 63
   prod:
     seed: 358548000
-    dense: 300
+    dense: 324
   batch:
     trees: 39
     columns: 36

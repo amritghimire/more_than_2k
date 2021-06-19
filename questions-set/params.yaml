@@ -165,7 +165,7 @@ model:
     threads: 10
     sample: 0.30643
     max_depth: 24
-    passes: 26
+    passes: 25
   classifier:
     tags: 88
     max_features: 2350

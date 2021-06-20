@@ -129,7 +129,7 @@ validation:
     sample: 0.47276
 preprocessing:
   collection:
-    sample: 0.75
+    sample: 0.79877
     layers: 6
   rf:
     tags: 98
@@ -140,7 +140,7 @@ preprocessing:
     columns: 81
     max_features: 5000
     dense: 473
-    sample: 0.42256
+    sample: 0.61465
     batch_size: 666
   other:
     learning_rate: 0.05786

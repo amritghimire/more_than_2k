@@ -1,6 +1,6 @@
 settings:
   preset:
-    epochs: 35
+    epochs: 33
     min_features: 917
     folds: 6
     num_est: 119
@@ -44,7 +44,7 @@ settings:
     columns: 39
     weight_factor: 0.2115
   long:
-    sample: 0.58797
+    sample: 0.40362
     folds: 2
 concurrent:
   long:

@@ -2,7 +2,7 @@ tagging:
   requests:
     ngrams: 2
     random_state: 75482764
-    estimators: 249
+    estimators: 180
     weight_factor: 0.26551
   prod:
     weight_factor: 0.2

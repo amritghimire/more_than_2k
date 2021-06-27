@@ -165,7 +165,7 @@ prepare:
     seed: 187003143
     folds: 7
     estimators: 131
-    dense: 309
+    dense: 497
     learning_rate: 0.03482
     min_features: 4401
   requests:

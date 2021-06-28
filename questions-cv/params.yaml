@@ -75,7 +75,7 @@ prepare:
     seed: 897908885
     drop: 0.44012
     max_features: 1006
-    estimators: 261
+    estimators: 280
   rf:
     features: 2612
     num_est: 123
@@ -87,7 +87,7 @@ prepare:
     max_features: 493
     columns: 31
   other:
-    random_state: 541985117
+    random_state: 658353191
     min_features: 3758
     columns: 70
     batch_size: 613

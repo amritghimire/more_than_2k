@@ -148,7 +148,7 @@ concurrent:
     passes: 83
   preset:
     max_depth: 13
-    num_est: 203
+    num_est: 186
     estimators: 49
     columns: 83
     ngrams: 4
@@ -231,7 +231,7 @@ train:
     epochs: 15
     features: 3530
   combine:
-    threads: 10
+    threads: 13
     ngrams: 6
     min_split: 67
     seed: 351561583
@@ -254,7 +254,7 @@ variables:
     drop: 0.19942
     dense: 232
     weight_factor: 0.33641
-    seed: 835280000
+    seed: 793731483
     layers: 4
   short:
     min_features: 3850
@@ -280,7 +280,7 @@ variables:
     tags: 49
     layers: 6
     dense: 420
-    max_depth: 14
+    max_depth: 15
   preset:
     estimators: 158
     min_features: 1550

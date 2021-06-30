@@ -175,13 +175,13 @@ featurize:
     layers: 5
     passes: 46
     weight_factor: 0.21957
-    drop: 0.15879
+    drop: 0.23608
     max_features: 4089
-    tags: 85
+    tags: 91
   short:
     min_features: 987
     layers: 6
-    max_depth: 13
+    max_depth: 18
     num_est: 119
     estimators: 127
     dense: 189
@@ -190,7 +190,7 @@ featurize:
   diff:
     estimators: 41
     layers: 4
-    max_depth: 16
+    max_depth: 13
     max_features: 3755
   long:
     tags: 66
@@ -205,7 +205,7 @@ featurize:
     batch_size: 356
     sample: 0.49061
     max_depth: 12
-    max_features: 588
+    max_features: 441
 train:
   auto:
     epochs: 18

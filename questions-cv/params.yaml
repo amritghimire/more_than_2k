@@ -61,9 +61,9 @@ model:
     max_depth: 35
 prepare:
   short:
-    epochs: 32
+    epochs: 47
     learning_rate: 0.11309
-    features: 3748
+    features: 3871
     min_split: 64
   batch:
     layers: 4
@@ -93,7 +93,7 @@ prepare:
     batch_size: 613
     trees: 3
   selection:
-    weight_factor: 0.36117
+    weight_factor: 0.30823
 validation:
   prod:
     layers: 1

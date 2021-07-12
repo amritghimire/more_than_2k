@@ -63,8 +63,8 @@ model:
     seed: 815427000
     dense: 221
   test:
-    layers: 4
-    estimators: 152
+    layers: 3
+    estimators: 128
     random_state: 349467356
     weight_factor: 0.33911
   preset:
@@ -158,7 +158,7 @@ validation:
     max_depth: 8
     tags: 56
   settings:
-    learning_rate: 0.13899
+    learning_rate: 0.12587
   batch:
     epochs: 40
     min_features: 2450
@@ -189,7 +189,7 @@ tagging:
     epochs: 70
     trees: 42
   batch:
-    batch_size: 912
+    batch_size: 1000
     seed: 684427000
     max_features: 4703
     drop: 0.2

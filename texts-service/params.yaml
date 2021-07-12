@@ -20,7 +20,7 @@ settings:
     max_features: 3800
     estimators: 38
   test:
-    random_state: 510000000
+    random_state: 395764482
     learning_rate: 0.04
     layers: 2
     drop: 0.20203

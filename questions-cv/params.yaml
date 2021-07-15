@@ -44,7 +44,7 @@ model:
     batch_size: 557
   other:
     random_state: 585943185
-    max_features: 5311
+    max_features: 3823
     seed: 528465684
   prod:
     num_est: 203

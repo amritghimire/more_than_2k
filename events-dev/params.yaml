@@ -149,7 +149,7 @@ concurrent:
   preset:
     max_depth: 13
     num_est: 186
-    estimators: 49
+    estimators: 59
     columns: 83
     ngrams: 4
     folds: 14
@@ -164,7 +164,7 @@ concurrent:
   short:
     sample: 0.49053
     columns: 6
-    seed: 638132383
+    seed: 503213255
   diff:
     weight_factor: 0.12333
     random_state: 263000000
@@ -241,7 +241,7 @@ train:
   preset:
     learning_rate: 0.14
     features: 2077
-    drop: 0.11259
+    drop: 0.09123
   short:
     columns: 64
     num_est: 268

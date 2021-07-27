@@ -79,7 +79,7 @@ validation:
   model:
     max_depth: 30
     ngrams: 4
-    min_split: 32
+    min_split: 28
 settings:
   dev:
     ngrams: 2
@@ -104,7 +104,7 @@ settings:
     columns: 42
     num_est: 125
     ngrams: 2
-    min_features: 1980
+    min_features: 2047
     dense: 200
   concurrent:
     min_features: 1600

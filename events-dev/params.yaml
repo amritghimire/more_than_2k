@@ -95,14 +95,14 @@ prepare:
     trees: 76
     split: 0.17994
     columns: 39
-    passes: 58
+    passes: 53
     batch_size: 99
-    tags: 63
+    tags: 60
   combine:
     passes: 49
     min_features: 2192
     sample: 0.21669
-    trees: 11
+    trees: 13
     num_est: 243
     tags: 93
   diff:
@@ -111,7 +111,7 @@ prepare:
     layers: 2
     passes: 42
     dense: 89
-    max_features: 75
+    max_features: 109
   long:
     columns: 16
     trees: 59

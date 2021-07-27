@@ -61,7 +61,7 @@ validation:
   test:
     tags: 49
     weight_factor: 0.2
-    threads: 33
+    threads: 30
     dense: 300
     passes: 148
   preprocessing:
@@ -73,7 +73,7 @@ validation:
     trees: 49
   other:
     tags: 7
-    num_est: 25
+    num_est: 23
     epochs: 15
     learning_rate: 0.08
   model:
@@ -237,7 +237,7 @@ variables:
   combine:
     features: 2390
     batch_size: 464
-    sample: 0.75
+    sample: 0.86293
     estimators: 81
   preprocessing:
     estimators: 186

@@ -62,7 +62,7 @@ model:
 prepare:
   short:
     epochs: 47
-    learning_rate: 0.11309
+    learning_rate: 0.0885
     features: 3871
     min_split: 64
   batch:
@@ -84,7 +84,7 @@ prepare:
     drop: 0.45495
     epochs: 75
     folds: 6
-    max_features: 493
+    max_features: 389
     columns: 31
   other:
     random_state: 658353191

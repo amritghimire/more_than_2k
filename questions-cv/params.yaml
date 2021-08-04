@@ -67,13 +67,13 @@ prepare:
     min_split: 64
   batch:
     layers: 4
-    epochs: 67
+    epochs: 90
     features: 305
     min_split: 27
   collection:
     passes: 77
     seed: 716354641
-    drop: 0.44012
+    drop: 0.40417
     max_features: 1006
     estimators: 280
   rf:

@@ -158,10 +158,10 @@ prepare:
     num_est: 249
     sample: 1.07757
     trees: 10
-    features: 1735
-    columns: 86
+    features: 1815
+    columns: 71
   preset:
-    max_depth: 9
+    max_depth: 7
     seed: 187003143
     folds: 7
     estimators: 131
@@ -169,8 +169,8 @@ prepare:
     learning_rate: 0.03482
     min_features: 4401
   requests:
-    passes: 61
-    epochs: 14
+    passes: 66
+    epochs: 12
     weight_factor: 0.16307
     random_state: 479076373
   long:

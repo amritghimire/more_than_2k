@@ -263,7 +263,7 @@ prepare:
     layers: 1
     ngrams: 7
     seed: 136815760
-    features: 1685
+    features: 1582
     passes: 60
 featurize:
   classifier:

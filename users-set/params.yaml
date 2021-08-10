@@ -269,7 +269,7 @@ featurize:
   classifier:
     threads: 22
     folds: 14
-    num_est: 99
+    num_est: 95
     max_depth: 15
     batch_size: 853
     max_features: 4656

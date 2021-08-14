@@ -116,7 +116,7 @@ validation:
     folds: 6
     split: 0.21611
   other:
-    learning_rate: 0.12
+    learning_rate: 0.13912
     max_features: 941
     tags: 87
     min_features: 1150
@@ -169,7 +169,7 @@ variables:
   prod:
     epochs: 44
     learning_rate: 0.1168
-    tags: 92
+    tags: 86
   selection:
     threads: 21
     features: 1700

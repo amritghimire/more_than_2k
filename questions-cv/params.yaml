@@ -193,7 +193,7 @@ settings:
     weight_factor: 0.27139
   batch:
     num_est: 197
-    estimators: 35
+    estimators: 38
   other:
     folds: 3
   short:

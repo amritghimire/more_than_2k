@@ -31,7 +31,7 @@ concurrent:
     batch_size: 14
   prod:
     folds: 3
-    sample: 0.59213
+    sample: 0.73592
 model:
   collection:
     tags: 50
@@ -41,7 +41,7 @@ model:
     drop: 0.09169
     estimators: 121
     min_split: 26
-    batch_size: 557
+    batch_size: 543
   other:
     random_state: 585943185
     max_features: 3823
@@ -192,8 +192,8 @@ settings:
   collection:
     weight_factor: 0.27139
   batch:
-    num_est: 197
-    estimators: 38
+    num_est: 211
+    estimators: 40
   other:
     folds: 3
   short:

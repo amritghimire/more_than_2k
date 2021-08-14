@@ -20,7 +20,7 @@ concurrent:
     passes: 20
     estimators: 182
   collection:
-    ngrams: 2
+    ngrams: 1
     max_depth: 16
     threads: 3
     min_split: 19
@@ -48,12 +48,12 @@ model:
     seed: 528465684
   prod:
     num_est: 203
-    epochs: 40
+    epochs: 42
     ngrams: 9
     split: 0.49509
   selection:
     layers: 1
-    batch_size: 330
+    batch_size: 379
     learning_rate: 0.16522
     max_features: 1298
   batch:

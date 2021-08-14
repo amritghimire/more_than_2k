@@ -277,7 +277,7 @@ featurize:
     epochs: 54
     ngrams: 6
     tags: 98
-    features: 2638
+    features: 2603
     passes: 65
     seed: 556576566
   batch:

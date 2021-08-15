@@ -100,7 +100,7 @@ tagging:
   trees: 91
   learning_rate: 0.13
   seed: 952765000
-  dense: 500
+  dense: 434
   max_depth: 9
   min_features: 2150
   sample: 0.25

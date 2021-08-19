@@ -221,7 +221,7 @@ model:
 prepare:
   batch:
     learning_rate: 0.18378
-    ngrams: 7
+    ngrams: 5
     min_split: 14
     features: 1435
     split: 0.17467
@@ -231,7 +231,7 @@ prepare:
     layers: 4
     epochs: 80
     columns: 6
-    random_state: 956362358
+    random_state: 671609368
   requests:
     split: 0.21127
     folds: 12
@@ -243,7 +243,7 @@ prepare:
     sample: 0.39119
     epochs: 79
     trees: 12
-    batch_size: 728
+    batch_size: 1064
     features: 2577
     max_features: 3663
     tags: 56

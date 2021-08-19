@@ -60,7 +60,7 @@ preprocessing:
     epochs: 44
   other:
     epochs: 51
-    folds: 14
+    folds: 13
     learning_rate: 0.17957
     passes: 40
     ngrams: 4

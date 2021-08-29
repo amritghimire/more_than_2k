@@ -61,7 +61,7 @@ model:
     tags: 7
     estimators: 41
     seed: 815427000
-    dense: 221
+    dense: 167
   test:
     layers: 3
     estimators: 128
@@ -82,7 +82,7 @@ variables:
   batch:
     threads: 8
     sample: 1.0
-    passes: 84
+    passes: 100
     weight_factor: 0.3
   test:
     epochs: 19
@@ -133,7 +133,7 @@ train:
     threads: 22
     random_state: 919000000
     dense: 300
-    num_est: 100
+    num_est: 120
   test:
     layers: 4
     features: 960
@@ -186,7 +186,7 @@ validation:
 tagging:
   settings:
     learning_rate: 0.09
-    epochs: 70
+    epochs: 73
     trees: 42
   batch:
     batch_size: 1000

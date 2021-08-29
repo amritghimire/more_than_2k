@@ -39,7 +39,7 @@ concurrent:
     min_split: 16
     num_est: 100
     features: 2240
-    estimators: 234
+    estimators: 255
     epochs: 38
 model:
   settings:
@@ -158,7 +158,7 @@ validation:
     max_depth: 8
     tags: 56
   settings:
-    learning_rate: 0.12587
+    learning_rate: 0.1294
   batch:
     epochs: 40
     min_features: 2450

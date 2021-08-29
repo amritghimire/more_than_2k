@@ -223,7 +223,7 @@ preprocessing:
     batch_size: 637
   batch:
     layers: 4
-    features: 493
+    features: 318
     batch_size: 610
     learning_rate: 0.05
     trees: 39

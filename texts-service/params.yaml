@@ -158,8 +158,8 @@ prepare:
     num_est: 249
     sample: 1.07757
     trees: 10
-    features: 1815
-    columns: 71
+    features: 1824
+    columns: 67
   preset:
     max_depth: 7
     seed: 187003143
@@ -169,7 +169,7 @@ prepare:
     learning_rate: 0.03482
     min_features: 4401
   requests:
-    passes: 66
+    passes: 48
     epochs: 12
     weight_factor: 0.16307
     random_state: 479076373
@@ -179,7 +179,7 @@ prepare:
     dense: 95
     sample: 0.38536
     max_depth: 26
-    epochs: 50
+    epochs: 53
     weight_factor: 0.32846
   combine:
     dense: 244
@@ -194,7 +194,7 @@ prepare:
     split: 0.08309
   diff:
     epochs: 21
-    estimators: 111
+    estimators: 132
 variables:
   preset:
     weight_factor: 0.3

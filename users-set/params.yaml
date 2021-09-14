@@ -229,7 +229,7 @@ prepare:
     num_est: 45
     passes: 85
     layers: 4
-    epochs: 80
+    epochs: 87
     columns: 6
     random_state: 671609368
   requests:

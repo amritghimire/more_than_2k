@@ -115,7 +115,7 @@ train:
   prod:
     threads: 14
   batch:
-    ngrams: 4
+    ngrams: 3
 settings:
   combine:
     min_features: 1131
@@ -129,7 +129,7 @@ settings:
   batch:
     sample: 0.75
     random_state: 17122387
-    epochs: 25
+    epochs: 24
   preset:
     min_split: 16
     ngrams: 3
@@ -172,7 +172,7 @@ model:
     split: 0.44353
     trees: 49
   prod:
-    seed: 358548000
+    seed: 374684217
     dense: 324
   batch:
     trees: 39
@@ -184,7 +184,7 @@ model:
   auto:
     min_split: 80
     batch_size: 624
-    min_features: 2150
+    min_features: 2602
     layers: 6
     max_depth: 24
 featurize:

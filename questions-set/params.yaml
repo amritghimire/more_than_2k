@@ -50,10 +50,10 @@ variables:
     max_features: 1964
     seed: 272039000
   batch:
-    tags: 112
+    tags: 128
 concurrent:
   classifier:
-    dense: 230
+    dense: 213
     split: 0.43126
     max_features: 2620
     seed: 200403971

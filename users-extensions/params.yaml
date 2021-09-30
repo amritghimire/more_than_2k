@@ -17,7 +17,7 @@ concurrent:
     batch_size: 736
     drop: 0.2
     trees: 31
-    learning_rate: 0.13
+    learning_rate: 0.14518
     tags: 88
     min_features: 4200
   preset:
@@ -54,7 +54,7 @@ model:
   short:
     sample: 0.45915
     dense: 600
-    folds: 12
+    folds: 11
   dev:
     max_depth: 20
     learning_rate: 0.06
@@ -66,7 +66,7 @@ model:
     layers: 3
     estimators: 128
     random_state: 349467356
-    weight_factor: 0.33911
+    weight_factor: 0.29908
   preset:
     drop: 0.3
 variables:
@@ -169,9 +169,9 @@ validation:
   test:
     epochs: 14
     layers: 4
-    max_depth: 4
+    max_depth: 3
   dev:
-    min_features: 2750
+    min_features: 2246
     columns: 45
     dense: 500
     layers: 4

@@ -62,7 +62,7 @@ validation:
     tags: 49
     weight_factor: 0.2
     threads: 30
-    dense: 300
+    dense: 282
     passes: 148
   preprocessing:
     split: 0.09131
@@ -77,7 +77,7 @@ validation:
     epochs: 15
     learning_rate: 0.08
   model:
-    max_depth: 30
+    max_depth: 35
     ngrams: 4
     min_split: 28
 settings:
@@ -285,11 +285,11 @@ train:
   dev:
     min_split: 64
     learning_rate: 0.14293
-    seed: 686289000
+    seed: 853642358
     features: 3920
   concurrent:
     layers: 2
-    estimators: 114
+    estimators: 108
     batch_size: 901
     sample: 0.75
     split: 0.30522

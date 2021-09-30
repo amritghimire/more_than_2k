@@ -87,13 +87,13 @@ prepare:
     num_est: 182
     weight_factor: 0.16559
     sample: 0.21065
-    learning_rate: 0.08324
+    learning_rate: 0.06783
     split: 0.49357
     layers: 1
     trees: 86
   preset:
     trees: 76
-    split: 0.17994
+    split: 0.16434
     columns: 39
     passes: 53
     batch_size: 99
@@ -109,7 +109,7 @@ prepare:
     tags: 33
     trees: 56
     layers: 2
-    passes: 42
+    passes: 57
     dense: 89
     max_features: 109
   long:
@@ -121,7 +121,7 @@ prepare:
     passes: 28
   other:
     tags: 100
-    split: 0.23789
+    split: 0.18163
     dense: 473
     random_state: 369490568
     learning_rate: 0.07132

@@ -46,7 +46,7 @@ validation:
     weight_factor: 0.3
     drop: 0.3
     epochs: 25
-    random_state: 830571583
+    random_state: 781283702
   dev:
     features: 4410
     trees: 54
@@ -65,7 +65,7 @@ validation:
     dense: 300
     passes: 148
   preprocessing:
-    split: 0.08948
+    split: 0.09131
     columns: 81
     passes: 118
     weight_factor: 0.1
@@ -246,7 +246,7 @@ variables:
   other:
     batch_size: 288
     weight_factor: 0.1
-    max_features: 3000
+    max_features: 3427
     sample: 0.25
     threads: 0
     features: 4420

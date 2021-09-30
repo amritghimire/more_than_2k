@@ -114,7 +114,7 @@ settings:
     drop: 0.1
     seed: 757924000
   preprocessing:
-    sample: 0.25
+    sample: 0.26052
     drop: 0.08704
     threads: 17
     split: 0.3
@@ -124,7 +124,7 @@ settings:
   combine:
     sample: 0.5
   model:
-    dense: 200
+    dense: 236
     estimators: 90
 prepare:
   concurrent:
@@ -235,7 +235,7 @@ variables:
     columns: 21
     folds: 3
   combine:
-    features: 2390
+    features: 2676
     batch_size: 464
     sample: 0.86293
     estimators: 81
@@ -289,7 +289,7 @@ train:
     features: 3920
   concurrent:
     layers: 2
-    estimators: 117
+    estimators: 114
     batch_size: 901
     sample: 0.75
     split: 0.30522

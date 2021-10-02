@@ -220,7 +220,7 @@ featurize:
   preset:
     max_features: 645
     split: 0.43435
-    tags: 60
+    tags: 54
     weight_factor: 0.26134
     learning_rate: 0.05554
     max_depth: 24

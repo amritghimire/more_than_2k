@@ -220,7 +220,7 @@ featurize:
   preset:
     max_features: 645
     split: 0.43435
-    tags: 59
+    tags: 60
     weight_factor: 0.26134
     learning_rate: 0.05554
     max_depth: 24
@@ -232,9 +232,9 @@ featurize:
     epochs: 41
     min_split: 66
     features: 4087
-    min_features: 4998
+    min_features: 3983
   long:
-    seed: 714854744
+    seed: 1023099608
     split: 0.35484
     threads: 5
     min_features: 3756
@@ -248,7 +248,7 @@ featurize:
     folds: 5
     columns: 7
     num_est: 191
-    seed: 202623362
+    seed: 215378056
   other:
     drop: 0.21918
     learning_rate: 0.02

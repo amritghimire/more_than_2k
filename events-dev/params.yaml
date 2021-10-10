@@ -95,8 +95,8 @@ prepare:
     trees: 76
     split: 0.16434
     columns: 39
-    passes: 53
-    batch_size: 99
+    passes: 61
+    batch_size: 96
     tags: 60
   combine:
     passes: 49
@@ -117,7 +117,7 @@ prepare:
     trees: 59
   auto:
     num_est: 216
-    min_split: 42
+    min_split: 51
     passes: 28
   other:
     tags: 100

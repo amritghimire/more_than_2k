@@ -275,8 +275,8 @@ featurize:
     max_features: 4656
   dev:
     epochs: 54
-    ngrams: 6
-    tags: 119
+    ngrams: 7
+    tags: 96
     features: 2484
     passes: 65
     seed: 556576566
@@ -303,4 +303,4 @@ featurize:
     learning_rate: 0.07917
     layers: 2
   other:
-    dense: 88
+    dense: 118

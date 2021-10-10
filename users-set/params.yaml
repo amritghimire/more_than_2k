@@ -4,7 +4,7 @@ variables:
     layers: 5
     features: 4850
   selection:
-    max_depth: 12
+    max_depth: 13
     num_est: 181
     learning_rate: 0.09823
     columns: 72

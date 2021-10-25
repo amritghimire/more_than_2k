@@ -165,7 +165,7 @@ prepare:
     split: 0.30128
     max_features: 4900
     ngrams: 5
-    num_est: 210
+    num_est: 222
     columns: 71
     dense: 79
   dev:
@@ -175,7 +175,7 @@ prepare:
     epochs: 34
     split: 0.48939
     columns: 52
-    seed: 224840989
+    seed: 239484085
 tagging:
   model:
     weight_factor: 0.2

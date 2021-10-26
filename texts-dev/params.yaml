@@ -94,7 +94,7 @@ settings:
     folds: 6
     columns: 15
     min_features: 5157
-    weight_factor: 0.2
+    weight_factor: 0.15405
     features: 1593
     random_state: 282000000
     estimators: 183
@@ -286,7 +286,7 @@ train:
     min_split: 64
     learning_rate: 0.14293
     seed: 853642358
-    features: 3920
+    features: 4802
   concurrent:
     layers: 2
     estimators: 108

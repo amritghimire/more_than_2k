@@ -190,7 +190,7 @@ model:
     seed: 61678532
     epochs: 71
     dense: 400
-    trees: 78
+    trees: 83
   rf:
     num_est: 228
     max_depth: 28

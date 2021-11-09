@@ -31,7 +31,7 @@ model:
     epochs: 86
     max_depth: 25
   short:
-    num_est: 75
+    num_est: 58
     seed: 854370000
     dense: 445
     batch_size: 768

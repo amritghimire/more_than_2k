@@ -214,7 +214,7 @@ featurize:
     columns: 57
     max_features: 3060
     drop: 0.09685
-    num_est: 141
+    num_est: 140
     batch_size: 402
     trees: 64
   preset:
@@ -227,7 +227,7 @@ featurize:
   prod:
     max_depth: 26
     layers: 7
-    threads: 21
+    threads: 16
     split: 0.53186
     epochs: 41
     min_split: 66

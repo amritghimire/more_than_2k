@@ -37,7 +37,7 @@ model:
     batch_size: 768
     tags: 93
     random_state: 168213973
-    split: 0.19772
+    split: 0.18399
   auto:
     epochs: 12
     layers: 2

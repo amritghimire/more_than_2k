@@ -118,20 +118,20 @@ prepare:
     epochs: 45
   long:
     min_split: 26
-    columns: 61
+    columns: 40
     sample: 1.06144
     random_state: 136581753
     layers: 7
-    features: 2381
+    features: 2881
   other:
     sample: 0.73085
-    drop: 0.07948
-    columns: 11
+    drop: 0.0992
+    columns: 8
     split: 0.59775
     batch_size: 539
     random_state: 359649363
   classifier:
-    weight_factor: 0.26345
+    weight_factor: 0.25883
     dense: 198
     tags: 146
   diff:

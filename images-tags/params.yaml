@@ -248,7 +248,7 @@ featurize:
     folds: 5
     columns: 7
     num_est: 191
-    seed: 215378056
+    seed: 163772128
   other:
     drop: 0.21918
     learning_rate: 0.02

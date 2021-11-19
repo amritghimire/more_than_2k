@@ -107,7 +107,7 @@ prepare:
     trees: 46
     seed: 247587064
   prod:
-    estimators: 271
+    estimators: 256
     seed: 390282689
     split: 0.3286
     batch_size: 404
@@ -124,7 +124,7 @@ prepare:
     layers: 5
     features: 2881
   other:
-    sample: 0.73085
+    sample: 0.64026
     drop: 0.0992
     columns: 8
     split: 0.59775

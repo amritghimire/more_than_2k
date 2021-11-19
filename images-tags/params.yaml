@@ -109,8 +109,8 @@ prepare:
   prod:
     estimators: 271
     seed: 390282689
-    split: 0.49752
-    batch_size: 333
+    split: 0.3286
+    batch_size: 404
     threads: 19
     min_split: 70
   rf:
@@ -118,10 +118,10 @@ prepare:
     epochs: 45
   long:
     min_split: 26
-    columns: 40
+    columns: 62
     sample: 1.06144
     random_state: 136581753
-    layers: 7
+    layers: 5
     features: 2881
   other:
     sample: 0.73085

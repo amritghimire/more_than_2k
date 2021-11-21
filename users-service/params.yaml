@@ -10,7 +10,7 @@ settings:
   max_features: 257
   seed: 694646561
   batch_size: 656
-  dense: 400
+  dense: 425
   passes: 16
   columns: 21
   random_state: 869548485
@@ -43,7 +43,7 @@ concurrent:
   batch_size: 144
   estimators: 180
 variables:
-  min_features: 2000
+  min_features: 1537
   learning_rate: 0.09
   columns: 20
   estimators: 36
@@ -90,7 +90,7 @@ tagging:
   drop: 0.39455
   ngrams: 3
   threads: 16
-  num_est: 57
+  num_est: 43
   batch_size: 931
   layers: 2
   estimators: 35

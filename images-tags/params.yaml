@@ -35,7 +35,7 @@ model:
     columns: 12
   long:
     layers: 2
-    seed: 272372000
+    seed: 291045927
 concurrent:
   rf:
     random_state: 653074762
@@ -196,7 +196,7 @@ variables:
   classifier:
     random_state: 448420718
     ngrams: 6
-    columns: 66
+    columns: 50
     layers: 6
     folds: 3
   preset:

@@ -143,7 +143,7 @@ preprocessing:
     sample: 0.61465
     batch_size: 666
   other:
-    learning_rate: 0.05786
+    learning_rate: 0.04623
     min_features: 2699
   short:
     columns: 67
@@ -159,7 +159,7 @@ variables:
     ngrams: 4
     folds: 6
   batch:
-    epochs: 10
+    epochs: 11
     threads: 26
   other:
     ngrams: 6

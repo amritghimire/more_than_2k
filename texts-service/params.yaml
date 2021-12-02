@@ -115,7 +115,7 @@ model:
     max_depth: 24
   diff:
     split: 0.45266
-    seed: 319448000
+    seed: 358520776
     num_est: 50
     learning_rate: 0.10608
     estimators: 154

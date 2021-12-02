@@ -114,7 +114,7 @@ model:
     passes: 92
     max_depth: 24
   diff:
-    split: 0.4
+    split: 0.45266
     seed: 319448000
     num_est: 50
     learning_rate: 0.10608
@@ -253,7 +253,7 @@ preprocessing:
     learning_rate: 0.08176
     weight_factor: 0.3
     max_features: 500
-    features: 4887
+    features: 4031
     min_features: 234
     folds: 7
     split: 0.08744

@@ -23,7 +23,7 @@ settings:
     random_state: 395764482
     learning_rate: 0.04
     layers: 2
-    drop: 0.20203
+    drop: 0.18114
     max_features: 200
   combine:
     max_features: 4450
@@ -149,7 +149,7 @@ model:
     sample: 0.25
   requests:
     estimators: 112
-    min_features: 1230
+    min_features: 1655
     trees: 12
     sample: 0.51323
     drop: 0.23695
@@ -238,7 +238,7 @@ preprocessing:
   requests:
     num_est: 250
     weight_factor: 0.19355
-    folds: 9
+    folds: 7
     min_split: 52
     sample: 0.25
   preset:
@@ -327,6 +327,6 @@ tagging:
   combine:
     min_split: 16
     estimators: 147
-    batch_size: 80
+    batch_size: 73
     passes: 114
     folds: 2

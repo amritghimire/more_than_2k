@@ -141,7 +141,7 @@ preprocessing:
     layers: 4
     weight_factor: 0.23524
     learning_rate: 0.01158
-    ngrams: 4
+    ngrams: 3
   short:
     max_features: 1995
     epochs: 54
@@ -192,7 +192,7 @@ validation:
     batch_size: 188
     weight_factor: 0.29629
   batch:
-    sample: 0.61316
+    sample: 0.76798
     layers: 4
   binary:
     max_depth: 8

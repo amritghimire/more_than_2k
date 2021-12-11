@@ -29,7 +29,7 @@ model:
     threads: 16
     num_est: 87
     epochs: 86
-    max_depth: 25
+    max_depth: 24
   short:
     num_est: 58
     seed: 854370000
@@ -60,8 +60,8 @@ settings:
     epochs: 10
     weight_factor: 0.2
     folds: 3
-    min_split: 37
-    split: 0.3
+    min_split: 49
+    split: 0.37278
   preset:
     learning_rate: 0.04
     epochs: 10

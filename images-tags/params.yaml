@@ -178,7 +178,7 @@ preprocessing:
     layers: 2
 variables:
   other:
-    min_split: 68
+    min_split: 80
     trees: 24
     threads: 14
     random_state: 762000000

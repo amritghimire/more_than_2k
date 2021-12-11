@@ -108,7 +108,7 @@ train:
     min_split: 80
     features: 980
   preset:
-    batch_size: 86
+    batch_size: 94
     passes: 29
     epochs: 83
     learning_rate: 0.14

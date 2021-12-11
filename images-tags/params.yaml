@@ -85,7 +85,7 @@ settings:
     passes: 52
   prod:
     epochs: 23
-    ngrams: 4
+    ngrams: 3
     max_depth: 12
     features: 4610
     tags: 72
@@ -146,7 +146,7 @@ preprocessing:
     split: 0.3
     trees: 57
     max_depth: 12
-    folds: 12
+    folds: 11
     batch_size: 157
     ngrams: 4
     passes: 104
@@ -161,7 +161,7 @@ preprocessing:
     random_state: 655303473
     trees: 78
   other:
-    columns: 65
+    columns: 53
     threads: 15
     random_state: 152138495
     passes: 62
@@ -190,7 +190,7 @@ variables:
     min_features: 4566
     split: 0.16914
   long:
-    seed: 493427000
+    seed: 421955398
     num_est: 50
     min_split: 24
   classifier:
@@ -201,7 +201,7 @@ variables:
     folds: 3
   preset:
     dense: 200
-    passes: 52
+    passes: 54
     layers: 2
   rf:
     min_features: 1386

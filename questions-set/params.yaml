@@ -48,7 +48,7 @@ variables:
     trees: 35
   classifier:
     max_features: 1784
-    seed: 272039000
+    seed: 206111965
   batch:
     tags: 128
 concurrent:
@@ -84,7 +84,7 @@ concurrent:
     sample: 1.15328
   combine:
     max_depth: 16
-    trees: 11
+    trees: 10
 train:
   auto:
     sample: 0.25

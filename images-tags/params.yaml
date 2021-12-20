@@ -216,7 +216,7 @@ featurize:
     drop: 0.09685
     num_est: 140
     batch_size: 402
-    trees: 64
+    trees: 48
   preset:
     max_features: 645
     split: 0.43435
@@ -229,7 +229,7 @@ featurize:
     layers: 7
     threads: 16
     split: 0.53186
-    epochs: 41
+    epochs: 32
     min_split: 66
     features: 4087
     min_features: 3983

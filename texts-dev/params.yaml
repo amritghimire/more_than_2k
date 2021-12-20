@@ -128,7 +128,7 @@ settings:
     estimators: 90
 prepare:
   concurrent:
-    threads: 6
+    threads: 4
     split: 0.08187
     max_depth: 8
     drop: 0.47022
@@ -145,7 +145,7 @@ prepare:
   model:
     estimators: 163
     num_est: 200
-    split: 0.40289
+    split: 0.42833
     features: 5482
     min_split: 51
   combine:
@@ -161,7 +161,7 @@ prepare:
     min_split: 51
     threads: 13
   other:
-    max_depth: 20
+    max_depth: 17
     split: 0.36589
     max_features: 4900
     ngrams: 5
@@ -173,7 +173,7 @@ prepare:
     batch_size: 644
     min_features: 1656
     epochs: 34
-    split: 0.48939
+    split: 0.33209
     columns: 52
     seed: 239484085
 tagging:

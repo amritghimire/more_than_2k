@@ -162,7 +162,7 @@ prepare:
     threads: 17
   other:
     max_depth: 20
-    split: 0.30128
+    split: 0.36589
     max_features: 4900
     ngrams: 5
     num_est: 222

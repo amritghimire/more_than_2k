@@ -135,7 +135,7 @@ prepare:
     dense: 500
     weight_factor: 0.07933
   preprocessing:
-    min_features: 2458
+    min_features: 2871
     drop: 0.2
     batch_size: 70
     weight_factor: 0.24117
@@ -146,7 +146,7 @@ prepare:
     estimators: 163
     num_est: 200
     split: 0.40289
-    features: 5574
+    features: 5482
     min_split: 51
   combine:
     weight_factor: 0.12319
@@ -159,7 +159,7 @@ prepare:
     weight_factor: 0.33479
     passes: 3
     min_split: 51
-    threads: 17
+    threads: 13
   other:
     max_depth: 20
     split: 0.36589

@@ -3,7 +3,7 @@ model:
     random_state: 603000000
     tags: 32
     min_features: 877
-    estimators: 116
+    estimators: 123
     folds: 4
     seed: 886215425
   prod:
@@ -18,7 +18,7 @@ model:
   rf:
     folds: 5
     random_state: 222422383
-    ngrams: 3
+    ngrams: 4
     dense: 400
     weight_factor: 0.3
   other:
@@ -49,7 +49,7 @@ concurrent:
   other:
     passes: 34
     features: 2769
-    columns: 79
+    columns: 65
     sample: 0.25
     random_state: 874437588
   diff:
@@ -192,13 +192,13 @@ variables:
   long:
     seed: 421955398
     num_est: 50
-    min_split: 24
+    min_split: 32
   classifier:
     random_state: 448420718
     ngrams: 6
     columns: 50
     layers: 6
-    folds: 3
+    folds: 2
   preset:
     dense: 200
     passes: 54

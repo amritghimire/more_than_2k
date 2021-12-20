@@ -235,7 +235,7 @@ prepare:
   requests:
     split: 0.21127
     folds: 12
-    features: 1910
+    features: 3034
   dev:
     columns: 43
     seed: 382101716
@@ -261,7 +261,7 @@ prepare:
   selection:
     split: 0.15413
     layers: 1
-    ngrams: 7
+    ngrams: 5
     seed: 136815760
     features: 1582
     passes: 60

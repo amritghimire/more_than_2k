@@ -1,7 +1,7 @@
 tagging:
   requests:
     ngrams: 2
-    random_state: 75482764
+    random_state: 81873483
     estimators: 180
     weight_factor: 0.26551
   prod:
@@ -78,7 +78,7 @@ concurrent:
   preset:
     random_state: 248236268
     folds: 9
-    columns: 69
+    columns: 65
     tags: 111
     trees: 12
     sample: 1.15328

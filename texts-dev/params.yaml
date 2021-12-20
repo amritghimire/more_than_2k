@@ -87,7 +87,7 @@ settings:
     threads: 3
     batch_size: 32
     num_est: 25
-    folds: 3
+    folds: 2
     random_state: 458432672
     learning_rate: 0.04
   other:
@@ -112,7 +112,7 @@ settings:
     sample: 0.74701
     ngrams: 2
     drop: 0.1
-    seed: 757924000
+    seed: 911991523
   preprocessing:
     sample: 0.26052
     drop: 0.08704
@@ -178,7 +178,7 @@ prepare:
     seed: 239484085
 tagging:
   model:
-    weight_factor: 0.2
+    weight_factor: 0.24002
     seed: 448206000
     split: 0.5
     min_features: 1300
@@ -241,7 +241,7 @@ variables:
     estimators: 81
   preprocessing:
     estimators: 186
-    dense: 300
+    dense: 232
     ngrams: 6
   other:
     batch_size: 288
@@ -290,7 +290,7 @@ train:
   concurrent:
     layers: 2
     estimators: 108
-    batch_size: 901
+    batch_size: 708
     sample: 0.75
     split: 0.30522
     trees: 3

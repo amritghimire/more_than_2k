@@ -68,7 +68,7 @@ settings:
   other:
     max_depth: 32
     max_features: 2531
-    tags: 108
+    tags: 114
     random_state: 111524624
     trees: 69
     estimators: 30
@@ -129,9 +129,9 @@ prepare:
 concurrent:
   long:
     seed: 355944054
-    weight_factor: 0.24572
+    weight_factor: 0.28005
   auto:
-    batch_size: 216
+    batch_size: 203
     random_state: 528000000
     features: 5989
     tags: 14

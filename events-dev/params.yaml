@@ -53,7 +53,7 @@ settings:
   short:
     max_depth: 9
     ngrams: 3
-    random_state: 590643602
+    random_state: 664644964
     passes: 66
     columns: 35
   combine:

@@ -185,7 +185,7 @@ featurize:
     num_est: 119
     estimators: 100
     dense: 189
-    epochs: 39
+    epochs: 30
     columns: 39
   diff:
     estimators: 41
@@ -193,19 +193,19 @@ featurize:
     max_depth: 13
     max_features: 3755
   long:
-    tags: 66
+    tags: 72
     min_features: 2875
-    learning_rate: 0.06658
+    learning_rate: 0.08705
     folds: 7
     random_state: 102069361
   auto:
-    max_features: 3332
+    max_features: 3315
     ngrams: 1
   combine:
     batch_size: 356
     sample: 0.57698
     max_depth: 12
-    max_features: 441
+    max_features: 541
 train:
   auto:
     epochs: 18

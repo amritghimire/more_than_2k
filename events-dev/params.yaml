@@ -113,7 +113,7 @@ prepare:
     dense: 89
     max_features: 109
   long:
-    columns: 16
+    columns: 13
     trees: 59
   auto:
     num_est: 216

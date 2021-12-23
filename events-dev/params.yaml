@@ -257,7 +257,7 @@ variables:
     seed: 793731483
     layers: 4
   short:
-    min_features: 3850
+    min_features: 3334
     weight_factor: 0.10787
     tags: 8
     trees: 51

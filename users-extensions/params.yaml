@@ -235,7 +235,7 @@ preprocessing:
     ngrams: 4
     columns: 53
     tags: 112
-    dense: 105
+    dense: 115
   settings:
     layers: 3
     weight_factor: 0.3

@@ -36,7 +36,7 @@ concurrent:
     trees: 66
     split: 0.4
   short:
-    min_split: 16
+    min_split: 18
     num_est: 100
     features: 2240
     estimators: 255
@@ -44,7 +44,7 @@ concurrent:
 model:
   settings:
     batch_size: 845
-    epochs: 65
+    epochs: 78
     columns: 18
     sample: 0.71005
   other:
@@ -103,7 +103,7 @@ variables:
     num_est: 175
   dev:
     max_depth: 18
-    trees: 78
+    trees: 67
     num_est: 225
 train:
   short:

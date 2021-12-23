@@ -172,7 +172,7 @@ concurrent:
     layers: 2
 featurize:
   other:
-    layers: 5
+    layers: 6
     passes: 46
     weight_factor: 0.21957
     drop: 0.23608
@@ -195,7 +195,7 @@ featurize:
   long:
     tags: 72
     min_features: 2875
-    learning_rate: 0.08705
+    learning_rate: 0.09438
     folds: 7
     random_state: 102069361
   auto:

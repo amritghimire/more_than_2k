@@ -288,7 +288,7 @@ train:
     seed: 853642358
     features: 4802
   concurrent:
-    layers: 2
+    layers: 1
     estimators: 108
     batch_size: 708
     sample: 0.75
@@ -299,5 +299,5 @@ train:
     seed: 899860000
   combine:
     ngrams: 4
-    folds: 9
+    folds: 14
     layers: 4

@@ -49,7 +49,7 @@ settings:
 concurrent:
   long:
     num_est: 75
-    batch_size: 552
+    batch_size: 639
     sample: 1.22943
     random_state: 54000000
     split: 0.1188
@@ -148,7 +148,7 @@ model:
     split: 0.48559
     sample: 0.26041
   requests:
-    estimators: 112
+    estimators: 105
     min_features: 1655
     trees: 12
     sample: 0.51323
@@ -266,7 +266,7 @@ preprocessing:
     weight_factor: 0.2
     tags: 63
     columns: 19
-    estimators: 184
+    estimators: 212
   diff:
     weight_factor: 0.17268
     sample: 0.75
@@ -296,7 +296,7 @@ tagging:
     max_depth: 33
     num_est: 238
     max_features: 1201
-    epochs: 61
+    epochs: 78
     columns: 27
     trees: 48
   diff:

@@ -36,7 +36,7 @@ settings:
     learning_rate: 0.01
     seed: 430734343
     min_split: 64
-    trees: 60
+    trees: 67
     max_features: 1441
   diff:
     max_depth: 28
@@ -54,7 +54,7 @@ concurrent:
     random_state: 54000000
     split: 0.1188
     min_split: 80
-    dense: 500
+    dense: 577
     ngrams: 3
     folds: 2
     max_depth: 24
@@ -315,7 +315,7 @@ tagging:
   preset:
     split: 0.4
     min_features: 3350
-    min_split: 42
+    min_split: 44
   test:
     folds: 9
     epochs: 24

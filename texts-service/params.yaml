@@ -146,7 +146,7 @@ model:
     folds: 3
     seed: 761722981
     split: 0.48559
-    sample: 0.25
+    sample: 0.26041
   requests:
     estimators: 112
     min_features: 1655
@@ -242,7 +242,7 @@ preprocessing:
     min_split: 52
     sample: 0.25
   preset:
-    features: 4590
+    features: 5551
     sample: 0.29219
     max_features: 2750
     seed: 334766781
@@ -268,7 +268,7 @@ preprocessing:
     columns: 19
     estimators: 184
   diff:
-    weight_factor: 0.2
+    weight_factor: 0.17268
     sample: 0.75
     min_split: 48
     max_features: 150
@@ -308,7 +308,7 @@ tagging:
     random_state: 444362324
   long:
     columns: 30
-    estimators: 210
+    estimators: 176
     max_depth: 16
     seed: 88221000
     drop: 0.32367

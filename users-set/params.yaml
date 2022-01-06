@@ -292,7 +292,7 @@ featurize:
   selection:
     columns: 12
     passes: 35
-    threads: 14
+    threads: 15
   rf:
     passes: 17
     weight_factor: 0.22549

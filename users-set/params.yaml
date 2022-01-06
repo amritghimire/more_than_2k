@@ -7,7 +7,7 @@ variables:
     max_depth: 9
     num_est: 181
     learning_rate: 0.09823
-    columns: 72
+    columns: 89
     seed: 808780000
     threads: 2
   rf:
@@ -42,7 +42,7 @@ variables:
     sample: 0.25
   dev:
     batch_size: 1011
-    passes: 20
+    passes: 23
     tags: 35
     min_split: 32
     max_features: 3278
@@ -128,7 +128,7 @@ validation:
   classifier:
     split: 0.4
     max_features: 1250
-    tags: 102
+    tags: 143
   batch:
     drop: 0.2
     threads: 18
@@ -179,7 +179,7 @@ model:
     epochs: 50
     threads: 22
     weight_factor: 0.20535
-    random_state: 92000000
+    random_state: 77369456
   selection:
     passes: 19
     layers: 2

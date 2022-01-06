@@ -234,14 +234,14 @@ prepare:
     random_state: 895866686
   requests:
     split: 0.21127
-    folds: 12
+    folds: 13
     features: 2107
   dev:
     columns: 43
-    seed: 382101716
+    seed: 437495282
     weight_factor: 0.21718
-    sample: 0.39119
-    epochs: 86
+    sample: 0.57073
+    epochs: 97
     trees: 12
     batch_size: 797
     features: 2577
@@ -249,7 +249,7 @@ prepare:
     tags: 56
   classifier:
     columns: 61
-    split: 0.1642
+    split: 0.18088
     features: 3818
   other:
     num_est: 238

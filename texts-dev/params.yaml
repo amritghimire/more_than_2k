@@ -255,7 +255,7 @@ variables:
     weight_factor: 0.23672
     min_features: 4250
     split: 0.1
-    threads: 10
+    threads: 9
     columns: 42
   test:
     min_split: 48

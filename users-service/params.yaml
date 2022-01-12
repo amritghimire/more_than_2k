@@ -74,7 +74,7 @@ prepare:
   trees: 76
   learning_rate: 0.10888
   layers: 2
-  num_est: 41
+  num_est: 49
   random_state: 534316482
   columns: 54
   epochs: 15

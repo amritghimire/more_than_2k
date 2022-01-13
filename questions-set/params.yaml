@@ -211,7 +211,7 @@ featurize:
     layers: 4
   requests:
     weight_factor: 0.07797
-    split: 0.45265
+    split: 0.33099
     passes: 35
     layers: 4
   auto:

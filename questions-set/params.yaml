@@ -55,7 +55,7 @@ concurrent:
   classifier:
     dense: 213
     split: 0.43126
-    max_features: 2620
+    max_features: 2100
     seed: 200403971
     passes: 91
   prod:
@@ -104,7 +104,7 @@ train:
     max_features: 4091
   classifier:
     num_est: 124
-    threads: 3
+    threads: 2
     min_split: 80
     features: 980
   preset:

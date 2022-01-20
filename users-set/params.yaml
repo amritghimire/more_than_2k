@@ -220,7 +220,7 @@ model:
     columns: 9
 prepare:
   batch:
-    learning_rate: 0.18378
+    learning_rate: 0.14464
     ngrams: 5
     min_split: 14
     features: 1435
@@ -229,7 +229,7 @@ prepare:
     num_est: 40
     passes: 85
     layers: 7
-    epochs: 87
+    epochs: 71
     columns: 6
     random_state: 895866686
   requests:
@@ -254,7 +254,7 @@ prepare:
   other:
     num_est: 238
     features: 249
-    drop: 0.15157
+    drop: 0.15487
     epochs: 72
     folds: 7
     ngrams: 4

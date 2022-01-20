@@ -233,7 +233,7 @@ prepare:
     columns: 6
     random_state: 895866686
   requests:
-    split: 0.21127
+    split: 0.23405
     folds: 13
     features: 2107
   dev:
@@ -262,7 +262,7 @@ prepare:
     split: 0.15413
     layers: 1
     ngrams: 5
-    seed: 136815760
+    seed: 148068949
     features: 1582
     passes: 60
 featurize:

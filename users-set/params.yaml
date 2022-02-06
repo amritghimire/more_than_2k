@@ -281,8 +281,8 @@ featurize:
     passes: 76
     seed: 556576566
   batch:
-    batch_size: 840
-    threads: 21
+    batch_size: 685
+    threads: 23
     weight_factor: 0.17438
     max_features: 4080
   requests:
@@ -297,7 +297,7 @@ featurize:
     passes: 17
     weight_factor: 0.22549
     max_features: 1254
-    tags: 113
+    tags: 146
     random_state: 618761097
     min_features: 2049
     learning_rate: 0.07917

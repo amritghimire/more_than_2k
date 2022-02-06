@@ -141,7 +141,7 @@ settings:
   requests:
     min_features: 97
     trees: 21
-    threads: 35
+    threads: 27
   classifier:
     min_features: 1700
     ngrams: 4
@@ -179,7 +179,7 @@ model:
     epochs: 50
     threads: 22
     weight_factor: 0.20535
-    random_state: 77369456
+    random_state: 108227155
   selection:
     passes: 19
     layers: 2

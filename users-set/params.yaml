@@ -228,7 +228,7 @@ prepare:
   rf:
     num_est: 40
     passes: 85
-    layers: 7
+    layers: 6
     epochs: 71
     columns: 6
     random_state: 895866686

@@ -192,7 +192,7 @@ model:
     dense: 400
     trees: 66
   rf:
-    num_est: 228
+    num_est: 217
     max_depth: 28
     sample: 0.75407
     learning_rate: 0.05

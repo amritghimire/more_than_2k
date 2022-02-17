@@ -92,7 +92,7 @@ train:
     min_split: 55
     threads: 28
     batch_size: 671
-    split: 0.1009
+    split: 0.07892
     folds: 3
     random_state: 403000000
     features: 4860
@@ -128,7 +128,7 @@ settings:
     layers: 2
   batch:
     sample: 0.75
-    random_state: 17122387
+    random_state: 16587757
     epochs: 24
   preset:
     min_split: 16
@@ -144,7 +144,7 @@ settings:
   auto:
     estimators: 163
     layers: 3
-    passes: 100
+    passes: 111
     batch_size: 512
     drop: 0.3
     ngrams: 4
@@ -164,7 +164,7 @@ model:
   combine:
     threads: 10
     sample: 0.30643
-    max_depth: 24
+    max_depth: 21
     passes: 25
   classifier:
     tags: 88

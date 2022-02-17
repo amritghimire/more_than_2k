@@ -223,4 +223,4 @@ featurize:
   batch:
     seed: 283861537
     tags: 134
-    split: 0.5
+    split: 0.56317

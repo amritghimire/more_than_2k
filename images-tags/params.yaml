@@ -215,7 +215,7 @@ featurize:
     max_features: 3060
     drop: 0.09685
     num_est: 140
-    batch_size: 402
+    batch_size: 455
     trees: 48
   preset:
     max_features: 645

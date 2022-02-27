@@ -87,7 +87,7 @@ prepare:
   max_depth: 10
   folds: 7
 tagging:
-  drop: 0.39455
+  drop: 0.30093
   ngrams: 3
   threads: 16
   num_est: 43
@@ -97,11 +97,11 @@ tagging:
   folds: 6
   weight_factor: 0.09603
   columns: 58
-  trees: 91
-  learning_rate: 0.13
+  trees: 62
+  learning_rate: 0.15693
   seed: 952765000
   dense: 434
-  max_depth: 9
+  max_depth: 14
   min_features: 2150
   sample: 0.25
   tags: 106

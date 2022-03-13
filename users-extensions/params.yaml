@@ -75,7 +75,7 @@ variables:
     layers: 1
     batch_size: 224
     learning_rate: 0.15
-    passes: 116
+    passes: 89
     dense: 100
     drop: 0.4
     num_est: 51
@@ -127,7 +127,7 @@ train:
     features: 2950
     columns: 58
     dense: 300
-    random_state: 709000000
+    random_state: 787175930
   dev:
     min_features: 3016
     threads: 22
@@ -139,7 +139,7 @@ train:
     features: 960
     random_state: 590000000
     sample: 0.75929
-    split: 0.5
+    split: 0.61283
     threads: 25
   preset:
     passes: 18
@@ -186,7 +186,7 @@ validation:
 tagging:
   settings:
     learning_rate: 0.09
-    epochs: 73
+    epochs: 60
     trees: 42
   batch:
     batch_size: 1000
@@ -213,7 +213,7 @@ tagging:
     ngrams: 6
   short:
     features: 4670
-    threads: 28
+    threads: 22
     columns: 19
     split: 0.4
 preprocessing:

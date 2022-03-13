@@ -17,7 +17,7 @@ concurrent:
     batch_size: 736
     drop: 0.2
     trees: 31
-    learning_rate: 0.14518
+    learning_rate: 0.13325
     tags: 88
     min_features: 4200
   preset:
@@ -78,7 +78,7 @@ variables:
     passes: 116
     dense: 100
     drop: 0.4
-    num_est: 50
+    num_est: 51
   batch:
     threads: 8
     sample: 1.0
@@ -90,9 +90,9 @@ variables:
     tags: 112
     columns: 49
   short:
-    learning_rate: 0.13237
+    learning_rate: 0.11574
     passes: 78
-    random_state: 855680275
+    random_state: 805190709
     estimators: 250
   other:
     drop: 0.16156

@@ -69,7 +69,7 @@ prepare:
     layers: 4
     epochs: 84
     features: 327
-    min_split: 27
+    min_split: 32
   collection:
     passes: 82
     seed: 716354641
@@ -78,7 +78,7 @@ prepare:
     estimators: 297
   rf:
     features: 2707
-    num_est: 114
+    num_est: 87
   prod:
     weight_factor: 0.16406
     drop: 0.36522
@@ -90,7 +90,7 @@ prepare:
     random_state: 658353191
     min_features: 3986
     columns: 44
-    batch_size: 613
+    batch_size: 625
     trees: 3
   selection:
     weight_factor: 0.26282

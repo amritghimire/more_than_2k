@@ -58,7 +58,7 @@ model:
   dev:
     max_depth: 20
     learning_rate: 0.06
-    tags: 7
+    tags: 8
     estimators: 41
     seed: 815427000
     dense: 167
@@ -102,7 +102,7 @@ variables:
     min_split: 48
     num_est: 175
   dev:
-    max_depth: 18
+    max_depth: 15
     trees: 67
     num_est: 225
 train:

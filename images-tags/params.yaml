@@ -235,7 +235,7 @@ featurize:
     min_features: 3983
   long:
     seed: 1023099608
-    split: 0.35484
+    split: 0.45581
     threads: 5
     min_features: 3756
   classifier:

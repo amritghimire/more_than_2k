@@ -122,7 +122,7 @@ prepare:
     sample: 1.06144
     random_state: 136581753
     layers: 5
-    features: 2881
+    features: 3013
   other:
     sample: 0.64026
     drop: 0.0992

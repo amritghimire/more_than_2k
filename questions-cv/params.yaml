@@ -81,7 +81,7 @@ prepare:
     num_est: 114
   prod:
     weight_factor: 0.16406
-    drop: 0.45495
+    drop: 0.36522
     epochs: 68
     folds: 6
     max_features: 389

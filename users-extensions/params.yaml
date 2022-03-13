@@ -10,9 +10,9 @@ concurrent:
     drop: 0.1
     folds: 5
     min_features: 1750
-    estimators: 67
+    estimators: 76
   test:
-    sample: 0.29411
+    sample: 0.2485
     max_features: 1750
     batch_size: 736
     drop: 0.2
@@ -21,7 +21,7 @@ concurrent:
     tags: 88
     min_features: 4200
   preset:
-    max_depth: 16
+    max_depth: 14
     split: 0.4
     tags: 119
     columns: 34
@@ -107,7 +107,7 @@ variables:
     num_est: 225
 train:
   short:
-    threads: 5
+    threads: 3
     dense: 306
     tags: 133
     columns: 36
@@ -190,7 +190,7 @@ tagging:
     trees: 42
   batch:
     batch_size: 1000
-    seed: 684427000
+    seed: 708455845
     max_features: 4703
     drop: 0.2
     min_split: 80

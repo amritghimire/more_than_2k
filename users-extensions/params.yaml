@@ -99,7 +99,7 @@ variables:
     features: 650
   settings:
     tags: 82
-    min_split: 48
+    min_split: 46
     num_est: 175
   dev:
     max_depth: 15

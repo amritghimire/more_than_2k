@@ -28,7 +28,7 @@ concurrent:
     num_est: 75
     dense: 200
   batch:
-    trees: 32
+    trees: 35
     threads: 23
   dev:
     threads: 20
@@ -38,7 +38,7 @@ concurrent:
   short:
     min_split: 18
     num_est: 100
-    features: 2240
+    features: 2507
     estimators: 255
     epochs: 38
 model:
@@ -191,7 +191,7 @@ tagging:
   batch:
     batch_size: 1000
     seed: 708455845
-    max_features: 4703
+    max_features: 3774
     drop: 0.2
     min_split: 80
   test:
@@ -251,7 +251,7 @@ preprocessing:
     sample: 0.25
     epochs: 15
   short:
-    split: 0.59895
+    split: 0.55148
     folds: 6
   preset:
     columns: 75

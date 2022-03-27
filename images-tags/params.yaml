@@ -212,7 +212,7 @@ featurize:
   rf:
     dense: 81
     columns: 57
-    max_features: 3060
+    max_features: 2070
     drop: 0.09685
     num_est: 140
     batch_size: 455
@@ -243,12 +243,12 @@ featurize:
     folds: 2
     min_features: 3758
     threads: 31
-    epochs: 17
+    epochs: 20
   diff:
     folds: 5
     columns: 7
     num_est: 191
     seed: 163772128
   other:
-    drop: 0.21918
+    drop: 0.18188
     learning_rate: 0.02149

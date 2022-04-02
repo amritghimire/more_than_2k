@@ -39,7 +39,7 @@ model:
   rf:
     ngrams: 4
     drop: 0.09169
-    estimators: 121
+    estimators: 113
     min_split: 26
     batch_size: 543
   other:

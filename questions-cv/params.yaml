@@ -30,7 +30,7 @@ concurrent:
     dense: 93
     batch_size: 14
   prod:
-    folds: 3
+    folds: 2
     sample: 0.73592
 model:
   collection:

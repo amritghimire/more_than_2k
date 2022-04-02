@@ -111,7 +111,7 @@ validation:
     features: 1076
     min_split: 17
   short:
-    max_depth: 13
+    max_depth: 9
     tags: 146
     folds: 6
     split: 0.21611

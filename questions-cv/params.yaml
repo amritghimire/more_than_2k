@@ -109,7 +109,7 @@ validation:
     trees: 18
     split: 0.29192
     features: 1076
-    min_split: 17
+    min_split: 12
   short:
     max_depth: 9
     tags: 146
@@ -132,7 +132,7 @@ preprocessing:
     sample: 0.79877
     layers: 6
   rf:
-    tags: 98
+    tags: 109
     weight_factor: 0.20387
     split: 0.52931
     passes: 91
@@ -186,7 +186,7 @@ settings:
     max_depth: 30
   prod:
     min_features: 2880
-    columns: 38
+    columns: 36
   rf:
     max_depth: 12
   collection:

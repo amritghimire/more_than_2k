@@ -113,7 +113,7 @@ featurize:
     min_features: 3377
     batch_size: 53
   rf:
-    folds: 6
+    folds: 10
   short:
     trees: 78
     threads: 12

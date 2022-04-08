@@ -49,7 +49,7 @@ settings:
     drop: 0.21694
     epochs: 58
     passes: 59
-    folds: 3
+    folds: 2
   short:
     max_depth: 9
     ngrams: 3
@@ -224,7 +224,7 @@ train:
     learning_rate: 0.15706
     ngrams: 8
     tags: 55
-    batch_size: 526
+    batch_size: 629
     estimators: 145
     random_state: 667133371
     max_features: 1563

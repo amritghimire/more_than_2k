@@ -116,7 +116,7 @@ featurize:
     folds: 10
   short:
     trees: 78
-    threads: 12
+    threads: 11
   batch:
     ngrams: 8
 preprocessing:

@@ -92,7 +92,7 @@ featurize:
     drop: 0.21674
     estimators: 220
     ngrams: 7
-    tags: 74
+    tags: 56
   long:
     ngrams: 6
     tags: 89
@@ -102,7 +102,7 @@ featurize:
     epochs: 63
     max_features: 2777
   preset:
-    estimators: 282
+    estimators: 202
     max_features: 2529
     passes: 81
   dev:

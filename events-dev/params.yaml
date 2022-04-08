@@ -175,7 +175,7 @@ featurize:
     layers: 6
     passes: 46
     weight_factor: 0.21957
-    drop: 0.23608
+    drop: 0.15132
     max_features: 4089
     tags: 91
   short:
@@ -193,13 +193,13 @@ featurize:
     max_depth: 13
     max_features: 3755
   long:
-    tags: 72
+    tags: 68
     min_features: 2875
     learning_rate: 0.09438
     folds: 7
-    random_state: 102069361
+    random_state: 92100981
   auto:
-    max_features: 3315
+    max_features: 4608
     ngrams: 1
   combine:
     batch_size: 356

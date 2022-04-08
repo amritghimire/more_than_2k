@@ -172,7 +172,7 @@ concurrent:
     layers: 2
 featurize:
   other:
-    layers: 6
+    layers: 7
     passes: 46
     weight_factor: 0.21957
     drop: 0.15132

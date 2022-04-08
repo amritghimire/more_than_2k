@@ -65,7 +65,7 @@ variables:
   layers: 2
   drop: 0.33054
 prepare:
-  weight_factor: 0.08435
+  weight_factor: 0.08766
   passes: 32
   drop: 0.1048
   sample: 0.40483
@@ -78,13 +78,13 @@ prepare:
   random_state: 534316482
   columns: 54
   epochs: 12
-  dense: 232
+  dense: 228
   ngrams: 7
   batch_size: 584
-  min_split: 14
+  min_split: 15
   min_features: 2741
-  features: 4366
-  max_depth: 10
+  features: 4808
+  max_depth: 14
   folds: 7
 tagging:
   drop: 0.30093

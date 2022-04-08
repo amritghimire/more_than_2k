@@ -65,19 +65,19 @@ variables:
   layers: 2
   drop: 0.33054
 prepare:
-  weight_factor: 0.09514
+  weight_factor: 0.08435
   passes: 32
   drop: 0.1048
   sample: 0.40483
   estimators: 213
-  tags: 122
+  tags: 108
   trees: 76
   learning_rate: 0.10888
   layers: 2
   num_est: 49
   random_state: 534316482
   columns: 54
-  epochs: 15
+  epochs: 12
   dense: 232
   ngrams: 7
   batch_size: 584

@@ -183,7 +183,7 @@ featurize:
     layers: 6
     max_depth: 18
     num_est: 119
-    estimators: 100
+    estimators: 103
     dense: 189
     epochs: 30
     columns: 39
@@ -205,7 +205,7 @@ featurize:
     batch_size: 356
     sample: 0.57698
     max_depth: 12
-    max_features: 541
+    max_features: 607
 train:
   auto:
     epochs: 18

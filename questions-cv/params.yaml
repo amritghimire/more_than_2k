@@ -88,7 +88,7 @@ prepare:
     columns: 31
   other:
     random_state: 658353191
-    min_features: 3986
+    min_features: 4458
     columns: 65
     batch_size: 648
     trees: 2

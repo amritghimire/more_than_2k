@@ -64,7 +64,7 @@ prepare:
     epochs: 37
     learning_rate: 0.13587
     features: 3813
-    min_split: 74
+    min_split: 48
   batch:
     layers: 4
     epochs: 84
@@ -84,7 +84,7 @@ prepare:
     drop: 0.36522
     epochs: 68
     folds: 6
-    max_features: 512
+    max_features: 471
     columns: 31
   other:
     random_state: 658353191

@@ -197,22 +197,22 @@ featurize:
     dense: 230
     random_state: 1076256422
     max_depth: 36
-    split: 0.23175
+    split: 0.16532
     threads: 8
   classifier:
     num_est: 22
     columns: 56
     trees: 35
     folds: 14
-    threads: 15
+    threads: 17
   preset:
     folds: 2
     min_features: 2869
     layers: 4
   requests:
-    weight_factor: 0.07797
+    weight_factor: 0.08907
     split: 0.41097
-    passes: 38
+    passes: 34
     layers: 4
   auto:
     drop: 0.21082

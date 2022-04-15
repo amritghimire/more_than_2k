@@ -114,7 +114,7 @@ validation:
     weight_factor: 0.10642
     estimators: 45
     num_est: 250
-    passes: 56
+    passes: 55
   other:
     layers: 3
     split: 0.4
@@ -126,7 +126,7 @@ validation:
     estimators: 245
     min_split: 64
   classifier:
-    split: 0.4
+    split: 0.49728
     max_features: 1250
     tags: 143
   batch:
@@ -173,7 +173,7 @@ settings:
 model:
   batch:
     layers: 4
-    trees: 24
+    trees: 29
     num_est: 125
     seed: 682172675
     epochs: 50

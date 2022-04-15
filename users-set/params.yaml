@@ -250,7 +250,7 @@ prepare:
   classifier:
     columns: 61
     split: 0.18088
-    features: 5082
+    features: 6016
   other:
     num_est: 238
     features: 249

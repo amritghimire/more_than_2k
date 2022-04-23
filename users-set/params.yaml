@@ -70,7 +70,7 @@ preprocessing:
     threads: 5
     num_est: 157
     folds: 3
-    sample: 0.5
+    sample: 0.47593
     ngrams: 4
     trees: 66
     passes: 44
@@ -163,7 +163,7 @@ settings:
     max_features: 3600
   batch:
     estimators: 97
-    ngrams: 6
+    ngrams: 7
     columns: 21
     dense: 500
   dev:

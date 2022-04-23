@@ -242,7 +242,7 @@ featurize:
     seed: 1197883961
     folds: 2
     min_features: 3758
-    threads: 31
+    threads: 36
     epochs: 20
   diff:
     folds: 5

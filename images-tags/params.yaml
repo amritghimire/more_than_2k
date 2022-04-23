@@ -211,7 +211,7 @@ variables:
 featurize:
   rf:
     dense: 81
-    columns: 57
+    columns: 44
     max_features: 2070
     drop: 0.09685
     num_est: 140
@@ -227,7 +227,7 @@ featurize:
   prod:
     max_depth: 27
     layers: 7
-    threads: 18
+    threads: 14
     split: 0.53186
     epochs: 32
     min_split: 66

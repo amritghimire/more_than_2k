@@ -84,7 +84,7 @@ settings:
     tags: 103
 prepare:
   short:
-    num_est: 182
+    num_est: 197
     weight_factor: 0.16559
     sample: 0.21065
     learning_rate: 0.06783
@@ -95,12 +95,12 @@ prepare:
     trees: 76
     split: 0.16434
     columns: 39
-    passes: 61
+    passes: 59
     batch_size: 96
     tags: 60
   combine:
     passes: 49
-    min_features: 2192
+    min_features: 2236
     sample: 0.21669
     trees: 13
     num_est: 243
@@ -110,7 +110,7 @@ prepare:
     trees: 56
     layers: 2
     passes: 57
-    dense: 89
+    dense: 100
     max_features: 109
   long:
     columns: 13

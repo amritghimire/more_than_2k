@@ -9,7 +9,7 @@ concurrent:
     folds: 6
   selection:
     random_state: 304000000
-    epochs: 84
+    epochs: 98
     max_depth: 19
     num_est: 172
     folds: 5

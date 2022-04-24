@@ -77,7 +77,7 @@ validation:
     epochs: 15
     learning_rate: 0.08
   model:
-    max_depth: 35
+    max_depth: 27
     ngrams: 4
     min_split: 28
 settings:
@@ -179,7 +179,7 @@ prepare:
 tagging:
   model:
     weight_factor: 0.24002
-    seed: 448206000
+    seed: 358917623
     split: 0.5
     min_features: 1300
     batch_size: 624
@@ -249,13 +249,13 @@ variables:
     max_features: 3427
     sample: 0.25
     threads: 0
-    features: 4420
+    features: 3414
   dev:
     max_features: 2650
     weight_factor: 0.23672
     min_features: 4250
     split: 0.1
-    threads: 9
+    threads: 12
     columns: 42
   test:
     min_split: 48
@@ -275,7 +275,7 @@ train:
     random_state: 175000000
     features: 1060
     threads: 9
-    weight_factor: 0.3
+    weight_factor: 0.2741
     split: 0.2
     columns: 66
     learning_rate: 0.08

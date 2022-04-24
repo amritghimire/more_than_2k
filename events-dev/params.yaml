@@ -84,23 +84,23 @@ settings:
     tags: 103
 prepare:
   short:
-    num_est: 197
+    num_est: 180
     weight_factor: 0.16559
-    sample: 0.21065
+    sample: 0.21352
     learning_rate: 0.06783
     split: 0.49357
     layers: 1
     trees: 86
   preset:
     trees: 76
-    split: 0.16434
+    split: 0.22995
     columns: 39
     passes: 59
     batch_size: 96
     tags: 60
   combine:
     passes: 49
-    min_features: 2236
+    min_features: 1865
     sample: 0.21669
     trees: 13
     num_est: 243

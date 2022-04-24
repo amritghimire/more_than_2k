@@ -54,7 +54,7 @@ concurrent:
     random_state: 54000000
     split: 0.1188
     min_split: 80
-    dense: 577
+    dense: 547
     ngrams: 3
     folds: 2
     max_depth: 24
@@ -72,7 +72,7 @@ concurrent:
     num_est: 109
   requests:
     learning_rate: 0.11632
-    max_features: 1450
+    max_features: 1395
     features: 1590
     num_est: 232
     columns: 15
@@ -271,7 +271,7 @@ preprocessing:
     weight_factor: 0.17268
     sample: 0.75
     min_split: 48
-    max_features: 150
+    max_features: 179
     random_state: 307000000
   test:
     layers: 6

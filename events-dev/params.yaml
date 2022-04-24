@@ -205,7 +205,7 @@ featurize:
     batch_size: 356
     sample: 0.57698
     max_depth: 12
-    max_features: 607
+    max_features: 434
 train:
   auto:
     epochs: 18

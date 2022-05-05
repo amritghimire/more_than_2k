@@ -91,13 +91,13 @@ featurize:
     passes: 7
     drop: 0.21674
     estimators: 220
-    ngrams: 7
+    ngrams: 6
     tags: 56
   long:
-    ngrams: 6
+    ngrams: 8
     tags: 89
     folds: 13
-    seed: 301388049
+    seed: 261125133
     sample: 0.58874
     epochs: 63
     max_features: 2777
@@ -115,7 +115,7 @@ featurize:
   rf:
     folds: 10
   short:
-    trees: 78
+    trees: 54
     threads: 11
   batch:
     ngrams: 8

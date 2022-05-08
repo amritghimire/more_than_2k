@@ -298,7 +298,7 @@ featurize:
     weight_factor: 0.22549
     max_features: 1246
     tags: 146
-    random_state: 618761097
+    random_state: 498815508
     min_features: 2049
     learning_rate: 0.07917
     layers: 2

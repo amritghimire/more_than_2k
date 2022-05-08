@@ -296,7 +296,7 @@ featurize:
   rf:
     passes: 17
     weight_factor: 0.22549
-    max_features: 1254
+    max_features: 1246
     tags: 146
     random_state: 618761097
     min_features: 2049

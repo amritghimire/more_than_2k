@@ -99,7 +99,7 @@ prepare:
     batch_size: 96
     tags: 60
   combine:
-    passes: 49
+    passes: 52
     min_features: 1865
     sample: 0.21669
     trees: 13

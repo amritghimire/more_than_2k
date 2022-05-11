@@ -125,7 +125,7 @@ settings:
     sample: 0.5
   model:
     dense: 236
-    estimators: 90
+    estimators: 62
 prepare:
   concurrent:
     threads: 4
@@ -207,8 +207,8 @@ tagging:
     split: 0.2
     max_features: 4932
   dev:
-    columns: 48
-    features: 3300
+    columns: 46
+    features: 3175
     max_depth: 32
     random_state: 454000000
     tags: 119

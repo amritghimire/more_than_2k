@@ -144,7 +144,7 @@ prepare:
     max_depth: 4
   model:
     estimators: 163
-    num_est: 200
+    num_est: 153
     split: 0.42833
     features: 5482
     min_split: 51
@@ -157,7 +157,7 @@ prepare:
     max_depth: 12
   test:
     weight_factor: 0.33479
-    passes: 3
+    passes: 4
     min_split: 51
     threads: 13
   other:

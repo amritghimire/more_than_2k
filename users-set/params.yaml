@@ -127,7 +127,7 @@ validation:
     min_split: 64
   classifier:
     split: 0.49728
-    max_features: 1250
+    max_features: 1288
     tags: 143
   batch:
     drop: 0.2

@@ -24,7 +24,7 @@ concurrent:
     max_depth: 16
     threads: 5
     min_split: 19
-    weight_factor: 0.33961
+    weight_factor: 0.33241
   other:
     num_est: 150
     dense: 93
@@ -118,7 +118,7 @@ validation:
   other:
     learning_rate: 0.13912
     max_features: 941
-    tags: 87
+    tags: 94
     min_features: 1150
   batch:
     max_features: 934

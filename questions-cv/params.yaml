@@ -63,7 +63,7 @@ prepare:
   short:
     epochs: 37
     learning_rate: 0.13587
-    features: 3813
+    features: 2939
     min_split: 48
   batch:
     layers: 4
@@ -73,7 +73,7 @@ prepare:
   collection:
     passes: 82
     seed: 716354641
-    drop: 0.40417
+    drop: 0.40884
     max_features: 1006
     estimators: 297
   rf:
@@ -88,8 +88,8 @@ prepare:
     columns: 31
   other:
     random_state: 658353191
-    min_features: 4458
-    columns: 65
+    min_features: 4986
+    columns: 58
     batch_size: 648
     trees: 2
   selection:

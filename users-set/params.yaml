@@ -17,7 +17,7 @@ variables:
     seed: 864241000
   batch:
     threads: 2
-    split: 0.2
+    split: 0.19965
     weight_factor: 0.3
     batch_size: 569
     tags: 30
@@ -183,12 +183,12 @@ model:
   selection:
     passes: 19
     layers: 2
-    folds: 5
+    folds: 6
     sample: 0.5
     num_est: 175
   requests:
     seed: 61678532
-    epochs: 71
+    epochs: 79
     dense: 400
     trees: 66
   rf:
@@ -199,7 +199,7 @@ model:
     folds: 10
     estimators: 145
     weight_factor: 0.3
-    features: 3110
+    features: 3574
   classifier:
     columns: 39
     sample: 0.66847

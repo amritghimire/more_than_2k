@@ -267,7 +267,7 @@ prepare:
     passes: 60
 featurize:
   classifier:
-    threads: 22
+    threads: 33
     folds: 14
     num_est: 95
     max_depth: 15
@@ -275,11 +275,11 @@ featurize:
     max_features: 4656
   dev:
     epochs: 54
-    ngrams: 7
+    ngrams: 6
     tags: 96
     features: 2484
     passes: 81
-    seed: 556576566
+    seed: 589660002
   batch:
     batch_size: 685
     threads: 23
@@ -292,7 +292,7 @@ featurize:
   selection:
     columns: 12
     passes: 35
-    threads: 15
+    threads: 11
   rf:
     passes: 17
     weight_factor: 0.22549

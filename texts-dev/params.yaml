@@ -55,7 +55,7 @@ validation:
     folds: 6
   combine:
     min_features: 312
-    passes: 94
+    passes: 88
     features: 2917
     learning_rate: 0.15
   test:

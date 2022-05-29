@@ -31,7 +31,7 @@ featurize:
     random_state: 146465105
     passes: 66
     estimators: 53
-    batch_size: 507
+    batch_size: 511
     drop: 0.22254
   dev:
     num_est: 245

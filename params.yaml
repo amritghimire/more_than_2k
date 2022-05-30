@@ -215,7 +215,7 @@ validation:
     dense: 265
     features: 5573
     threads: 9
-    min_features: 2190
+    min_features: 1744
     num_est: 181
     learning_rate: 0.1485
   preset:

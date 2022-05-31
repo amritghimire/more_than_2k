@@ -106,7 +106,7 @@ model:
     estimators: 180
     features: 411
     split: 0.09422
-    layers: 2
+    layers: 1
     drop: 0.4
   preset:
     columns: 22
@@ -200,7 +200,7 @@ variables:
     weight_factor: 0.3
     epochs: 60
     seed: 338444000
-    trees: 12
+    trees: 11
     ngrams: 2
   long:
     estimators: 80
@@ -242,7 +242,7 @@ preprocessing:
     min_split: 52
     sample: 0.25
   preset:
-    features: 5551
+    features: 5338
     sample: 0.29219
     max_features: 2750
     seed: 334766781
@@ -274,7 +274,7 @@ preprocessing:
     max_features: 179
     random_state: 307000000
   test:
-    layers: 6
+    layers: 4
     drop: 0.09448
     seed: 523834000
     features: 1442
@@ -304,7 +304,7 @@ tagging:
     layers: 3
     ngrams: 4
     threads: 2
-    max_features: 250
+    max_features: 191
     random_state: 444362324
   long:
     columns: 30

@@ -3,7 +3,7 @@ concurrent:
     tags: 65
     epochs: 51
     features: 772
-    batch_size: 704
+    batch_size: 539
   short:
     max_features: 4685
     folds: 6
@@ -167,7 +167,7 @@ variables:
   collection:
     seed: 1019950104
   prod:
-    epochs: 44
+    epochs: 34
     learning_rate: 0.1168
     tags: 86
   selection:

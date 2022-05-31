@@ -88,12 +88,12 @@ prepare:
     columns: 31
   other:
     random_state: 658353191
-    min_features: 4986
-    columns: 58
+    min_features: 4383
+    columns: 51
     batch_size: 648
     trees: 2
   selection:
-    weight_factor: 0.25732
+    weight_factor: 0.34606
 validation:
   prod:
     layers: 1

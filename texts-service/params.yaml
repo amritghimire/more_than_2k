@@ -179,7 +179,7 @@ prepare:
     dense: 95
     sample: 0.38536
     max_depth: 26
-    epochs: 53
+    epochs: 54
     weight_factor: 0.32846
   combine:
     dense: 244

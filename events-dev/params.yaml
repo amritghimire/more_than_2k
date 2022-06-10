@@ -186,7 +186,7 @@ featurize:
     estimators: 103
     dense: 189
     epochs: 30
-    columns: 40
+    columns: 25
   diff:
     estimators: 41
     layers: 4

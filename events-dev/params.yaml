@@ -87,7 +87,7 @@ prepare:
     num_est: 180
     weight_factor: 0.16559
     sample: 0.29975
-    learning_rate: 0.06783
+    learning_rate: 0.06414
     split: 0.49357
     layers: 1
     trees: 86

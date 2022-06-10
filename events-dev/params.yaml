@@ -99,8 +99,8 @@ prepare:
     batch_size: 96
     tags: 60
   combine:
-    passes: 52
-    min_features: 1865
+    passes: 45
+    min_features: 2301
     sample: 0.21669
     trees: 13
     num_est: 243

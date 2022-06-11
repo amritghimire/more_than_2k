@@ -64,7 +64,7 @@ prepare:
     epochs: 37
     learning_rate: 0.13587
     features: 2939
-    min_split: 48
+    min_split: 68
   batch:
     layers: 4
     epochs: 84

@@ -6,7 +6,7 @@ concurrent:
     batch_size: 539
   short:
     max_features: 4685
-    folds: 6
+    folds: 10
   selection:
     random_state: 304000000
     epochs: 98

@@ -228,7 +228,7 @@ featurize:
     max_depth: 27
     layers: 7
     threads: 14
-    split: 0.53186
+    split: 0.47107
     epochs: 32
     min_split: 66
     features: 4027
@@ -245,10 +245,10 @@ featurize:
     threads: 36
     epochs: 20
   diff:
-    folds: 5
+    folds: 6
     columns: 7
     num_est: 191
-    seed: 163772128
+    seed: 217627722
   other:
     drop: 0.18188
     learning_rate: 0.02149

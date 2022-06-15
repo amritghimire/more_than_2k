@@ -130,7 +130,7 @@ prepare:
   concurrent:
     threads: 4
     split: 0.08187
-    max_depth: 8
+    max_depth: 9
     drop: 0.47022
     dense: 500
     weight_factor: 0.07933
@@ -144,7 +144,7 @@ prepare:
     max_depth: 4
   model:
     estimators: 163
-    num_est: 153
+    num_est: 182
     split: 0.42833
     features: 5482
     min_split: 51

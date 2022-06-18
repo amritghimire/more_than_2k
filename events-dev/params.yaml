@@ -138,7 +138,7 @@ concurrent:
   other:
     min_features: 1773
     max_features: 4500
-    min_split: 52
+    min_split: 45
     batch_size: 581
     seed: 869334387
     learning_rate: 0.05

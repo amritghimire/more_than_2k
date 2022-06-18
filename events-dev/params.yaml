@@ -160,7 +160,7 @@ concurrent:
     split: 0.08347
     weight_factor: 0.32452
     min_features: 600
-    min_split: 35
+    min_split: 26
   short:
     sample: 0.49053
     columns: 6

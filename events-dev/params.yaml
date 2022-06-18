@@ -157,7 +157,7 @@ concurrent:
     trees: 43
     dense: 400
     drop: 0.41212
-    split: 0.08347
+    split: 0.112
     weight_factor: 0.32452
     min_features: 600
     min_split: 26

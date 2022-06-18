@@ -44,7 +44,7 @@ model:
     max_features: 2890
 settings:
   long:
-    min_split: 61
+    min_split: 85
     num_est: 262
     drop: 0.21694
     epochs: 58
@@ -60,14 +60,14 @@ settings:
     epochs: 10
     weight_factor: 0.2
     folds: 3
-    min_split: 49
+    min_split: 39
     split: 0.37278
   preset:
     learning_rate: 0.04
     epochs: 10
   other:
     max_depth: 32
-    max_features: 2531
+    max_features: 2486
     tags: 114
     random_state: 111524624
     trees: 69
@@ -147,7 +147,7 @@ concurrent:
     threads: 3
     passes: 83
   preset:
-    max_depth: 13
+    max_depth: 11
     num_est: 186
     estimators: 59
     columns: 83
@@ -223,7 +223,7 @@ train:
     dense: 184
     learning_rate: 0.15706
     ngrams: 8
-    tags: 55
+    tags: 49
     batch_size: 629
     estimators: 145
     random_state: 667133371

@@ -26,7 +26,7 @@ concurrent:
   min_split: 16
   num_est: 25
   drop: 0.3
-  random_state: 255764941
+  random_state: 280136626
   threads: 3
   passes: 93
   tags: 98
@@ -37,10 +37,10 @@ concurrent:
   columns: 42
   epochs: 45
   learning_rate: 0.04
-  max_features: 4435
+  max_features: 4149
   min_features: 800
   seed: 825243000
-  batch_size: 144
+  batch_size: 132
   estimators: 180
 variables:
   min_features: 1537
@@ -58,7 +58,7 @@ variables:
   folds: 3
   dense: 287
   split: 0.375
-  batch_size: 758
+  batch_size: 552
   features: 3900
   max_features: 3448
   ngrams: 2

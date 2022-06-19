@@ -102,7 +102,7 @@ tagging:
   seed: 952765000
   dense: 434
   max_depth: 14
-  min_features: 2150
+  min_features: 2064
   sample: 0.25
   tags: 106
   epochs: 56

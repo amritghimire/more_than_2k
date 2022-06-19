@@ -62,7 +62,7 @@ validation:
     tags: 49
     weight_factor: 0.2
     threads: 30
-    dense: 338
+    dense: 328
     passes: 148
   preprocessing:
     split: 0.09131

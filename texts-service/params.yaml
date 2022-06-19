@@ -158,13 +158,13 @@ prepare:
     num_est: 249
     sample: 1.07757
     trees: 10
-    features: 1824
+    features: 1826
     columns: 67
   preset:
     max_depth: 7
     seed: 187003143
     folds: 7
-    estimators: 131
+    estimators: 129
     dense: 497
     learning_rate: 0.03482
     min_features: 4401

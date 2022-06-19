@@ -4,7 +4,7 @@ settings:
   tags: 7
   min_features: 1450
   threads: 19
-  estimators: 182
+  estimators: 200
   num_est: 50
   ngrams: 4
   max_features: 257

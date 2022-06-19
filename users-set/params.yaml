@@ -237,7 +237,7 @@ prepare:
     folds: 14
     features: 2107
   dev:
-    columns: 43
+    columns: 58
     seed: 437495282
     weight_factor: 0.22765
     sample: 0.57073
@@ -254,7 +254,7 @@ prepare:
   other:
     num_est: 225
     features: 249
-    drop: 0.24525
+    drop: 0.24581
     epochs: 72
     folds: 7
     ngrams: 4

@@ -37,7 +37,7 @@ concurrent:
   columns: 42
   epochs: 45
   learning_rate: 0.04
-  max_features: 4149
+  max_features: 5073
   min_features: 800
   seed: 825243000
   batch_size: 132

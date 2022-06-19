@@ -17,7 +17,7 @@ concurrent:
   rf:
     weight_factor: 0.08532
     columns: 2
-    passes: 20
+    passes: 23
     estimators: 182
   collection:
     ngrams: 1
@@ -38,7 +38,7 @@ model:
     num_est: 110
   rf:
     ngrams: 4
-    drop: 0.09169
+    drop: 0.08284
     estimators: 113
     min_split: 26
     batch_size: 543

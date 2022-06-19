@@ -230,7 +230,7 @@ prepare:
     passes: 85
     layers: 6
     epochs: 71
-    columns: 6
+    columns: 7
     random_state: 895866686
   requests:
     split: 0.23405

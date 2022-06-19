@@ -66,12 +66,12 @@ variables:
   drop: 0.33054
 prepare:
   weight_factor: 0.08766
-  passes: 32
+  passes: 28
   drop: 0.11029
   sample: 0.40483
   estimators: 213
   tags: 108
-  trees: 76
+  trees: 61
   learning_rate: 0.09624
   layers: 2
   num_est: 49
@@ -80,7 +80,7 @@ prepare:
   epochs: 12
   dense: 245
   ngrams: 7
-  batch_size: 584
+  batch_size: 509
   min_split: 17
   min_features: 2741
   features: 4808

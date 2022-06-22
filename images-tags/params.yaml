@@ -9,7 +9,7 @@ model:
   prod:
     columns: 30
     num_est: 164
-    dense: 92
+    dense: 76
     sample: 0.41022
     random_state: 312000000
     max_features: 1750
@@ -17,7 +17,7 @@ model:
     features: 2569
   rf:
     folds: 5
-    random_state: 222422383
+    random_state: 234892211
     ngrams: 4
     dense: 400
     weight_factor: 0.3
@@ -50,7 +50,7 @@ concurrent:
     passes: 34
     features: 2769
     columns: 65
-    sample: 0.25
+    sample: 0.19887
     random_state: 874437588
   diff:
     tags: 96
@@ -174,7 +174,7 @@ preprocessing:
   long:
     estimators: 98
     seed: 414560253
-    min_features: 1189
+    min_features: 1014
     layers: 2
 variables:
   other:

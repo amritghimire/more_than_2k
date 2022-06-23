@@ -214,7 +214,7 @@ featurize:
     columns: 44
     max_features: 2070
     drop: 0.11761
-    num_est: 140
+    num_est: 116
     batch_size: 455
     trees: 48
   preset:
@@ -234,7 +234,7 @@ featurize:
     features: 4027
     min_features: 3983
   long:
-    seed: 1023099608
+    seed: 834864233
     split: 0.45581
     threads: 5
     min_features: 3756
@@ -251,4 +251,4 @@ featurize:
     seed: 217627722
   other:
     drop: 0.18188
-    learning_rate: 0.02149
+    learning_rate: 0.02225

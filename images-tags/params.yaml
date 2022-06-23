@@ -110,7 +110,7 @@ prepare:
     estimators: 256
     seed: 390282689
     split: 0.32294
-    batch_size: 404
+    batch_size: 438
     threads: 19
     min_split: 49
   rf:

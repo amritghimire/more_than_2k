@@ -108,9 +108,9 @@ prepare:
     seed: 247587064
   prod:
     estimators: 256
-    seed: 390282689
+    seed: 359493865
     split: 0.32294
-    batch_size: 438
+    batch_size: 327
     threads: 19
     min_split: 49
   rf:
@@ -126,12 +126,12 @@ prepare:
   other:
     sample: 0.9257
     drop: 0.0992
-    columns: 8
+    columns: 7
     split: 0.59775
     batch_size: 539
     random_state: 289473786
   classifier:
-    weight_factor: 0.31016
+    weight_factor: 0.3658
     dense: 237
     tags: 146
   diff:

@@ -103,7 +103,7 @@ settings:
     folds: 2
 prepare:
   preset:
-    min_split: 41
+    min_split: 50
     trees: 46
     seed: 247587064
   prod:
@@ -129,9 +129,9 @@ prepare:
     columns: 8
     split: 0.59775
     batch_size: 539
-    random_state: 394720975
+    random_state: 289473786
   classifier:
-    weight_factor: 0.25883
+    weight_factor: 0.31016
     dense: 237
     tags: 146
   diff:

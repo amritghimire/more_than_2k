@@ -277,7 +277,7 @@ train:
     threads: 9
     weight_factor: 0.2741
     split: 0.2
-    columns: 66
+    columns: 74
     learning_rate: 0.08
   test:
     trees: 75

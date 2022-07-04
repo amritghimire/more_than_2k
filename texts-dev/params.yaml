@@ -185,7 +185,7 @@ tagging:
     batch_size: 624
     min_split: 80
     layers: 2
-    features: 3420
+    features: 2603
   combine:
     max_depth: 32
     split: 0.2
@@ -229,7 +229,7 @@ tagging:
     features: 4170
 variables:
   concurrent:
-    min_features: 2399
+    min_features: 2053
     split: 0.4
     threads: 18
     columns: 21
@@ -270,7 +270,7 @@ variables:
 train:
   preprocessing:
     drop: 0.1652
-    learning_rate: 0.10494
+    learning_rate: 0.1251
   model:
     random_state: 175000000
     features: 1060

@@ -61,13 +61,13 @@ model:
     max_depth: 35
 prepare:
   short:
-    epochs: 37
+    epochs: 43
     learning_rate: 0.13587
     features: 2939
     min_split: 68
   batch:
     layers: 4
-    epochs: 84
+    epochs: 87
     features: 284
     min_split: 32
   collection:
@@ -83,7 +83,7 @@ prepare:
     weight_factor: 0.16406
     drop: 0.36522
     epochs: 85
-    folds: 6
+    folds: 4
     max_features: 471
     columns: 31
   other:

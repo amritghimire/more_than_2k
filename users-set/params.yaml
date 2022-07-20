@@ -11,7 +11,7 @@ variables:
     seed: 808780000
     threads: 2
   rf:
-    trees: 3
+    trees: 2
     threads: 6
     min_features: 2738
     seed: 864241000
@@ -55,7 +55,7 @@ preprocessing:
     random_state: 113828301
   selection:
     learning_rate: 0.05
-    random_state: 183000000
+    random_state: 194027959
     drop: 0.12168
     epochs: 44
   other:
@@ -73,7 +73,7 @@ preprocessing:
     sample: 0.47593
     ngrams: 4
     trees: 66
-    passes: 44
+    passes: 39
     drop: 0.33493
     random_state: 395000000
   dev:
@@ -164,7 +164,7 @@ settings:
   batch:
     estimators: 97
     ngrams: 7
-    columns: 21
+    columns: 15
     dense: 500
   dev:
     max_depth: 27

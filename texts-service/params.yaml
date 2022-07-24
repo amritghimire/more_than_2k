@@ -178,7 +178,7 @@ prepare:
     features: 3620
     dense: 95
     sample: 0.38536
-    max_depth: 26
+    max_depth: 37
     epochs: 54
     weight_factor: 0.32846
   combine:

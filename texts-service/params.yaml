@@ -159,7 +159,7 @@ prepare:
     sample: 1.07757
     trees: 10
     features: 1826
-    columns: 67
+    columns: 75
   preset:
     max_depth: 7
     seed: 187003143
@@ -171,7 +171,7 @@ prepare:
   requests:
     passes: 48
     epochs: 12
-    weight_factor: 0.16307
+    weight_factor: 0.19756
     random_state: 479076373
   long:
     trees: 91

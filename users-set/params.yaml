@@ -221,9 +221,9 @@ model:
 prepare:
   batch:
     learning_rate: 0.14412
-    ngrams: 5
+    ngrams: 4
     min_split: 14
-    features: 1435
+    features: 1142
     split: 0.17261
   rf:
     num_est: 40
@@ -234,7 +234,7 @@ prepare:
     random_state: 895866686
   requests:
     split: 0.23405
-    folds: 14
+    folds: 12
     features: 2107
   dev:
     columns: 58

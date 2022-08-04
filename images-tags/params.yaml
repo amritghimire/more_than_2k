@@ -215,7 +215,7 @@ featurize:
     max_features: 2070
     drop: 0.11761
     num_est: 116
-    batch_size: 455
+    batch_size: 328
     trees: 48
   preset:
     max_features: 450
@@ -223,14 +223,14 @@ featurize:
     tags: 49
     weight_factor: 0.24196
     learning_rate: 0.04754
-    max_depth: 24
+    max_depth: 28
   prod:
     max_depth: 27
     layers: 7
     threads: 22
     split: 0.47107
     epochs: 32
-    min_split: 66
+    min_split: 74
     features: 4027
     min_features: 3983
   long:
@@ -243,12 +243,12 @@ featurize:
     folds: 2
     min_features: 3758
     threads: 36
-    epochs: 20
+    epochs: 16
   diff:
     folds: 6
     columns: 7
     num_est: 191
     seed: 217627722
   other:
-    drop: 0.18188
+    drop: 0.20586
     learning_rate: 0.02225

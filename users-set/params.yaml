@@ -223,7 +223,7 @@ prepare:
     learning_rate: 0.14412
     ngrams: 4
     min_split: 14
-    features: 1142
+    features: 1159
     split: 0.17261
   rf:
     num_est: 40
@@ -231,9 +231,9 @@ prepare:
     layers: 6
     epochs: 71
     columns: 7
-    random_state: 895866686
+    random_state: 764719185
   requests:
-    split: 0.23405
+    split: 0.23311
     folds: 12
     features: 2107
   dev:
@@ -253,7 +253,7 @@ prepare:
     features: 6016
   other:
     num_est: 225
-    features: 249
+    features: 283
     drop: 0.24581
     epochs: 72
     folds: 7

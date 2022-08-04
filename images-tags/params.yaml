@@ -239,7 +239,7 @@ featurize:
     threads: 5
     min_features: 3756
   classifier:
-    seed: 936808800
+    seed: 1188355519
     folds: 2
     min_features: 3758
     threads: 36

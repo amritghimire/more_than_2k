@@ -61,10 +61,10 @@ model:
     max_depth: 35
 prepare:
   short:
-    epochs: 43
+    epochs: 38
     learning_rate: 0.13587
-    features: 2939
-    min_split: 68
+    features: 3173
+    min_split: 59
   batch:
     layers: 4
     epochs: 87
@@ -80,7 +80,7 @@ prepare:
     features: 2707
     num_est: 118
   prod:
-    weight_factor: 0.16406
+    weight_factor: 0.18751
     drop: 0.36522
     epochs: 85
     folds: 7
@@ -88,7 +88,7 @@ prepare:
     columns: 31
   other:
     random_state: 658353191
-    min_features: 4383
+    min_features: 4414
     columns: 51
     batch_size: 648
     trees: 2

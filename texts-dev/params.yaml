@@ -66,7 +66,7 @@ validation:
     passes: 148
   preprocessing:
     split: 0.09131
-    columns: 81
+    columns: 70
     passes: 118
     weight_factor: 0.11293
     layers: 3

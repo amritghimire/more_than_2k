@@ -59,7 +59,7 @@ validation:
     features: 2917
     learning_rate: 0.15
   test:
-    tags: 49
+    tags: 47
     weight_factor: 0.2
     threads: 30
     dense: 328
@@ -192,7 +192,7 @@ tagging:
     columns: 23
   other:
     max_features: 4200
-    columns: 36
+    columns: 31
     epochs: 70
     threads: 13
     features: 644
@@ -209,11 +209,11 @@ tagging:
   dev:
     columns: 46
     features: 3175
-    max_depth: 32
+    max_depth: 33
     random_state: 454000000
     tags: 119
     epochs: 5
-    learning_rate: 0.01
+    learning_rate: 0.00841
     folds: 9
   concurrent:
     trees: 42

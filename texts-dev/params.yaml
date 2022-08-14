@@ -249,7 +249,7 @@ variables:
     max_features: 3427
     sample: 0.25
     threads: 0
-    features: 3414
+    features: 3367
   dev:
     max_features: 2895
     weight_factor: 0.23672

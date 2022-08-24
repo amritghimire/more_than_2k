@@ -162,7 +162,7 @@ prepare:
     columns: 75
   preset:
     max_depth: 7
-    seed: 187003143
+    seed: 177377923
     folds: 7
     estimators: 129
     dense: 497

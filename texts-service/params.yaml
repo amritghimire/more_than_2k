@@ -210,7 +210,7 @@ variables:
   test:
     threads: 7
     layers: 4
-    passes: 102
+    passes: 91
     sample: 0.5
     dense: 500
   diff:

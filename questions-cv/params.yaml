@@ -49,7 +49,7 @@ model:
   prod:
     num_est: 203
     epochs: 42
-    ngrams: 8
+    ngrams: 9
     split: 0.49509
   selection:
     layers: 1

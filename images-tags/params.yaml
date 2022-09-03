@@ -105,7 +105,7 @@ prepare:
   preset:
     min_split: 50
     trees: 46
-    seed: 247587064
+    seed: 208547648
   prod:
     estimators: 256
     seed: 359493865

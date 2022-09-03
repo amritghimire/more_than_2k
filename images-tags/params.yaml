@@ -192,7 +192,7 @@ variables:
   long:
     seed: 421955398
     num_est: 50
-    min_split: 32
+    min_split: 26
   classifier:
     random_state: 448420718
     ngrams: 6

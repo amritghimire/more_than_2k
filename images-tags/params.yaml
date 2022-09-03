@@ -212,7 +212,7 @@ featurize:
   rf:
     dense: 81
     columns: 44
-    max_features: 2070
+    max_features: 2966
     drop: 0.11761
     num_est: 116
     batch_size: 328

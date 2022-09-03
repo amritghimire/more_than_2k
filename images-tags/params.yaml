@@ -17,7 +17,7 @@ model:
     features: 2569
   rf:
     folds: 5
-    random_state: 234892211
+    random_state: 306160211
     ngrams: 4
     dense: 400
     weight_factor: 0.3

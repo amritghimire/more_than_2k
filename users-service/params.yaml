@@ -9,7 +9,7 @@ settings:
   ngrams: 4
   max_features: 257
   seed: 694646561
-  batch_size: 656
+  batch_size: 510
   dense: 425
   passes: 16
   columns: 21
@@ -60,7 +60,7 @@ variables:
   split: 0.375
   batch_size: 552
   features: 3900
-  max_features: 3448
+  max_features: 2913
   ngrams: 2
   layers: 2
   drop: 0.33054

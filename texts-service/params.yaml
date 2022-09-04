@@ -33,7 +33,7 @@ settings:
     learning_rate: 0.09548
     epochs: 10
   other:
-    learning_rate: 0.01
+    learning_rate: 0.01086
     seed: 430734343
     min_split: 64
     trees: 67
@@ -260,7 +260,7 @@ preprocessing:
     max_depth: 20
     min_split: 35
   other:
-    min_split: 56
+    min_split: 48
     epochs: 70
     features: 3540
     weight_factor: 0.2

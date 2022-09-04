@@ -52,14 +52,14 @@ variables:
   passes: 77
   random_state: 988485972
   sample: 0.30464
-  tags: 112
+  tags: 123
   min_split: 80
   num_est: 191
   folds: 3
   dense: 287
   split: 0.375
   batch_size: 552
-  features: 3900
+  features: 4189
   max_features: 2913
   ngrams: 2
   layers: 2
@@ -89,7 +89,7 @@ prepare:
 tagging:
   drop: 0.30093
   ngrams: 3
-  threads: 16
+  threads: 15
   num_est: 43
   batch_size: 931
   layers: 2

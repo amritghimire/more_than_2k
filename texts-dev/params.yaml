@@ -237,7 +237,7 @@ variables:
   combine:
     features: 2676
     batch_size: 464
-    sample: 0.86293
+    sample: 0.71571
     estimators: 81
   preprocessing:
     estimators: 186

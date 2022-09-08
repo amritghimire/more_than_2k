@@ -77,7 +77,7 @@ concurrent:
     num_est: 157
   preset:
     random_state: 248236268
-    folds: 9
+    folds: 8
     columns: 65
     tags: 111
     trees: 12
@@ -97,7 +97,7 @@ train:
     random_state: 403000000
     features: 4860
   combine:
-    passes: 104
+    passes: 122
     dense: 318
     columns: 3
     drop: 0.09973
@@ -182,7 +182,7 @@ model:
     random_state: 486616745
     layers: 2
   auto:
-    min_split: 80
+    min_split: 89
     batch_size: 624
     min_features: 2602
     layers: 6

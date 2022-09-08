@@ -54,7 +54,7 @@ variables:
 concurrent:
   classifier:
     dense: 213
-    split: 0.43126
+    split: 0.4333
     max_features: 2100
     seed: 200403971
     passes: 91
@@ -76,7 +76,7 @@ concurrent:
     min_split: 79
     num_est: 157
   preset:
-    random_state: 248236268
+    random_state: 245114065
     folds: 8
     columns: 65
     tags: 111
@@ -93,7 +93,7 @@ train:
     threads: 28
     batch_size: 671
     split: 0.07892
-    folds: 3
+    folds: 2
     random_state: 403000000
     features: 4860
   combine:

@@ -128,14 +128,14 @@ settings:
     estimators: 62
 prepare:
   concurrent:
-    threads: 4
+    threads: 7
     split: 0.08187
     max_depth: 9
     drop: 0.4089
     dense: 500
     weight_factor: 0.07933
   preprocessing:
-    min_features: 2451
+    min_features: 3526
     drop: 0.21187
     batch_size: 70
     weight_factor: 0.24117
@@ -170,7 +170,7 @@ prepare:
     dense: 79
   dev:
     ngrams: 3
-    batch_size: 644
+    batch_size: 610
     min_features: 1656
     epochs: 34
     split: 0.3313

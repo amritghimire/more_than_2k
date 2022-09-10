@@ -22,7 +22,7 @@ settings:
   test:
     random_state: 395764482
     learning_rate: 0.04
-    layers: 2
+    layers: 1
     drop: 0.18114
     max_features: 200
   combine:
@@ -57,7 +57,7 @@ concurrent:
     dense: 547
     ngrams: 3
     folds: 2
-    max_depth: 24
+    max_depth: 23
   test:
     ngrams: 8
     weight_factor: 0.24244
@@ -146,7 +146,7 @@ model:
     folds: 3
     seed: 761722981
     split: 0.48559
-    sample: 0.26041
+    sample: 0.21991
   requests:
     estimators: 105
     min_features: 1655
@@ -291,7 +291,7 @@ tagging:
     features: 4980
     layers: 6
     seed: 945811000
-    max_features: 4000
+    max_features: 3374
   requests:
     max_depth: 33
     num_est: 238

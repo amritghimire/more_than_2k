@@ -182,7 +182,7 @@ prepare:
     epochs: 55
     weight_factor: 0.32846
   combine:
-    dense: 247
+    dense: 173
     weight_factor: 0.07866
     folds: 5
     features: 10

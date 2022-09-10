@@ -320,7 +320,7 @@ tagging:
     folds: 9
     epochs: 24
     max_depth: 20
-    sample: 0.5
+    sample: 0.52399
     drop: 0.49594
     estimators: 243
     seed: 209733000

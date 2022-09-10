@@ -161,20 +161,20 @@ prepare:
     features: 1826
     columns: 89
   preset:
-    max_depth: 7
+    max_depth: 8
     seed: 177377923
     folds: 7
-    estimators: 129
+    estimators: 128
     dense: 497
     learning_rate: 0.03482
     min_features: 5468
   requests:
-    passes: 48
+    passes: 60
     epochs: 12
     weight_factor: 0.19756
     random_state: 479076373
   long:
-    trees: 91
+    trees: 83
     features: 3620
     dense: 95
     sample: 0.38536

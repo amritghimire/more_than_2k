@@ -42,7 +42,7 @@ tagging:
   dev:
     threads: 24
     features: 448
-    sample: 0.75694
+    sample: 0.68228
     columns: 19
     dense: 285
     min_split: 60

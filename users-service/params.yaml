@@ -17,7 +17,7 @@ settings:
   trees: 45
   min_split: 30
   split: 0.30196
-  drop: 0.17815
+  drop: 0.20075
   layers: 3
 concurrent:
   weight_factor: 0.10509
@@ -104,6 +104,6 @@ tagging:
   max_depth: 14
   min_features: 2064
   sample: 0.25
-  tags: 106
+  tags: 80
   epochs: 56
   features: 2363

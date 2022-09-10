@@ -96,7 +96,7 @@ featurize:
   long:
     ngrams: 8
     tags: 89
-    folds: 9
+    folds: 14
     seed: 261125133
     sample: 0.58874
     epochs: 63

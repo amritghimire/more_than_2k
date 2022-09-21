@@ -157,7 +157,7 @@ variables:
   short:
     min_features: 2750
     ngrams: 4
-    folds: 6
+    folds: 5
   batch:
     epochs: 11
     threads: 26

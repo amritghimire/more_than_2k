@@ -162,11 +162,11 @@ prepare:
     columns: 89
   preset:
     max_depth: 8
-    seed: 177377923
+    seed: 186717581
     folds: 7
     estimators: 128
     dense: 497
-    learning_rate: 0.03482
+    learning_rate: 0.04865
     min_features: 5468
   requests:
     passes: 60

@@ -270,7 +270,7 @@ featurize:
     threads: 33
     folds: 14
     num_est: 95
-    max_depth: 15
+    max_depth: 19
     batch_size: 853
     max_features: 4656
   dev:
@@ -297,7 +297,7 @@ featurize:
     passes: 17
     weight_factor: 0.22549
     max_features: 1246
-    tags: 146
+    tags: 139
     random_state: 498815508
     min_features: 2049
     learning_rate: 0.07917

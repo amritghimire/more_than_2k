@@ -156,7 +156,7 @@ prepare:
     num_est: 124
     max_depth: 12
   test:
-    weight_factor: 0.33479
+    weight_factor: 0.37347
     passes: 4
     min_split: 51
     threads: 13
@@ -171,7 +171,7 @@ prepare:
   dev:
     ngrams: 3
     batch_size: 610
-    min_features: 1656
+    min_features: 1763
     epochs: 34
     split: 0.3313
     columns: 52

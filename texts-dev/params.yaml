@@ -214,7 +214,7 @@ tagging:
     tags: 119
     epochs: 5
     learning_rate: 0.00841
-    folds: 9
+    folds: 8
   concurrent:
     trees: 42
     num_est: 125

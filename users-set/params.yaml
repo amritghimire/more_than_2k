@@ -97,7 +97,7 @@ validation:
     batch_size: 512
     tags: 61
     trees: 30
-    split: 0.07635
+    split: 0.07928
     passes: 86
     folds: 2
   requests:
@@ -168,7 +168,7 @@ settings:
     dense: 500
   dev:
     max_depth: 27
-    batch_size: 720
+    batch_size: 867
     seed: 821966000
 model:
   batch:

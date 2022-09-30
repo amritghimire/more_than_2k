@@ -282,7 +282,7 @@ featurize:
     seed: 589660002
   batch:
     batch_size: 685
-    threads: 23
+    threads: 19
     weight_factor: 0.17438
     max_features: 4080
   requests:

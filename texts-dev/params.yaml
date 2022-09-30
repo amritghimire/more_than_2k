@@ -129,7 +129,7 @@ settings:
 prepare:
   concurrent:
     threads: 7
-    split: 0.08187
+    split: 0.10837
     max_depth: 8
     drop: 0.4089
     dense: 500

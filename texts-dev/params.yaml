@@ -120,7 +120,7 @@ settings:
     split: 0.3
     estimators: 204
     min_split: 80
-    max_features: 5597
+    max_features: 5537
   combine:
     sample: 0.5
   model:

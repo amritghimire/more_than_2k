@@ -301,6 +301,6 @@ featurize:
     random_state: 498815508
     min_features: 2049
     learning_rate: 0.07917
-    layers: 2
+    layers: 1
   other:
     dense: 95

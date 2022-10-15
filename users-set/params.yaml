@@ -42,7 +42,7 @@ variables:
     sample: 0.25
   dev:
     batch_size: 1011
-    passes: 23
+    passes: 25
     tags: 35
     min_split: 32
     max_features: 3278
@@ -101,7 +101,7 @@ validation:
     passes: 86
     folds: 2
   requests:
-    ngrams: 5
+    ngrams: 4
     num_est: 271
     layers: 4
     weight_factor: 0.3
@@ -134,7 +134,7 @@ validation:
     threads: 18
 settings:
   rf:
-    tags: 70
+    tags: 62
     batch_size: 48
     trees: 13
     epochs: 70
@@ -192,14 +192,14 @@ model:
     dense: 400
     trees: 66
   rf:
-    num_est: 217
+    num_est: 194
     max_depth: 28
     sample: 0.75407
     learning_rate: 0.05
     folds: 10
     estimators: 145
     weight_factor: 0.3
-    features: 3574
+    features: 3479
   classifier:
     columns: 39
     sample: 0.66847

@@ -272,7 +272,7 @@ featurize:
     num_est: 98
     max_depth: 19
     batch_size: 1030
-    max_features: 4656
+    max_features: 3892
   dev:
     epochs: 54
     ngrams: 6
@@ -282,17 +282,17 @@ featurize:
     seed: 589660002
   batch:
     batch_size: 685
-    threads: 19
+    threads: 18
     weight_factor: 0.17438
     max_features: 4080
   requests:
-    sample: 0.21149
+    sample: 0.23721
     num_est: 177
     threads: 1
   selection:
     columns: 12
-    passes: 35
-    threads: 11
+    passes: 30
+    threads: 16
   rf:
     passes: 17
     weight_factor: 0.22549

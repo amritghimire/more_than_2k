@@ -62,7 +62,7 @@ concurrent:
     ngrams: 8
     weight_factor: 0.24244
     estimators: 197
-    dense: 500
+    dense: 400
     random_state: 828000000
     passes: 108
     min_split: 80

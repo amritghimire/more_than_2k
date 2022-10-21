@@ -124,7 +124,7 @@ prepare:
     layers: 5
     features: 3013
   other:
-    sample: 0.9257
+    sample: 0.59897
     drop: 0.0992
     columns: 7
     split: 0.59775
@@ -132,7 +132,7 @@ prepare:
     random_state: 289473786
   classifier:
     weight_factor: 0.3658
-    dense: 237
+    dense: 205
     tags: 146
   diff:
     learning_rate: 0.15447

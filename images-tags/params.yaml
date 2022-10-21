@@ -232,7 +232,7 @@ featurize:
     epochs: 32
     min_split: 74
     features: 4027
-    min_features: 3983
+    min_features: 5164
   long:
     seed: 834864233
     split: 0.45581

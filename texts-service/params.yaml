@@ -72,7 +72,7 @@ concurrent:
     num_est: 109
   requests:
     learning_rate: 0.11632
-    max_features: 1395
+    max_features: 1139
     features: 1590
     num_est: 232
     columns: 15
@@ -84,7 +84,7 @@ concurrent:
     max_depth: 8
     columns: 48
     seed: 483630000
-    sample: 0.5
+    sample: 0.47704
   preset:
     sample: 0.75
     features: 1758
@@ -250,7 +250,7 @@ preprocessing:
     threads: 31
   combine:
     sample: 0.25
-    learning_rate: 0.08176
+    learning_rate: 0.08653
     weight_factor: 0.3
     max_features: 500
     features: 4031
@@ -264,7 +264,7 @@ preprocessing:
     epochs: 70
     features: 3540
     weight_factor: 0.2
-    tags: 63
+    tags: 51
     columns: 19
     estimators: 212
   diff:

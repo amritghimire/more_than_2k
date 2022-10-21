@@ -210,24 +210,24 @@ variables:
     seed: 362728388
 featurize:
   rf:
-    dense: 81
+    dense: 83
     columns: 44
-    max_features: 2966
+    max_features: 3399
     drop: 0.11761
     num_est: 116
-    batch_size: 328
+    batch_size: 443
     trees: 48
   preset:
     max_features: 450
     split: 0.4246
     tags: 49
     weight_factor: 0.24196
-    learning_rate: 0.04754
+    learning_rate: 0.04386
     max_depth: 28
   prod:
     max_depth: 27
     layers: 7
-    threads: 22
+    threads: 17
     split: 0.47107
     epochs: 32
     min_split: 74

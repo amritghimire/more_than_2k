@@ -29,7 +29,7 @@ concurrent:
   random_state: 280136626
   threads: 3
   passes: 93
-  tags: 98
+  tags: 82
   features: 2344
   folds: 6
   dense: 215

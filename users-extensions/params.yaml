@@ -156,7 +156,7 @@ validation:
     min_split: 48
     weight_factor: 0.08184
     max_depth: 8
-    tags: 56
+    tags: 52
   settings:
     learning_rate: 0.1294
   batch:

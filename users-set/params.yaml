@@ -221,7 +221,7 @@ model:
 prepare:
   batch:
     learning_rate: 0.14412
-    ngrams: 4
+    ngrams: 7
     min_split: 14
     features: 1159
     split: 0.17261

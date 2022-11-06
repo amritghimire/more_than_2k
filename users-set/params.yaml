@@ -230,7 +230,7 @@ prepare:
     passes: 85
     layers: 6
     epochs: 71
-    columns: 7
+    columns: 6
     random_state: 764719185
   requests:
     split: 0.23311
@@ -244,13 +244,13 @@ prepare:
     epochs: 97
     trees: 12
     batch_size: 797
-    features: 2577
+    features: 2909
     max_features: 3825
     tags: 56
   classifier:
     columns: 58
     split: 0.18088
-    features: 3826
+    features: 4414
   other:
     num_est: 272
     features: 283
@@ -264,7 +264,7 @@ prepare:
     ngrams: 5
     seed: 148068949
     features: 1582
-    passes: 50
+    passes: 63
 featurize:
   classifier:
     threads: 33

@@ -254,7 +254,7 @@ prepare:
   other:
     num_est: 272
     features: 283
-    drop: 0.24581
+    drop: 0.21641
     epochs: 72
     folds: 7
     ngrams: 4

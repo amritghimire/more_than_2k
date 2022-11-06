@@ -156,7 +156,7 @@ model:
 prepare:
   test:
     num_est: 249
-    sample: 1.07757
+    sample: 0.81716
     trees: 10
     features: 1826
     columns: 89

@@ -170,7 +170,7 @@ prepare:
     min_features: 5468
   requests:
     passes: 60
-    epochs: 12
+    epochs: 15
     weight_factor: 0.19756
     random_state: 479076373
   long:
@@ -186,7 +186,7 @@ prepare:
     weight_factor: 0.07866
     folds: 5
     features: 10
-    split: 0.18979
+    split: 0.23203
     learning_rate: 0.03733
   other:
     random_state: 18382665

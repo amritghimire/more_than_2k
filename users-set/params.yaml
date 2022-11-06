@@ -78,7 +78,7 @@ preprocessing:
     random_state: 395000000
   dev:
     columns: 15
-    tags: 42
+    tags: 51
     random_state: 681000000
     dense: 100
     threads: 5

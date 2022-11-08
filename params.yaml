@@ -45,7 +45,7 @@ tagging:
     sample: 0.68228
     columns: 19
     dense: 285
-    min_split: 60
+    min_split: 90
   binary:
     weight_factor: 0.09189
     ngrams: 5
@@ -181,7 +181,7 @@ settings:
     batch_size: 31
     max_features: 1730
     features: 2674
-    passes: 6
+    passes: 5
     split: 0.29189
     ngrams: 2
 validation:

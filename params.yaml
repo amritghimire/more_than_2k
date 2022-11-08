@@ -41,7 +41,7 @@ tagging:
     random_state: 368429446
   dev:
     threads: 24
-    features: 448
+    features: 560
     sample: 0.68228
     columns: 19
     dense: 285
@@ -71,7 +71,7 @@ train:
     batch_size: 373
     learning_rate: 0.10867
   rf:
-    passes: 14
+    passes: 15
     num_est: 185
   binary:
     learning_rate: 0.15774

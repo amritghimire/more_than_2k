@@ -129,17 +129,17 @@ settings:
 prepare:
   concurrent:
     threads: 7
-    split: 0.10837
+    split: 0.11867
     max_depth: 8
     drop: 0.4089
-    dense: 500
+    dense: 397
     weight_factor: 0.09842
   preprocessing:
     min_features: 3526
     drop: 0.21187
     batch_size: 70
     weight_factor: 0.16161
-    split: 0.4836
+    split: 0.54806
     seed: 712797519
     max_depth: 4
   model:
@@ -149,7 +149,7 @@ prepare:
     features: 5959
     min_split: 51
   combine:
-    weight_factor: 0.12319
+    weight_factor: 0.0871
     passes: 100
     ngrams: 4
     layers: 3

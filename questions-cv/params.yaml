@@ -93,7 +93,7 @@ prepare:
     batch_size: 648
     trees: 2
   selection:
-    weight_factor: 0.34606
+    weight_factor: 0.3709
 validation:
   prod:
     layers: 1

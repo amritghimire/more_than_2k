@@ -179,11 +179,11 @@ featurize:
     max_features: 4089
     tags: 91
   short:
-    min_features: 987
+    min_features: 679
     layers: 6
-    max_depth: 18
+    max_depth: 19
     num_est: 84
-    estimators: 103
+    estimators: 135
     dense: 189
     epochs: 30
     columns: 25
@@ -202,7 +202,7 @@ featurize:
     max_features: 4608
     ngrams: 1
   combine:
-    batch_size: 356
+    batch_size: 508
     sample: 0.39509
     max_depth: 12
     max_features: 434

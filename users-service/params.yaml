@@ -65,26 +65,26 @@ variables:
   layers: 2
   drop: 0.33054
 prepare:
-  weight_factor: 0.08766
+  weight_factor: 0.10186
   passes: 28
   drop: 0.10431
   sample: 0.40483
   estimators: 213
-  tags: 108
+  tags: 124
   trees: 89
   learning_rate: 0.14557
   layers: 2
-  num_est: 44
+  num_est: 41
   random_state: 719176552
   columns: 54
   epochs: 12
   dense: 150
   ngrams: 5
   batch_size: 440
-  min_split: 17
+  min_split: 15
   min_features: 2750
   features: 3824
-  max_depth: 14
+  max_depth: 11
   folds: 7
 tagging:
   drop: 0.30093

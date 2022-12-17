@@ -64,14 +64,14 @@ prepare:
     epochs: 38
     learning_rate: 0.13587
     features: 3173
-    min_split: 66
+    min_split: 49
   batch:
     layers: 4
     epochs: 87
     features: 284
     min_split: 32
   collection:
-    passes: 87
+    passes: 86
     seed: 651125197
     drop: 0.40884
     max_features: 1006
@@ -81,7 +81,7 @@ prepare:
     num_est: 118
   prod:
     weight_factor: 0.19783
-    drop: 0.36522
+    drop: 0.30617
     epochs: 85
     folds: 7
     max_features: 471

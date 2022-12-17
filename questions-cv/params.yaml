@@ -90,7 +90,7 @@ prepare:
     random_state: 658353191
     min_features: 4414
     columns: 51
-    batch_size: 648
+    batch_size: 660
     trees: 2
   selection:
     weight_factor: 0.3709

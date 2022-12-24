@@ -47,7 +47,7 @@ settings:
     min_split: 85
     num_est: 262
     drop: 0.21694
-    epochs: 58
+    epochs: 53
     passes: 59
     folds: 2
   short:

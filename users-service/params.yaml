@@ -27,13 +27,13 @@ concurrent:
   num_est: 25
   drop: 0.3
   random_state: 280136626
-  threads: 3
+  threads: 2
   passes: 93
   tags: 82
   features: 2344
   folds: 6
   dense: 215
-  trees: 64
+  trees: 52
   columns: 42
   epochs: 45
   learning_rate: 0.04
@@ -49,7 +49,7 @@ variables:
   estimators: 36
   max_depth: 9
   seed: 698881232
-  passes: 77
+  passes: 55
   random_state: 988485972
   sample: 0.30464
   tags: 123
@@ -97,7 +97,7 @@ tagging:
   folds: 6
   weight_factor: 0.09603
   columns: 58
-  trees: 93
+  trees: 97
   learning_rate: 0.15693
   seed: 952765000
   dense: 434

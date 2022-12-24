@@ -37,7 +37,7 @@ tagging:
   rf:
     max_depth: 6
     epochs: 10
-    threads: 16
+    threads: 13
     random_state: 368429446
   dev:
     threads: 24
@@ -59,7 +59,7 @@ tagging:
     layers: 2
     min_features: 3064
   short:
-    dense: 219
+    dense: 248
     threads: 3
   batch:
     sample: 0.58803
@@ -169,7 +169,7 @@ settings:
   rf:
     learning_rate: 0.05494
     num_est: 119
-    min_features: 1378
+    min_features: 1166
     seed: 688056171
   batch:
     learning_rate: 0.08786

@@ -159,7 +159,7 @@ concurrent:
     drop: 0.41212
     split: 0.112
     weight_factor: 0.32452
-    min_features: 600
+    min_features: 649
     min_split: 26
   short:
     sample: 0.49053

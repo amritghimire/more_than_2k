@@ -40,7 +40,7 @@ concurrent:
   max_features: 5073
   min_features: 800
   seed: 825243000
-  batch_size: 132
+  batch_size: 126
   estimators: 180
 variables:
   min_features: 1537
@@ -91,7 +91,7 @@ tagging:
   ngrams: 3
   threads: 15
   num_est: 43
-  batch_size: 931
+  batch_size: 997
   layers: 2
   estimators: 35
   folds: 6
@@ -102,7 +102,7 @@ tagging:
   seed: 952765000
   dense: 434
   max_depth: 14
-  min_features: 2064
+  min_features: 1793
   sample: 0.25
   tags: 80
   epochs: 56

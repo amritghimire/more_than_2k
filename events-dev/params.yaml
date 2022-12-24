@@ -9,7 +9,7 @@ model:
     layers: 6
   combine:
     tags: 42
-    min_features: 3839
+    min_features: 5172
     threads: 15
     estimators: 70
     drop: 0.4
@@ -69,7 +69,7 @@ settings:
     max_depth: 32
     max_features: 2486
     tags: 114
-    random_state: 111524624
+    random_state: 96763268
     trees: 69
     estimators: 30
     passes: 41

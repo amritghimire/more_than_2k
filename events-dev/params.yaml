@@ -174,7 +174,7 @@ featurize:
   other:
     layers: 7
     passes: 33
-    weight_factor: 0.21957
+    weight_factor: 0.17748
     drop: 0.15132
     max_features: 4089
     tags: 91
@@ -190,7 +190,7 @@ featurize:
   diff:
     estimators: 34
     layers: 4
-    max_depth: 13
+    max_depth: 16
     max_features: 2584
   long:
     tags: 70
@@ -203,7 +203,7 @@ featurize:
     ngrams: 1
   combine:
     batch_size: 508
-    sample: 0.39509
+    sample: 0.58215
     max_depth: 11
     max_features: 434
 train:

@@ -176,7 +176,7 @@ featurize:
     passes: 33
     weight_factor: 0.17748
     drop: 0.15132
-    max_features: 4089
+    max_features: 4026
     tags: 91
   short:
     min_features: 679
@@ -193,7 +193,7 @@ featurize:
     max_depth: 16
     max_features: 2584
   long:
-    tags: 70
+    tags: 47
     min_features: 2875
     learning_rate: 0.09438
     folds: 7

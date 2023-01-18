@@ -169,7 +169,7 @@ prepare:
     columns: 82
     dense: 79
   dev:
-    ngrams: 3
+    ngrams: 4
     batch_size: 750
     min_features: 1763
     epochs: 34

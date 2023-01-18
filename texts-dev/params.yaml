@@ -1,8 +1,8 @@
 featurize:
   preprocessing:
     estimators: 49
-    epochs: 69
-    trees: 46
+    epochs: 70
+    trees: 40
     columns: 86
     min_features: 2778
     max_features: 3448
@@ -37,7 +37,7 @@ featurize:
     num_est: 245
     sample: 0.25729
   concurrent:
-    seed: 23921690
+    seed: 32046643
     num_est: 190
     max_features: 3894
 validation:

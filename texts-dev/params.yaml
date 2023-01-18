@@ -143,7 +143,7 @@ prepare:
     seed: 712797519
     max_depth: 4
   model:
-    estimators: 163
+    estimators: 127
     num_est: 182
     split: 0.42833
     features: 5959

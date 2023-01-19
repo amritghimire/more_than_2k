@@ -67,9 +67,9 @@ variables:
 prepare:
   weight_factor: 0.10186
   passes: 28
-  drop: 0.10431
+  drop: 0.11137
   sample: 0.40483
-  estimators: 213
+  estimators: 210
   tags: 124
   trees: 89
   learning_rate: 0.14557

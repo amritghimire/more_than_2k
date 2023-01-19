@@ -71,7 +71,7 @@ prepare:
   sample: 0.40483
   estimators: 210
   tags: 124
-  trees: 89
+  trees: 63
   learning_rate: 0.14557
   layers: 2
   num_est: 41
@@ -79,7 +79,7 @@ prepare:
   columns: 54
   epochs: 12
   dense: 150
-  ngrams: 5
+  ngrams: 4
   batch_size: 440
   min_split: 15
   min_features: 2750

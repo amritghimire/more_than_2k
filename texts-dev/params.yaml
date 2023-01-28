@@ -125,7 +125,7 @@ settings:
     sample: 0.5
   model:
     dense: 236
-    estimators: 62
+    estimators: 66
 prepare:
   concurrent:
     threads: 7
@@ -181,7 +181,7 @@ tagging:
     weight_factor: 0.24002
     seed: 358917623
     split: 0.5
-    min_features: 1300
+    min_features: 1012
     batch_size: 624
     min_split: 80
     layers: 2

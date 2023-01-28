@@ -137,7 +137,7 @@ prepare:
   preprocessing:
     min_features: 3526
     drop: 0.21187
-    batch_size: 70
+    batch_size: 91
     weight_factor: 0.16161
     split: 0.54806
     seed: 621499951
@@ -159,11 +159,11 @@ prepare:
     weight_factor: 0.37347
     passes: 4
     min_split: 51
-    threads: 13
+    threads: 12
   other:
     max_depth: 17
     split: 0.3706
-    max_features: 4900
+    max_features: 5319
     ngrams: 5
     num_est: 222
     columns: 82

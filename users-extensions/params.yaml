@@ -161,7 +161,7 @@ validation:
     learning_rate: 0.1294
   batch:
     epochs: 40
-    min_features: 2450
+    min_features: 2037
     estimators: 28
     batch_size: 672
     split: 0.2
@@ -199,7 +199,7 @@ tagging:
     random_state: 807824389
     max_depth: 16
   preset:
-    seed: 888302000
+    seed: 852833227
     num_est: 75
     ngrams: 6
   dev:

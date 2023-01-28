@@ -140,7 +140,7 @@ prepare:
     batch_size: 70
     weight_factor: 0.16161
     split: 0.54806
-    seed: 712797519
+    seed: 621499951
     max_depth: 4
   model:
     estimators: 127
@@ -149,12 +149,12 @@ prepare:
     features: 5959
     min_split: 51
   combine:
-    weight_factor: 0.0871
+    weight_factor: 0.08508
     passes: 100
     ngrams: 4
     layers: 3
     num_est: 124
-    max_depth: 17
+    max_depth: 16
   test:
     weight_factor: 0.37347
     passes: 4

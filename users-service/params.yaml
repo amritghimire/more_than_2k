@@ -12,7 +12,7 @@ settings:
   batch_size: 510
   dense: 425
   passes: 16
-  columns: 21
+  columns: 16
   random_state: 869548485
   trees: 45
   min_split: 30
@@ -31,7 +31,7 @@ concurrent:
   passes: 93
   tags: 82
   features: 2344
-  folds: 6
+  folds: 4
   dense: 215
   trees: 52
   columns: 42
@@ -52,7 +52,7 @@ variables:
   passes: 55
   random_state: 988485972
   sample: 0.30464
-  tags: 123
+  tags: 90
   min_split: 80
   num_est: 191
   folds: 3

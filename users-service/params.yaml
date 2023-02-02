@@ -75,12 +75,12 @@ prepare:
   learning_rate: 0.14557
   layers: 2
   num_est: 41
-  random_state: 719176552
+  random_state: 835215566
   columns: 54
   epochs: 12
   dense: 150
   ngrams: 4
-  batch_size: 440
+  batch_size: 607
   min_split: 15
   min_features: 2750
   features: 3824

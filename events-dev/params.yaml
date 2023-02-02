@@ -101,7 +101,7 @@ prepare:
   combine:
     passes: 45
     min_features: 2301
-    sample: 0.21669
+    sample: 0.27133
     trees: 13
     num_est: 243
     tags: 124
@@ -124,7 +124,7 @@ prepare:
     split: 0.18163
     dense: 538
     random_state: 369490568
-    learning_rate: 0.07132
+    learning_rate: 0.05398
     layers: 5
 concurrent:
   long:

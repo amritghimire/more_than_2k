@@ -68,11 +68,11 @@ prepare:
   weight_factor: 0.10186
   passes: 28
   drop: 0.11137
-  sample: 0.40483
+  sample: 0.50839
   estimators: 190
   tags: 124
   trees: 63
-  learning_rate: 0.09471
+  learning_rate: 0.14299
   layers: 1
   num_est: 41
   random_state: 835215566
@@ -80,7 +80,7 @@ prepare:
   epochs: 12
   dense: 150
   ngrams: 4
-  batch_size: 607
+  batch_size: 608
   min_split: 15
   min_features: 2750
   features: 3824

@@ -135,7 +135,7 @@ prepare:
     dense: 397
     weight_factor: 0.09842
   preprocessing:
-    min_features: 3526
+    min_features: 3509
     drop: 0.21187
     batch_size: 91
     weight_factor: 0.16161

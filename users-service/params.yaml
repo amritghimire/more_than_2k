@@ -72,8 +72,8 @@ prepare:
   estimators: 210
   tags: 124
   trees: 63
-  learning_rate: 0.14557
-  layers: 2
+  learning_rate: 0.09471
+  layers: 1
   num_est: 41
   random_state: 835215566
   columns: 54

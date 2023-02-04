@@ -60,14 +60,14 @@ validation:
     learning_rate: 0.15
   test:
     tags: 47
-    weight_factor: 0.2
+    weight_factor: 0.22304
     threads: 30
     dense: 328
     passes: 148
   preprocessing:
     split: 0.09131
     columns: 70
-    passes: 124
+    passes: 119
     weight_factor: 0.11293
     layers: 3
     trees: 56
@@ -201,7 +201,7 @@ tagging:
   test:
     trees: 75
     max_depth: 16
-    min_split: 80
+    min_split: 97
     drop: 0.1
     folds: 6
     split: 0.2
@@ -223,7 +223,7 @@ tagging:
     dense: 300
     threads: 18
   preprocessing:
-    ngrams: 2
+    ngrams: 1
     dense: 100
     sample: 0.75
     features: 4170

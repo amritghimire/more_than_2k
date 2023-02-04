@@ -61,7 +61,7 @@ model:
     tags: 8
     estimators: 41
     seed: 815427000
-    dense: 167
+    dense: 216
   test:
     layers: 3
     estimators: 128
@@ -123,7 +123,7 @@ train:
     min_features: 4250
     max_features: 1400
   batch:
-    epochs: 14
+    epochs: 18
     features: 2950
     columns: 58
     dense: 300

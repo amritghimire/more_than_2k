@@ -31,7 +31,7 @@ variables:
     trees: 51
   auto:
     split: 0.5
-    max_features: 1100
+    max_features: 1361
     estimators: 214
     dense: 411
   requests:

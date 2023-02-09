@@ -190,7 +190,7 @@ model:
 featurize:
   combine:
     dense: 505
-    num_est: 60
+    num_est: 58
   prod:
     seed: 413662188
     trees: 6
@@ -204,7 +204,7 @@ featurize:
     columns: 56
     trees: 35
     folds: 12
-    threads: 17
+    threads: 15
   preset:
     folds: 2
     min_features: 2869

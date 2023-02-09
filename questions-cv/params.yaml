@@ -68,7 +68,7 @@ prepare:
   batch:
     layers: 4
     epochs: 87
-    features: 284
+    features: 256
     min_split: 32
   collection:
     passes: 86
@@ -87,7 +87,7 @@ prepare:
     max_features: 471
     columns: 31
   other:
-    random_state: 658353191
+    random_state: 710544891
     min_features: 4414
     columns: 51
     batch_size: 660

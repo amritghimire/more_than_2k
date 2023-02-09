@@ -192,7 +192,7 @@ featurize:
     dense: 505
     num_est: 60
   prod:
-    seed: 274135708
+    seed: 413662188
     trees: 6
     dense: 230
     random_state: 1076256422
@@ -200,7 +200,7 @@ featurize:
     split: 0.16532
     threads: 8
   classifier:
-    num_est: 22
+    num_est: 30
     columns: 56
     trees: 35
     folds: 12
@@ -212,10 +212,10 @@ featurize:
   requests:
     weight_factor: 0.08907
     split: 0.41097
-    passes: 40
+    passes: 32
     layers: 4
   auto:
-    drop: 0.21082
+    drop: 0.2483
     min_features: 3500
     trees: 15
     passes: 65

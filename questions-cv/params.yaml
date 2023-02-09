@@ -24,7 +24,7 @@ concurrent:
     max_depth: 16
     threads: 5
     min_split: 19
-    weight_factor: 0.33241
+    weight_factor: 0.24816
   other:
     num_est: 150
     dense: 93

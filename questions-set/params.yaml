@@ -48,16 +48,16 @@ variables:
     trees: 35
   classifier:
     max_features: 1784
-    seed: 206111965
+    seed: 261563467
   batch:
-    tags: 128
+    tags: 129
 concurrent:
   classifier:
     dense: 213
     split: 0.4333
     max_features: 2100
     seed: 200403971
-    passes: 91
+    passes: 99
   prod:
     columns: 32
   batch:
@@ -164,7 +164,7 @@ model:
   combine:
     threads: 10
     sample: 0.30643
-    max_depth: 21
+    max_depth: 18
     passes: 25
   classifier:
     tags: 88

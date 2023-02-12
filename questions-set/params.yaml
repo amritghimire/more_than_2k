@@ -212,11 +212,11 @@ featurize:
   requests:
     weight_factor: 0.12492
     split: 0.41097
-    passes: 32
+    passes: 40
     layers: 4
   auto:
     drop: 0.2483
-    min_features: 3500
+    min_features: 3093
     trees: 15
     passes: 65
     dense: 209

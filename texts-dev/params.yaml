@@ -100,7 +100,7 @@ settings:
     estimators: 183
     tags: 35
   test:
-    random_state: 576000000
+    random_state: 626391261
     columns: 42
     num_est: 125
     ngrams: 2
@@ -204,7 +204,7 @@ tagging:
     min_split: 97
     drop: 0.1
     folds: 6
-    split: 0.2
+    split: 0.17277
     max_features: 4932
   dev:
     columns: 46
@@ -217,9 +217,9 @@ tagging:
     folds: 8
   concurrent:
     trees: 42
-    num_est: 125
+    num_est: 129
     passes: 40
-    max_depth: 9
+    max_depth: 8
     dense: 300
     threads: 18
   preprocessing:
@@ -236,7 +236,7 @@ variables:
     folds: 3
   combine:
     features: 2676
-    batch_size: 464
+    batch_size: 353
     sample: 0.71571
     estimators: 81
   preprocessing:

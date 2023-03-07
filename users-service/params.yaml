@@ -10,7 +10,7 @@ settings:
   max_features: 257
   seed: 694646561
   batch_size: 510
-  dense: 425
+  dense: 313
   passes: 16
   columns: 16
   random_state: 869548485

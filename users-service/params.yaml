@@ -53,7 +53,7 @@ variables:
   random_state: 988485972
   sample: 0.30464
   tags: 90
-  min_split: 80
+  min_split: 66
   num_est: 191
   folds: 3
   dense: 287

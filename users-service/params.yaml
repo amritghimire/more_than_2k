@@ -91,8 +91,8 @@ tagging:
   ngrams: 3
   threads: 15
   num_est: 43
-  batch_size: 997
-  layers: 2
+  batch_size: 837
+  layers: 1
   estimators: 35
   folds: 6
   weight_factor: 0.09603
@@ -101,7 +101,7 @@ tagging:
   learning_rate: 0.15693
   seed: 952765000
   dense: 434
-  max_depth: 14
+  max_depth: 12
   min_features: 1793
   sample: 0.25
   tags: 80

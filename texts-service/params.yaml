@@ -162,7 +162,7 @@ prepare:
     columns: 89
   preset:
     max_depth: 8
-    seed: 186717581
+    seed: 180311888
     folds: 7
     estimators: 128
     dense: 497
@@ -178,19 +178,19 @@ prepare:
     features: 3620
     dense: 95
     sample: 0.45691
-    max_depth: 24
-    epochs: 55
+    max_depth: 31
+    epochs: 36
     weight_factor: 0.32846
   combine:
     dense: 173
     weight_factor: 0.12318
     folds: 5
-    features: 10
+    features: 8
     split: 0.23203
     learning_rate: 0.03733
   other:
     random_state: 18382665
-    trees: 36
+    trees: 49
     split: 0.08309
   diff:
     epochs: 21

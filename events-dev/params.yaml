@@ -173,7 +173,7 @@ concurrent:
 featurize:
   other:
     layers: 7
-    passes: 33
+    passes: 35
     weight_factor: 0.17748
     drop: 0.15132
     max_features: 4026
@@ -185,11 +185,11 @@ featurize:
     num_est: 84
     estimators: 135
     dense: 189
-    epochs: 30
+    epochs: 41
     columns: 25
   diff:
     estimators: 34
-    layers: 4
+    layers: 3
     max_depth: 16
     max_features: 2584
   long:
@@ -199,7 +199,7 @@ featurize:
     folds: 7
     random_state: 92100981
   auto:
-    max_features: 4608
+    max_features: 4360
     ngrams: 1
   combine:
     batch_size: 508

@@ -20,10 +20,10 @@ featurize:
   combine:
     weight_factor: 0.07787
     features: 2659
-    min_split: 62
+    min_split: 84
     trees: 40
     estimators: 181
-    columns: 50
+    columns: 38
     tags: 11
     threads: 17
   other:
@@ -34,12 +34,12 @@ featurize:
     batch_size: 511
     drop: 0.22254
   dev:
-    num_est: 245
+    num_est: 198
     sample: 0.25729
   concurrent:
     seed: 32046643
     num_est: 190
-    max_features: 3894
+    max_features: 3385
 validation:
   concurrent:
     layers: 2

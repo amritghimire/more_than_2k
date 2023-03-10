@@ -198,7 +198,7 @@ featurize:
     random_state: 1076256422
     max_depth: 36
     split: 0.16532
-    threads: 8
+    threads: 12
   classifier:
     num_est: 30
     columns: 56
@@ -210,14 +210,14 @@ featurize:
     min_features: 2869
     layers: 4
   requests:
-    weight_factor: 0.12492
+    weight_factor: 0.12254
     split: 0.41097
     passes: 40
     layers: 3
   auto:
     drop: 0.2483
     min_features: 3093
-    trees: 15
+    trees: 11
     passes: 65
     dense: 209
   batch:

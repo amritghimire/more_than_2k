@@ -157,7 +157,7 @@ settings:
     columns: 27
 model:
   preset:
-    learning_rate: 0.10953
+    learning_rate: 0.11552
     ngrams: 4
     sample: 0.75
     epochs: 65

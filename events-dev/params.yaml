@@ -174,7 +174,7 @@ featurize:
   other:
     layers: 7
     passes: 35
-    weight_factor: 0.17748
+    weight_factor: 0.22179
     drop: 0.15132
     max_features: 4026
     tags: 91

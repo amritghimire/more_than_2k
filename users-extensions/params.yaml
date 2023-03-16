@@ -24,7 +24,7 @@ concurrent:
     max_depth: 14
     split: 0.4
     tags: 119
-    columns: 34
+    columns: 51
     num_est: 75
     dense: 200
   batch:
@@ -133,7 +133,7 @@ train:
     threads: 22
     random_state: 919000000
     dense: 300
-    num_est: 120
+    num_est: 92
   test:
     layers: 4
     features: 960
@@ -167,7 +167,7 @@ validation:
     split: 0.2
     learning_rate: 0.02
   test:
-    epochs: 14
+    epochs: 12
     layers: 4
     max_depth: 3
   dev:

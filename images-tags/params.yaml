@@ -144,7 +144,7 @@ preprocessing:
     dense: 355
     max_features: 3450
     split: 0.3
-    trees: 57
+    trees: 69
     max_depth: 12
     folds: 11
     batch_size: 157
@@ -173,7 +173,7 @@ preprocessing:
     estimators: 133
   long:
     estimators: 98
-    seed: 414560253
+    seed: 617576370
     min_features: 1014
     layers: 2
 variables:

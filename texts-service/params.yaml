@@ -7,7 +7,7 @@ settings:
     drop: 0.20202
     features: 1740
     random_state: 336617488
-    tags: 84
+    tags: 83
     dense: 263
     weight_factor: 0.1
   requests:
@@ -139,7 +139,7 @@ model:
     passes: 104
     learning_rate: 0.07
   test:
-    min_split: 79
+    min_split: 81
     min_features: 3675
     threads: 0
     max_features: 1568
@@ -212,7 +212,7 @@ variables:
     layers: 4
     passes: 91
     sample: 0.5
-    dense: 500
+    dense: 614
   diff:
     split: 0.5
     min_split: 17
@@ -287,7 +287,7 @@ preprocessing:
     features: 1222
 tagging:
   other:
-    batch_size: 1005
+    batch_size: 874
     features: 4980
     layers: 6
     seed: 945811000

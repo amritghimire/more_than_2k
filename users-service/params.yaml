@@ -65,12 +65,12 @@ variables:
   layers: 2
   drop: 0.33054
 prepare:
-  weight_factor: 0.10186
-  passes: 27
-  drop: 0.11137
+  weight_factor: 0.12203
+  passes: 26
+  drop: 0.10874
   sample: 0.57242
   estimators: 237
-  tags: 124
+  tags: 128
   trees: 80
   learning_rate: 0.14299
   layers: 1

@@ -2,11 +2,11 @@ settings:
   max_depth: 3
   epochs: 55
   tags: 6
-  min_features: 1450
+  min_features: 1667
   threads: 19
   estimators: 200
   num_est: 59
-  ngrams: 4
+  ngrams: 3
   max_features: 257
   seed: 694646561
   batch_size: 510

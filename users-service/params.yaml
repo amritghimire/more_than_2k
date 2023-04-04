@@ -1,5 +1,5 @@
 settings:
-  max_depth: 4
+  max_depth: 3
   epochs: 55
   tags: 6
   min_features: 1450
@@ -90,7 +90,7 @@ tagging:
   drop: 0.30093
   ngrams: 3
   threads: 15
-  num_est: 43
+  num_est: 54
   batch_size: 837
   layers: 1
   estimators: 35
@@ -98,7 +98,7 @@ tagging:
   weight_factor: 0.09603
   columns: 58
   trees: 97
-  learning_rate: 0.15693
+  learning_rate: 0.11427
   seed: 952765000
   dense: 434
   max_depth: 12

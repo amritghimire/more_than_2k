@@ -34,7 +34,7 @@ concurrent:
   folds: 4
   dense: 215
   trees: 52
-  columns: 42
+  columns: 46
   epochs: 45
   learning_rate: 0.03524
   max_features: 5073

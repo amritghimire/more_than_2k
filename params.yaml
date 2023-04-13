@@ -179,7 +179,7 @@ settings:
   binary:
     min_split: 60
     batch_size: 31
-    max_features: 1730
+    max_features: 2290
     features: 2674
     passes: 5
     split: 0.29189

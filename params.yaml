@@ -7,7 +7,7 @@ model:
     trees: 32
   batch:
     layers: 5
-    min_split: 49
+    min_split: 44
     split: 0.16698
     max_depth: 13
   short:
@@ -207,7 +207,7 @@ validation:
     folds: 2
   rf:
     threads: 7
-    passes: 116
+    passes: 90
     max_features: 3055
     max_depth: 31
   dev:
@@ -219,6 +219,6 @@ validation:
     num_est: 181
     learning_rate: 0.1485
   preset:
-    learning_rate: 0.12913
+    learning_rate: 0.0983
     ngrams: 8
     weight_factor: 0.29647

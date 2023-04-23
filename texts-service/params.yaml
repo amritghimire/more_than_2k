@@ -107,7 +107,7 @@ model:
     features: 411
     split: 0.09422
     layers: 1
-    drop: 0.4
+    drop: 0.3881
   preset:
     columns: 22
     folds: 9

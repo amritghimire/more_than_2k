@@ -90,11 +90,11 @@ featurize:
     features: 3289
     passes: 7
     drop: 0.21674
-    estimators: 224
+    estimators: 232
     ngrams: 5
     tags: 56
   long:
-    ngrams: 6
+    ngrams: 9
     tags: 110
     folds: 14
     seed: 261125133
@@ -103,13 +103,13 @@ featurize:
     max_features: 2398
   preset:
     estimators: 202
-    max_features: 2529
+    max_features: 2923
     passes: 81
   dev:
     min_split: 76
     trees: 28
     sample: 0.19655
-    seed: 512018207
+    seed: 594841534
     min_features: 4380
     batch_size: 53
   rf:

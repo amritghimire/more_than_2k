@@ -174,8 +174,8 @@ featurize:
   other:
     layers: 7
     passes: 35
-    weight_factor: 0.18878
-    drop: 0.19908
+    weight_factor: 0.17481
+    drop: 0.18467
     max_features: 4026
     tags: 91
   short:
@@ -185,7 +185,7 @@ featurize:
     num_est: 87
     estimators: 135
     dense: 189
-    epochs: 44
+    epochs: 37
     columns: 25
   diff:
     estimators: 51
@@ -194,9 +194,9 @@ featurize:
     max_features: 2584
   long:
     tags: 47
-    min_features: 2875
+    min_features: 2043
     learning_rate: 0.09438
-    folds: 7
+    folds: 10
     random_state: 92100981
   auto:
     max_features: 4360

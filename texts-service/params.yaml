@@ -74,7 +74,7 @@ concurrent:
     learning_rate: 0.11632
     max_features: 1139
     features: 1590
-    num_est: 232
+    num_est: 170
     columns: 15
     split: 0.5
     estimators: 96
@@ -327,6 +327,6 @@ tagging:
   combine:
     min_split: 16
     estimators: 147
-    batch_size: 73
+    batch_size: 67
     passes: 114
     folds: 2

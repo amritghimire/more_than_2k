@@ -16,7 +16,7 @@ variables:
     min_features: 2738
     seed: 864241000
   batch:
-    threads: 2
+    threads: 1
     split: 0.19965
     weight_factor: 0.3
     batch_size: 569
@@ -46,7 +46,7 @@ variables:
     tags: 35
     min_split: 32
     max_features: 3278
-    epochs: 30
+    epochs: 36
 preprocessing:
   batch:
     weight_factor: 0.3
@@ -65,7 +65,7 @@ preprocessing:
     passes: 40
     ngrams: 4
     max_depth: 12
-    max_features: 150
+    max_features: 116
   rf:
     threads: 5
     num_est: 157
@@ -156,7 +156,7 @@ settings:
     folds: 3
     threads: 15
   other:
-    epochs: 15
+    epochs: 16
     weight_factor: 0.20869
     estimators: 238
     columns: 70

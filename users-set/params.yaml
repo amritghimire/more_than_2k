@@ -221,9 +221,9 @@ model:
 prepare:
   batch:
     learning_rate: 0.14412
-    ngrams: 7
+    ngrams: 6
     min_split: 14
-    features: 1159
+    features: 1482
     split: 0.17261
   rf:
     num_est: 40
@@ -240,7 +240,7 @@ prepare:
     columns: 58
     seed: 437495282
     weight_factor: 0.22765
-    sample: 0.57073
+    sample: 0.44165
     epochs: 97
     trees: 12
     batch_size: 797
@@ -253,7 +253,7 @@ prepare:
     features: 4414
   other:
     num_est: 272
-    features: 283
+    features: 178
     drop: 0.21641
     epochs: 72
     folds: 7
@@ -264,7 +264,7 @@ prepare:
     ngrams: 5
     seed: 148068949
     features: 1582
-    passes: 63
+    passes: 56
 featurize:
   classifier:
     threads: 33

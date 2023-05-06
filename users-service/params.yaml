@@ -74,8 +74,8 @@ prepare:
   trees: 80
   learning_rate: 0.14299
   layers: 1
-  num_est: 41
-  random_state: 835215566
+  num_est: 56
+  random_state: 699775450
   columns: 54
   epochs: 12
   dense: 228
@@ -83,7 +83,7 @@ prepare:
   batch_size: 443
   min_split: 15
   min_features: 2750
-  features: 3824
+  features: 3340
   max_depth: 10
   folds: 7
 tagging:

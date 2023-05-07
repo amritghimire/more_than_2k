@@ -212,7 +212,7 @@ tagging:
     max_depth: 33
     random_state: 454000000
     tags: 119
-    epochs: 5
+    epochs: 4
     learning_rate: 0.00841
     folds: 8
   concurrent:
@@ -273,7 +273,7 @@ train:
     learning_rate: 0.1251
   model:
     random_state: 175000000
-    features: 1060
+    features: 920
     threads: 9
     weight_factor: 0.2741
     split: 0.2
@@ -290,7 +290,7 @@ train:
   concurrent:
     layers: 1
     estimators: 108
-    batch_size: 708
+    batch_size: 858
     sample: 0.75
     split: 0.30522
     trees: 3

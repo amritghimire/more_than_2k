@@ -110,7 +110,7 @@ prepare:
     trees: 72
     layers: 2
     passes: 57
-    dense: 100
+    dense: 86
     max_features: 109
   long:
     columns: 13
@@ -123,7 +123,7 @@ prepare:
     tags: 120
     split: 0.18163
     dense: 538
-    random_state: 369490568
+    random_state: 254977190
     learning_rate: 0.05398
     layers: 5
 concurrent:

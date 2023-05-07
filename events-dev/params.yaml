@@ -63,7 +63,7 @@ settings:
     min_split: 39
     split: 0.37278
   preset:
-    learning_rate: 0.04
+    learning_rate: 0.03024
     epochs: 10
   other:
     max_depth: 32
@@ -233,7 +233,7 @@ train:
   combine:
     threads: 13
     ngrams: 6
-    min_split: 67
+    min_split: 93
     seed: 351561583
     split: 0.4
     sample: 0.62001
@@ -260,11 +260,11 @@ variables:
     min_features: 3334
     weight_factor: 0.10787
     tags: 8
-    trees: 51
+    trees: 64
     num_est: 145
     learning_rate: 0.13
     folds: 9
-    seed: 153088032
+    seed: 99086706
   combine:
     num_est: 77
     tags: 79

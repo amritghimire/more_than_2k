@@ -128,7 +128,7 @@ prepare:
     layers: 5
 concurrent:
   long:
-    seed: 355944054
+    seed: 322508842
     weight_factor: 0.28005
   auto:
     batch_size: 203
@@ -149,7 +149,7 @@ concurrent:
   preset:
     max_depth: 11
     num_est: 186
-    estimators: 59
+    estimators: 72
     columns: 83
     ngrams: 4
     folds: 14

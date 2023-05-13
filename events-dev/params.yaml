@@ -8,7 +8,7 @@ model:
     columns: 60
     layers: 6
   combine:
-    tags: 42
+    tags: 50
     min_features: 5172
     threads: 15
     estimators: 70
@@ -143,7 +143,7 @@ concurrent:
     seed: 869334387
     learning_rate: 0.05
     layers: 3
-    tags: 68
+    tags: 56
     threads: 3
     passes: 83
   preset:
@@ -235,7 +235,7 @@ train:
     ngrams: 6
     min_split: 93
     seed: 351561583
-    split: 0.4
+    split: 0.3328
     sample: 0.62001
     estimators: 251
   preset:

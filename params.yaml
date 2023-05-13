@@ -90,7 +90,7 @@ featurize:
     features: 3289
     passes: 7
     drop: 0.21674
-    estimators: 232
+    estimators: 267
     ngrams: 5
     tags: 56
   long:

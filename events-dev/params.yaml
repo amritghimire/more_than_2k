@@ -97,7 +97,7 @@ prepare:
     columns: 39
     passes: 59
     batch_size: 94
-    tags: 60
+    tags: 68
   combine:
     passes: 45
     min_features: 2301

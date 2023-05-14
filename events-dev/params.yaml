@@ -179,7 +179,7 @@ featurize:
     max_features: 4026
     tags: 91
   short:
-    min_features: 934
+    min_features: 707
     layers: 6
     max_depth: 19
     num_est: 87
@@ -200,7 +200,7 @@ featurize:
     random_state: 92100981
   auto:
     max_features: 4360
-    ngrams: 1
+    ngrams: 2
   combine:
     batch_size: 560
     sample: 0.58215

@@ -90,14 +90,14 @@ prepare:
     learning_rate: 0.07027
     split: 0.49357
     layers: 1
-    trees: 86
+    trees: 87
   preset:
     trees: 76
     split: 0.22995
     columns: 39
     passes: 59
     batch_size: 94
-    tags: 68
+    tags: 58
   combine:
     passes: 45
     min_features: 2301
@@ -110,13 +110,13 @@ prepare:
     trees: 72
     layers: 2
     passes: 57
-    dense: 86
+    dense: 96
     max_features: 109
   long:
     columns: 13
     trees: 59
   auto:
-    num_est: 216
+    num_est: 276
     min_split: 51
     passes: 28
   other:

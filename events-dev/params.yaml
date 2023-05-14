@@ -111,7 +111,7 @@ prepare:
     layers: 2
     passes: 57
     dense: 96
-    max_features: 109
+    max_features: 101
   long:
     columns: 13
     trees: 59

@@ -27,7 +27,7 @@ variables:
   preset:
     tags: 72
     layers: 2
-    estimators: 141
+    estimators: 122
     trees: 51
   auto:
     split: 0.5

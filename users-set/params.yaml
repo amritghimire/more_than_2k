@@ -8,7 +8,7 @@ variables:
     num_est: 181
     learning_rate: 0.09823
     columns: 89
-    seed: 808780000
+    seed: 982731646
     threads: 2
   rf:
     trees: 2
@@ -56,7 +56,7 @@ preprocessing:
   selection:
     learning_rate: 0.05
     random_state: 194027959
-    drop: 0.12168
+    drop: 0.09642
     epochs: 44
   other:
     epochs: 51
@@ -190,7 +190,7 @@ model:
     seed: 61678532
     epochs: 79
     dense: 400
-    trees: 66
+    trees: 77
   rf:
     num_est: 194
     max_depth: 28

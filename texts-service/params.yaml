@@ -171,7 +171,7 @@ prepare:
   requests:
     passes: 60
     epochs: 16
-    weight_factor: 0.19756
+    weight_factor: 0.18088
     random_state: 479076373
   long:
     trees: 83

@@ -194,7 +194,7 @@ prepare:
     split: 0.08309
   diff:
     epochs: 21
-    estimators: 132
+    estimators: 161
 variables:
   preset:
     weight_factor: 0.3

@@ -173,7 +173,7 @@ settings:
 model:
   batch:
     layers: 4
-    trees: 29
+    trees: 19
     num_est: 125
     seed: 682172675
     epochs: 50

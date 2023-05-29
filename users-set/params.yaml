@@ -35,7 +35,7 @@ variables:
     threads: 4
     columns: 78
     layers: 2
-    split: 0.4
+    split: 0.31374
     min_split: 25
     features: 3878
     random_state: 124800574
@@ -90,7 +90,7 @@ preprocessing:
     min_features: 3100
     trees: 18
   requests:
-    epochs: 20
+    epochs: 16
 validation:
   dev:
     sample: 0.5

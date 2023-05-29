@@ -163,9 +163,9 @@ prepare:
   preset:
     max_depth: 8
     seed: 180311888
-    folds: 7
+    folds: 8
     estimators: 128
-    dense: 497
+    dense: 384
     learning_rate: 0.04865
     min_features: 5468
   requests:
@@ -175,7 +175,7 @@ prepare:
     random_state: 479076373
   long:
     trees: 83
-    features: 3620
+    features: 4201
     dense: 95
     sample: 0.45691
     max_depth: 31

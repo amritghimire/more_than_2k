@@ -1,0 +1,205 @@
+stages:
+  split:
+    cmd: python split.py questions.csv questions-train.csv questions-test.csv
+    deps:
+    - questions.csv
+    - split.py
+    outs:
+    - questions-test.csv
+    - questions-train.csv
+  featurize:
+    cmd: python featurize.py questions-train.csv questions-train-feats.csv
+    deps:
+    - featurize.py
+    - questions-train.csv
+    params:
+    - featurize.auto.dense
+    - featurize.auto.drop
+    - featurize.auto.min_features
+    - featurize.auto.passes
+    - featurize.auto.trees
+    - featurize.batch.seed
+    - featurize.batch.split
+    - featurize.batch.tags
+    - featurize.classifier.columns
+    - featurize.classifier.folds
+    - featurize.classifier.num_est
+    - featurize.classifier.threads
+    - featurize.classifier.trees
+    - featurize.combine.dense
+    - featurize.combine.num_est
+    - featurize.preset.folds
+    - featurize.preset.layers
+    - featurize.preset.min_features
+    - featurize.prod.dense
+    - featurize.prod.max_depth
+    - featurize.prod.random_state
+    - featurize.prod.seed
+    - featurize.prod.split
+    - featurize.prod.threads
+    - featurize.prod.trees
+    - featurize.requests.layers
+    - featurize.requests.passes
+    - featurize.requests.split
+    - featurize.requests.weight_factor
+    outs:
+    - questions-train-feats.csv
+  train:
+    cmd: python train.py questions-train-feats.csv model.json
+    deps:
+    - questions-train-feats.csv
+    - train.py
+    params:
+    - concurrent.auto.folds
+    - concurrent.auto.num_est
+    - concurrent.auto.split
+    - concurrent.auto.tags
+    - concurrent.batch.dense
+    - concurrent.batch.folds
+    - concurrent.batch.ngrams
+    - concurrent.batch.split
+    - concurrent.classifier.dense
+    - concurrent.classifier.max_features
+    - concurrent.classifier.passes
+    - concurrent.classifier.seed
+    - concurrent.classifier.split
+    - concurrent.combine.max_depth
+    - concurrent.combine.trees
+    - concurrent.preset.columns
+    - concurrent.preset.folds
+    - concurrent.preset.random_state
+    - concurrent.preset.sample
+    - concurrent.preset.tags
+    - concurrent.preset.trees
+    - concurrent.prod.columns
+    - concurrent.requests.max_features
+    - concurrent.requests.min_split
+    - concurrent.requests.num_est
+    - concurrent.requests.trees
+    - model.auto.batch_size
+    - model.auto.layers
+    - model.auto.max_depth
+    - model.auto.min_features
+    - model.auto.min_split
+    - model.batch.columns
+    - model.batch.num_est
+    - model.batch.trees
+    - model.classifier.max_features
+    - model.classifier.split
+    - model.classifier.tags
+    - model.classifier.trees
+    - model.combine.max_depth
+    - model.combine.passes
+    - model.combine.sample
+    - model.combine.threads
+    - model.preset.epochs
+    - model.preset.learning_rate
+    - model.preset.ngrams
+    - model.preset.sample
+    - model.prod.dense
+    - model.prod.seed
+    - model.requests.layers
+    - model.requests.random_state
+    - settings.auto.batch_size
+    - settings.auto.drop
+    - settings.auto.epochs
+    - settings.auto.estimators
+    - settings.auto.layers
+    - settings.auto.ngrams
+    - settings.auto.passes
+    - settings.auto.sample
+    - settings.auto.tags
+    - settings.batch.epochs
+    - settings.batch.random_state
+    - settings.batch.sample
+    - settings.classifier.columns
+    - settings.classifier.dense
+    - settings.classifier.ngrams
+    - settings.combine.max_features
+    - settings.combine.min_features
+    - settings.combine.ngrams
+    - settings.combine.passes
+    - settings.preset.drop
+    - settings.preset.learning_rate
+    - settings.preset.min_split
+    - settings.preset.ngrams
+    - settings.prod.estimators
+    - settings.prod.learning_rate
+    - settings.prod.max_depth
+    - settings.prod.tags
+    - settings.prod.weight_factor
+    - settings.requests.layers
+    - settings.requests.max_features
+    - settings.requests.min_features
+    - tagging.auto.dense
+    - tagging.auto.num_est
+    - tagging.batch.num_est
+    - tagging.batch.random_state
+    - tagging.batch.seed
+    - tagging.classifier.ngrams
+    - tagging.classifier.threads
+    - tagging.combine.num_est
+    - tagging.combine.tags
+    - tagging.prod.columns
+    - tagging.prod.max_depth
+    - tagging.prod.sample
+    - tagging.prod.tags
+    - tagging.prod.weight_factor
+    - tagging.requests.estimators
+    - tagging.requests.ngrams
+    - tagging.requests.random_state
+    - tagging.requests.weight_factor
+    - train.auto.sample
+    - train.batch.ngrams
+    - train.classifier.features
+    - train.classifier.min_split
+    - train.classifier.num_est
+    - train.classifier.threads
+    - train.combine.columns
+    - train.combine.dense
+    - train.combine.drop
+    - train.combine.max_features
+    - train.combine.passes
+    - train.preset.batch_size
+    - train.preset.epochs
+    - train.preset.learning_rate
+    - train.preset.passes
+    - train.prod.threads
+    - train.requests.batch_size
+    - train.requests.features
+    - train.requests.folds
+    - train.requests.min_split
+    - train.requests.random_state
+    - train.requests.split
+    - train.requests.threads
+    - variables.auto.dense
+    - variables.auto.estimators
+    - variables.auto.max_features
+    - variables.auto.split
+    - variables.batch.tags
+    - variables.classifier.max_features
+    - variables.classifier.seed
+    - variables.combine.estimators
+    - variables.combine.max_features
+    - variables.combine.passes
+    - variables.combine.random_state
+    - variables.preset.estimators
+    - variables.preset.layers
+    - variables.preset.tags
+    - variables.preset.trees
+    - variables.prod.threads
+    - variables.prod.trees
+    - variables.requests.estimators
+    - variables.requests.sample
+    - variables.requests.tags
+    outs:
+    - model.json
+  evaluate:
+    cmd: python evaluate.py model.json questions-test.csv
+    deps:
+    - evaluate.py
+    - model.json
+    - questions-test.csv
+    metrics:
+    - metrics.json:
+        cache: false

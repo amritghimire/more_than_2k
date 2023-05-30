@@ -1,0 +1,340 @@
+schema: '2.0'
+stages:
+  split:
+    cmd: python split.py texts.csv texts-train.csv texts-test.csv
+    deps:
+    - path: split.py
+      md5: 470d3962ccf1975b6f02428cf6016a65
+      size: 2653
+    - path: texts.csv
+      md5: 53e16e619140344a2b63a9f300d49745
+      size: 11823
+    params:
+      params.yaml:
+        prepare.combine.dense: 173
+        prepare.combine.features: 8
+        prepare.combine.folds: 5
+        prepare.combine.learning_rate: 0.02918
+        prepare.combine.split: 0.23203
+        prepare.combine.weight_factor: 0.07659
+        prepare.diff.epochs: 21
+        prepare.diff.estimators: 161
+        prepare.long.dense: 95
+        prepare.long.epochs: 36
+        prepare.long.features: 4201
+        prepare.long.max_depth: 31
+        prepare.long.sample: 0.45691
+        prepare.long.trees: 83
+        prepare.long.weight_factor: 0.32846
+        prepare.other.random_state: 18382665
+        prepare.other.split: 0.08309
+        prepare.other.trees: 49
+        prepare.preset.dense: 384
+        prepare.preset.estimators: 128
+        prepare.preset.folds: 8
+        prepare.preset.learning_rate: 0.04865
+        prepare.preset.max_depth: 8
+        prepare.preset.min_features: 5468
+        prepare.preset.seed: 180311888
+        prepare.requests.epochs: 16
+        prepare.requests.passes: 60
+        prepare.requests.random_state: 479076373
+        prepare.requests.weight_factor: 0.18088
+        prepare.test.columns: 89
+        prepare.test.features: 1826
+        prepare.test.num_est: 249
+        prepare.test.sample: 0.81716
+        prepare.test.trees: 10
+    outs:
+    - path: texts-test.csv
+      md5: a807500aa26a25c7d31d7e56af1c2ce3
+      size: 1264
+    - path: texts-train.csv
+      md5: da3d69f7dbf0ef9191a8ce96b0bcfdf3
+      size: 10559
+  featurize:
+    cmd: python featurize.py texts-train.csv texts-train-feats.csv
+    deps:
+    - path: featurize.py
+      md5: a0fe7085e3805787e952db31701d9ceb
+      size: 717
+    - path: texts-train.csv
+      md5: da3d69f7dbf0ef9191a8ce96b0bcfdf3
+      size: 10559
+    outs:
+    - path: texts-train-feats.csv
+      md5: 334029f21beba8e29571011a75900015
+      size: 47
+  train:
+    cmd: python train.py texts-train-feats.csv model.json
+    deps:
+    - path: texts-train-feats.csv
+      md5: 334029f21beba8e29571011a75900015
+      size: 47
+    - path: train.py
+      md5: 6581bee8130214b2ffb02d9813ca52cd
+      size: 12188
+    params:
+      params.yaml:
+        concurrent.combine.epochs: 50
+        concurrent.diff.columns: 48
+        concurrent.diff.max_depth: 8
+        concurrent.diff.sample: 0.47704
+        concurrent.diff.seed: 483630000
+        concurrent.diff.tags: 119
+        concurrent.diff.trees: 36
+        concurrent.long.batch_size: 639
+        concurrent.long.dense: 547
+        concurrent.long.folds: 2
+        concurrent.long.max_depth: 23
+        concurrent.long.min_split: 80
+        concurrent.long.ngrams: 3
+        concurrent.long.num_est: 75
+        concurrent.long.random_state: 54000000
+        concurrent.long.sample: 1.22943
+        concurrent.long.split: 0.1188
+        concurrent.other.max_depth: 24
+        concurrent.other.tags: 70
+        concurrent.preset.features: 1758
+        concurrent.preset.layers: 5
+        concurrent.preset.learning_rate: 0.04
+        concurrent.preset.passes: 94
+        concurrent.preset.sample: 0.75
+        concurrent.preset.seed: 608662429
+        concurrent.preset.weight_factor: 0.3
+        concurrent.requests.columns: 15
+        concurrent.requests.estimators: 96
+        concurrent.requests.features: 1590
+        concurrent.requests.learning_rate: 0.11632
+        concurrent.requests.max_features: 1139
+        concurrent.requests.num_est: 170
+        concurrent.requests.split: 0.5
+        concurrent.test.dense: 400
+        concurrent.test.estimators: 197
+        concurrent.test.features: 4620
+        concurrent.test.folds: 2
+        concurrent.test.min_split: 80
+        concurrent.test.ngrams: 8
+        concurrent.test.num_est: 109
+        concurrent.test.passes: 108
+        concurrent.test.random_state: 828000000
+        concurrent.test.trees: 38
+        concurrent.test.weight_factor: 0.24244
+        model.combine.drop: 0.3881
+        model.combine.estimators: 180
+        model.combine.features: 411
+        model.combine.layers: 1
+        model.combine.max_depth: 4
+        model.combine.min_features: 100
+        model.combine.sample: 0.71713
+        model.combine.split: 0.09422
+        model.diff.estimators: 154
+        model.diff.features: 4310
+        model.diff.learning_rate: 0.10608
+        model.diff.num_est: 50
+        model.diff.seed: 358520776
+        model.diff.split: 0.45266
+        model.long.columns: 57
+        model.long.learning_rate: 0.14151
+        model.long.max_features: 2350
+        model.long.random_state: 580980413
+        model.long.sample: 0.75
+        model.long.split: 0.5
+        model.other.batch_size: 976
+        model.other.learning_rate: 0.07
+        model.other.max_depth: 22
+        model.other.min_split: 54
+        model.other.ngrams: 6
+        model.other.passes: 104
+        model.other.sample: 0.87009
+        model.other.split: 0.3548
+        model.other.threads: 1
+        model.other.weight_factor: 0.2
+        model.preset.columns: 22
+        model.preset.folds: 9
+        model.preset.max_depth: 24
+        model.preset.passes: 92
+        model.requests.drop: 0.23695
+        model.requests.estimators: 105
+        model.requests.min_features: 1655
+        model.requests.sample: 0.51323
+        model.requests.trees: 12
+        model.test.folds: 3
+        model.test.max_features: 1568
+        model.test.min_features: 3675
+        model.test.min_split: 81
+        model.test.sample: 0.21991
+        model.test.seed: 761722981
+        model.test.split: 0.48559
+        model.test.threads: 0
+        preprocessing.combine.features: 4031
+        preprocessing.combine.folds: 7
+        preprocessing.combine.learning_rate: 0.08653
+        preprocessing.combine.max_depth: 20
+        preprocessing.combine.max_features: 500
+        preprocessing.combine.min_features: 234
+        preprocessing.combine.min_split: 35
+        preprocessing.combine.sample: 0.25
+        preprocessing.combine.split: 0.08744
+        preprocessing.combine.weight_factor: 0.3
+        preprocessing.diff.max_features: 170
+        preprocessing.diff.min_split: 58
+        preprocessing.diff.random_state: 307000000
+        preprocessing.diff.sample: 0.75
+        preprocessing.diff.weight_factor: 0.17268
+        preprocessing.long.drop: 0.21353
+        preprocessing.long.features: 1222
+        preprocessing.long.passes: 13
+        preprocessing.long.tags: 105
+        preprocessing.other.columns: 19
+        preprocessing.other.epochs: 70
+        preprocessing.other.estimators: 212
+        preprocessing.other.features: 3540
+        preprocessing.other.min_split: 48
+        preprocessing.other.tags: 51
+        preprocessing.other.weight_factor: 0.2
+        preprocessing.preset.features: 5338
+        preprocessing.preset.folds: 5
+        preprocessing.preset.max_features: 2750
+        preprocessing.preset.sample: 0.29219
+        preprocessing.preset.seed: 334766781
+        preprocessing.preset.threads: 31
+        preprocessing.requests.folds: 7
+        preprocessing.requests.min_split: 52
+        preprocessing.requests.num_est: 250
+        preprocessing.requests.sample: 0.25
+        preprocessing.requests.weight_factor: 0.19355
+        preprocessing.test.drop: 0.09448
+        preprocessing.test.features: 1442
+        preprocessing.test.layers: 4
+        preprocessing.test.passes: 86
+        preprocessing.test.seed: 523834000
+        preprocessing.test.tags: 42
+        settings.combine.batch_size: 402
+        settings.combine.epochs: 10
+        settings.combine.estimators: 161
+        settings.combine.learning_rate: 0.09548
+        settings.combine.max_features: 4450
+        settings.combine.min_split: 48
+        settings.diff.columns: 39
+        settings.diff.max_depth: 28
+        settings.diff.random_state: 125999386
+        settings.diff.weight_factor: 0.2115
+        settings.long.folds: 2
+        settings.long.sample: 0.40362
+        settings.other.learning_rate: 0.01138
+        settings.other.max_features: 1441
+        settings.other.min_split: 64
+        settings.other.seed: 430734343
+        settings.other.trees: 67
+        settings.preset.dense: 263
+        settings.preset.drop: 0.20202
+        settings.preset.epochs: 33
+        settings.preset.features: 1740
+        settings.preset.folds: 6
+        settings.preset.min_features: 917
+        settings.preset.num_est: 119
+        settings.preset.random_state: 336617488
+        settings.preset.tags: 83
+        settings.preset.weight_factor: 0.1
+        settings.requests.batch_size: 705
+        settings.requests.estimators: 38
+        settings.requests.layers: 4
+        settings.requests.max_features: 3800
+        settings.requests.min_split: 45
+        settings.requests.num_est: 131
+        settings.requests.random_state: 41000000
+        settings.requests.threads: 0
+        settings.test.drop: 0.18114
+        settings.test.layers: 1
+        settings.test.learning_rate: 0.04
+        settings.test.max_features: 200
+        settings.test.random_state: 395764482
+        tagging.combine.batch_size: 67
+        tagging.combine.estimators: 147
+        tagging.combine.folds: 2
+        tagging.combine.min_split: 16
+        tagging.combine.passes: 114
+        tagging.diff.epochs: 40
+        tagging.diff.layers: 3
+        tagging.diff.max_features: 191
+        tagging.diff.ngrams: 4
+        tagging.diff.random_state: 444362324
+        tagging.diff.threads: 2
+        tagging.long.columns: 22
+        tagging.long.drop: 0.32367
+        tagging.long.estimators: 176
+        tagging.long.max_depth: 16
+        tagging.long.seed: 88221000
+        tagging.other.batch_size: 874
+        tagging.other.features: 4980
+        tagging.other.layers: 6
+        tagging.other.max_features: 3374
+        tagging.other.seed: 945811000
+        tagging.preset.min_features: 3350
+        tagging.preset.min_split: 44
+        tagging.preset.split: 0.4
+        tagging.requests.columns: 27
+        tagging.requests.epochs: 78
+        tagging.requests.max_depth: 33
+        tagging.requests.max_features: 1201
+        tagging.requests.num_est: 238
+        tagging.requests.trees: 48
+        tagging.test.drop: 0.49594
+        tagging.test.epochs: 24
+        tagging.test.estimators: 243
+        tagging.test.folds: 9
+        tagging.test.max_depth: 20
+        tagging.test.sample: 0.52399
+        tagging.test.seed: 209733000
+        variables.combine.dense: 189
+        variables.combine.features: 4320
+        variables.combine.min_features: 1300
+        variables.combine.sample: 0.73631
+        variables.diff.max_depth: 33
+        variables.diff.max_features: 59
+        variables.diff.min_split: 17
+        variables.diff.split: 0.5
+        variables.diff.tags: 62
+        variables.long.estimators: 80
+        variables.long.max_features: 1500
+        variables.long.tags: 28
+        variables.long.weight_factor: 0.18874
+        variables.other.columns: 54
+        variables.other.drop: 0.4
+        variables.other.learning_rate: 0.02
+        variables.other.passes: 40
+        variables.other.random_state: 975000000
+        variables.other.split: 0.4
+        variables.preset.epochs: 60
+        variables.preset.ngrams: 2
+        variables.preset.seed: 338444000
+        variables.preset.trees: 11
+        variables.preset.weight_factor: 0.3
+        variables.requests.num_est: 125
+        variables.requests.random_state: 370235690
+        variables.test.dense: 614
+        variables.test.layers: 4
+        variables.test.passes: 91
+        variables.test.sample: 0.5
+        variables.test.threads: 7
+    outs:
+    - path: model.json
+      md5: cf9c256ed07e0c1d1ab8afe11ca9ccf9
+      size: 11093
+  evaluate:
+    cmd: python evaluate.py model.json texts-test.csv
+    deps:
+    - path: evaluate.py
+      md5: 57c69fe2e8a9570914a39546e3a8b66f
+      size: 50464
+    - path: model.json
+      md5: cf9c256ed07e0c1d1ab8afe11ca9ccf9
+      size: 11093
+    - path: texts-test.csv
+      md5: a807500aa26a25c7d31d7e56af1c2ce3
+      size: 1264
+    outs:
+    - path: metrics.json
+      md5: 0b1c1356e1ba504c1088860ee171c31d
+      size: 5410

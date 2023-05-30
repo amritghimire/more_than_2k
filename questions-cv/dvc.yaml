@@ -1,0 +1,180 @@
+stages:
+  split:
+    cmd: python split.py questions.csv questions-train.csv questions-test.csv
+    deps:
+    - questions.csv
+    - split.py
+    params:
+    - prepare.batch.epochs
+    - prepare.batch.features
+    - prepare.batch.layers
+    - prepare.batch.min_split
+    - prepare.collection.drop
+    - prepare.collection.estimators
+    - prepare.collection.max_features
+    - prepare.collection.passes
+    - prepare.collection.seed
+    - prepare.other.batch_size
+    - prepare.other.columns
+    - prepare.other.min_features
+    - prepare.other.random_state
+    - prepare.other.trees
+    - prepare.prod.columns
+    - prepare.prod.drop
+    - prepare.prod.epochs
+    - prepare.prod.folds
+    - prepare.prod.max_features
+    - prepare.prod.weight_factor
+    - prepare.rf.features
+    - prepare.rf.num_est
+    - prepare.selection.weight_factor
+    - prepare.short.epochs
+    - prepare.short.features
+    - prepare.short.learning_rate
+    - prepare.short.min_split
+    outs:
+    - questions-test.csv
+    - questions-train.csv
+  featurize:
+    cmd: python featurize.py questions-train.csv questions-train-feats.csv
+    deps:
+    - featurize.py
+    - questions-train.csv
+    outs:
+    - questions-train-feats.csv
+  train:
+    cmd: python train.py questions-train-feats.csv model.json
+    deps:
+    - questions-train-feats.csv
+    - train.py
+    params:
+    - concurrent.batch.batch_size
+    - concurrent.batch.epochs
+    - concurrent.batch.features
+    - concurrent.batch.tags
+    - concurrent.collection.max_depth
+    - concurrent.collection.min_split
+    - concurrent.collection.ngrams
+    - concurrent.collection.threads
+    - concurrent.collection.weight_factor
+    - concurrent.other.batch_size
+    - concurrent.other.dense
+    - concurrent.other.num_est
+    - concurrent.prod.folds
+    - concurrent.prod.sample
+    - concurrent.rf.columns
+    - concurrent.rf.estimators
+    - concurrent.rf.passes
+    - concurrent.rf.weight_factor
+    - concurrent.selection.epochs
+    - concurrent.selection.folds
+    - concurrent.selection.max_depth
+    - concurrent.selection.num_est
+    - concurrent.selection.random_state
+    - concurrent.selection.split
+    - concurrent.short.folds
+    - concurrent.short.max_features
+    - model.batch.max_depth
+    - model.batch.ngrams
+    - model.collection.num_est
+    - model.collection.tags
+    - model.other.max_features
+    - model.other.random_state
+    - model.other.seed
+    - model.prod.epochs
+    - model.prod.ngrams
+    - model.prod.num_est
+    - model.prod.split
+    - model.rf.batch_size
+    - model.rf.drop
+    - model.rf.estimators
+    - model.rf.min_split
+    - model.rf.ngrams
+    - model.selection.batch_size
+    - model.selection.layers
+    - model.selection.learning_rate
+    - model.selection.max_features
+    - preprocessing.collection.layers
+    - preprocessing.collection.sample
+    - preprocessing.other.learning_rate
+    - preprocessing.other.min_features
+    - preprocessing.prod.max_features
+    - preprocessing.prod.passes
+    - preprocessing.prod.weight_factor
+    - preprocessing.rf.passes
+    - preprocessing.rf.split
+    - preprocessing.rf.tags
+    - preprocessing.rf.weight_factor
+    - preprocessing.selection.batch_size
+    - preprocessing.selection.columns
+    - preprocessing.selection.dense
+    - preprocessing.selection.max_features
+    - preprocessing.selection.sample
+    - preprocessing.short.columns
+    - preprocessing.short.estimators
+    - preprocessing.short.trees
+    - settings.batch.estimators
+    - settings.batch.num_est
+    - settings.collection.weight_factor
+    - settings.other.folds
+    - settings.prod.columns
+    - settings.prod.min_features
+    - settings.rf.max_depth
+    - settings.selection.dense
+    - settings.selection.max_depth
+    - settings.selection.passes
+    - settings.selection.seed
+    - settings.selection.trees
+    - settings.short.ngrams
+    - validation.batch.learning_rate
+    - validation.batch.max_features
+    - validation.batch.passes
+    - validation.batch.split
+    - validation.collection.layers
+    - validation.collection.passes
+    - validation.collection.weight_factor
+    - validation.other.learning_rate
+    - validation.other.max_features
+    - validation.other.min_features
+    - validation.other.tags
+    - validation.prod.folds
+    - validation.prod.layers
+    - validation.prod.max_depth
+    - validation.rf.dense
+    - validation.rf.features
+    - validation.rf.min_split
+    - validation.rf.ngrams
+    - validation.rf.split
+    - validation.rf.trees
+    - validation.selection.sample
+    - validation.short.folds
+    - validation.short.max_depth
+    - validation.short.split
+    - validation.short.tags
+    - variables.batch.epochs
+    - variables.batch.threads
+    - variables.collection.seed
+    - variables.other.dense
+    - variables.other.ngrams
+    - variables.prod.epochs
+    - variables.prod.learning_rate
+    - variables.prod.tags
+    - variables.rf.threads
+    - variables.rf.weight_factor
+    - variables.selection.features
+    - variables.selection.split
+    - variables.selection.threads
+    - variables.short.folds
+    - variables.short.min_features
+    - variables.short.ngrams
+    outs:
+    - model.json
+  evaluate:
+    cmd: python evaluate.py model.json questions-test.csv
+    deps:
+    - evaluate.py
+    - model.json
+    - questions-test.csv
+    metrics:
+    - metrics.json:
+        cache: false

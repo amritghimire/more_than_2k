@@ -1,0 +1,301 @@
+schema: '2.0'
+stages:
+  split:
+    cmd: python split.py events.csv events-train.csv events-test.csv
+    deps:
+    - path: events.csv
+      md5: 2e5d6c726db12899f1a7b1f84890fcb8
+      size: 22480
+    - path: split.py
+      md5: ae6674d81a580771a71d4ecfbefe6779
+      size: 2709
+    params:
+      params.yaml:
+        prepare.auto.min_split: 51
+        prepare.auto.num_est: 276
+        prepare.auto.passes: 28
+        prepare.combine.min_features: 2301
+        prepare.combine.num_est: 241
+        prepare.combine.passes: 45
+        prepare.combine.sample: 0.27133
+        prepare.combine.tags: 115
+        prepare.combine.trees: 13
+        prepare.diff.dense: 96
+        prepare.diff.layers: 2
+        prepare.diff.max_features: 101
+        prepare.diff.passes: 57
+        prepare.diff.tags: 33
+        prepare.diff.trees: 72
+        prepare.long.columns: 13
+        prepare.long.trees: 59
+        prepare.other.dense: 538
+        prepare.other.layers: 5
+        prepare.other.learning_rate: 0.05398
+        prepare.other.random_state: 254977190
+        prepare.other.split: 0.18163
+        prepare.other.tags: 120
+        prepare.preset.batch_size: 94
+        prepare.preset.columns: 39
+        prepare.preset.passes: 59
+        prepare.preset.split: 0.22995
+        prepare.preset.tags: 62
+        prepare.preset.trees: 76
+        prepare.short.layers: 1
+        prepare.short.learning_rate: 0.07027
+        prepare.short.num_est: 180
+        prepare.short.sample: 0.29975
+        prepare.short.split: 0.49357
+        prepare.short.trees: 87
+        prepare.short.weight_factor: 0.21585
+    outs:
+    - path: events-test.csv
+      md5: 2be62ca61cb6b8c8ecc911b172d88675
+      size: 4850
+    - path: events-train.csv
+      md5: cdd76e77f3546ef218ab87b2280ce862
+      size: 17630
+  featurize:
+    cmd: python featurize.py events-train.csv events-train-feats.csv
+    deps:
+    - path: events-train.csv
+      md5: cdd76e77f3546ef218ab87b2280ce862
+      size: 17630
+    - path: featurize.py
+      md5: 4eee342628b2f6efcacc151650921562
+      size: 2485
+    params:
+      params.yaml:
+        featurize.auto.max_features: 4360
+        featurize.auto.ngrams: 2
+        featurize.combine.batch_size: 560
+        featurize.combine.max_depth: 11
+        featurize.combine.max_features: 434
+        featurize.combine.sample: 0.58215
+        featurize.diff.estimators: 51
+        featurize.diff.layers: 3
+        featurize.diff.max_depth: 16
+        featurize.diff.max_features: 2584
+        featurize.long.folds: 10
+        featurize.long.learning_rate: 0.09438
+        featurize.long.min_features: 2043
+        featurize.long.random_state: 92100981
+        featurize.long.tags: 47
+        featurize.other.drop: 0.18467
+        featurize.other.layers: 7
+        featurize.other.max_features: 4026
+        featurize.other.passes: 35
+        featurize.other.tags: 91
+        featurize.other.weight_factor: 0.17481
+        featurize.short.columns: 25
+        featurize.short.dense: 189
+        featurize.short.epochs: 37
+        featurize.short.estimators: 135
+        featurize.short.layers: 6
+        featurize.short.max_depth: 19
+        featurize.short.min_features: 707
+        featurize.short.num_est: 87
+    outs:
+    - path: events-train-feats.csv
+      md5: 872070513d31f50898c6ed3642aa2285
+      size: 1366
+  train:
+    cmd: python train.py events-train-feats.csv model.json
+    deps:
+    - path: events-train-feats.csv
+      md5: 872070513d31f50898c6ed3642aa2285
+      size: 1366
+    - path: train.py
+      md5: cc70f12ab4e2bce2bd8f4a21678c6803
+      size: 8575
+    params:
+      params.yaml:
+        concurrent.auto.batch_size: 203
+        concurrent.auto.features: 5989
+        concurrent.auto.random_state: 528000000
+        concurrent.auto.tags: 14
+        concurrent.combine.dense: 400
+        concurrent.combine.drop: 0.41212
+        concurrent.combine.min_features: 649
+        concurrent.combine.min_split: 26
+        concurrent.combine.split: 0.112
+        concurrent.combine.trees: 43
+        concurrent.combine.weight_factor: 0.32452
+        concurrent.diff.folds: 3
+        concurrent.diff.layers: 2
+        concurrent.diff.random_state: 263000000
+        concurrent.diff.weight_factor: 0.12333
+        concurrent.long.seed: 322508842
+        concurrent.long.weight_factor: 0.28005
+        concurrent.other.batch_size: 581
+        concurrent.other.layers: 3
+        concurrent.other.learning_rate: 0.05
+        concurrent.other.max_features: 4500
+        concurrent.other.min_features: 1773
+        concurrent.other.min_split: 45
+        concurrent.other.passes: 83
+        concurrent.other.seed: 869334387
+        concurrent.other.tags: 56
+        concurrent.other.threads: 3
+        concurrent.preset.columns: 83
+        concurrent.preset.estimators: 72
+        concurrent.preset.folds: 14
+        concurrent.preset.max_depth: 11
+        concurrent.preset.ngrams: 4
+        concurrent.preset.num_est: 186
+        concurrent.short.columns: 6
+        concurrent.short.sample: 0.49053
+        concurrent.short.seed: 503213255
+        model.auto.epochs: 12
+        model.auto.layers: 2
+        model.auto.max_features: 2890
+        model.combine.columns: 48
+        model.combine.drop: 0.4
+        model.combine.estimators: 70
+        model.combine.min_features: 5172
+        model.combine.tags: 50
+        model.combine.threads: 15
+        model.diff.epochs: 86
+        model.diff.estimators: 126
+        model.diff.max_depth: 24
+        model.diff.num_est: 87
+        model.diff.threads: 16
+        model.long.columns: 49
+        model.long.estimators: 34
+        model.long.folds: 2
+        model.long.learning_rate: 0.0762
+        model.long.min_split: 39
+        model.long.ngrams: 6
+        model.long.passes: 42
+        model.long.threads: 2
+        model.long.trees: 54
+        model.other.columns: 60
+        model.other.estimators: 194
+        model.other.layers: 6
+        model.other.min_features: 1308
+        model.other.sample: 0.37966
+        model.preset.batch_size: 263
+        model.short.batch_size: 768
+        model.short.dense: 445
+        model.short.num_est: 58
+        model.short.random_state: 168213973
+        model.short.seed: 854370000
+        model.short.split: 0.18399
+        model.short.tags: 93
+        settings.auto.tags: 103
+        settings.auto.weight_factor: 0.22843
+        settings.combine.epochs: 10
+        settings.combine.folds: 3
+        settings.combine.min_split: 39
+        settings.combine.split: 0.37278
+        settings.combine.weight_factor: 0.2
+        settings.diff.columns: 22
+        settings.diff.epochs: 9
+        settings.diff.folds: 5
+        settings.diff.min_split: 31
+        settings.diff.sample: 0.25
+        settings.long.drop: 0.21694
+        settings.long.epochs: 53
+        settings.long.folds: 2
+        settings.long.min_split: 85
+        settings.long.num_est: 262
+        settings.long.passes: 59
+        settings.other.estimators: 30
+        settings.other.max_depth: 32
+        settings.other.max_features: 2486
+        settings.other.passes: 41
+        settings.other.random_state: 96763268
+        settings.other.tags: 114
+        settings.other.trees: 69
+        settings.preset.epochs: 10
+        settings.preset.learning_rate: 0.03024
+        settings.short.columns: 35
+        settings.short.max_depth: 9
+        settings.short.ngrams: 3
+        settings.short.passes: 66
+        settings.short.random_state: 664644964
+        train.auto.columns: 63
+        train.auto.epochs: 18
+        train.auto.sample: 0.87595
+        train.combine.estimators: 251
+        train.combine.min_split: 93
+        train.combine.ngrams: 6
+        train.combine.sample: 0.62001
+        train.combine.seed: 351561583
+        train.combine.split: 0.3328
+        train.combine.threads: 13
+        train.diff.batch_size: 629
+        train.diff.dense: 184
+        train.diff.epochs: 15
+        train.diff.estimators: 145
+        train.diff.features: 3530
+        train.diff.learning_rate: 0.15706
+        train.diff.max_features: 1563
+        train.diff.ngrams: 8
+        train.diff.random_state: 667133371
+        train.diff.tags: 76
+        train.long.random_state: 632000000
+        train.long.seed: 521556506
+        train.other.columns: 75
+        train.other.drop: 0.2
+        train.other.epochs: 70
+        train.other.estimators: 188
+        train.other.sample: 0.29299
+        train.other.tags: 103
+        train.other.trees: 45
+        train.preset.drop: 0.09631
+        train.preset.features: 2077
+        train.preset.learning_rate: 0.14
+        train.short.columns: 64
+        train.short.folds: 3
+        train.short.num_est: 268
+        variables.auto.dense: 420
+        variables.auto.layers: 6
+        variables.auto.max_depth: 15
+        variables.auto.tags: 49
+        variables.combine.epochs: 5
+        variables.combine.learning_rate: 0.10751
+        variables.combine.num_est: 77
+        variables.combine.random_state: 3026183
+        variables.combine.tags: 79
+        variables.diff.epochs: 46
+        variables.diff.ngrams: 2
+        variables.diff.sample: 0.25445
+        variables.long.estimators: 197
+        variables.long.min_features: 3300
+        variables.long.tags: 21
+        variables.long.weight_factor: 0.26779
+        variables.other.dense: 232
+        variables.other.drop: 0.19942
+        variables.other.layers: 4
+        variables.other.seed: 793731483
+        variables.other.weight_factor: 0.33641
+        variables.preset.estimators: 158
+        variables.preset.min_features: 1550
+        variables.short.folds: 9
+        variables.short.learning_rate: 0.13
+        variables.short.min_features: 3334
+        variables.short.num_est: 145
+        variables.short.seed: 99086706
+        variables.short.tags: 8
+        variables.short.trees: 64
+        variables.short.weight_factor: 0.10787
+    outs:
+    - path: model.json
+      md5: 9b0d67f50e34cf9f47945fe2481658a2
+      size: 8777
+  evaluate:
+    cmd: python evaluate.py model.json events-test.csv
+    deps:
+    - path: evaluate.py
+      md5: 2d4ce6cb4aef40a4a6d057bababbc0be
+      size: 53178
+    - path: events-test.csv
+      md5: 2be62ca61cb6b8c8ecc911b172d88675
+      size: 4850
+    - path: model.json
+      md5: 9b0d67f50e34cf9f47945fe2481658a2
+      size: 8777
+    outs:
+    - path: metrics.json
+      md5: f7b8c70a95635c166bac7ae14b8de738
+      size: 6058

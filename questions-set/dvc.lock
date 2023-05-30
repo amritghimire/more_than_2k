@@ -1,0 +1,235 @@
+schema: '2.0'
+stages:
+  split:
+    cmd: python split.py questions.csv questions-train.csv questions-test.csv
+    deps:
+    - path: questions.csv
+      md5: 0d12c7ef1a62e70e2f1717facd80d5ef
+      size: 14019
+    - path: split.py
+      md5: 5f3ab7277d1f657881d7da40ef96024c
+      size: 723
+    outs:
+    - path: questions-test.csv
+      md5: 553ffd7d1e745375b96655a61b4470f3
+      size: 2717
+    - path: questions-train.csv
+      md5: 01018986d554fa6e218c95ccd8004188
+      size: 11302
+  featurize:
+    cmd: python featurize.py questions-train.csv questions-train-feats.csv
+    deps:
+    - path: featurize.py
+      md5: b3ee05e53d5231449c3623bb86703553
+      size: 2460
+    - path: questions-train.csv
+      md5: 01018986d554fa6e218c95ccd8004188
+      size: 11302
+    params:
+      params.yaml:
+        featurize.auto.dense: 209
+        featurize.auto.drop: 0.2483
+        featurize.auto.min_features: 3093
+        featurize.auto.passes: 65
+        featurize.auto.trees: 11
+        featurize.batch.seed: 283861537
+        featurize.batch.split: 0.56317
+        featurize.batch.tags: 139
+        featurize.classifier.columns: 56
+        featurize.classifier.folds: 12
+        featurize.classifier.num_est: 30
+        featurize.classifier.threads: 15
+        featurize.classifier.trees: 35
+        featurize.combine.dense: 505
+        featurize.combine.num_est: 58
+        featurize.preset.folds: 2
+        featurize.preset.layers: 4
+        featurize.preset.min_features: 2869
+        featurize.prod.dense: 230
+        featurize.prod.max_depth: 36
+        featurize.prod.random_state: 1076256422
+        featurize.prod.seed: 413662188
+        featurize.prod.split: 0.16532
+        featurize.prod.threads: 12
+        featurize.prod.trees: 6
+        featurize.requests.layers: 3
+        featurize.requests.passes: 40
+        featurize.requests.split: 0.41097
+        featurize.requests.weight_factor: 0.12254
+    outs:
+    - path: questions-train-feats.csv
+      md5: 40451d1d0738570a76786ed328f2fadf
+      size: 1358
+  train:
+    cmd: python train.py questions-train-feats.csv model.json
+    deps:
+    - path: questions-train-feats.csv
+      md5: 40451d1d0738570a76786ed328f2fadf
+      size: 1358
+    - path: train.py
+      md5: b08c282722e7ccc6ffda75c448e39b8b
+      size: 7491
+    params:
+      params.yaml:
+        concurrent.auto.folds: 2
+        concurrent.auto.num_est: 73
+        concurrent.auto.split: 0.31711
+        concurrent.auto.tags: 55
+        concurrent.batch.dense: 400
+        concurrent.batch.folds: 3
+        concurrent.batch.ngrams: 2
+        concurrent.batch.split: 0.4
+        concurrent.classifier.dense: 213
+        concurrent.classifier.max_features: 2100
+        concurrent.classifier.passes: 99
+        concurrent.classifier.seed: 200403971
+        concurrent.classifier.split: 0.4333
+        concurrent.combine.max_depth: 16
+        concurrent.combine.trees: 10
+        concurrent.preset.columns: 65
+        concurrent.preset.folds: 8
+        concurrent.preset.random_state: 245114065
+        concurrent.preset.sample: 1.15328
+        concurrent.preset.tags: 110
+        concurrent.preset.trees: 12
+        concurrent.prod.columns: 32
+        concurrent.requests.max_features: 3650
+        concurrent.requests.min_split: 79
+        concurrent.requests.num_est: 157
+        concurrent.requests.trees: 60
+        model.auto.batch_size: 624
+        model.auto.layers: 6
+        model.auto.max_depth: 24
+        model.auto.min_features: 2602
+        model.auto.min_split: 89
+        model.batch.columns: 36
+        model.batch.num_est: 286
+        model.batch.trees: 39
+        model.classifier.max_features: 2350
+        model.classifier.split: 0.44353
+        model.classifier.tags: 88
+        model.classifier.trees: 49
+        model.combine.max_depth: 18
+        model.combine.passes: 25
+        model.combine.sample: 0.30643
+        model.combine.threads: 10
+        model.preset.epochs: 65
+        model.preset.learning_rate: 0.11552
+        model.preset.ngrams: 4
+        model.preset.sample: 0.75
+        model.prod.dense: 324
+        model.prod.seed: 374684217
+        model.requests.layers: 2
+        model.requests.random_state: 486616745
+        settings.auto.batch_size: 512
+        settings.auto.drop: 0.3
+        settings.auto.epochs: 55
+        settings.auto.estimators: 163
+        settings.auto.layers: 3
+        settings.auto.ngrams: 4
+        settings.auto.passes: 111
+        settings.auto.sample: 0.7944
+        settings.auto.tags: 21
+        settings.batch.epochs: 24
+        settings.batch.random_state: 16587757
+        settings.batch.sample: 0.75
+        settings.classifier.columns: 27
+        settings.classifier.dense: 385
+        settings.classifier.ngrams: 2
+        settings.combine.max_features: 150
+        settings.combine.min_features: 1131
+        settings.combine.ngrams: 6
+        settings.combine.passes: 85
+        settings.preset.drop: 0.4
+        settings.preset.learning_rate: 0.04096
+        settings.preset.min_split: 16
+        settings.preset.ngrams: 3
+        settings.prod.estimators: 300
+        settings.prod.learning_rate: 0.05247
+        settings.prod.max_depth: 35
+        settings.prod.tags: 91
+        settings.prod.weight_factor: 0.26729
+        settings.requests.layers: 2
+        settings.requests.max_features: 569
+        settings.requests.min_features: 1050
+        tagging.auto.dense: 600
+        tagging.auto.num_est: 225
+        tagging.batch.num_est: 224
+        tagging.batch.random_state: 946000000
+        tagging.batch.seed: 419571748
+        tagging.classifier.ngrams: 5
+        tagging.classifier.threads: 6
+        tagging.combine.num_est: 110
+        tagging.combine.tags: 6
+        tagging.prod.columns: 9
+        tagging.prod.max_depth: 27
+        tagging.prod.sample: 0.5
+        tagging.prod.tags: 80
+        tagging.prod.weight_factor: 0.2
+        tagging.requests.estimators: 180
+        tagging.requests.ngrams: 2
+        tagging.requests.random_state: 81873483
+        tagging.requests.weight_factor: 0.26551
+        train.auto.sample: 0.25
+        train.batch.ngrams: 3
+        train.classifier.features: 980
+        train.classifier.min_split: 80
+        train.classifier.num_est: 124
+        train.classifier.threads: 2
+        train.combine.columns: 3
+        train.combine.dense: 318
+        train.combine.drop: 0.09973
+        train.combine.max_features: 4091
+        train.combine.passes: 122
+        train.preset.batch_size: 94
+        train.preset.epochs: 83
+        train.preset.learning_rate: 0.14
+        train.preset.passes: 29
+        train.prod.threads: 14
+        train.requests.batch_size: 671
+        train.requests.features: 4860
+        train.requests.folds: 2
+        train.requests.min_split: 55
+        train.requests.random_state: 403000000
+        train.requests.split: 0.07892
+        train.requests.threads: 28
+        variables.auto.dense: 411
+        variables.auto.estimators: 214
+        variables.auto.max_features: 1361
+        variables.auto.split: 0.5
+        variables.batch.tags: 129
+        variables.classifier.max_features: 1784
+        variables.classifier.seed: 261563467
+        variables.combine.estimators: 96
+        variables.combine.max_features: 4050
+        variables.combine.passes: 14
+        variables.combine.random_state: 22000000
+        variables.preset.estimators: 122
+        variables.preset.layers: 2
+        variables.preset.tags: 72
+        variables.preset.trees: 51
+        variables.prod.threads: 15
+        variables.prod.trees: 35
+        variables.requests.estimators: 93
+        variables.requests.sample: 0.45771
+        variables.requests.tags: 112
+    outs:
+    - path: model.json
+      md5: 1b6f192204108b273c5858b28318d886
+      size: 7676
+  evaluate:
+    cmd: python evaluate.py model.json questions-test.csv
+    deps:
+    - path: evaluate.py
+      md5: 5fe00b695b7a01d2179e7b0c179af313
+      size: 50416
+    - path: model.json
+      md5: 1b6f192204108b273c5858b28318d886
+      size: 7676
+    - path: questions-test.csv
+      md5: 553ffd7d1e745375b96655a61b4470f3
+      size: 2717
+    outs:
+    - path: metrics.json
+      md5: 4c69ecc894e3f8668b477c756d10bc5f
+      size: 5604

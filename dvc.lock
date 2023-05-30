@@ -1,0 +1,233 @@
+schema: '2.0'
+stages:
+  split:
+    cmd: python split.py phrases.csv phrases-train.csv phrases-test.csv
+    deps:
+    - path: phrases.csv
+      md5: 55da961000f1966d130e17f70e74e976
+      size: 22927
+    - path: split.py
+      md5: ff8866f014d843466e125522a9a4db4f
+      size: 742
+    outs:
+    - path: phrases-test.csv
+      md5: 5900182dd706b3d42de16f09157eac0b
+      size: 4387
+    - path: phrases-train.csv
+      md5: 5767679d0b0bb9b9f9e8209dddcb34b8
+      size: 18540
+  featurize:
+    cmd: python featurize.py phrases-train.csv phrases-train-feats.csv
+    deps:
+    - path: featurize.py
+      md5: ed4953467456f096c22e397e9d3a6afa
+      size: 2295
+    - path: phrases-train.csv
+      md5: 5767679d0b0bb9b9f9e8209dddcb34b8
+      size: 18540
+    params:
+      params.yaml:
+        featurize.batch.ngrams: 8
+        featurize.binary.drop: 0.21674
+        featurize.binary.estimators: 267
+        featurize.binary.features: 3289
+        featurize.binary.ngrams: 5
+        featurize.binary.passes: 7
+        featurize.binary.tags: 56
+        featurize.dev.batch_size: 53
+        featurize.dev.min_features: 4380
+        featurize.dev.min_split: 76
+        featurize.dev.sample: 0.19655
+        featurize.dev.seed: 594841534
+        featurize.dev.trees: 28
+        featurize.long.epochs: 70
+        featurize.long.folds: 14
+        featurize.long.max_features: 2398
+        featurize.long.ngrams: 9
+        featurize.long.sample: 0.58874
+        featurize.long.seed: 345104987
+        featurize.long.tags: 110
+        featurize.preset.estimators: 202
+        featurize.preset.max_features: 2923
+        featurize.preset.passes: 81
+        featurize.rf.folds: 10
+        featurize.short.threads: 15
+        featurize.short.trees: 54
+    outs:
+    - path: phrases-train-feats.csv
+      md5: 8e9ee80bcba7787c5932f4c4bea1710b
+      size: 1183
+  train:
+    cmd: python train.py phrases-train-feats.csv model.json
+    deps:
+    - path: phrases-train-feats.csv
+      md5: 8e9ee80bcba7787c5932f4c4bea1710b
+      size: 1183
+    - path: train.py
+      md5: 04001f71dfbb74770926083de7ef78ee
+      size: 7491
+    params:
+      params.yaml:
+        model.batch.layers: 5
+        model.batch.max_depth: 13
+        model.batch.min_split: 44
+        model.batch.split: 0.16698
+        model.binary.dense: 559
+        model.binary.epochs: 16
+        model.binary.min_features: 159
+        model.binary.ngrams: 7
+        model.binary.sample: 0.24183
+        model.binary.tags: 8
+        model.dev.folds: 8
+        model.long.learning_rate: 0.10582
+        model.long.min_features: 3126
+        model.long.split: 0.22043
+        model.preset.epochs: 20
+        model.preset.folds: 10
+        model.preset.ngrams: 4
+        model.preset.split: 0.32019
+        model.rf.batch_size: 1061
+        model.rf.max_depth: 26
+        model.rf.min_features: 1183
+        model.rf.trees: 32
+        model.rf.weight_factor: 0.11089
+        model.short.epochs: 51
+        model.short.learning_rate: 0.07731
+        model.short.min_split: 14
+        model.short.trees: 54
+        preprocessing.batch.estimators: 105
+        preprocessing.batch.min_split: 29
+        preprocessing.batch.ngrams: 2
+        preprocessing.binary.dense: 326
+        preprocessing.binary.max_depth: 26
+        preprocessing.binary.ngrams: 6
+        preprocessing.binary.split: 0.49504
+        preprocessing.binary.weight_factor: 0.09433
+        preprocessing.dev.learning_rate: 0.0332
+        preprocessing.dev.weight_factor: 0.36045
+        preprocessing.long.layers: 4
+        preprocessing.long.learning_rate: 0.01158
+        preprocessing.long.ngrams: 3
+        preprocessing.long.weight_factor: 0.23524
+        preprocessing.preset.dense: 101
+        preprocessing.preset.epochs: 64
+        preprocessing.preset.split: 0.48703
+        preprocessing.preset.tags: 128
+        preprocessing.rf.threads: 7
+        preprocessing.rf.weight_factor: 0.10324
+        preprocessing.short.epochs: 54
+        preprocessing.short.max_features: 2725
+        settings.batch.batch_size: 776
+        settings.batch.columns: 6
+        settings.batch.learning_rate: 0.08786
+        settings.batch.trees: 85
+        settings.binary.batch_size: 31
+        settings.binary.features: 2674
+        settings.binary.max_features: 2290
+        settings.binary.min_split: 60
+        settings.binary.ngrams: 2
+        settings.binary.passes: 5
+        settings.binary.split: 0.29189
+        settings.dev.min_split: 50
+        settings.dev.sample: 0.50028
+        settings.long.features: 1140
+        settings.long.min_features: 657
+        settings.long.min_split: 82
+        settings.preset.columns: 60
+        settings.preset.drop: 0.0998
+        settings.preset.epochs: 48
+        settings.preset.ngrams: 2
+        settings.preset.tags: 24
+        settings.rf.learning_rate: 0.05494
+        settings.rf.min_features: 1166
+        settings.rf.num_est: 119
+        settings.rf.seed: 688056171
+        settings.short.estimators: 41
+        settings.short.max_depth: 20
+        tagging.batch.dense: 196
+        tagging.batch.num_est: 195
+        tagging.batch.sample: 0.58803
+        tagging.binary.min_split: 45
+        tagging.binary.ngrams: 5
+        tagging.binary.weight_factor: 0.09189
+        tagging.dev.columns: 19
+        tagging.dev.dense: 285
+        tagging.dev.features: 560
+        tagging.dev.min_split: 90
+        tagging.dev.sample: 0.68228
+        tagging.dev.threads: 24
+        tagging.long.features: 3147
+        tagging.long.layers: 2
+        tagging.long.min_features: 3064
+        tagging.preset.batch_size: 103
+        tagging.preset.estimators: 82
+        tagging.preset.seed: 129803821
+        tagging.rf.epochs: 10
+        tagging.rf.max_depth: 6
+        tagging.rf.random_state: 368429446
+        tagging.rf.threads: 13
+        tagging.short.dense: 248
+        tagging.short.threads: 3
+        train.batch.drop: 0.20356
+        train.batch.tags: 90
+        train.binary.learning_rate: 0.15774
+        train.binary.max_features: 142
+        train.dev.batch_size: 373
+        train.dev.learning_rate: 0.10867
+        train.dev.sample: 0.57735
+        train.preset.drop: 0.49652
+        train.preset.features: 420
+        train.preset.num_est: 250
+        train.rf.num_est: 185
+        train.rf.passes: 15
+        train.short.min_split: 69
+        validation.batch.layers: 4
+        validation.batch.sample: 0.76798
+        validation.binary.learning_rate: 0.12033
+        validation.binary.max_depth: 9
+        validation.binary.num_est: 272
+        validation.binary.split: 0.19402
+        validation.binary.weight_factor: 0.3
+        validation.dev.dense: 265
+        validation.dev.features: 5573
+        validation.dev.learning_rate: 0.1485
+        validation.dev.min_features: 1744
+        validation.dev.num_est: 181
+        validation.dev.threads: 9
+        validation.dev.trees: 2
+        validation.long.batch_size: 188
+        validation.long.ngrams: 8
+        validation.long.passes: 24
+        validation.long.random_state: 733768223
+        validation.long.weight_factor: 0.29629
+        validation.preset.learning_rate: 0.0983
+        validation.preset.ngrams: 8
+        validation.preset.weight_factor: 0.29647
+        validation.rf.max_depth: 31
+        validation.rf.max_features: 3055
+        validation.rf.passes: 90
+        validation.rf.threads: 7
+        validation.short.columns: 33
+        validation.short.folds: 2
+        validation.short.layers: 2
+        validation.short.min_split: 80
+    outs:
+    - path: model.json
+      md5: fe4364e3a8dba6e36f5d4117fb9a0fd4
+      size: 7521
+  evaluate:
+    cmd: python evaluate.py model.json phrases-test.csv
+    deps:
+    - path: evaluate.py
+      md5: ae1802a130abdd179dd41060d0eef037
+      size: 49558
+    - path: model.json
+      md5: fe4364e3a8dba6e36f5d4117fb9a0fd4
+      size: 7521
+    - path: phrases-test.csv
+      md5: 5900182dd706b3d42de16f09157eac0b
+      size: 4387
+    outs:
+    - path: metrics.json
+      md5: 069c8b7ea3ea30a4b5e0245b14f7431d
+      size: 4448

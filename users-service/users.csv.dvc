@@ -1,0 +1,4 @@
+outs:
+- md5: 04d353d73b5de75c18da1d896cc89ac9
+  size: 16146
+  path: users.csv

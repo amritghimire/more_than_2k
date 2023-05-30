@@ -1,0 +1,265 @@
+schema: '2.0'
+stages:
+  split:
+    cmd: python split.py users.csv users-train.csv users-test.csv
+    deps:
+    - path: split.py
+      md5: cf61fcb22d2b23af2daa2fe374ff511f
+      size: 727
+    - path: users.csv
+      md5: f843f0e72e457ff8f5e0dbfee650acc6
+      size: 15084
+    outs:
+    - path: users-test.csv
+      md5: a568428c007edfeff9f33d7254ef5922
+      size: 2919
+    - path: users-train.csv
+      md5: 9b622f1cc9f012738012b8b667269b8e
+      size: 12165
+  featurize:
+    cmd: python featurize.py users-train.csv users-train-feats.csv
+    deps:
+    - path: featurize.py
+      md5: c1ad3b21c0857c4526716ebcf5f16b64
+      size: 721
+    - path: users-train.csv
+      md5: 9b622f1cc9f012738012b8b667269b8e
+      size: 12165
+    outs:
+    - path: users-train-feats.csv
+      md5: ebd9a400a1f458b18e855ac34979e4e8
+      size: 46
+  train:
+    cmd: python train.py users-train-feats.csv model.json
+    deps:
+    - path: train.py
+      md5: d861c5aae26ab64c4ceef4d4f82e93cd
+      size: 10255
+    - path: users-train-feats.csv
+      md5: ebd9a400a1f458b18e855ac34979e4e8
+      size: 46
+    params:
+      params.yaml:
+        concurrent.batch.threads: 23
+        concurrent.batch.trees: 35
+        concurrent.dev.estimators: 209
+        concurrent.dev.split: 0.4
+        concurrent.dev.threads: 20
+        concurrent.dev.trees: 66
+        concurrent.other.drop: 0.1
+        concurrent.other.estimators: 76
+        concurrent.other.folds: 5
+        concurrent.other.min_features: 1750
+        concurrent.other.split: 0.23788
+        concurrent.preset.columns: 51
+        concurrent.preset.dense: 200
+        concurrent.preset.max_depth: 14
+        concurrent.preset.num_est: 75
+        concurrent.preset.split: 0.4
+        concurrent.preset.tags: 119
+        concurrent.settings.columns: 39
+        concurrent.settings.drop: 0.45239
+        concurrent.settings.features: 5570
+        concurrent.settings.max_features: 4754
+        concurrent.settings.min_features: 3391
+        concurrent.short.epochs: 38
+        concurrent.short.estimators: 255
+        concurrent.short.features: 2507
+        concurrent.short.min_split: 18
+        concurrent.short.num_est: 100
+        concurrent.test.batch_size: 736
+        concurrent.test.drop: 0.2
+        concurrent.test.learning_rate: 0.13325
+        concurrent.test.max_features: 1750
+        concurrent.test.min_features: 4200
+        concurrent.test.sample: 0.2485
+        concurrent.test.tags: 88
+        concurrent.test.trees: 31
+        model.dev.dense: 216
+        model.dev.estimators: 41
+        model.dev.learning_rate: 0.06
+        model.dev.max_depth: 20
+        model.dev.seed: 815427000
+        model.dev.tags: 8
+        model.other.batch_size: 400
+        model.other.columns: 66
+        model.other.ngrams: 4
+        model.preset.drop: 0.3
+        model.settings.batch_size: 845
+        model.settings.columns: 18
+        model.settings.epochs: 78
+        model.settings.sample: 0.71005
+        model.short.dense: 600
+        model.short.folds: 11
+        model.short.sample: 0.45915
+        model.test.estimators: 128
+        model.test.layers: 3
+        model.test.random_state: 349467356
+        model.test.weight_factor: 0.29908
+        preprocessing.batch.batch_size: 610
+        preprocessing.batch.features: 318
+        preprocessing.batch.layers: 4
+        preprocessing.batch.learning_rate: 0.05
+        preprocessing.batch.min_features: 4250
+        preprocessing.batch.ngrams: 2
+        preprocessing.batch.split: 0.61693
+        preprocessing.batch.trees: 39
+        preprocessing.dev.batch_size: 637
+        preprocessing.dev.folds: 12
+        preprocessing.dev.trees: 69
+        preprocessing.other.drop: 0.2
+        preprocessing.other.epochs: 15
+        preprocessing.other.sample: 0.25
+        preprocessing.other.trees: 9
+        preprocessing.preset.columns: 75
+        preprocessing.preset.learning_rate: 0.05
+        preprocessing.settings.columns: 56
+        preprocessing.settings.layers: 3
+        preprocessing.settings.min_features: 3851
+        preprocessing.settings.num_est: 40
+        preprocessing.settings.sample: 1.05571
+        preprocessing.settings.seed: 238507777
+        preprocessing.settings.threads: 20
+        preprocessing.settings.weight_factor: 0.3
+        preprocessing.short.folds: 6
+        preprocessing.short.split: 0.55148
+        preprocessing.test.columns: 53
+        preprocessing.test.dense: 115
+        preprocessing.test.min_features: 4200
+        preprocessing.test.ngrams: 4
+        preprocessing.test.tags: 112
+        tagging.batch.batch_size: 1000
+        tagging.batch.drop: 0.2
+        tagging.batch.max_features: 3774
+        tagging.batch.min_split: 80
+        tagging.batch.seed: 708455845
+        tagging.dev.dense: 208
+        tagging.dev.folds: 3
+        tagging.dev.ngrams: 2
+        tagging.dev.num_est: 150
+        tagging.dev.seed: 215584000
+        tagging.dev.tags: 119
+        tagging.other.ngrams: 6
+        tagging.preset.ngrams: 6
+        tagging.preset.num_est: 75
+        tagging.preset.seed: 852833227
+        tagging.settings.epochs: 60
+        tagging.settings.learning_rate: 0.09
+        tagging.settings.trees: 42
+        tagging.short.columns: 19
+        tagging.short.features: 4670
+        tagging.short.split: 0.4
+        tagging.short.threads: 22
+        tagging.test.max_depth: 16
+        tagging.test.random_state: 807824389
+        tagging.test.sample: 0.75
+        train.batch.columns: 58
+        train.batch.dense: 300
+        train.batch.epochs: 18
+        train.batch.features: 2950
+        train.batch.random_state: 787175930
+        train.dev.dense: 300
+        train.dev.min_features: 3016
+        train.dev.num_est: 92
+        train.dev.random_state: 919000000
+        train.dev.threads: 22
+        train.other.drop: 0.35946
+        train.other.max_features: 1400
+        train.other.min_features: 4250
+        train.other.trees: 54
+        train.preset.epochs: 80
+        train.preset.layers: 6
+        train.preset.num_est: 225
+        train.preset.passes: 18
+        train.preset.random_state: 810000000
+        train.preset.weight_factor: 0.2
+        train.settings.drop: 0.28523
+        train.settings.layers: 2
+        train.settings.learning_rate: 0.08
+        train.settings.max_features: 3600
+        train.settings.weight_factor: 0.35783
+        train.short.columns: 36
+        train.short.dense: 306
+        train.short.tags: 133
+        train.short.threads: 3
+        train.test.features: 960
+        train.test.layers: 4
+        train.test.random_state: 590000000
+        train.test.sample: 0.75929
+        train.test.split: 0.61283
+        train.test.threads: 25
+        validation.batch.batch_size: 672
+        validation.batch.epochs: 40
+        validation.batch.estimators: 28
+        validation.batch.learning_rate: 0.02
+        validation.batch.min_features: 2037
+        validation.batch.split: 0.2
+        validation.dev.columns: 45
+        validation.dev.dense: 500
+        validation.dev.drop: 0.23447
+        validation.dev.layers: 4
+        validation.dev.min_features: 2246
+        validation.dev.trees: 35
+        validation.other.min_features: 3760
+        validation.preset.batch_size: 807
+        validation.preset.layers: 4
+        validation.preset.max_depth: 8
+        validation.preset.min_split: 48
+        validation.preset.tags: 52
+        validation.preset.trees: 50
+        validation.preset.weight_factor: 0.08184
+        validation.settings.learning_rate: 0.1294
+        validation.short.drop: 0.23665
+        validation.short.max_depth: 24
+        validation.short.sample: 0.25
+        validation.test.epochs: 12
+        validation.test.layers: 4
+        validation.test.max_depth: 3
+        variables.batch.passes: 100
+        variables.batch.sample: 1.0
+        variables.batch.threads: 8
+        variables.batch.weight_factor: 0.3
+        variables.dev.max_depth: 15
+        variables.dev.num_est: 225
+        variables.dev.trees: 67
+        variables.other.drop: 0.16156
+        variables.other.features: 650
+        variables.preset.batch_size: 224
+        variables.preset.dense: 100
+        variables.preset.drop: 0.4
+        variables.preset.epochs: 25
+        variables.preset.layers: 1
+        variables.preset.learning_rate: 0.15
+        variables.preset.num_est: 51
+        variables.preset.passes: 89
+        variables.settings.min_split: 46
+        variables.settings.num_est: 175
+        variables.settings.tags: 82
+        variables.short.estimators: 250
+        variables.short.learning_rate: 0.11574
+        variables.short.passes: 78
+        variables.short.random_state: 805190709
+        variables.test.columns: 49
+        variables.test.epochs: 19
+        variables.test.sample: 0.5
+        variables.test.tags: 112
+    outs:
+    - path: model.json
+      md5: 5eef27d9688b4fe26311dee43579b55b
+      size: 9092
+  evaluate:
+    cmd: python evaluate.py model.json users-test.csv
+    deps:
+    - path: evaluate.py
+      md5: 20f13994272f02d831e3ce992c9445f9
+      size: 49508
+    - path: model.json
+      md5: 5eef27d9688b4fe26311dee43579b55b
+      size: 9092
+    - path: users-test.csv
+      md5: a568428c007edfeff9f33d7254ef5922
+      size: 2919
+    outs:
+    - path: metrics.json
+      md5: 26933e2e44833b1cf430b74293580304
+      size: 4933

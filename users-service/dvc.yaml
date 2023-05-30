@@ -1,0 +1,138 @@
+stages:
+  split:
+    cmd: python split.py users.csv users-train.csv users-test.csv
+    deps:
+    - split.py
+    - users.csv
+    params:
+    - prepare.batch_size
+    - prepare.columns
+    - prepare.dense
+    - prepare.drop
+    - prepare.epochs
+    - prepare.estimators
+    - prepare.features
+    - prepare.folds
+    - prepare.layers
+    - prepare.learning_rate
+    - prepare.max_depth
+    - prepare.min_features
+    - prepare.min_split
+    - prepare.ngrams
+    - prepare.num_est
+    - prepare.passes
+    - prepare.random_state
+    - prepare.sample
+    - prepare.tags
+    - prepare.trees
+    - prepare.weight_factor
+    outs:
+    - users-test.csv
+    - users-train.csv
+  featurize:
+    cmd: python featurize.py users-train.csv users-train-feats.csv
+    deps:
+    - featurize.py
+    - users-train.csv
+    outs:
+    - users-train-feats.csv
+  train:
+    cmd: python train.py users-train-feats.csv model.json
+    deps:
+    - train.py
+    - users-train-feats.csv
+    params:
+    - concurrent.batch_size
+    - concurrent.columns
+    - concurrent.dense
+    - concurrent.drop
+    - concurrent.epochs
+    - concurrent.estimators
+    - concurrent.features
+    - concurrent.folds
+    - concurrent.learning_rate
+    - concurrent.max_features
+    - concurrent.min_features
+    - concurrent.min_split
+    - concurrent.ngrams
+    - concurrent.num_est
+    - concurrent.passes
+    - concurrent.random_state
+    - concurrent.sample
+    - concurrent.seed
+    - concurrent.tags
+    - concurrent.threads
+    - concurrent.trees
+    - concurrent.weight_factor
+    - settings.batch_size
+    - settings.columns
+    - settings.dense
+    - settings.drop
+    - settings.epochs
+    - settings.estimators
+    - settings.layers
+    - settings.max_depth
+    - settings.max_features
+    - settings.min_features
+    - settings.min_split
+    - settings.ngrams
+    - settings.num_est
+    - settings.passes
+    - settings.random_state
+    - settings.seed
+    - settings.split
+    - settings.tags
+    - settings.threads
+    - settings.trees
+    - tagging.batch_size
+    - tagging.columns
+    - tagging.dense
+    - tagging.drop
+    - tagging.epochs
+    - tagging.estimators
+    - tagging.features
+    - tagging.folds
+    - tagging.layers
+    - tagging.learning_rate
+    - tagging.max_depth
+    - tagging.min_features
+    - tagging.ngrams
+    - tagging.num_est
+    - tagging.sample
+    - tagging.seed
+    - tagging.tags
+    - tagging.threads
+    - tagging.trees
+    - tagging.weight_factor
+    - variables.batch_size
+    - variables.columns
+    - variables.dense
+    - variables.drop
+    - variables.estimators
+    - variables.features
+    - variables.folds
+    - variables.layers
+    - variables.learning_rate
+    - variables.max_depth
+    - variables.max_features
+    - variables.min_features
+    - variables.min_split
+    - variables.ngrams
+    - variables.num_est
+    - variables.passes
+    - variables.random_state
+    - variables.sample
+    - variables.seed
+    - variables.split
+    - variables.tags
+    outs:
+    - model.json
+  evaluate:
+    cmd: python evaluate.py model.json users-test.csv
+    deps:
+    - evaluate.py
+    - model.json
+    - users-test.csv
+    metrics:
+    - metrics.json:
+        cache: false

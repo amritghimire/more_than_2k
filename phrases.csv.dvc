@@ -1,0 +1,4 @@
+outs:
+- md5: 55da961000f1966d130e17f70e74e976
+  size: 22927
+  path: phrases.csv

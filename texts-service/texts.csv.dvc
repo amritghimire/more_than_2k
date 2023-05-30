@@ -1,0 +1,4 @@
+outs:
+- md5: 53e16e619140344a2b63a9f300d49745
+  size: 11823
+  path: texts.csv

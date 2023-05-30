@@ -1,0 +1,203 @@
+stages:
+  split:
+    cmd: python split.py phrases.csv phrases-train.csv phrases-test.csv
+    deps:
+    - phrases.csv
+    - split.py
+    outs:
+    - phrases-test.csv
+    - phrases-train.csv
+  featurize:
+    cmd: python featurize.py phrases-train.csv phrases-train-feats.csv
+    deps:
+    - featurize.py
+    - phrases-train.csv
+    params:
+    - featurize.batch.ngrams
+    - featurize.binary.drop
+    - featurize.binary.estimators
+    - featurize.binary.features
+    - featurize.binary.ngrams
+    - featurize.binary.passes
+    - featurize.binary.tags
+    - featurize.dev.batch_size
+    - featurize.dev.min_features
+    - featurize.dev.min_split
+    - featurize.dev.sample
+    - featurize.dev.seed
+    - featurize.dev.trees
+    - featurize.long.epochs
+    - featurize.long.folds
+    - featurize.long.max_features
+    - featurize.long.ngrams
+    - featurize.long.sample
+    - featurize.long.seed
+    - featurize.long.tags
+    - featurize.preset.estimators
+    - featurize.preset.max_features
+    - featurize.preset.passes
+    - featurize.rf.folds
+    - featurize.short.threads
+    - featurize.short.trees
+    outs:
+    - phrases-train-feats.csv
+  train:
+    cmd: python train.py phrases-train-feats.csv model.json
+    deps:
+    - phrases-train-feats.csv
+    - train.py
+    params:
+    - model.batch.layers
+    - model.batch.max_depth
+    - model.batch.min_split
+    - model.batch.split
+    - model.binary.dense
+    - model.binary.epochs
+    - model.binary.min_features
+    - model.binary.ngrams
+    - model.binary.sample
+    - model.binary.tags
+    - model.dev.folds
+    - model.long.learning_rate
+    - model.long.min_features
+    - model.long.split
+    - model.preset.epochs
+    - model.preset.folds
+    - model.preset.ngrams
+    - model.preset.split
+    - model.rf.batch_size
+    - model.rf.max_depth
+    - model.rf.min_features
+    - model.rf.trees
+    - model.rf.weight_factor
+    - model.short.epochs
+    - model.short.learning_rate
+    - model.short.min_split
+    - model.short.trees
+    - preprocessing.batch.estimators
+    - preprocessing.batch.min_split
+    - preprocessing.batch.ngrams
+    - preprocessing.binary.dense
+    - preprocessing.binary.max_depth
+    - preprocessing.binary.ngrams
+    - preprocessing.binary.split
+    - preprocessing.binary.weight_factor
+    - preprocessing.dev.learning_rate
+    - preprocessing.dev.weight_factor
+    - preprocessing.long.layers
+    - preprocessing.long.learning_rate
+    - preprocessing.long.ngrams
+    - preprocessing.long.weight_factor
+    - preprocessing.preset.dense
+    - preprocessing.preset.epochs
+    - preprocessing.preset.split
+    - preprocessing.preset.tags
+    - preprocessing.rf.threads
+    - preprocessing.rf.weight_factor
+    - preprocessing.short.epochs
+    - preprocessing.short.max_features
+    - settings.batch.batch_size
+    - settings.batch.columns
+    - settings.batch.learning_rate
+    - settings.batch.trees
+    - settings.binary.batch_size
+    - settings.binary.features
+    - settings.binary.max_features
+    - settings.binary.min_split
+    - settings.binary.ngrams
+    - settings.binary.passes
+    - settings.binary.split
+    - settings.dev.min_split
+    - settings.dev.sample
+    - settings.long.features
+    - settings.long.min_features
+    - settings.long.min_split
+    - settings.preset.columns
+    - settings.preset.drop
+    - settings.preset.epochs
+    - settings.preset.ngrams
+    - settings.preset.tags
+    - settings.rf.learning_rate
+    - settings.rf.min_features
+    - settings.rf.num_est
+    - settings.rf.seed
+    - settings.short.estimators
+    - settings.short.max_depth
+    - tagging.batch.dense
+    - tagging.batch.num_est
+    - tagging.batch.sample
+    - tagging.binary.min_split
+    - tagging.binary.ngrams
+    - tagging.binary.weight_factor
+    - tagging.dev.columns
+    - tagging.dev.dense
+    - tagging.dev.features
+    - tagging.dev.min_split
+    - tagging.dev.sample
+    - tagging.dev.threads
+    - tagging.long.features
+    - tagging.long.layers
+    - tagging.long.min_features
+    - tagging.preset.batch_size
+    - tagging.preset.estimators
+    - tagging.preset.seed
+    - tagging.rf.epochs
+    - tagging.rf.max_depth
+    - tagging.rf.random_state
+    - tagging.rf.threads
+    - tagging.short.dense
+    - tagging.short.threads
+    - train.batch.drop
+    - train.batch.tags
+    - train.binary.learning_rate
+    - train.binary.max_features
+    - train.dev.batch_size
+    - train.dev.learning_rate
+    - train.dev.sample
+    - train.preset.drop
+    - train.preset.features
+    - train.preset.num_est
+    - train.rf.num_est
+    - train.rf.passes
+    - train.short.min_split
+    - validation.batch.layers
+    - validation.batch.sample
+    - validation.binary.learning_rate
+    - validation.binary.max_depth
+    - validation.binary.num_est
+    - validation.binary.split
+    - validation.binary.weight_factor
+    - validation.dev.dense
+    - validation.dev.features
+    - validation.dev.learning_rate
+    - validation.dev.min_features
+    - validation.dev.num_est
+    - validation.dev.threads
+    - validation.dev.trees
+    - validation.long.batch_size
+    - validation.long.ngrams
+    - validation.long.passes
+    - validation.long.random_state
+    - validation.long.weight_factor
+    - validation.preset.learning_rate
+    - validation.preset.ngrams
+    - validation.preset.weight_factor
+    - validation.rf.max_depth
+    - validation.rf.max_features
+    - validation.rf.passes
+    - validation.rf.threads
+    - validation.short.columns
+    - validation.short.folds
+    - validation.short.layers
+    - validation.short.min_split
+    outs:
+    - model.json
+  evaluate:
+    cmd: python evaluate.py model.json phrases-test.csv
+    deps:
+    - evaluate.py
+    - model.json
+    - phrases-test.csv
+    metrics:
+    - metrics.json:
+        cache: false

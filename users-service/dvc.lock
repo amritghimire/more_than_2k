@@ -1,0 +1,168 @@
+schema: '2.0'
+stages:
+  split:
+    cmd: python split.py users.csv users-train.csv users-test.csv
+    deps:
+    - path: split.py
+      md5: d49e372cc5483907b37dbb53dd25efc4
+      size: 1944
+    - path: users.csv
+      md5: 04d353d73b5de75c18da1d896cc89ac9
+      size: 16146
+    params:
+      params.yaml:
+        prepare.batch_size: 443
+        prepare.columns: 54
+        prepare.dense: 228
+        prepare.drop: 0.10874
+        prepare.epochs: 12
+        prepare.estimators: 237
+        prepare.features: 3340
+        prepare.folds: 7
+        prepare.layers: 1
+        prepare.learning_rate: 0.14299
+        prepare.max_depth: 10
+        prepare.min_features: 2750
+        prepare.min_split: 15
+        prepare.ngrams: 4
+        prepare.num_est: 56
+        prepare.passes: 26
+        prepare.random_state: 699775450
+        prepare.sample: 0.57242
+        prepare.tags: 128
+        prepare.trees: 80
+        prepare.weight_factor: 0.12203
+    outs:
+    - path: users-test.csv
+      md5: 314a000eb14b5dc3ed3151f99ea570d0
+      size: 2876
+    - path: users-train.csv
+      md5: 9f65d4982e56b40f9cb84a2d28dfae22
+      size: 13270
+  featurize:
+    cmd: python featurize.py users-train.csv users-train-feats.csv
+    deps:
+    - path: featurize.py
+      md5: e5645b6307ccdee5596e960682e9752e
+      size: 710
+    - path: users-train.csv
+      md5: 9f65d4982e56b40f9cb84a2d28dfae22
+      size: 13270
+    outs:
+    - path: users-train-feats.csv
+      md5: 02d89b4c67f279883990d3bae17b7219
+      size: 47
+  train:
+    cmd: python train.py users-train-feats.csv model.json
+    deps:
+    - path: train.py
+      md5: 5862b14ff6922dfcd1ce4c5585f6912f
+      size: 4333
+    - path: users-train-feats.csv
+      md5: 02d89b4c67f279883990d3bae17b7219
+      size: 47
+    params:
+      params.yaml:
+        concurrent.batch_size: 126
+        concurrent.columns: 46
+        concurrent.dense: 215
+        concurrent.drop: 0.3
+        concurrent.epochs: 45
+        concurrent.estimators: 180
+        concurrent.features: 2344
+        concurrent.folds: 4
+        concurrent.learning_rate: 0.03524
+        concurrent.max_features: 5073
+        concurrent.min_features: 800
+        concurrent.min_split: 16
+        concurrent.ngrams: 4
+        concurrent.num_est: 25
+        concurrent.passes: 93
+        concurrent.random_state: 280136626
+        concurrent.sample: 0.27269
+        concurrent.seed: 966366795
+        concurrent.tags: 82
+        concurrent.threads: 2
+        concurrent.trees: 52
+        concurrent.weight_factor: 0.10509
+        settings.batch_size: 510
+        settings.columns: 16
+        settings.dense: 313
+        settings.drop: 0.20075
+        settings.epochs: 55
+        settings.estimators: 200
+        settings.layers: 3
+        settings.max_depth: 3
+        settings.max_features: 257
+        settings.min_features: 1667
+        settings.min_split: 31
+        settings.ngrams: 3
+        settings.num_est: 59
+        settings.passes: 16
+        settings.random_state: 869548485
+        settings.seed: 694646561
+        settings.split: 0.30196
+        settings.tags: 6
+        settings.threads: 19
+        settings.trees: 45
+        tagging.batch_size: 837
+        tagging.columns: 58
+        tagging.dense: 434
+        tagging.drop: 0.30093
+        tagging.epochs: 56
+        tagging.estimators: 35
+        tagging.features: 2363
+        tagging.folds: 6
+        tagging.layers: 1
+        tagging.learning_rate: 0.11427
+        tagging.max_depth: 12
+        tagging.min_features: 1793
+        tagging.ngrams: 3
+        tagging.num_est: 54
+        tagging.sample: 0.25
+        tagging.seed: 952765000
+        tagging.tags: 80
+        tagging.threads: 15
+        tagging.trees: 97
+        tagging.weight_factor: 0.09603
+        variables.batch_size: 552
+        variables.columns: 20
+        variables.dense: 287
+        variables.drop: 0.33054
+        variables.estimators: 36
+        variables.features: 4189
+        variables.folds: 3
+        variables.layers: 2
+        variables.learning_rate: 0.09
+        variables.max_depth: 9
+        variables.max_features: 2913
+        variables.min_features: 1537
+        variables.min_split: 66
+        variables.ngrams: 2
+        variables.num_est: 191
+        variables.passes: 55
+        variables.random_state: 988485972
+        variables.sample: 0.30464
+        variables.seed: 698881232
+        variables.split: 0.375
+        variables.tags: 90
+    outs:
+    - path: model.json
+      md5: 47201d0441ef01d0b6db8524634a8970
+      size: 3247
+  evaluate:
+    cmd: python evaluate.py model.json users-test.csv
+    deps:
+    - path: evaluate.py
+      md5: 69add3fc40d95001736d6c08c4c98ec8
+      size: 50493
+    - path: model.json
+      md5: 47201d0441ef01d0b6db8524634a8970
+      size: 3247
+    - path: users-test.csv
+      md5: 314a000eb14b5dc3ed3151f99ea570d0
+      size: 2876
+    outs:
+    - path: metrics.json
+      md5: ac397535f8231c061f6691e00182622c
+      size: 5646

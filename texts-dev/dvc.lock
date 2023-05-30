@@ -1,0 +1,313 @@
+schema: '2.0'
+stages:
+  split:
+    cmd: python split.py texts.csv texts-train.csv texts-test.csv
+    deps:
+    - path: split.py
+      md5: 9d3b8959977660254e806253f85a7e76
+      size: 3055
+    - path: texts.csv
+      md5: a568beba031596257ae518e4423c784f
+      size: 9411
+    params:
+      params.yaml:
+        prepare.combine.layers: 3
+        prepare.combine.max_depth: 16
+        prepare.combine.ngrams: 4
+        prepare.combine.num_est: 124
+        prepare.combine.passes: 100
+        prepare.combine.weight_factor: 0.08508
+        prepare.concurrent.dense: 397
+        prepare.concurrent.drop: 0.4089
+        prepare.concurrent.max_depth: 8
+        prepare.concurrent.split: 0.1123
+        prepare.concurrent.threads: 7
+        prepare.concurrent.weight_factor: 0.09842
+        prepare.dev.batch_size: 750
+        prepare.dev.columns: 52
+        prepare.dev.epochs: 34
+        prepare.dev.min_features: 1763
+        prepare.dev.ngrams: 4
+        prepare.dev.seed: 239484085
+        prepare.dev.split: 0.3313
+        prepare.model.estimators: 127
+        prepare.model.features: 5959
+        prepare.model.min_split: 51
+        prepare.model.num_est: 182
+        prepare.model.split: 0.42833
+        prepare.other.columns: 82
+        prepare.other.dense: 79
+        prepare.other.max_depth: 17
+        prepare.other.max_features: 5319
+        prepare.other.ngrams: 5
+        prepare.other.num_est: 222
+        prepare.other.split: 0.3706
+        prepare.preprocessing.batch_size: 91
+        prepare.preprocessing.drop: 0.21187
+        prepare.preprocessing.max_depth: 4
+        prepare.preprocessing.min_features: 3509
+        prepare.preprocessing.seed: 621499951
+        prepare.preprocessing.split: 0.54806
+        prepare.preprocessing.weight_factor: 0.19965
+        prepare.test.min_split: 59
+        prepare.test.passes: 4
+        prepare.test.threads: 12
+        prepare.test.weight_factor: 0.37347
+    outs:
+    - path: texts-test.csv
+      md5: 3ca042ce1973a847d1d08fb90fb5aa80
+      size: 1223
+    - path: texts-train.csv
+      md5: 3933b3522fdec242eb53a7a267048d1e
+      size: 8188
+  featurize:
+    cmd: python featurize.py texts-train.csv texts-train-feats.csv
+    deps:
+    - path: featurize.py
+      md5: 7a76ba7eb466df9bc3c05bc1e51aec04
+      size: 2755
+    - path: texts-train.csv
+      md5: 3933b3522fdec242eb53a7a267048d1e
+      size: 8188
+    params:
+      params.yaml:
+        featurize.combine.columns: 44
+        featurize.combine.estimators: 185
+        featurize.combine.features: 2659
+        featurize.combine.min_split: 84
+        featurize.combine.tags: 11
+        featurize.combine.threads: 17
+        featurize.combine.trees: 40
+        featurize.combine.weight_factor: 0.07787
+        featurize.concurrent.max_features: 3385
+        featurize.concurrent.num_est: 190
+        featurize.concurrent.seed: 32046643
+        featurize.dev.num_est: 264
+        featurize.dev.sample: 0.25729
+        featurize.model.batch_size: 875
+        featurize.model.columns: 19
+        featurize.model.folds: 10
+        featurize.model.passes: 40
+        featurize.model.random_state: 552259670
+        featurize.model.split: 0.07581
+        featurize.model.tags: 136
+        featurize.other.batch_size: 511
+        featurize.other.drop: 0.22254
+        featurize.other.estimators: 53
+        featurize.other.passes: 66
+        featurize.other.random_state: 166235243
+        featurize.other.trees: 67
+        featurize.preprocessing.columns: 86
+        featurize.preprocessing.epochs: 70
+        featurize.preprocessing.estimators: 38
+        featurize.preprocessing.max_features: 4164
+        featurize.preprocessing.min_features: 2778
+        featurize.preprocessing.trees: 40
+        featurize.test.min_split: 57
+        featurize.test.trees: 21
+    outs:
+    - path: texts-train-feats.csv
+      md5: ad22bcd8bd9907b5731d44dca540cdd8
+      size: 1657
+  train:
+    cmd: python train.py texts-train-feats.csv model.json
+    deps:
+    - path: texts-train-feats.csv
+      md5: ad22bcd8bd9907b5731d44dca540cdd8
+      size: 1657
+    - path: train.py
+      md5: f1fa008a74328282989462f382348461
+      size: 8974
+    params:
+      params.yaml:
+        settings.combine.sample: 0.5
+        settings.concurrent.drop: 0.1
+        settings.concurrent.min_features: 1600
+        settings.concurrent.ngrams: 2
+        settings.concurrent.random_state: 853000000
+        settings.concurrent.sample: 0.74701
+        settings.concurrent.seed: 911991523
+        settings.dev.batch_size: 32
+        settings.dev.folds: 2
+        settings.dev.learning_rate: 0.04
+        settings.dev.ngrams: 2
+        settings.dev.num_est: 25
+        settings.dev.random_state: 458432672
+        settings.dev.tags: 56
+        settings.dev.threads: 3
+        settings.model.dense: 236
+        settings.model.estimators: 66
+        settings.other.columns: 15
+        settings.other.estimators: 183
+        settings.other.features: 1593
+        settings.other.folds: 6
+        settings.other.min_features: 5157
+        settings.other.random_state: 282000000
+        settings.other.tags: 35
+        settings.other.weight_factor: 0.15405
+        settings.preprocessing.drop: 0.07993
+        settings.preprocessing.estimators: 204
+        settings.preprocessing.max_features: 5537
+        settings.preprocessing.min_split: 80
+        settings.preprocessing.sample: 0.26052
+        settings.preprocessing.split: 0.3
+        settings.preprocessing.threads: 17
+        settings.test.columns: 42
+        settings.test.dense: 200
+        settings.test.min_features: 2047
+        settings.test.ngrams: 2
+        settings.test.num_est: 125
+        settings.test.random_state: 626391261
+        tagging.combine.columns: 23
+        tagging.combine.max_depth: 32
+        tagging.combine.split: 0.2
+        tagging.concurrent.dense: 300
+        tagging.concurrent.max_depth: 8
+        tagging.concurrent.num_est: 129
+        tagging.concurrent.passes: 40
+        tagging.concurrent.threads: 18
+        tagging.concurrent.trees: 42
+        tagging.dev.columns: 46
+        tagging.dev.epochs: 4
+        tagging.dev.features: 3175
+        tagging.dev.folds: 8
+        tagging.dev.learning_rate: 0.00841
+        tagging.dev.max_depth: 33
+        tagging.dev.random_state: 454000000
+        tagging.dev.tags: 119
+        tagging.model.batch_size: 624
+        tagging.model.features: 2603
+        tagging.model.layers: 2
+        tagging.model.min_features: 1012
+        tagging.model.min_split: 80
+        tagging.model.seed: 358917623
+        tagging.model.split: 0.5
+        tagging.model.weight_factor: 0.24002
+        tagging.other.columns: 31
+        tagging.other.dense: 400
+        tagging.other.epochs: 70
+        tagging.other.features: 644
+        tagging.other.max_features: 4200
+        tagging.other.random_state: 856451491
+        tagging.other.threads: 13
+        tagging.preprocessing.dense: 100
+        tagging.preprocessing.features: 4170
+        tagging.preprocessing.ngrams: 1
+        tagging.preprocessing.sample: 0.75
+        tagging.test.drop: 0.1
+        tagging.test.folds: 6
+        tagging.test.max_depth: 16
+        tagging.test.max_features: 4932
+        tagging.test.min_split: 97
+        tagging.test.split: 0.17277
+        tagging.test.trees: 75
+        train.combine.folds: 14
+        train.combine.layers: 4
+        train.combine.ngrams: 4
+        train.concurrent.batch_size: 858
+        train.concurrent.estimators: 108
+        train.concurrent.layers: 1
+        train.concurrent.sample: 0.75
+        train.concurrent.split: 0.30522
+        train.concurrent.trees: 3
+        train.dev.features: 4802
+        train.dev.learning_rate: 0.11441
+        train.dev.min_split: 64
+        train.dev.seed: 853642358
+        train.model.columns: 74
+        train.model.features: 920
+        train.model.learning_rate: 0.08
+        train.model.random_state: 175000000
+        train.model.split: 0.2
+        train.model.threads: 9
+        train.model.weight_factor: 0.2741
+        train.other.passes: 102
+        train.other.seed: 899860000
+        train.preprocessing.drop: 0.1652
+        train.preprocessing.learning_rate: 0.1251
+        train.test.split: 0.3
+        train.test.trees: 75
+        validation.combine.features: 2917
+        validation.combine.learning_rate: 0.15
+        validation.combine.min_features: 312
+        validation.combine.passes: 88
+        validation.concurrent.drop: 0.3
+        validation.concurrent.epochs: 25
+        validation.concurrent.layers: 2
+        validation.concurrent.random_state: 630289018
+        validation.concurrent.weight_factor: 0.3
+        validation.dev.features: 4410
+        validation.dev.folds: 6
+        validation.dev.min_split: 80
+        validation.dev.split: 0.56779
+        validation.dev.trees: 54
+        validation.model.max_depth: 27
+        validation.model.min_split: 28
+        validation.model.ngrams: 4
+        validation.other.epochs: 15
+        validation.other.learning_rate: 0.08
+        validation.other.num_est: 23
+        validation.other.tags: 7
+        validation.preprocessing.columns: 70
+        validation.preprocessing.layers: 3
+        validation.preprocessing.passes: 119
+        validation.preprocessing.split: 0.09131
+        validation.preprocessing.trees: 56
+        validation.preprocessing.weight_factor: 0.11293
+        validation.test.dense: 328
+        validation.test.passes: 148
+        validation.test.tags: 47
+        validation.test.threads: 30
+        validation.test.weight_factor: 0.22304
+        variables.combine.batch_size: 353
+        variables.combine.estimators: 81
+        variables.combine.features: 2676
+        variables.combine.sample: 0.71571
+        variables.concurrent.columns: 21
+        variables.concurrent.folds: 3
+        variables.concurrent.min_features: 2053
+        variables.concurrent.split: 0.4
+        variables.concurrent.threads: 18
+        variables.dev.columns: 42
+        variables.dev.max_features: 2895
+        variables.dev.min_features: 4250
+        variables.dev.split: 0.1
+        variables.dev.threads: 12
+        variables.dev.weight_factor: 0.23672
+        variables.model.columns: 14
+        variables.model.folds: 6
+        variables.model.max_features: 2912
+        variables.other.batch_size: 288
+        variables.other.features: 3367
+        variables.other.max_features: 3427
+        variables.other.sample: 0.25
+        variables.other.threads: 0
+        variables.other.weight_factor: 0.1
+        variables.preprocessing.dense: 232
+        variables.preprocessing.estimators: 186
+        variables.preprocessing.ngrams: 6
+        variables.test.epochs: 65
+        variables.test.features: 4820
+        variables.test.min_split: 48
+        variables.test.random_state: 18229596
+        variables.test.weight_factor: 0.07915
+    outs:
+    - path: model.json
+      md5: 214ee6042a37328c3708de794fe7e883
+      size: 9468
+  evaluate:
+    cmd: python evaluate.py model.json texts-test.csv
+    deps:
+    - path: evaluate.py
+      md5: dcd8e438d9007b8e27a953f871d5cfa4
+      size: 46259
+    - path: model.json
+      md5: 214ee6042a37328c3708de794fe7e883
+      size: 9468
+    - path: texts-test.csv
+      md5: 3ca042ce1973a847d1d08fb90fb5aa80
+      size: 1223
+    outs:
+    - path: metrics.json
+      md5: a4b39425b602dbd23cd711ebf7124c81
+      size: 3228
